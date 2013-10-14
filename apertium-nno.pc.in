@@ -1,6 +1,8 @@
 prefix=@prefix@
 exec_prefix=${prefix}
 libdir=@libdir@
+dir=@libdir@/apertium/apertium-nno
+srcdir=@datarootdir@/apertium/apertium-nno
 
 Name: apertium-nno
 Description: Finite-state morphological transducer and constraint grammar for Norwegian Nynorsk 
