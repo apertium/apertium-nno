@@ -56,9 +56,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_nnodir=$(prefix)/lib/apertium/$(BASENAME)/
 apertium_nno_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_nno_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
-		    $(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
-		    $(LANG1).rlx.bin
+apertium_nno_DATA=$(TARGETS_COMMON)
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
