@@ -5,9 +5,13 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/alt.xsl -text
 /apertium-nno.nno.dix -text
 /apertium-nno.nno.rlx -text
+/apertium-nno.nno.tsx -text
 /apertium-nno.pc.in -text
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+/nno.prob -text svneol=unset#unset
+/rem-compounds.xsl -text
