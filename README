@@ -1,0 +1,15 @@
+Some example pipelines:
+
+$ echo Har du lyst til å kjøra eller kjøre no? | lt-proc -we nno.automorf.bin | cg-proc -w nno.rlx.bin | apertium-tagger -g nno.prob | lt-proc -g nno.autogen.bin
+Har du lyst til å køyra eller køyra no?
+
+$ echo Har du lyst til å kjøra eller kjøre no? | lt-proc -we nno.automorf.bin | cg-proc -w nno.rlx.bin | apertium-tagger -g nno.prob | lt-proc -g nno_e.autogen.bin
+Har du lyst til å køyre eller køyre no?
+
+The two generators differ only in whether they give -a or -e as infinitive endings.
+
+
+For more information, see
+- http://wiki.apertium.org/wiki/Apertium-nno
+- http://wiki.apertium.org/wiki/Installation
+
