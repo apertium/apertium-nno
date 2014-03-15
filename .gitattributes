@@ -13,3 +13,4 @@
 /configure.ac -text
 /modes.xml -text
 /nno.prob -text svneol=unset#unset
+/rem-compounds.xsl -text svneol=unset#application/xml

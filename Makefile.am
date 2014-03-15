@@ -9,7 +9,8 @@ LANG1e=nno_e
 LANG1a=nno_a
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin $(LANG1e).autogen.bin \
+TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).automorf-no-cp.bin \
+	$(LANG1).autogen.bin $(LANG1e).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
 	$(LANG1).rlx.bin
 
@@ -25,6 +26,9 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin $(LANG1e).autogen.bi
 ## Norwegian Nynorsk transducer
 ###############################################################################
 
+.deps/$(BASENAME).$(LANG1)-no-cp.dix: $(BASENAME).$(LANG1).dix rem-compounds.xsl .deps/.d
+	xsltproc rem-compounds.xsl $< > $@
+
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	lt-comp --alt $(LANG1a) rl $< $@
 
@@ -32,6 +36,9 @@ $(LANG1e).autogen.bin: $(BASENAME).$(LANG1).dix
 	lt-comp --alt $(LANG1e) rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+	lt-comp lr $< $@
+
+$(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix
 	lt-comp lr $< $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
@@ -57,6 +64,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG1).rlx \
            $(LANG1).prob            \
 	   $(BASENAME).$(LANG1).tsx \
+	   alt.xsl \
 	   modes.xml
 
 ###############################################################################
@@ -87,6 +95,7 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).tsx $(DESTDIR)$(apertium_nno_srcdir)
+	$(INSTALL_DATA) alt.xsl $(DESTDIR)$(apertium_nno_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
