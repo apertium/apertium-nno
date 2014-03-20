@@ -30,15 +30,19 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).automorf-no-cp.bin \
 	xsltproc rem-compounds.xsl $< > $@
 
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
 	lt-comp --alt $(LANG1a) rl $< $@
 
 $(LANG1e).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
 	lt-comp --alt $(LANG1e) rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
 $(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix
+	apertium-validate-dictionary $<
 	lt-comp lr $< $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
