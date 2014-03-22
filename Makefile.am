@@ -68,7 +68,6 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG1).rlx \
            $(LANG1).prob            \
 	   $(BASENAME).$(LANG1).tsx \
-	   alt.xsl \
 	   modes.xml
 
 ###############################################################################
@@ -99,7 +98,6 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).tsx $(DESTDIR)$(apertium_nno_srcdir)
-	$(INSTALL_DATA) alt.xsl $(DESTDIR)$(apertium_nno_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
