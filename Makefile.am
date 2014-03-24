@@ -80,7 +80,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_nnodir=$(prefix)/lib/apertium/$(BASENAME)/
 apertium_nno_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_nno_DATA=$(TARGETS_COMMON)
+apertium_nno_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
