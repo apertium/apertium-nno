@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "apertium -d . nn-nb-morph|cg-conv -a 2>/dev/null" -*-
+# -*- cg-pre-pipe: "apertium -d . nno-morph|cg-conv -a 2>/dev/null" -*-
 
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" sent ;
@@ -4261,21 +4261,21 @@ CONSTRAINTS
 
 
 #:4225
- "<å>"   SELECT:4225   ("å") IF
+ "<å>"   SELECT:4225   ("å" part) IF
 	(1 adverb)
 	(2 inf)
 ;
 
 
 #:4226
- "<å>"   SELECT:4226   ("å") IF
+ "<å>"   SELECT:4226   ("å" part) IF
 	(1 anf)
 	(2 inf)
 ;
 
 
 #:4227
- "<å>"   SELECT:4227   ("å") IF
+ "<å>"   SELECT:4227   ("å" part) IF
 	(1 inf)
 ;
 
@@ -6672,6 +6672,10 @@ CONSTRAINTS
 	(NOT *-1 %eit% BARRIER ikkje-adv-adj)
 ;
 
+
+ "<Vart>"   REMOVE:Vart-X-Y-?   (adj) OR (imp)
+	(*3 spørsmål-t)
+;
 
 #:4283
  "<vart>"   REMOVE:4283   (adj pp) IF
@@ -49754,6 +49758,10 @@ CONSTRAINTS
 #:6038
  "<visst>"   REMOVE:6038   ("visst"  adj posi nt ind sg) IF
 	(0 %visst%-nøyt)
+;
+
+"<å>"   REMOVE   (n sg ind) IF
+	(0 infmerke)
 ;
 
 # sec 4

@@ -9,7 +9,7 @@ LANG1e=nno_e
 LANG1a=nno_a
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).automorf-no-cp.bin \
+TARGETS_COMMON = $(LANG1).automorf.bin \
 	$(LANG1).autogen.bin $(LANG1e).autogen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
 	$(LANG1).rlx.bin
