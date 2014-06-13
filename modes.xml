@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-dis">
+  <mode name="nno-disam">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
@@ -28,7 +28,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-dis-trace">
+  <mode name="nno-disam-trace">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
@@ -40,7 +40,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-syn">
+  <mode name="nno-syntax">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
@@ -54,7 +54,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-syn-trace">
+  <mode name="nno-syntax-trace">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
