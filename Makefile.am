@@ -15,13 +15,8 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 	$(LANG1).rlx.bin \
 	$(LANG1).syn.rlx.bin
 
-# Use this goal for creating .deps, otherwise make -j2 will give problems:
-.deps/.d:
-	test -d .deps || mkdir .deps
-	touch $@
-
-# Prevent the .d file from being removed automatically:
-.PRECIOUS: .deps/.d
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
 
 ###############################################################################
 ## Norwegian Nynorsk transducer
@@ -59,11 +54,11 @@ $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 ## Disambiguation rules
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
-	cg-comp $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
+	$(CGCOMP) $< $@
 
-$(LANG1).syn.rlx.bin: $(BASENAME).$(LANG1).syn.rlx
-	cg-comp $< $@
+$(LANG1).syn.rlx.bin: $(BASENAME).$(LANG1).syn.rlx $(CGCOMP)
+	$(CGCOMP) $< $@
 
 ###############################################################################
 ## Distribution
@@ -89,12 +84,6 @@ apertium_nno_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
-
-# Modes are not installed since they're all just "debug modes". All
-# modes are created by this goal.
-modes/$(LANG1)-morph.mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
 
 noinst_DATA=modes/$(LANG1)-morph.mode
 
