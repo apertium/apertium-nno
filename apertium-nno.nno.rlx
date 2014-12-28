@@ -659,7 +659,7 @@ LIST spørjeadv/sp/sbu = "kvifor"  "kvar"  "kva"  "korleis"  "korfor"  "kor"  it
 LIST spørsmål-t = "$?" "?" ;
 LIST st-form = pass ;
 LIST st-verb = pstv ;
-LIST storbokstav = <*> ;
+LIST storbokstav = "<\\p{Lu}.*>"r ;
 LIST strek = <strek> ;
 LIST strek/parentes = <strek> lpar rpar ;
 LIST strek/parentes-beg/anf = <strek> lpar <anf> ;
@@ -754,6 +754,12 @@ LIST verb-u-imp = (vblex pres) (vblex pret) (vblex pp) (vblex inf) ;
 
 # sec 0: MWE / particle verbs TODO!
 CONSTRAINTS
+SELECT:over_30._Men clb IF
+        (0/1 det-kvant)
+        (0 (<<<) LINK 1*> (*) LINK @1 storbokstav) # This is the way to say "I am at a sentence-ending cohort and the one immediately to my right is storbokstav"
+        # TODO: why can't I say >1?
+;
+        
 SELECT ("å" sep) IF (*-1 (vblex sep)) ;
 SELECT (vblex sep) IF (*1 ("å" sep)) ;
 
