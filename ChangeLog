@@ -1,0 +1,181 @@
+2014-12-28  unhammer
+
+	* [r58177] apertium-nno.nno.dix, apertium-nno.nno.rlx: «over 3. Men
+	  blah» correctly splits sentence now
+
+2014-12-10  unhammer
+
+	* [r57970] apertium-nno.nno.dix: omardit→sørge_for + andre ord
+	  funne i magiske gtweb.uit.no/korp
+
+2014-10-25  unhammer
+
+	* [r57679] apertium-nno.nno.dix: testvoc
+	  
+	  (I think? just getting this out of the way before the major
+	  slv-ita commit)
+
+2014-10-06  unhammer
+
+	* [r57472] apertium-nno.nno.dix, configure.ac: testvoc
+
+2014-07-24  unhammer
+
+	* [r55966] AUTHORS, apertium-nno.nno.dix: clear up some of the
+	  license mess; nno/nob/sme stuff is GPL2-or-later (as are any of
+	  my contributions to Apertium, if that's ever a question)
+
+2014-07-23  unhammer
+
+	* [r55909] apertium-nno.nno.dix: meir unio-feilretting
+
+2014-07-15  unhammer
+
+	* [r55575] Makefile.am, configure.ac: use $(CGCOMP) as dep for rlx
+	  goals so theyre recompiled on new versions
+
+2014-06-28  unhammer
+
+	* [r55070] apertium-nno.nno.dix: doh
+
+2014-06-24  unhammer
+
+	* [r54910] apertium-nno.nno.dix: doh
+	* [r54909] apertium-nno.nno.dix: tatarisk osb.
+
+2014-06-13  unhammer
+
+	* [r54196] modes.xml: s/dis/disam;s/syn/syntax;s/mor/morph
+
+2014-06-09  unhammer
+
+	* [r54005] Makefile.am, autogen.sh: Put .pc and compiled data in
+	  /share/, not /lib/ (following Debian/autotools standards)
+	  
+	  pkgconfigdir=$(libdir)/pkgconfig →
+	  pkgconfigdir=$(prefix)/share/pkgconfig AP_LIB → AP_SRC
+	  apertium_XXXdir=$(prefix)/lib/apertium/$(BASENAME)/ →
+	  apertium_XXXdir=$(prefix)/share/apertium/$(BASENAME)/
+	  
+	  put share/pkgconfig in PKG_CONFIG_PATH in autogen.sh
+
+2014-05-20  unhammer
+
+	* [r53217] Makefile.am, apertium-nno.nno.syn.rlx, modes.xml:
+	  syn.rlx'es (unused) moved to monolingual dirs
+
+2014-05-12  unhammer
+
+	* [r52850] modes.xml: -e
+
+2014-04-16  unhammer
+
+	* [r51984] apertium-nno.nno.dix: testvoc
+
+2014-04-14  unhammer
+
+	* [r51954] apertium-nno.nno.dix: moar testvoc
+
+2014-04-13  unhammer
+
+	* [r51936] Makefile.am, apertium-nno.nno.dix, apertium-nno.nno.rlx:
+	  nno->nob testvoc (and turn on compounding)
+
+2014-04-12  unhammer
+
+	* [r51922] apertium-nno.nno.dix: some nno-nob testvoc and cleanup
+	  of dev dir
+
+2014-04-05  unhammer
+
+	* [r51693] apertium-nno.nno.dix: more #-testvoc, cmp-split RL's
+	  added to no-cmp pardefs
+	* [r51691] apertium-nno.nno.dix: some #-testvoc
+
+2014-04-04  unhammer
+
+	* [r51671] configure.ac: require 3.3.0
+
+2014-04-02  unhammer
+
+	* [r51635] apertium-nno.nno.dix: dan-nor/{nob,nno}.dix merged in;
+	  adjectives pardefs now have un and sp tags; adj testvoc in
+	  sme-nob and nno-nob TODO
+
+2014-03-26  unhammer
+
+	* [r51260] autogen.sh: fix autogen.sh so users don't have to set
+	  PKG_CONFIG_PATH and similar *PATH's
+
+2014-03-24  unhammer
+
+	* [r51164] Makefile.am: install .prob
+
+2014-03-22  unhammer
+
+	* [r51072] Makefile.am: -alt.xsl
+
+2014-03-20  unhammer
+
+	* [r50961] Makefile.am, apertium-nno.nno.dix: adj sint
+
+2014-03-16  unhammer
+
+	* [r50852] apertium-nno.nno.dix: wip: merging in sme nob.dix
+	* [r50843] apertium-nno.nno.dix: uniq
+	* [r50840] apertium-nno.nno.dix: re-add stuff that was added to
+	  nn-nb after this file was split out
+
+2014-03-15  unhammer
+
+	* [r50776] Makefile.am, rem-compounds.xsl: nno-nob depends on nno
+	  and nob, using lt-trim
+
+2014-03-14  unhammer
+
+	* [r50748] Makefile.am, alt.xsl: rm alt.xsl, use lt-comp --alt
+
+2014-02-14  unhammer
+
+	* [r50245] Makefile.am, README, apertium-nno.nno.dix,
+	  rem-compounds.xsl: lt-trim + modes makefile fixes to nor-eng, use
+	  alt.xsl in nno, no rem-compounds
+	  
+	  also, use compiled analysers/generators from AP_LIBfoo
+
+2013-11-06  unhammer
+
+	* [r48395] Makefile.am: use apertium.m4, supporting
+	  --with-lang1n=/path/to/nno --with-lang1b=/path/to/nob
+
+2013-10-31  unhammer
+
+	* [r48232] configure.ac: configure.ac's updated to use apertium.pc
+	  (or apertium-3.2.pc if that doesn't exist)
+	* [r48230] apertium-nno.nno.dix: mv infreq to languages (didn't I
+	  do this already)
+
+2013-10-15  unhammer
+
+	* [r48117] Makefile.am, alt.xsl, apertium-nno.nno.tsx, nno.prob,
+	  rem-compounds.xsl: nor-eng depends on nno/nob for dix, prob, xsl
+	* [r48112] Makefile.am: use $(TARGETS_COMMON) in _DATA to make it
+	  even more less redundanter
+	* [r48110] Makefile.am: s/LANG2/LANG1/g # there is no LANG2
+	* [r48108] Makefile.am: fix mode building, add EXTRA_DIST goals for
+	  tarballing
+	  
+	  also, modes.xml for tuk and fix dix-build for hbs
+
+2013-10-14  unhammer
+
+	* [r48087] Makefile.am, apertium-nno.pc.in: as -r48046; put dir and
+	  srcdir in pc.in, minor mode build fixes
+
+2013-10-12  spectre360
+
+	* [r48039] ., AUTHORS, COPYING, ChangeLog, Makefile.am, NEWS,
+	  README, apertium-nno.nno.dix, apertium-nno.nno.rlx,
+	  apertium-nno.pc.in, autogen.sh, configure.ac, modes.xml: add nno
+	  dir
+
