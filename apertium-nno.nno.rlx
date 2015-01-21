@@ -597,6 +597,7 @@ LIST pos-ub-eint-mask = (adj posi m ind sg) ;
 LIST pos-ub-eint-mask/fem = (adj posi mf ind sg) ;
 LIST pos-ub-eint-nøyt = (adj posi nt ind sg) ;
 LIST pos-ub-fl = (adj posi pl) ;
+LIST pos-ub = (adj posi ind) ;
 LIST poss-det = (det pos) ;
 LIST poss-det-nøyt = (det pos nt) ;
 LIST poss/gen = pos gen ;
@@ -4567,6 +4568,10 @@ CONSTRAINTS
 ;
 #  "\"direkte\" er berre bu-subst, og då berre i \"på direkten\""
 
+"<då>"   REMOVE   (n) IF
+	(NOT -1 %ein%)
+;
+
 
 
 #:4936
@@ -5015,6 +5020,12 @@ CONSTRAINTS
 ;
 
 
+"<først>"   REMOVE:var-først-då   (adj) IF
+	(-1C fv)
+        (1C sbu)
+;
+
+
 #:4785
  "<gjekk>"   REMOVE:4785   (n) IF
 	(NOT -1 %gjere/gjøre%)
@@ -5215,6 +5226,9 @@ CONSTRAINTS
 
 #:6054
  "<i>"   REMOVE:6054   (det)
+      (NOT 0 storbokstav)
+;
+ "<i>"   REMOVE   (n)
       (NOT 0 storbokstav)
 ;
 
@@ -6762,6 +6776,12 @@ CONSTRAINTS
 	(NOT *-1 fl-det)
 	(NOT *-1 ub-nøyt-det)
 	(NOT -2 %ve%)
+;
+
+ "<vel>"   REMOVE:som-vel-rett   (adv) IF
+	(-1 %som%-sbu)
+	(**-1C subst CBARRIER fv OR clb)
+	(NOT 1 hj-verb OR fork/ukjent-ord)
 ;
 
 
@@ -34774,6 +34794,9 @@ SELECT:2791 (adv) IF
 	(NOT 0 sbu)
 	(NOT 0 clb)
 	(NOT 0 %så/og/sjølv/kan/einaste/stad/tids%)
+        (NEGATE 0 pos-ub + adj-fem LINK 1 ub + subst-fem)
+        (NEGATE 0 pos-ub + adj-mask LINK 1 ub + subst-mask)
+        (NEGATE 0 pos-ub + adj-nøyt LINK 1 ub + subst-nøyt)
 	(1 nom)
 	(-1 fv)
 	(NEGATE 0 %nå% LINK -1 hj-verb)
