@@ -1432,6 +1432,12 @@ CONSTRAINTS
 	(-1 %til%)
 ;
 
+"<flytt>"   SELECT   (imp)
+        (NOT -1 %ha%)
+;
+"<Flytt>"   SELECT   (imp)
+;
+
 #:6053
  "<fly>"   SELECT:6053   (adv)
 	(1 %forbanne%)
@@ -5223,6 +5229,9 @@ CONSTRAINTS
 	(*-1 ub-fem-det BARRIER ikkje-adv-adj)
 ;
 
+
+"<høgre>"   REMOVE   (adj)
+;
 
 #:6054
  "<i>"   REMOVE:6054   (det)
