@@ -653,7 +653,7 @@ LIST setn-gr/parentes-beg = "kvifor"  "korleis"  "korfor"  "$--" "--" "$-" "-" l
 LIST setn-gr/prep = "kvifor"  "korleis"  "korfor"  "$--" "--" "$-" "-" pr cnjsub @sbu >>> <<< ("koss"  adv) ("kor"  adv) ("kvar"  adv) ("kven"  prn itg) ("kva"  prn itg) ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST setn-gr/verb = "kvifor"  "korleis"  "korfor"  "$--" "--" "$-" "-" vblex cnjsub @sbu >>> <<< ("koss"  adv) ("kor"  adv) ("kvar"  adv) ("kven"  prn itg) ("kva"  prn itg) ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST setningsadv = "òg" "vonleg"  "visstnok"  "visselig"  "visseleg"  "ventelig"  "venteleg"  "vanligvis"  "vanlegvis"  "unektelig"  "unekteleg"  "uheldigvis"  "tydeligvis"  "tydelegvis"  "trulig"  "truleg"  "tilfeldigvis"  "sogar"  "so"  "sluttelig"  "slutteleg"  "simpelthen"  "sannsynligvis"  "sannsynlegvis"  "sannelig"  "sanneleg"  "saktens"  "rimeligvis"  "rimelegvis"  "riktignok"  "også"  "ofte"  "nødvendigvis"  "no"  "nesten"  "neppe"  "nemlig"  "nemleg"  "naturligvis"  "naturlegvis"  "muligvis"  "muligens"  "mulegvis"  "mogligvis"  "moglegvis"  "mogeligvis"  "mogelegvis"  "lykkeligvis"  "lykkelegvis"  "lukkeligvis"  "lukkeligvis"  "liksom"  "klokelig"  "klokeleg"  "kanskje"  "jo"  "jamvel"  "jammen"  "især"  "imidlertid"  "ikkje"  "heldigvis"  "gudskjelov"  "gledeligvis"  "gledelegvis"  "følgjeleg"  "følgelig"  "fortrinnsvis"  "forresten"  "fornuftigvis"  "formodentlig"  "formodentleg"  "formelig"  "formeleg"  "forhåpentligvis"  "forhåpentlegvis"  "elles"  "eksempelvis"  "dog"  "dessverre"  "dessutan"  "berre"  "beklageligvis"  "antakelig"  "antakeleg"  "altså"  "alltid"  "aldri"  ("kan"  adv) ("hende"  adv) ("nok"  adv) ("nå"  adv) ("så"  adv) ("da"  adv) ("då"  adv) ("brå"  adj posi nt ind sg) ("sjølvsagd"  adj posi nt ind ein) ("sjølvsagt"  adj posi nt ind ein) ;
-LIST skipsmengde = "trosse"  "tofte"  "skip"  "segl"  "ror"  "rekkje"  "ombord"  "matros"  "lugar"  "livbåt"  "lekter"  "forut"  "forut"  "bøye"  "båt"  "baug"  "babord"  ;
+LIST skipsmengd = "trosse"  "tofte"  "skip"  "segl"  "ror"  "rekkje"  "ombord"  "matros"  "lugar"  "livbåt"  "lekter"  "forut"  "forut"  "bøye"  "båt"  "baug"  "babord" "<åre>" "<fatt>" "sjø" "hav" "fjord" "vann" ;
 LIST språk = "tysk"  "svensk"  "spansk"  "portugisisk"  "nynorsk"  "norsk"  "keltisk"  "italiensk"  "fransk"  "finsk"  "engelsk"  "dansk"  "bosnisk"  "amerikansk"  ;
 LIST spørjeadv = "kvifor"  "kvar"  "kva"  "korleis"  "korfor"  "kor"  ("koss"  adv) ;
 LIST spørjeadv/sp/sbu = "kvifor"  "kvar"  "kva"  "korleis"  "korfor"  "kor"  itg ("koss"  adv) cnjsub ;
@@ -790,7 +790,7 @@ CONSTRAINTS
  "<akter>"   SELECT:5013   (pr) IF
 	(NOT -1 fl-det)
 	(*1 fv BARRIER setn-gr)
-	(*1 skipsmengde BARRIER setn-gr)
+	(*1 skipsmengd BARRIER setn-gr)
 ;
 
 
@@ -798,7 +798,7 @@ CONSTRAINTS
  "<akter>"   SELECT:5014   (pr) IF
 	(NOT -1 fl-det)
 	(*-1 fv BARRIER setn-gr)
-	(*1 skipsmengde BARRIER setn-gr)
+	(*1 skipsmengd BARRIER setn-gr)
 ;
 
 
@@ -806,7 +806,7 @@ CONSTRAINTS
  "<akter>"   SELECT:5015   (pr) IF
 	(NOT -1 fl-det)
 	(*1 fv BARRIER setn-gr)
-	(*-1 skipsmengde BARRIER setn-gr)
+	(*-1 skipsmengd BARRIER setn-gr)
 ;
 
 
@@ -814,7 +814,7 @@ CONSTRAINTS
  "<akter>"   SELECT:5016   (pr) IF
 	(NOT -1 fl-det)
 	(*-1 fv BARRIER setn-gr)
-	(*-1 skipsmengde BARRIER setn-gr)
+	(*-1 skipsmengd BARRIER setn-gr)
 ;
 
 
@@ -4298,6 +4298,11 @@ CONSTRAINTS
 	(1 komma-interj)
 	(-1 s-gr/interj)
 ;
+
+"<åra>" SELECT (nt) IF
+        (NOT *0 skipsmengd);
+
+"<år>" SELECT (nt);
 
 #:6096
  "<åt>"   SELECT:6096   (vblex pret) IF
