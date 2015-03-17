@@ -177,7 +177,7 @@ LIST clb-konj = (clb cnjcoo) ;
 LIST dato = <dato> ;
 LIST dem = dem ;
 LIST dem/%så%-adv = dem ("så" adv) ("so" adv) ;
-LIST dem/poss/gen = dem posi gen ;
+LIST dem/poss/gen = dem pst gen ;
 LIST det = det ;
 LIST det-eint = (det sg) ;
 LIST det-fem-eint = (det f sg) ;
@@ -262,9 +262,9 @@ LIST ikkje-@subj-@adv = @fv @iv @obj @i-obj @s-pred @o-pred @adv> @<adv @app @ti
 LIST ikkje-@subst> = @fv @iv @subj @obj @i-obj @s-pred @o-pred @adv @adv> @<adv @app @tittel @det> @<det @<subst @<p-utfyll @interj @adj> @kon @laus-np @<sbu @<sbu-rel @s-gr ;
 LIST ikkje-@tittel = @fv @iv @subj @obj @i-obj @s-pred @o-pred @adv @adv> @<adv @app @det> @<det @subst> @<subst @<p-utfyll @interj @adj> @kon @laus-np @<sbu @<sbu-rel @s-gr ;
 LIST ikkje-adj-adv = vblex pr prn cnjsub "å" n ij det (clb cnjcoo) <anf> <ellipse> ;
-LIST ikkje-adj-mask-ub-eint = (adj posi nt ind sg) (adj pl) (adj def) (adj comp) (adj sup) (adj pprs) ;
-LIST ikkje-adj-nøyt-ub-eint = (adj posi mf ind sg) (adj pl) (adj def) (adj comp) (adj sup) (adj pprs);
-LIST ikkje-adj-fem-ub-eint = (adj posi nt ind sg) (adj posi m ind sg) (adj pl) (adj def) (adj comp) (adj sup) (adj pprs);
+LIST ikkje-adj-mask-ub-eint = (adj pst nt ind sg) (adj pl) (adj def) (adj comp) (adj sup) (adj pprs) ;
+LIST ikkje-adj-nøyt-ub-eint = (adj pst mf ind sg) (adj pl) (adj def) (adj comp) (adj sup) (adj pprs);
+LIST ikkje-adj-fem-ub-eint = (adj pst nt ind sg) (adj pst m ind sg) (adj pl) (adj def) (adj comp) (adj sup) (adj pprs);
 LIST ikkje-adj-subst = "sidan" adv vblex pr prn cnjsub cnjcoo "å" ij det <<< <ellipse> ;
 LIST ikkje-adv = "sidan" "$," vblex pr prn cnjsub cnjcoo "å" ij n det <ellipse> (adj m) (adj f) (adj mf) (adj def) (adj pl) (adj comp) (adj sup) (adj pprs) ;
 LIST ikkje-adv-adj = "sidan" "$:" vblex pr prn cnjsub "å" n ij det <ellipse> (clb cnjcoo) ;
@@ -375,7 +375,7 @@ LIST m#setn-gr = "kvifor" "korleis" "$--" "$-" cnjsub @sbu >>> <<< ("koss" adv) 
 LIST m#tal = "1" (det qnt pl) ("ein" det qnt) ("éin" det qnt) ;
 LIST m#ub-eint-nøyt-adj = (adj nt ind sg) (adj pprs) ;
 LIST m-hj-verb-m/inf = "ville" "vilje" "trenge" "tore" "skulle" "pla" "måtte" "lyte" "ljote" "kunne" "få" "byrje" "burde" ;
-LIST mange-få-pos-komp/enkelt-fl = ("mange" posi) ("mange" comp) ("få" posi) ("få" comp) ("enkelt" pl) ;
+LIST mange-få-pos-komp/enkelt-fl = ("mange" pst) ("mange" comp) ("få" pst) ("få" comp) ("enkelt" pl) ;
 LIST mange/få/lang/lenge = "mange" "lenge" "lang" "få" ;
 LIST mask = m mf (adj def) ;
 LIST mask-eint-subst = (n m sg) ;
@@ -414,11 +414,11 @@ LIST periode-slutt/clb-konj = <<< (clb cnjcoo) ;
 LIST periode-slutt/clb-konj/clb-teiknsetjing = <<< (clb cnjcoo) (clb cm) (clb <ellipse>) (clb <kolon>) (clb <semi>) (clb <strek>) ;
 LIST periode-slutt/konj-clb = <<< (clb cnjcoo) ;
 LIST politiske-parti = "v" "h" "ap" "sv" "sp" "frp" "krf" ;
-LIST pos = posi ;
-LIST pos-ub-eint-mask = (adj posi m ind sg) ;
-LIST poss = posi ;
-LIST poss/gen = posi gen ;
-LIST poss/gen/kva = "kva" posi gen ;
+LIST pos = pst ;
+LIST pos-ub-eint-mask = (adj pst m ind sg) ;
+LIST poss = pst ;
+LIST poss/gen = pst gen ;
+LIST poss/gen/kva = "kva" pst gen ;
 LIST premod = @det> @adj> @adv> @subst> @tittel @kon ;
 LIST premod-u-@kon = @det> @adj> @adv> @subst> @tittel ;
 LIST premod-u-@kon-@s-gr = @det> @adj> @adv> @subst> @tittel @s-gr ;
@@ -5075,7 +5075,7 @@ MAP:947 (@subj @obj @i-obj @s-pred @<p-utfyll @tittel @app @laus-np @adv) ("rest
 
 
 #:946
-MAP:946 (@adv>) ("rundt" adj posi nt ind sg) IF
+MAP:946 (@adv>) ("rundt" adj pst nt ind sg) IF
 	(1C tal)
 	(NOT 1 ikkje-tal)
 ;
@@ -5728,7 +5728,7 @@ SELECT:7050 (adj nt ind sg @adj>) IF
 
 
 #:7051
-SELECT:7051 (adj posi def sg @adj>) IF
+SELECT:7051 (adj pst def sg @adj>) IF
 	(1 m#komma)
 	(NOT 2 subst)
 	(*3C ub-eint-subst/tal-subst/målsubst/tidssubst/gen-subst LINK NOT 0 m#ikkje-subst LINK NOT *-1 m#ikkje-adv-adj)
@@ -5736,7 +5736,7 @@ SELECT:7051 (adj posi def sg @adj>) IF
 ;
 
 #:7052
-SELECT:7052 (adj posi def sg @adj>) IF
+SELECT:7052 (adj pst def sg @adj>) IF
 	(1 m#komma)
 	(NOT 2 subst)
 	(*3C subst LINK NOT 0 fl LINK NOT *-1 m#ikkje-adv-adj)
@@ -5744,7 +5744,7 @@ SELECT:7052 (adj posi def sg @adj>) IF
 ;
 
 #:7053
-SELECT:7053 (adj posi def sg @adj>) IF
+SELECT:7053 (adj pst def sg @adj>) IF
 	(NOT 0 fv)
 	(NOT 0 det)
 	(NOT 0 gen)
@@ -5755,7 +5755,7 @@ SELECT:7053 (adj posi def sg @adj>) IF
 ;
 
 #:7054
-SELECT:7054 (adj posi def sg @adj>) IF
+SELECT:7054 (adj pst def sg @adj>) IF
 	(NOT 1 m#komma)
 	(NOT 0 det)
 	(NOT 0 gen)
@@ -5766,7 +5766,7 @@ SELECT:7054 (adj posi def sg @adj>) IF
 
 
 #:7055
-SELECT:7055 (adj posi def sg @adj>) IF
+SELECT:7055 (adj pst def sg @adj>) IF
 	(NOT 0 vanleg-prep-tittel)
 	(NOT 0 det)
 	(NOT 0 gen)
@@ -5778,7 +5778,7 @@ SELECT:7055 (adj posi def sg @adj>) IF
 ;
 
 #:7056
-SELECT:7056 (adj posi def sg @adj>) IF
+SELECT:7056 (adj pst def sg @adj>) IF
 	(NOT 0 vanleg-prep-tittel)
 	(NOT 0 det)
 	(NOT 0 gen)
@@ -5791,7 +5791,7 @@ SELECT:7056 (adj posi def sg @adj>) IF
 ;
 
 #:7057
-SELECT:7057 (adj posi def sg @adj>) IF
+SELECT:7057 (adj pst def sg @adj>) IF
 	(*1C bu-eint-adj/komp-bu-sup-adj LINK NOT -1 komma/ellipse/kolon/semi/konj/adv)
 	(*1C bu-eint-adj/komp-bu-sup-adj BARRIER ikkje-adv-adj-u-konj)
 ;
@@ -6052,7 +6052,7 @@ SELECT:7036 (adj mf ind sg @adj>) IF
 
 
 #:7058
-SELECT:7058 (adj posi pl @adj>) IF
+SELECT:7058 (adj pst pl @adj>) IF
 	(NOT 0 subst)
 	(1 m#komma)
 	(NOT 2 subst)
@@ -6066,12 +6066,12 @@ SELECT:7058 (adj posi pl @adj>) IF
 
 
 #:7060
-SELECT:7060 (adj posi pl @adj>) IF
+SELECT:7060 (adj pst pl @adj>) IF
 	(1C fl-subst)
 ;
 
 #:7061
-SELECT:7061 (adj posi pl @adj>) IF
+SELECT:7061 (adj pst pl @adj>) IF
 	(NOT 1 m#komma)
 	(*1C fl-subst BARRIER ikkje-adv-adj-nr2det)
 	(*1C fl-subst LINK NOT -1 komma/ellipse/kolon/semi/konj/adv)
@@ -6080,7 +6080,7 @@ SELECT:7061 (adj posi pl @adj>) IF
 
 
 #:7062
-SELECT:7062 (adj posi pl @adj>) IF
+SELECT:7062 (adj pst pl @adj>) IF
 	(1C subst)
 	(NOT 0 gen)
 	(NOT 0 fv)
@@ -6089,7 +6089,7 @@ SELECT:7062 (adj posi pl @adj>) IF
 ;
 
 #:7063
-SELECT:7063 (adj posi pl @adj>) IF
+SELECT:7063 (adj pst pl @adj>) IF
 	(NOT 0 gen)
 	(NOT 0 fv)
 	(NOT 1 m#komma)
@@ -6101,7 +6101,7 @@ SELECT:7063 (adj posi pl @adj>) IF
 
 
 #:7064
-SELECT:6074 (adj posi pl @adj>) IF
+SELECT:6074 (adj pst pl @adj>) IF
 	(NOT 0 gen)
 	(NOT 0 fv)
 	(NOT 1 gen)
