@@ -765,6 +765,11 @@ SELECT ("å" sep) IF (*-1 (vblex sep)) ;
 SELECT (vblex sep) IF (*1 ("å" sep)) ;
 
 
+"<LES>" SELECT (vblex imp);
+"<Les>" SELECT (vblex imp);
+"<les>" SELECT (vblex imp);
+
+
 #Predikativ eller perfpart i nynorsk:
 # Etter ha/hadde/få: perfektum partisipp
 # Etter kopula: predikativ (adjektiv): ekspertise på området er utforma (adj m)
@@ -49734,13 +49739,6 @@ CONSTRAINTS
 ;
 
 
-#:6206
-  "<Les>"   REMOVE:6206 (vblex pres) IF
-  	(0 imp)
-	(-1 setn-gr)
-;
-#  «Les òg:» lite sannsynleg at dette er presens av «le»; sjølv om
-#  pres alltid er mogleg... -KBU
 
 
 #:4638
