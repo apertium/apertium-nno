@@ -974,15 +974,15 @@ CONSTRAINTS
  "<anna>"   SELECT:6017   (np) IF
 	 (-1 >>>)
 	 (1 subst-prop)
-
+;
 # Anna Hald
 
 
 #:6018
  "<anna>"   SELECT:6018   (np) IF
 	 (-1 >>>)
-	 (NOT 1 nom)
-
+	(NOT 1 nom)
+;
 # Anna Hald
 
 #:4975
@@ -2319,6 +2319,10 @@ CONSTRAINTS
 	(*-1 setn-gr BARRIER %ha%)
 ;
 
+"<lege>" SELECT:vore-lege (n) IF
+	(-1 p-hj-verb)
+;
+
 
 #:4657
  "<like>"   SELECT:4657   (adv) IF
@@ -3390,6 +3394,10 @@ CONSTRAINTS
 #:4394
  "<slettes>"   SELECT:4394   (adv) IF
 	(1 %ikkje/inkje/ingen%)
+;
+
+ "<sletta>"   SELECT:vorte-sletta   (pp) IF
+	(-1 p-hj-verb)
 ;
 
 
@@ -18873,7 +18881,7 @@ SELECT:6094 (adj pst m ind sg) IF
 	(*-1O setn-gr-u-strek LINK *1 nom-reinmask-eint/prop LINK NOT 0 subst-gen)
 	(*-1O setn-gr-u-strek LINK *1 subst/pron/%all%/%mang%/%mange% LINK 0 nom-mask-eint/prop LINK NOT 0 fl)
 	(*-1O setn-gr-u-strek LINK NOT 1 prep)
-
+;
 
 
 #:3600
@@ -37152,7 +37160,7 @@ SELECT:2602 (imp) IF
 	(-2 prop/%du%)
 	(-3 setn-gr)
 	(*1C pron-akk BARRIER ikkje-adv-prep)
-#;
+;
 
 
 #:2603
