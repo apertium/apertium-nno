@@ -2,8 +2,8 @@
 ## Makefile for apertium-nno
 ###############################################################################
 
-RELEASE=0.2
-VERSION=0.2.0
+RELEASE=0.3
+VERSION=0.3.1
 LANG1=nno
 LANG1e=nno_e
 LANG1a=nno_a
