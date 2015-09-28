@@ -11849,7 +11849,7 @@ SELECT:490 (@tittel) IF
 SELECT:7001 (@iv) IF
 	 (-1 @subj)
 	 (*-2 hj-verb BARRIER ikkje-adv-adj-det LINK NOT 0 kop LINK 0 @fv LINK -1 @adv)
-
+;
 #no har prisen auka (@iv)
 #ikkje: prisen er auka (adj) 
 
@@ -11861,6 +11861,7 @@ SELECT:7002 (@iv) IF
 	 (NOT -2 kop) 
 	 (-2 @fv)
 	 (-3 @adv)
+;
 #no har han auka (@iv)
 #ikkje: han er auka (adj) 
 
