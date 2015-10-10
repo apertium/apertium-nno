@@ -1962,6 +1962,10 @@ CONSTRAINTS
 	(0 adj)
 ;
 
+SELECT ("ikon") + subst-nøyt IF
+	(0C subst)
+;
+
 
 
 #:4731
