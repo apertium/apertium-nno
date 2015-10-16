@@ -5,6 +5,7 @@
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" sent ;
 
+LIST sp = sp ;
 LIST %-vis% = ".*vis"r ;
 LIST %-avis% = ".*avis"r ".*vise"r ;
 LIST %-kurs% = ".*kurs"r ;
@@ -4824,9 +4825,9 @@ SELECT ("ikon") + subst-nøyt IF
 ;
 
 
-#:4871
- "<far>"   REMOVE:4871   (n nt) IF
-	(1 poss-det)
+ "<far>"   REMOVE:far   (n nt) IF
+	(NEGATE -1C nøyt-det)
+	(NEGATE -1C fl-adj/fl-det - sp)
 ;
 
 
