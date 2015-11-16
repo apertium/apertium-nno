@@ -448,9 +448,9 @@ LIST ikkje-adv-adj-subst-det-prep = "$-" "-" "$," "," vblex prn cnjsub cnjcoo "�
 LIST ikkje-adv-adj-subst-det-prep-verb = "$-" "-" "$," "," prn cnjsub cnjcoo "å" ij <<< <ellipse> ;
 LIST ikkje-adv-adj-subst-pron-det = "sidan"  cnjcoo pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (det dem) (n gen) (np gen) ("$," clb) ("," clb) ;
 LIST ikkje-adv-adj-subst-pron-konj-det = "sidan"  pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (det dem) (n gen) (np gen) ("$," clb) ("," clb) (clb cnjcoo) ;
-LIST ikkje-adv-adj-subst-pron-konj-det-sbu2 = "sidan"  pr "å" ij <ellipse> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) ;
-LIST ikkje-adv-adj-subst-pron-konj-det2 = "sidan"  pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) ;
-LIST ikkje-adv-adj-subst-pron-konj-det2-prep = cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (vblex inf) (vblex pass) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) ;
+LIST ikkje-adv-adj-subst-pron-konj-det-sbu2 = "sidan"  pr "å" ij <ellipse> (vblex pres) (vblex pret) (vblex inf) (vblex pasv) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) ;
+LIST ikkje-adv-adj-subst-pron-konj-det2 = "sidan"  pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (vblex inf) (vblex pasv) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) ;
+LIST ikkje-adv-adj-subst-pron-konj-det2-prep = cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (vblex inf) (vblex pasv) (vblex pp) ("$," clb) ("," clb) (clb cnjcoo) ;
 LIST ikkje-adv-adj-subst-pron-konj-detmdem = "sidan"  pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (n gen) (np gen) ("$," clb) ("," clb) (clb cnjcoo) ;
 LIST ikkje-adv-adj-subst-pron-konj-detmdem-prep = cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (n gen) (np gen) ("$," clb) ("," clb) (clb cnjcoo) ;
 LIST ikkje-adv-adj-substmgen-konj-detmdem-prep = prn cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) ("$," clb) ("," clb) (clb cnjcoo) ;
@@ -506,9 +506,9 @@ LIST komma/strek = "$," "," <strek> ;
 LIST konj = cnjcoo ;
 LIST konj-<adv> = (cnjcoo <adv>) ;
 LIST konj/pron = cnjcoo (prn p1) (prn p2) (prn p3) ;
-LIST kop = "verte"  "verke"  "vere"  "synast"  "heite"  "bli"  ("kalle"  pass) ;
-LIST kop-fv = ("vere"  pres) ("bli"  pres) ("verte"  pres) ("heite"  pres) ("synast"  pres) ("verke"  pres) ("kalle"  inf pass) ("vere"  pret) ("bli"  pret) ("verte"  pret) ("heite"  pret) ("synast"  pret) ("verke"  pret) ("kalle"  pret pass) ;
-LIST kop/st-form/st-verb = "verte"  "verke"  "vere"  "synast"  "heite"  "bli"  ("kalle"  pass) pass pstv ;
+LIST kop = "verte"  "verke"  "vere"  "synast"  "heite"  "bli"  ("kalle"  pasv) ;
+LIST kop-fv = ("vere"  pres) ("bli"  pres) ("verte"  pres) ("heite"  pres) ("synast"  pres) ("verke"  pres) ("kalle"  inf pasv) ("vere"  pret) ("bli"  pret) ("verte"  pret) ("heite"  pret) ("synast"  pret) ("verke"  pret) ("kalle"  pret pasv) ;
+LIST kop/st-form/st-verb = "verte"  "verke"  "vere"  "synast"  "heite"  "bli"  ("kalle"  pasv) pasv pstv ;
 LIST kvant = qnt ;
 LIST kvant-med-fleire = "mange"  "halv"  "fleire"  ("atskilleg"  pl) ("atskillig"  pl) (det qnt) ;
 LIST m-hj-verb = ("tore"  vblex) ("pla"  vblex) ("ljote"  vblex) ("lyte"  vblex) ("trenge"  vblex) ("turve"  vblex) ("få"  vblex) ("skulle"  vblex) ("kunne"  vblex) ("vilje"  vblex) ("ville"  vblex) ("måtte"  vblex) ("burde"  vblex) ("byrje"  vblex) ;
@@ -661,7 +661,7 @@ LIST språk = "tysk"  "svensk"  "spansk"  "portugisisk"  "nynorsk"  "norsk"  "ke
 LIST spørjeadv = "kvifor"  "kvar"  "kva"  "korleis"  "korfor"  "kor"  ("koss"  adv) ;
 LIST spørjeadv/sp/sbu = "kvifor"  "kvar"  "kva"  "korleis"  "korfor"  "kor"  itg ("koss"  adv) cnjsub ;
 LIST spørsmål-t = "$?" "?" ;
-LIST st-form = pass ;
+LIST st-form = pasv ;
 LIST st-verb = pstv ;
 LIST storbokstav = "<\\p{Lu}.*>"r ;
 LIST strek = <strek> ;
@@ -5769,7 +5769,7 @@ SELECT ("ikon") + subst-nøyt IF
 
 
 #:4592
- "<nærmast>"   REMOVE:4592   (vblex pass) IF
+ "<nærmast>"   REMOVE:4592   (vblex pasv) IF
 	(0 adj)
 ;
 
@@ -38960,7 +38960,7 @@ SELECT:2460 subst IF
 
 
 #:2428
-SELECT:2428 (vblex inf pass) IF
+SELECT:2428 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(-1C komma)
 	(NOT -1 clb)
@@ -38971,7 +38971,7 @@ SELECT:2428 (vblex inf pass) IF
 
 
 #:2429
-SELECT:2429 (vblex inf pass) IF
+SELECT:2429 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(-1 konj)
 	(NOT -1 clb)
@@ -38982,7 +38982,7 @@ SELECT:2429 (vblex inf pass) IF
 
 
 #:2430
-SELECT:2430 (vblex inf pass) IF
+SELECT:2430 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(NOT -1 det)
 	(*-1 sanseverb BARRIER setn-gr)
@@ -38993,7 +38993,7 @@ SELECT:2430 (vblex inf pass) IF
 
 
 #:2431
-SELECT:2431 (vblex inf pass) IF
+SELECT:2431 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(-1 @adv)
 	(*-1O m-hj-verb LINK NOT 0 %få% LINK NOT *1 setn-gr)
@@ -39005,7 +39005,7 @@ SELECT:2431 (vblex inf pass) IF
 
 
 #:2432
-SELECT:2432 (vblex inf pass) IF
+SELECT:2432 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(NOT 0 perf-part)
 	(-1 @adv)
@@ -39018,7 +39018,7 @@ SELECT:2432 (vblex inf pass) IF
 
 
 #:2433
-SELECT:2433 (vblex inf pass) IF
+SELECT:2433 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(NOT 0 samset)
 	(NOT 0 perf-part)
@@ -39029,7 +39029,7 @@ SELECT:2433 (vblex inf pass) IF
 
 
 #:2434
-SELECT:2434 (vblex inf pass) IF
+SELECT:2434 (vblex inf pasv) IF
 	(0 farlege-inf)
 	(NOT 0 perf-part)
 	(NOT -1 infmerke)
@@ -42363,7 +42363,7 @@ SELECT:2247 (vblex pret) IF
 
 
 #:2195
-SELECT:2195 (vblex pass) IF
+SELECT:2195 (vblex pasv) IF
 	(NOT 0 st-verb)
 	(NOT *1 overskrift)
 	(**-1C setn-gr BARRIER fv)
