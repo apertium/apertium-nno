@@ -52811,6 +52811,11 @@ REMOVE:62000 (vblex pret) IF
 # «Noko å gjære safta i»
 # Treng nok litt nyansering. -KBU
 
+SELECT:Lagra-til-disk imp IF
+        (0 storbokstav)
+        (NOT *1 fv)
+        (-1 >>>)
+        ;
 
 
 REMOVE:rel-ellipse (n) IF
