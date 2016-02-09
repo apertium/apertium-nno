@@ -42,13 +42,13 @@ $(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix
 	lt-comp lr $< $@
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1e).autogen.att.gz: $(LANG1e).autogen.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
-	lt-print $< | gzip -9 -c > $@
+	lt-print $< | gzip -9 -c -n > $@
 
 ###############################################################################
 ## Disambiguation rules
