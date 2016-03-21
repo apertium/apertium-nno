@@ -1829,7 +1829,7 @@ CONSTRAINTS
 
 
 
- "<Hellas>"   SELECT   ("Hellas");
+"<Hellas>"   SELECT   ("Hellas");
 
 #:4769
  "<heile>"   SELECT:4769   (adj sg) IF
@@ -5643,6 +5643,9 @@ SELECT ("ikon") + subst-nøyt IF
 	(-1 subst/pron)
 ;
 
+"<middels>" REMOVE gen;
+"<korps>"   REMOVE gen;
+"<chips>"   REMOVE gen;
 
 #:4623
  "<midt>"   REMOVE:4623   (n) IF
@@ -42463,6 +42466,7 @@ SELECT:6141 (vblex) IF
 #CONSTRAINTS
 ## remove ndomain
 
+REMOVE:prefer-ungen-prop prop + gen IF (0 prop - gen);
 
 #:6170
 REMOVE:6170 (subst gen) IF
