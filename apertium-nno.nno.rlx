@@ -1829,6 +1829,7 @@ CONSTRAINTS
 
 
 
+ "<Hellas>"   SELECT   ("Hellas");
 
 #:4769
  "<heile>"   SELECT:4769   (adj sg) IF
