@@ -416,7 +416,8 @@ LIST fl-det/fl-komp-sup-adj = (det pl) (adj pl) (adj comp) (adj sup) (adj pprs) 
 LIST fl-subst = (n pl) (np pl) ;
 LIST fleirtydige-pos-<perf-part>-adj = "troten"  "søkt"  "sylta"  "sumt"  "sumd"  "stroken"  "stemt"  "stemd"  "stedd"  "spent"  "spana"  "sliten"  "skrokken"  "skikka"  "sjenert"  "rådd"  "reservert"  "pussa"  "oppteken"  "opptatt"  "opptadd"  "omkommen"  "omkomen"  "nøydd"  "nøgd"  "markert"  "lærd"  "lunka"  "lukt"  "laga"  "korka"  "kondisjonert"  "kjent"  "kjend"  "hoven"  "gidd"  "garva"  "frosen"  "frigjort"  "frigjord"  "forspana"  "felt"  "farga"  "drukken"  "driven"  "dregen"  "dradd"  "brydd"  "bestemt"  "bestemd"  ;
 LIST fork = acr ;
-LIST fork/ukjent-ord = acr ("\\*.*"r) ;
+LIST ukjent = ("\\*.*"r) ;
+SET fork/ukjent-ord = fork OR ukjent ;
 LIST fv = (vblex pres) (vblex pret) (vblex imp) ;
 LIST gen = gen ;
 LIST gen/%slags% = "slags"  gen ;
@@ -4626,6 +4627,10 @@ REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» 
 	(*-1 %eit% BARRIER ikkje-adv-adj)
 ;
 
+
+"<ei>" REMOVE:det-markerer-ei-splitting adv IF
+        (*1 subst-fem OR ukjent BARRIER ikkje-adv-verb)
+;
 
 #:4930
  "<ei>"   REMOVE:4930   (adv) IF
