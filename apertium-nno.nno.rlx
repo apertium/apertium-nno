@@ -5,6 +5,8 @@
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" sent ;
 
+LIST NUMBER = sg pl sp;
+
 LIST sp = sp ;
 LIST %-vis% = ".*vis"r ;
 LIST %-avis% = ".*avis"r ".*vise"r ;
@@ -283,7 +285,7 @@ LIST %år% = "år"  ;
 LIST %åt% = ("åt" ) ;
 LIST <<< = <<< ;
 LIST <adv> = <adv> ;
-LIST <perf-part> = adj pp ;
+LIST <perf-part> = pp ;
 LIST <perf-part>-fem-eint = (adj pp f sg) (adj pp mf sg) ;
 LIST <perf-part>-mask-eint = (adj pp m sg) (adj pp mf sg) ;
 LIST <perf-part>-nøyt-eint = (adj pp nt sg) ;
@@ -763,7 +765,7 @@ SELECT:over_30._Men clb IF
         (0 (<<<) LINK 1*> (*) LINK @1 storbokstav) # This is the way to say "I am at a sentence-ending cohort and the one immediately to my right is storbokstav"
         # TODO: why can't I say >1?
 ;
-        
+
 SELECT ("å" sep) IF (*-1 (vblex sep)) ;
 SELECT (vblex sep) IF (*1 ("å" sep)) ;
 
@@ -4339,6 +4341,9 @@ SELECT ("ikon") + subst-nøyt IF
 
 #CONSTRAINTS
 ## remove domain
+REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» – are there exceptions?
+
+
 #:5002
  "<alt>"   REMOVE:5002   (adj pp ind) IF
 	(NOT -1 ub-det)
@@ -44938,6 +44943,13 @@ REMOVE:1997 (adj) IF
 ;
 #  "at dei knapt får noko gjort"
 
+
+REMOVE:pret-not-pp <perf-part> IF
+        (0C pret OR <perf-part>)
+        (NEGATE 0 $$NUMBER LINK 1 $$NUMBER + subst)
+        (NEGATE 0 $$NUMBER LINK *-1 kop-fv LINK *-1 $$NUMBER + subst)
+;
+# Bombardementet og brannane det    førte    til la delar av Dublin sentrum i ruinar.
 
 
 #:1998
