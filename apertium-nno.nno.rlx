@@ -51727,7 +51727,6 @@ SELECT:1414 (vblex pp) IF
 	(*-1 %som/komma/og% BARRIER setn-gr)
 ;
 
-
 #:1415
 SELECT:1415 (vblex pp) IF
 	(NOT 0 inf)
@@ -52049,6 +52048,11 @@ SELECT:1432 (vblex pres) IF
 	(**1C setn-gr BARRIER fv)
 ;
 
+
+SELECT:har-blitt-oppretta perf-part IF
+        (*-1 %ha%-pres/pret)
+        (-1C perf-part)
+        (0C adj OR verb)
 
 #CONSTRAINTS
 ## remove ndomain heur
