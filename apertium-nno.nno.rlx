@@ -625,7 +625,7 @@ LIST present-ub = "eit"  "ein"  "ei"  (n ind) (np ind) ;
 LIST present-verb = "vere"  "stå"  "liggje"  "kome"  "hengje"  "henge"  ;
 LIST pret = pret ;
 LIST pron = prn ;
-LIST pron-akk = "seg"  (prn p1 pl acc) (prn p2 pl acc) (prn p3 pl acc) ;
+LIST pron-akk = (prn acc) ;
 LIST pron-akk-fl = ("vi"  acc) ("me"  acc) ("dei"  acc) ("de"  acc) ("desse"  prn) ;
 LIST pron-akk-mask/fem = ("De" acc) ("hen"  acc) ("han"  acc) ("eg"  acc) ("ho"  acc) ("du"  acc) ("den" prn mf) ("denne"  prn) ;
 LIST pron-akk-mfn/fl = "seg"  ("De" acc) ("hen"  acc) ("han"  acc) ("eg"  acc) ("ho"  acc) ("du"  acc) ("den" prn mf) ("denne"  prn) ("vi"  acc) ("me"  acc) ("de"  acc) ("dykk"  acc) ("desse"  prn) ("den" prn nt) ("denne"  prn nt) ;
@@ -46975,9 +46975,9 @@ REMOVE:1809 (prn acc) IF
 
 
 #:1810
-REMOVE:1810 (prn acc) IF
+REMOVE:1810 pron-akk IF
 	(0 nominativ)
-	(-1C sbu)
+	(-1C sbu OR >>>)
 	(NOT -1 %at%)
 ;
 
@@ -49853,6 +49853,10 @@ CONSTRAINTS
 CONSTRAINTS
 ## select ndomain heur
 
+SELECT:10-menneske $$NUMBER IF
+        (-1C det + $$NUMBER)
+        (0C subst-nøyt)
+        ;
 
 
 #:6158
@@ -52053,6 +52057,7 @@ SELECT:har-blitt-oppretta perf-part IF
         (*-1 %ha%-pres/pret)
         (-1C perf-part)
         (0C adj OR verb)
+        ;
 
 #CONSTRAINTS
 ## remove ndomain heur
