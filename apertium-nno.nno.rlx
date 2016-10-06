@@ -448,6 +448,7 @@ LIST ikkje-adv-adj-prep = "$," "," det vblex prn cnjsub cnjcoo "å" ij n np <ell
 LIST ikkje-adv-adj-prep-det = "$," "," vblex prn cnjsub cnjcoo "å" ij n np <ellipse> ;
 LIST ikkje-adv-adj-subst = "sidan"  "$:" ":" "$--" "--" "$-" "-" "$," "," lpar rpar vblex pr prn cnjsub cnjcoo "å" ij det <<< <ellipse> ;
 LIST ikkje-adv-adj-subst-det-prep = "$-" "-" "$," "," vblex prn cnjsub cnjcoo "å" ij <<< <ellipse> ;
+LIST ikkje-adv-adj-subst-det-prep-strek = "$," "," vblex prn cnjsub cnjcoo "å" ij <<< <ellipse> ;
 LIST ikkje-adv-adj-subst-det-prep-verb = "$-" "-" "$," "," prn cnjsub cnjcoo "å" ij <<< <ellipse> ;
 LIST ikkje-adv-adj-subst-pron-det = "sidan"  cnjcoo pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (det dem) (n gen) (np gen) ("$," clb) ("," clb) ;
 LIST ikkje-adv-adj-subst-pron-konj-det = "sidan"  pr cnjsub "å" ij <ellipse> (vblex pres) (vblex pret) (det dem) (n gen) (np gen) ("$," clb) ("," clb) (clb cnjcoo) ;
@@ -52812,6 +52813,12 @@ REMOVE:6033 subst-nøyt-eint IF
 #	(NOT 0 %fare%)
 #;
 #Koster for mye
+
+
+SELECT:då-fekk-han (prn nom) IF
+	(*-2 prep CBARRIER ikkje-adv-adj-subst-det-prep-strek LINK -1 >>>)
+	(-1 fv)
+;
 
 
 #:6035
