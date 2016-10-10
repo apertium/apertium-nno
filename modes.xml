@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="nno-morph">
+  <mode name="nno-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
@@ -9,7 +9,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-gener">
+  <mode name="nno-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="nno.autogen.bin"/>
@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-disam">
+  <mode name="nno-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
@@ -40,7 +40,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-syntax">
+  <mode name="nno-syntax" install="yes">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
@@ -69,7 +69,7 @@
     </pipeline>
   </mode>
 
-  <mode name="nno-tagger">
+  <mode name="nno-tagger" install="yes">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="nno.automorf.bin"/>
