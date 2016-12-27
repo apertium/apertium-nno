@@ -6988,7 +6988,7 @@ REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» 
 
 #:6072
  "<vita>"   REMOVE:6072   (n nt) IF
-	 (O inf)
+	 (0 inf)
 ;
 #sjeldent i fleirtal - og eintal
 
