@@ -6,6 +6,7 @@ SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" sent ;
 
 LIST NUMBER = sg pl sp;
+LIST GENDER = m f nt;
 
 LIST sp = sp ;
 LIST %-vis% = ".*vis"r ;
@@ -52877,3 +52878,10 @@ REMOVE:rel-ellipse (n) IF
 	(1 prep LINK *1 subst/pron BARRIER ikkje-adv-adj-subst-pron-det)
 ;
 # «ein ny verdsorden grunna<perf-part> på andelege prinsipp»
+
+SELECT:nå-er-anlegget-gravminne $$NUMBER IF
+        (-3C adv)
+        (-2C kop-fv)
+        (-1C subst + $$NUMBER + $$GENDER + bu)
+        (0C subst + $$GENDER)
+        ;
