@@ -12516,6 +12516,7 @@ SELECT:3733 (adj pst nt ind sg) IF
 
 
 #:3734
+
 SELECT:3734 (adj pst nt ind sg) IF
 	(NOT 0 farlege-adj)
 	(*-1 nr2-det-nøyt-ub BARRIER ikkje-adv-adj)
@@ -49858,6 +49859,13 @@ SELECT:10-menneske $$NUMBER IF
         (-1C det + $$NUMBER)
         (0C subst-nøyt)
         ;
+
+SELECT:eit-viktig-område $$NUMBER IF
+        (-2C det + $$NUMBER)
+        (-1C adj + nøyt + ub + $$NUMBER)
+        (0C subst-nøyt)
+        ;
+
 
 
 #:6158
