@@ -16,6 +16,7 @@ dev/make-ngrams.sh -text
 /modes.xml -text
 /nno.prob -text svneol=unset#unset
 /rem-compounds.xsl -text svneol=unset#application/xml
+/test-scandivoc -text
 texts/frode_grytten.txt -text
 texts/ngrams.1 -text
 texts/ngrams.2 -text
