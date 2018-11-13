@@ -5,9 +5,32 @@
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" sent ;
 
+LIST GENDER = m f nt mf;
 LIST NUMBER = sg pl sp;
-LIST GENDER = m f nt;
 
+# Apertium tagset:
+LIST vblex = vblex ;
+LIST pr = pr ;
+LIST prn = prn ;
+LIST det = det ;
+LIST expl = expl ;
+LIST ind = ind ;
+LIST def = def ;
+LIST nt = nt ;
+LIST f = f ;
+LIST m = m ;
+LIST n = n ;
+LIST pl = pl ;
+LIST sg = sg ;
+LIST sp = sp ;
+# TODO: pos defined and used as "pst" below, fix
+# LIST pos = pos ;
+LIST guess = guess ;
+LIST cmp = cmp ;
+LIST pret = pret ;
+LIST pp = pp ;
+
+# OBT sets converted to Apertium:
 LIST sp = sp ;
 LIST %-vis% = ".*vis"r ;
 LIST %-avis% = ".*avis"r ".*vise"r ;
@@ -1308,6 +1331,7 @@ CONSTRAINTS
 	(1 prep)
 ;
 
+ "<elv>"   SELECT:unlikely-alv f ;
 
 #:4874
  "<faen>"   SELECT:4874   (ij) IF
