@@ -42508,6 +42508,8 @@ SELECT:6141 (vblex) IF
 
 REMOVE:prefer-ungen-prop prop + gen IF (0 prop - gen);
 
+REMOVE:unlikely ("øre") + vblex;
+
 #:6170
 REMOVE:6170 (subst gen) IF
 	(0 %-kurs%)
