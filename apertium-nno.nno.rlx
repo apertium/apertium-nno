@@ -52911,3 +52911,7 @@ SELECT:nå-er-anlegget-gravminne $$NUMBER IF
         (-1C subst + $$NUMBER + $$GENDER + bu)
         (0C subst + $$GENDER)
         ;
+
+LIST målingpå = "hus" "vegg" "graffiti" "strek" "bilde" "bilete" ;
+SELECT ("måle¹") IF (1 målingpå) ;
+REMOVE ("måle¹") ;
