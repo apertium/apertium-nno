@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n" c="Noun"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="notused">
+      <e>
+        <i>a</i>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <!-- Correct flyplassstyresmaktene → flyplasstyresmaktene -->
+    <e><p><l><a/>bbb</l><r>bb</r></p></e>
+    <e><p><l><a/>ccc</l><r>cc</r></p></e>
+    <e><p><l><a/>ddd</l><r>dd</r></p></e>
+    <e><p><l><a/>fff</l><r>ff</r></p></e>
+    <e><p><l><a/>ggg</l><r>gg</r></p></e>
+    <e><p><l><a/>hhh</l><r>hh</r></p></e>
+    <e><p><l><a/>jjj</l><r>jj</r></p></e>
+    <e><p><l><a/>kkk</l><r>kk</r></p></e>
+    <e><p><l><a/>lll</l><r>ll</r></p></e>
+    <e><p><l><a/>mmm</l><r>mm</r></p></e>
+    <e><p><l><a/>nnn</l><r>nn</r></p></e>
+    <e><p><l><a/>ppp</l><r>pp</r></p></e>
+    <e><p><l><a/>qqq</l><r>qq</r></p></e>
+    <e><p><l><a/>rrr</l><r>rr</r></p></e>
+    <e><p><l><a/>sss</l><r>ss</r></p></e>
+    <e><p><l><a/>ttt</l><r>tt</r></p></e>
+    <e><p><l><a/>vvv</l><r>vv</r></p></e>
+    <e><p><l><a/>www</l><r>ww</r></p></e>
+    <e><p><l><a/>xxx</l><r>xx</r></p></e>
+    <e><p><l><a/>zzz</l><r>zz</r></p></e>
+  </section>
+</dictionary>
