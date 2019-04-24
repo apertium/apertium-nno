@@ -807,6 +807,8 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 # Unntak: om det ikke kongruerer i tall/kjønn: perfektum partisipp: meldingar kan lett bli misforstått (perf-part) Noreg (prop utan kjønn) vart oppmoda (perf-part)
 # Perf-part: som nemnt, som sagt
 
+REMOVE:unlikely ("allé" "<alle>"ri);
+
 # sec 1
 CONSTRAINTS
 ## select domain
