@@ -2,6 +2,8 @@
 
 # Simple test for consistency across scandipairs
 
+[[ -n "${AP_NOSCANDITEST}" ]] && exit 0
+
 set -u
 
 cd "$(dirname "$0")" || exit 1
