@@ -33,13 +33,15 @@ $(LANG1e).autogen.bin: $(BASENAME).$(LANG1).dix
 	test ! -f ./test-scandivoc || ./test-scandivoc
 	lt-comp --alt $(LANG1e) rl $< $@
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+	apertium-validate-acx $(BASENAME).$(LANG1).acx
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix
+$(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
-	lt-comp lr $< $@
+	apertium-validate-acx $(BASENAME).$(LANG1).acx
+	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
