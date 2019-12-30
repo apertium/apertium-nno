@@ -808,6 +808,7 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 # Perf-part: som nemnt, som sagt
 
 REMOVE:unlikely ("allé" "<alle>"ri);
+REMOVE:unlikely ("orde" "<orda>"ri);
 
 # sec 1
 CONSTRAINTS
