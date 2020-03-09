@@ -7047,6 +7047,10 @@ REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» 
 CONSTRAINTS
 ## select ndomain
 
+SELECT:svei-som-… ("svi") IF
+        (1 ("som")) ;
+SELECT ("svi¹") ;
+
 #:6212
 SELECT:6212 (adj) IF
 	(-1 ("<fargen>"))
