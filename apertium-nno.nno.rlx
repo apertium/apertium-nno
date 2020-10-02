@@ -809,6 +809,7 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 
 REMOVE:unlikely ("allé" "<alle>"ri);
 REMOVE:unlikely ("orde" "<orda>"ri);
+REMOVE:unlikely ("teppe" f);
 
 # sec 1
 CONSTRAINTS
