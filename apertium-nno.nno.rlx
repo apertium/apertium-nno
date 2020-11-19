@@ -800,6 +800,8 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 "<Les>" SELECT (vblex imp);
 "<les>" SELECT (vblex imp);
 
+REMOVE:unlikely ("velte") IF (0 ("velje"));
+
 
 #Predikativ eller perfpart i nynorsk:
 # Etter ha/hadde/få: perfektum partisipp
