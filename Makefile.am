@@ -2,15 +2,21 @@
 ## Makefile for apertium-nno
 ###############################################################################
 
+# a, me
 LANG1=nno
-LANG1e=nno_e
-LANG1a=nno_a
+# a, vi
+LANG1avi=nno_a_vi
+# e, vi
+LANG1evi=nno_e_vi
+# e, me
+LANG1eme=nno_e_me
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin \
-	$(LANG1).autogen.bin $(LANG1e).autogen.bin \
+	$(LANG1).autogen.bin $(LANG1avi).autogen.bin $(LANG1evi).autogen.bin $(LANG1eme).autogen.bin \
+	$(LANG1).autogen.att.gz \
 	$(LANG1).autopgen.bin \
-	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
+	$(LANG1).automorf.att.gz \
 	$(LANG1).rlx.bin \
 	$(LANG1).syn.rlx.bin
 
@@ -26,12 +32,22 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
-	lt-comp --alt $(LANG1a) rl $< $@
+	lt-comp --alt nno_a_me rl $< $@
 
-$(LANG1e).autogen.bin: $(BASENAME).$(LANG1).dix
+$(LANG1avi).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
 	test ! -f ./test-scandivoc || ./test-scandivoc
-	lt-comp --alt $(LANG1e) rl $< $@
+	lt-comp --alt nno_a_vi rl $< $@
+
+$(LANG1evi).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
+	test ! -f ./test-scandivoc || ./test-scandivoc
+	lt-comp --alt nno_e_vi rl $< $@
+
+$(LANG1eme).autogen.bin: $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary $<
+	test ! -f ./test-scandivoc || ./test-scandivoc
+	lt-comp --alt nno_e_me rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
@@ -44,9 +60,6 @@ $(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix $(BASENAME).$(
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
-	lt-print $< | gzip -9 -c -n > $@
-
-$(LANG1e).autogen.att.gz: $(LANG1e).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
 
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
