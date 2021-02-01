@@ -1,0 +1,15 @@
+#
+# Generator dictionary preference rules.
+#
+# We expect stream variables to set or remove variables with naming
+# scheme "VAR:default_override", where "override" is chosen if set,
+# otherwise "default" is chosen. For any "default", there may be
+# multiple possible "override"''s.
+
+DELIMITERS = ".";
+
+SELECT:byggje_bygge  ("bygge.*"ri) IF (0 ("byggje.*"ri) + (VAR:byggje_bygge));
+REMOVE:byggje_byggje ("bygge.*"ri) IF (0 ("byggje.*"ri));
+
+# Possible input:
+# ^byggeleiing<n><f><sg><def>/byggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]

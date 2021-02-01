@@ -18,6 +18,7 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.att.gz \
 	$(LANG1).rlx.bin \
+	$(LANG1).prefs.rlx.bin \
 	$(LANG1).syn.rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -76,6 +77,9 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@
 
 $(LANG1).syn.rlx.bin: $(BASENAME).$(LANG1).syn.rlx
+	cg-comp $< $@
+
+$(LANG1).prefs.rlx.bin: $(BASENAME).$(LANG1).prefs.rlx
 	cg-comp $< $@
 
 ###############################################################################
