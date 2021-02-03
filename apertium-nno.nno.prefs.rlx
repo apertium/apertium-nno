@@ -10,8 +10,29 @@
 
 DELIMITERS = ".";
 
-SELECT:byggje_bygge  ("bygge.*"ri) IF (0 ("byggje.*"ri) + (VAR:byggje_bygge));
-REMOVE:byggje_byggje ("bygge.*"ri) IF (0 ("byggje.*"ri));
+SELECT:ggj_gg (".*~ande.*"ri)    IF (0 (VAR:ggj_gg));
+SELECT:ggj_gg (".*~yng[^j].*"ri) IF (0 (VAR:ggj_gg));
+SELECT:ggj_gg (".*~eng[^j].*"ri) IF (0 (VAR:ggj_gg));
+SELECT:ggj_gg (".*~venge.*"ri)   IF (0 (VAR:ggj_gg));
+SELECT:ggj_gg (".*~ølg[^j].*"ri) IF (0 (VAR:ggj_gg));
+SELECT:ggj_gg (".*~ygg[^j].*"ri) IF (0 (VAR:ggj_gg));
+SELECT:ggj_gg (".*~gar.*"ri)     IF (0 (VAR:ggj_gg));
+
+SELECT:kj_k (".*~kar.*"ri) IF (0 (VAR:kj_k)) (0 (".*kjar.*"ri)) ;
+SELECT:kj_k (".*~ke.*"ri)  IF (0 (VAR:kj_k)) (0 (".*kje.*"ri));
+# Paradigmet "tenke" legg inn ~ etter k-en:
+SELECT:kj_k (".*k~er?"ri)  IF (0 (VAR:kj_k)) (0 (".*kjer?"ri));
+SELECT:kj_k (".*k~a"ri)    IF (0 (VAR:kj_k)) (0 (".*kja"ri) );
+SELECT:kj_k (".*k~ande"ri) IF (0 (VAR:kj_k)) (0 (".*kjande"ri));
+
+SELECT:de_dokker  (".*~dokk[ea]r.*"ri) IF (0 (VAR:de_dokker));
+
+SELECT:anten_enten  (".*~enten.*"ri) IF (0 (VAR:anten_enten));
+
+SELECT:medan_mens  (".*~mens.*"ri) IF (0 (VAR:medan_mens));
+
+
+REMOVE:fallback (".*~.*"ri);
 
 # Possible input:
-# ^byggeleiing<n><f><sg><def>/byggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
+# ^byggeleiing<n><f><sg><def>/b~yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
