@@ -127,7 +127,7 @@ clean-local:
 ###############################################################################
 
 test:
-	@grep -nE 'lm=".*/([a-zæøå]+)__' apertium-nno.nno.dix \
+	@grep -nE 'lm=".*/([a-zæøå]+)__' $(BASENAME).$(LANG1).dix \
 	    | grep -vE '<i?g>' \
 	    | grep -vE  'lm="(.*)(.*)".*/\2__' \
 	    | sed 's%^%WARNING: lemma vs par/tail inconsistency on line %'
