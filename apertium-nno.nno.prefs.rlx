@@ -10,32 +10,20 @@
 
 DELIMITERS = ".";
 
-SELECT:ggj_gg (".*~ande.*"ri)    IF (0 (VAR:ggj_gg));
-SELECT:ggj_gg (".*~yng[^j].*"ri) IF (0 (VAR:ggj_gg));
-SELECT:ggj_gg (".*~eng[^j].*"ri) IF (0 (VAR:ggj_gg));
-SELECT:ggj_gg (".*~venge.*"ri)   IF (0 (VAR:ggj_gg));
-SELECT:ggj_gg (".*~ølg[^j].*"ri) IF (0 (VAR:ggj_gg));
-SELECT:ggj_gg (".*~ygg[^j].*"ri) IF (0 (VAR:ggj_gg));
-SELECT:ggj_gg (".*~gar.*"ri)     IF (0 (VAR:ggj_gg));
+SELECT (v:ggj_gg)      IF (0 (VAR:ggj_gg)) ;
+REMOVE (v:ggj_gg) ;
 
-SELECT:kj_k (".*~kar.*"ri) IF (0 (VAR:kj_k)) (0 (".*kjar.*"ri)) ;
-SELECT:kj_k (".*~ke.*"ri)  IF (0 (VAR:kj_k)) (0 (".*kje.*"ri));
-# Paradigmet "tenke" legg inn ~ etter k-en:
-SELECT:kj_k (".*k~er?"ri)  IF (0 (VAR:kj_k)) (0 (".*kjer?"ri));
-SELECT:kj_k (".*k~a"ri)    IF (0 (VAR:kj_k)) (0 (".*kja"ri) );
-SELECT:kj_k (".*k~ande"ri) IF (0 (VAR:kj_k)) (0 (".*kjande"ri));
+SELECT (v:kj_k)        IF (0 (VAR:kj_k)) ;
+REMOVE (v:kj_k) ;
 
-SELECT:de_dokker  (".*~dokk[ea]r.*"ri) IF (0 (VAR:de_dokker));
+SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
+REMOVE (v:de_dokker) ;
 
-SELECT:anten_enten  (".*~enten.*"ri) IF (0 (VAR:anten_enten));
+SELECT (v:medan_mens)  IF (0 (VAR:medan_mens)) ;
+REMOVE (v:medan_mens) ;
 
-SELECT:medan_mens  (".*~mens.*"ri) IF (0 (VAR:medan_mens));
-
-
-REMOVE:fallback (".*~.*~.*~.*~.*"ri);
-REMOVE:fallback (".*~.*~.*~.*"ri);
-REMOVE:fallback (".*~.*~.*"ri); # prefer byggjepla~ssar over b~yggepla~ssar
-REMOVE:fallback (".*~.*"ri);
+SELECT (v:anten_enten) IF (0 (VAR:anten_enten)) ;
+REMOVE (v:anten_enten) ;
 
 # Possible input:
-# ^byggeleiing<n><f><sg><def>/b~yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
+# ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
