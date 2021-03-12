@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z -w apertium-nno.nno.prefs.rlx # " -*-
+# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
 # GPL-2+
 #
 # Generator dictionary preference rules.
@@ -32,6 +32,9 @@ SELECT:anten_enten  (".*~enten.*"ri) IF (0 (VAR:anten_enten));
 SELECT:medan_mens  (".*~mens.*"ri) IF (0 (VAR:medan_mens));
 
 
+REMOVE:fallback (".*~.*~.*~.*~.*"ri);
+REMOVE:fallback (".*~.*~.*~.*"ri);
+REMOVE:fallback (".*~.*~.*"ri); # prefer byggjepla~ssar over b~yggepla~ssar
 REMOVE:fallback (".*~.*"ri);
 
 # Possible input:
