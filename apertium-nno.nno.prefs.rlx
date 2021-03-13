@@ -22,8 +22,11 @@ REMOVE (v:de_dokker) ;
 SELECT (v:medan_mens)  IF (0 (VAR:medan_mens)) ;
 REMOVE (v:medan_mens) ;
 
-SELECT (v:anten_enten) IF (0 (VAR:anten_enten)) ;
-REMOVE (v:anten_enten) ;
+SELECT (v:infa_infe) IF (0 (VAR:infa_infe)) ;
+REMOVE (v:infa_infe) ;
+
+SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
+REMOVE (v:me_vi) ;
 
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
