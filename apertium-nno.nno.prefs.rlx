@@ -1,0 +1,32 @@
+# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
+# GPL-2+
+#
+# Generator dictionary preference rules.
+#
+# We expect stream variables to set or remove variables with naming
+# scheme "VAR:default_override", where "override" is chosen if set,
+# otherwise "default" is chosen. For any "default", there may be
+# multiple possible "override"''s.
+
+DELIMITERS = ".";
+
+SELECT (v:ggj_gg)      IF (0 (VAR:ggj_gg)) ;
+REMOVE (v:ggj_gg) ;
+
+SELECT (v:kj_k)        IF (0 (VAR:kj_k)) ;
+REMOVE (v:kj_k) ;
+
+SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
+REMOVE (v:de_dokker) ;
+
+SELECT (v:medan_mens)  IF (0 (VAR:medan_mens)) ;
+REMOVE (v:medan_mens) ;
+
+SELECT (v:infa_infe) IF (0 (VAR:infa_infe)) ;
+REMOVE (v:infa_infe) ;
+
+SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
+REMOVE (v:me_vi) ;
+
+# Possible input:
+# ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]

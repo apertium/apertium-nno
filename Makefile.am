@@ -2,22 +2,17 @@
 ## Makefile for apertium-nno
 ###############################################################################
 
-# a, me
 LANG1=nno
-# a, vi
-LANG1avi=nno_a_vi
-# e, vi
-LANG1evi=nno_e_vi
-# e, me
-LANG1eme=nno_e_me
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin \
-	$(LANG1).autogen.bin $(LANG1avi).autogen.bin $(LANG1evi).autogen.bin $(LANG1eme).autogen.bin \
+	$(LANG1).autogen.bin \
 	$(LANG1).autogen.att.gz \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.att.gz \
 	$(LANG1).rlx.bin \
+	$(LANG1).e_vi_prefs.rlx.bin \
+	$(LANG1).prefs.rlx.bin \
 	$(LANG1).syn.rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -33,21 +28,6 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp --alt nno_a_me rl $< $@
-
-$(LANG1avi).autogen.bin: $(BASENAME).$(LANG1).dix
-	apertium-validate-dictionary $<
-	test ! -f ./test-scandivoc || ./test-scandivoc
-	lt-comp --alt nno_a_vi rl $< $@
-
-$(LANG1evi).autogen.bin: $(BASENAME).$(LANG1).dix
-	apertium-validate-dictionary $<
-	test ! -f ./test-scandivoc || ./test-scandivoc
-	lt-comp --alt nno_e_vi rl $< $@
-
-$(LANG1eme).autogen.bin: $(BASENAME).$(LANG1).dix
-	apertium-validate-dictionary $<
-	test ! -f ./test-scandivoc || ./test-scandivoc
-	lt-comp --alt nno_e_me rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
@@ -76,6 +56,12 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@
 
 $(LANG1).syn.rlx.bin: $(BASENAME).$(LANG1).syn.rlx
+	cg-comp $< $@
+
+$(LANG1).e_vi_prefs.rlx.bin: $(BASENAME).$(LANG1).e_vi_prefs.rlx
+	cg-comp $< $@
+
+$(LANG1).prefs.rlx.bin: $(BASENAME).$(LANG1).prefs.rlx
 	cg-comp $< $@
 
 ###############################################################################
