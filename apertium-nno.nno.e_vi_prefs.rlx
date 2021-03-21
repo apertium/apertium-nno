@@ -1,0 +1,9 @@
+# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
+# GPL-2+
+#
+# Ignoring variables, pick e-infinitive and "vi" pronoun.
+
+DELIMITERS = ".";
+
+SELECT (v:infa_infe) ;
+SELECT (v:me_vi) ;
