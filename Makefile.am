@@ -73,6 +73,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG1).syn.rlx \
            $(LANG1).prob            \
 	   $(BASENAME).$(LANG1).tsx \
+	   $(LANG1).preferences.xml \
 	   modes.xml
 
 ###############################################################################
