@@ -73,6 +73,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(LANG1).syn.rlx \
            $(LANG1).prob            \
 	   $(BASENAME).$(LANG1).tsx \
+	   $(LANG1).preferences.xml \
 	   modes.xml
 
 ###############################################################################
@@ -85,7 +86,9 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_nnodir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_nno_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_nno_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_nno_DATA=$(TARGETS_COMMON) \
+	   $(LANG1).prob            \
+	   $(LANG1).preferences.xml
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc

@@ -1,0 +1,21 @@
+<preferences>
+  <preference id="ggj_gg">
+    <description lang="nno">byggje → bygge</description>
+  </preference>
+  <preference id="kj_k">
+    <description lang="nno">søkje → søke</description>
+  </preference>
+  <preference id="de_dokker">
+    <description lang="nno">de → dokker</description>
+  </preference>
+  <preference id="medan_mens">
+    <description lang="nno">medan → mens</description>
+  </preference>
+  <preference id="infa_infe">
+    <description lang="nno">a-infinitiv → e-infinitiv</description>
+    <description lang="nob">infinitiv med a → infinitiv med e</description>
+  </preference>
+  <preference id="me_vi">
+    <description lang="nno">me → vi</description>
+  </preference>
+</preferences>
