@@ -13,6 +13,7 @@
   </preference>
   <preference id="infa_infe">
     <description lang="nno">a-infinitiv → e-infinitiv</description>
+    <description lang="nob">infinitiv med a → infinitiv med e</description>
   </preference>
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
