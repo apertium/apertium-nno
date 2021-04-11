@@ -27,7 +27,7 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
-	lt-comp --alt nno_a_me rl $< $@
+	lt-comp rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
