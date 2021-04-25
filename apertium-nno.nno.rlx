@@ -801,6 +801,8 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 "<les>" SELECT (vblex imp);
 
 REMOVE:unlikely ("velte") IF (0 ("velje"));
+REMOVE:unlikely ("auk");
+REMOVE:unlikely ("tilsjå");
 
 
 #Predikativ eller perfpart i nynorsk:
@@ -1997,7 +1999,6 @@ CONSTRAINTS
 #hurra! (men ikke "et rungende hurra")
 
 
-
 #:4732
  "<ille>"   SELECT:4732   (adv) IF
 	(0 adj)
@@ -2007,6 +2008,10 @@ SELECT ("ikon") + subst-nøyt IF
 	(0C subst)
 ;
 
+SELECT:ingen-andre ("ingen") + pl IF
+        (1C pl)
+        (1C nr2-det OR adj OR subst)
+        ;
 
 
 #:4731
@@ -3638,6 +3643,9 @@ SELECT ("ikon") + subst-nøyt IF
 	(-1 %gå/springe%-osv)
 ;
 
+"<stadium>" SELECT:Millennium-stadium sg IF
+        (-1 storbokstav)
+        ;
 
 #:4359
  "<stand>"   SELECT:4359   (n sg) IF
@@ -52925,3 +52933,5 @@ SELECT:nå-er-anlegget-gravminne $$NUMBER IF
 LIST målingpå = "hus" "vegg" "graffiti" "strek" "bilde" "bilete" ;
 SELECT ("måle¹") IF (1 målingpå) ;
 REMOVE ("måle¹") ;
+
+REMOVE:avoid-intet ("ingen") + nt ;
