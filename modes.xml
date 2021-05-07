@@ -22,7 +22,7 @@
       <program name="lt-proc -b">
         <file name="nno.autogen.bin"/>
       </program>
-      <program name="~/src/ap/vislcg3/src/cg-proc -n -g -w">
+      <program name="cg-proc -n -g -w">
         <file name="nno.prefs.rlx.bin"/>
       </program>
     </pipeline>
