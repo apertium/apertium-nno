@@ -25,3 +25,12 @@
 /nno_e_vi.autogen.bin
 /nno.prefs.rlx.bin
 /nno.e_vi_prefs.rlx.bin
+/*.hfst
+/*.zhfst
+/.DS_Store
+/*.mode
+/*-*.prob
+/.deps
+/config.in
+/config
+/test/*-output.txt
