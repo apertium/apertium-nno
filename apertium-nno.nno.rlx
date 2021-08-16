@@ -802,6 +802,7 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 
 REMOVE:unlikely ("velte") IF (0 ("velje"));
 REMOVE:unlikely ("auk");
+REMOVE:unlikely ("íð") ;
 REMOVE:unlikely ("tilsjå");
 
 
