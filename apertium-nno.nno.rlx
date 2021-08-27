@@ -6683,6 +6683,8 @@ REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» 
 ;
 #mest sannsynlig adjektivet
 
+"<trygge>" REMOVE:default n;
+
 #:6124
  "<trøytte>"   REMOVE:6124   (n) IF
 	   (0 adj)
