@@ -27,6 +27,7 @@ LIST sp = sp ;
 # LIST pos = pos ;
 LIST guess = guess ;
 LIST cmp = cmp ;
+LIST cmp-split = cmp-split ;
 LIST pret = pret ;
 LIST pp = pp ;
 
@@ -784,6 +785,8 @@ LIST veldig-farlege-verb = ("børse"  pret) ("slute"  pret) ("hå"  pres) ("stie
 LIST verb = vblex ;
 LIST verb-u-imp = (vblex pres) (vblex pret) (vblex pp) (vblex inf) ;
 
+LIST adjn = "militær" "fornærma" "sikta" "sivil" "tiltalt" "tilsett" "etterlaten" "nytilsett" "kjend" "hovudtiltalt" "sakkunnig" "alliert" "lærd" "skriftlærd" "innsett" "medtiltalt" "avdød" ;
+
 # sec 0: MWE / particle verbs TODO!
 CONSTRAINTS
 SELECT:over_30._Men clb IF
@@ -791,6 +794,28 @@ SELECT:over_30._Men clb IF
         (0 (<<<) LINK 1*> (*) LINK @1 storbokstav) # This is the way to say "I am at a sentence-ending cohort and the one immediately to my right is storbokstav"
         # TODO: why can't I say >1?
 ;
+
+
+# Prefer nouns in compounds:
+REMOVE:prefer-ncmp adj IF
+        (0 n)
+        (0/1 cmp)
+        (NOT 0 adjn)            # «Den spiontiltalte nordmannen ber …»
+        ;
+# TODO: Probably too conservative
+
+REMOVE:prefer-ncmp SUB:* vblex + cmp IF
+        (0 n)
+        ;
+REMOVE:prefer-ncmp-split vblex + cmp-split ;
+
+REMOVE:prefer-sg-ind-cmp-split adj + cmp-split + pl;
+REMOVE:prefer-sg-ind-cmp-split adj + cmp-split + nt;
+REMOVE:prefer-sg-ind-cmp-split adj + cmp-split + def;
+# Avoid «pope- og filmstjerner», «heilagt- og høgtidsdagar»
+# TODO: do we ever want pl/nt/def in cmp-split when we can have ind.sg.mf?
+
+
 
 SELECT ("å" sep) IF (*-1 (vblex sep)) ;
 SELECT (vblex sep) IF (*1 ("å" sep)) ;
@@ -4062,6 +4087,11 @@ SELECT:ingen-andre ("ingen") + pl IF
 	(-2 %vere%)
 ;
 
+REMOVE:vik ("vik") + nt IF
+        (NEGATE -1 det + nt)
+        ;
+REMOVE:vik SUB:1 ("vik") + nt;
+REMOVE:vik SUB:2 ("vik") + nt;
 
 #:4290
  "<var>"   SELECT:4290   (adj pst mf) IF
