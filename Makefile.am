@@ -11,6 +11,7 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.att.gz \
 	$(LANG1).rlx.bin \
+        $(LANG1).seg.rlx.bin                                \
 	$(LANG1).e_vi_prefs.rlx.bin \
 	$(LANG1).prefs.rlx.bin \
 	$(LANG1).syn.rlx.bin
@@ -55,6 +56,9 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@
 
+$(LANG1).seg.rlx.bin: $(BASENAME).$(LANG1).seg.rlx
+	cg-comp $< $@
+
 $(LANG1).syn.rlx.bin: $(BASENAME).$(LANG1).syn.rlx
 	cg-comp $< $@
 
@@ -70,6 +74,7 @@ $(LANG1).prefs.rlx.bin: $(BASENAME).$(LANG1).prefs.rlx
 EXTRA_DIST=$(BASENAME).$(LANG1).dix \
            $(BASENAME).post-$(LANG1).dix \
 	   $(BASENAME).$(LANG1).rlx \
+	   $(BASENAME).$(LANG1).seg.rlx \
 	   $(BASENAME).$(LANG1).syn.rlx \
            $(LANG1).prob            \
 	   $(BASENAME).$(LANG1).tsx \
@@ -99,6 +104,7 @@ install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_nno_srcdir) || mkdir -p $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_nno_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).seg.rlx $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).syn.rlx $(DESTDIR)$(apertium_nno_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).tsx $(DESTDIR)$(apertium_nno_srcdir)
 
