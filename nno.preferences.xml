@@ -18,4 +18,7 @@
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
   </preference>
+  <preference id="er_ar">
+    <description lang="nno">roper → ropar (-er/-te/-t → -ar/-a/-a om mogleg)</description>
+  </preference>
 </preferences>

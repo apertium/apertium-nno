@@ -28,5 +28,8 @@ REMOVE (v:infa_infe) ;
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;
 
+SELECT (v:er_ar) IF (0 (VAR:er_ar)) ;
+REMOVE (v:er_ar) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
