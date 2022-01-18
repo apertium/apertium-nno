@@ -25,4 +25,7 @@
   <preference id="tek_tar">
     <description lang="nno">tek → tar, dreg → drar</description>
   </preference>
+  <preference id="vart_blei">
+    <description lang="nno">vart/vorte → blei/blitt</description>
+  </preference>
 </preferences>
