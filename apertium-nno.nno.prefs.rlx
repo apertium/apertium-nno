@@ -31,5 +31,8 @@ REMOVE (v:me_vi) ;
 SELECT (v:er_ar) IF (0 (VAR:er_ar)) ;
 REMOVE (v:er_ar) ;
 
+SELECT (v:tek_tar) IF (0 (VAR:tek_tar)) ;
+REMOVE (v:tek_tar) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]

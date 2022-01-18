@@ -1,6 +1,6 @@
 <preferences>
   <preference id="ggj_gg">
-    <description lang="nno">byggje → bygge</description>
+    <description lang="nno">byggje → bygge, fremje → fremme</description>
   </preference>
   <preference id="kj_k">
     <description lang="nno">søkje → søke</description>
@@ -20,5 +20,9 @@
   </preference>
   <preference id="er_ar">
     <description lang="nno">roper → ropar (-er/-te/-t → -ar/-a/-a om mogleg)</description>
+    <description lang="nob">roper → ropar (-er/-te/-t → -ar/-a/-a om mulig)</description>
+  </preference>
+  <preference id="tek_tar">
+    <description lang="nno">tek → tar, dreg → drar</description>
   </preference>
 </preferences>
