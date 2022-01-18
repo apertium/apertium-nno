@@ -28,4 +28,7 @@
   <preference id="vart_blei">
     <description lang="nno">vart/vorte → blei/blitt</description>
   </preference>
+  <preference id="vit_vett">
+    <description lang="nno">vit → vett</description>
+  </preference>
 </preferences>
