@@ -40,5 +40,8 @@ REMOVE (v:vart_blei) ;
 SELECT (v:vit_vett) IF (0 (VAR:vit_vett)) ;
 REMOVE (v:vit_vett) ;
 
+SELECT (v:voks_vaks) IF (0 (VAR:voks_vaks)) ;
+REMOVE (v:voks_vaks) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
