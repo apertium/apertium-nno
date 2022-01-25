@@ -19,8 +19,8 @@
     <description lang="nno">me → vi</description>
   </preference>
   <preference id="er_ar">
-    <description lang="nno">roper → ropar (-er/-te/-t → -ar/-a/-a om mogleg)</description>
-    <description lang="nob">roper → ropar (-er/-te/-t → -ar/-a/-a om mulig)</description>
+    <description lang="nno">roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a om mogleg, -ane i subst)</description>
+    <description lang="nob">roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a om mulig, -ane i subst)</description>
   </preference>
   <preference id="tek_tar">
     <description lang="nno">tek → tar, dreg → drar</description>
