@@ -31,4 +31,7 @@
   <preference id="vit_vett">
     <description lang="nno">vit → vett</description>
   </preference>
+  <preference id="mengd_mengde">
+    <description lang="nno">mengd → mengde, breidd → breidde</description>
+  </preference>
 </preferences>
