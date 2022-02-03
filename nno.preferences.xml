@@ -34,4 +34,8 @@
   <preference id="mengd_mengde">
     <description lang="nno">mengd → mengde, breidd → breidde</description>
   </preference>
+  <preference id="blå_blåe">
+    <description lang="nno">blå/grå → blåe/gråe (i fleirtal)</description>
+    <description lang="nob">blå/grå → blåe/gråe (i flertall)</description>
+  </preference>
 </preferences>
