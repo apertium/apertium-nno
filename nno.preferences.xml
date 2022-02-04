@@ -41,4 +41,7 @@
   <preference id="lét_let">
     <description lang="nno">lét/lèt → let/let</description>
   </preference>
+  <preference id="løk_lauk">
+    <description lang="nno">løk → lauk</description>
+  </preference>
 </preferences>
