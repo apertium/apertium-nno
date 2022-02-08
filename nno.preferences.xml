@@ -44,4 +44,10 @@
   <preference id="løk_lauk">
     <description lang="nno">løk → lauk</description>
   </preference>
+  <preference id="nærare_nærmare">
+    <description lang="nno">nærare → nærmare</description>
+  </preference>
+  <preference id="kors_kross">
+    <description lang="nno">kors → kross, korstog → krossferd</description>
+  </preference>
 </preferences>
