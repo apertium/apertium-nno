@@ -55,5 +55,8 @@ REMOVE (v:lét_let) ;
 SELECT (v:løk_lauk) IF (0 (VAR:løk_lauk)) ;
 REMOVE (v:løk_lauk) ;
 
+SELECT (v:kors_kross) IF (0 (VAR:kors_kross)) ;
+REMOVE (v:kors_kross) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
