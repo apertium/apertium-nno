@@ -23,19 +23,11 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 ## Norwegian Nynorsk transducer
 ###############################################################################
 
-.deps/$(BASENAME).$(LANG1)-no-cp.dix: $(BASENAME).$(LANG1).dix rem-compounds.xsl .deps/.d
-	xsltproc rem-compounds.xsl $< > $@
-
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
-	apertium-validate-dictionary $<
-	apertium-validate-acx $(BASENAME).$(LANG1).acx
-	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
-
-$(LANG1).automorf-no-cp.bin: .deps/$(BASENAME).$(LANG1)-no-cp.dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
@@ -48,25 +40,6 @@ $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 
 $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $< $@
-
-###############################################################################
-## Disambiguation rules
-###############################################################################
-
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
-	cg-comp $< $@
-
-$(LANG1).seg.rlx.bin: $(BASENAME).$(LANG1).seg.rlx
-	cg-comp $< $@
-
-$(LANG1).syn.rlx.bin: $(BASENAME).$(LANG1).syn.rlx
-	cg-comp $< $@
-
-$(LANG1).e_vi_prefs.rlx.bin: $(BASENAME).$(LANG1).e_vi_prefs.rlx
-	cg-comp $< $@
-
-$(LANG1).prefs.rlx.bin: $(BASENAME).$(LANG1).prefs.rlx
-	cg-comp $< $@
 
 ###############################################################################
 ## Distribution
@@ -91,9 +64,14 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_nnodir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_nno_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_nno_DATA=$(TARGETS_COMMON) \
-	   $(LANG1).prob            \
-	   $(LANG1).preferences.xml
+apertium_nob_DATA=$(TARGETS_COMMON) $(LANG1).prob \
+				  $(LANG1).preferences.xml \
+				  $(BASENAME).$(LANG1).dix \
+				  $(BASENAME).post-$(LANG1).dix \
+				  $(BASENAME).$(LANG1).rlx \
+				  $(BASENAME).$(LANG1).seg.rlx \
+				  $(BASENAME).$(LANG1).syn.rlx \
+				  $(BASENAME).$(LANG1).tsx
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -101,13 +79,7 @@ pkgconfig_DATA = $(BASENAME).pc
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_nno_srcdir) || mkdir -p $(DESTDIR)$(apertium_nno_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_nno_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_nno_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).seg.rlx $(DESTDIR)$(apertium_nno_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).syn.rlx $(DESTDIR)$(apertium_nno_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).tsx $(DESTDIR)$(apertium_nno_srcdir)
-
+uninstall-local: uninstall-modes
 
 ###############################################################################
 ## Cleanup
