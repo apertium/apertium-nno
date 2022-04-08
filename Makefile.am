@@ -64,7 +64,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_nnodir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_nno_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_nob_DATA=$(TARGETS_COMMON) $(LANG1).prob \
+apertium_nno_DATA=$(TARGETS_COMMON) $(LANG1).prob \
 				  $(LANG1).preferences.xml \
 				  $(BASENAME).$(LANG1).dix \
 				  $(BASENAME).post-$(LANG1).dix \
