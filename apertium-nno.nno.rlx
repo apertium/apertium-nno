@@ -829,6 +829,7 @@ REMOVE:unlikely ("velte") IF (0 ("velje"));
 REMOVE:unlikely ("auk");
 REMOVE:unlikely ("íð") ;
 REMOVE:unlikely ("tilsjå");
+REMOVE:unlikely ("eie") + vblex;
 
 
 #Predikativ eller perfpart i nynorsk:
