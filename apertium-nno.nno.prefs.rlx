@@ -10,6 +10,17 @@
 
 DELIMITERS = ".";
 
+# Handle kløyvd infinitiv here since it's a specific set of words that partially override infa_infe:
+LIST kløyvd_a = "age" "ake" "ale" "ane" "ape" "ase" "bake" "bale" "bane" "base" "bede" "belje" "bere" "betale" "beve" "bevare" "blade" "blike" "bode" "bore" "bose" "brage" "brake" "brase" "byrje" "dage" "dale" "dane" "delje" "dette" "drage" "drepe" "drynje" "drysje" "dune" "dvelje" "dynje" "dølje" "ete" "eve" "fare" "fate" "ferje" "flage" "flare" "flasse" "flase" "flate" "flòte" "flysje" "flytte" "fole" "frede" "frege" "fremje" "frode" "gage" "gale" "gane" "gape" "gilje" "gjere" "gjete" "gidde" "gjeve" "glade" "glane" "glede" "glume" "gnage" "gnike" "gove" "grave" "gremje" "grope" "grune" "grysje" "gule" "gysje" "hage" "hake" "hame" "hate" "have" "hele" "hemje" "herje" "hesje" "hete" "hevje" "hjale" "hòle" "homme" "home" "hòpe" "hylje" "hysje" "hølje" "jage" "kake" "kare" "kave" "kjase" "kjee" "klage" "klake" "klede" "kløvje" "knake" "knase" "knise" "knode" "kole" "komme" "kome" "krake" "krase" "krave" "kreke" "krevje" "krite" "krote" "kunne" "kvede" "kvetje" "kvike" "kvime" "lade" "lage" "lape" "late" "lave" "lede" "lee" "leke" "lemme" "leme" "lemje" "lepje" "lese" "léte" "lete" "love" "lute" "make" "male" "mane" "mase" "mate" "mede" "moke" "mole" "mone" "møkje" "nase" "nave" "neve" "olboge" "pare" "pele" "pese" "pose" "prate" "rage" "rake" "rane" "rape" "rase" "reke" "remje" "reve" "rode" "rydje" "rysje" "sage" "sake" "same" "sede" "seie" "sele" "selje" "semje" "setja/sette" "sitja/sitte" "skade" "skake" "skale" "skape" "skare" "skave" "skilje" "skipe" "skjage" "sjage" "skjene" "skjere" "skjønne" "skjøne" "skode" "skòle" "skòre" "skote" "skrape" "skrate" "skreve" "skulle" "skule" "skvale" "skylje" "slave" "sleve" "smake" "smale" "smørje" "snake" "snare" "snase" "sove" "spade" "spare" "spekje" "spele" "spore" "sprake" "sprale" "spørje" "spøte" "stage" "stake" "stave" "stede" "stege" "stele" "stote" "streka " "strete" "streve" "stynje" "styrje" "svade" "svage" "svale" "svare" "svemje" "sverje" "svipe" "symje" "take" "tale" "tane" "tape" "tase" "teie" "tele" "telje" "temje" "tenje" "tevje" "timje" "tole" "tore" "tose" "trede" "trege" "trote" "tvike" "tvoge" "tysje" "umake" "une" "uvete" "uvite" "vade" "vake" "vare" "vase" "vege" "velje" "venje" "vere" "verje" "vete" "veve" "vevje" "vilje" "vime" "vite" "vrake" "ylje" "yrje" "ølje" "åtvare" ;
+
+# For v:kløyvd_inf, we only select e-inf if it's *not* part of the kløyvd_a set:
+SELECT (v:infa_infe) IF (0 (VAR:kløyvd_inf)) (NEGATE 0 kløyvd_a) ;
+
+SELECT (v:infa_infe) IF (0 (VAR:infa_infe)) ;
+REMOVE (v:infa_infe) ;
+
+# The rest are quite straightforward:
+
 SELECT (v:ggj_gg)      IF (0 (VAR:ggj_gg)) ;
 REMOVE (v:ggj_gg) ;
 
@@ -21,9 +32,6 @@ REMOVE (v:de_dokker) ;
 
 SELECT (v:medan_mens)  IF (0 (VAR:medan_mens)) ;
 REMOVE (v:medan_mens) ;
-
-SELECT (v:infa_infe) IF (0 (VAR:infa_infe)) ;
-REMOVE (v:infa_infe) ;
 
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;

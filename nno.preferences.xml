@@ -12,8 +12,14 @@
     <description lang="nno">medan → mens</description>
   </preference>
   <preference id="infa_infe">
+    <!-- inkompatibel med kløyvd_inf_infe -->
     <description lang="nno">a-infinitiv → e-infinitiv</description>
     <description lang="nob">infinitiv med a → infinitiv med e</description>
+  </preference>
+  <preference id="kløyvd_inf">
+    <!-- inkompatibel med infa_infe -->
+    <description lang="nno">kløyvd infinitiv</description>
+    <description lang="nob">kløyvd infinitiv</description>
   </preference>
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
