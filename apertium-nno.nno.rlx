@@ -831,6 +831,9 @@ REMOVE:unlikely ("íð") ;
 REMOVE:unlikely ("tilsjå");
 REMOVE:unlikely ("eie") + vblex;
 
+REMOVE:unlikely ("åre") IF (0 ("år"));
+REMOVE:unlikely ("live") IF (0 ("liv"));
+
 
 #Predikativ eller perfpart i nynorsk:
 # Etter ha/hadde/få: perfektum partisipp
@@ -846,7 +849,7 @@ REMOVE:unlikely ("teppe" f);
 CONSTRAINTS
 ## select domain
 #:5018
-"<*i>" SELECT:5018 (pr) IF
+"<i>" SELECT:5018 (pr) IF
 	(-1 >>>)
 ;
 
