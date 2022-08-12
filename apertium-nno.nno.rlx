@@ -5778,6 +5778,7 @@ REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» 
 	 (0 prep/adv)
 ;
 
+"<Nedre>" REMOVE vblex;
 
 #:6058
  "<nei>"   REMOVE:6058   (n nt appell pl def)
