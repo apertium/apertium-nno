@@ -844,6 +844,7 @@ REMOVE:unlikely ("live") IF (0 ("liv"));
 REMOVE:unlikely ("allé" "<alle>"ri);
 REMOVE:unlikely ("orde" "<orda>"ri);
 REMOVE:unlikely ("teppe" f);
+REMOVE:unlikely ("dikt") + adv;
 
 # sec 1
 CONSTRAINTS
@@ -1732,6 +1733,7 @@ CONSTRAINTS
 	(*-1 setn-gr BARRIER fv)
 	(*1 setn-gr BARRIER fv)
 ;
+
 
 
 #:4815
@@ -5022,6 +5024,12 @@ REMOVE:mwe-verb-unlikely-adj ("<.* .*>"r adj pp); # e.g. «førte_til brannar» 
 	(NOT 1 adj-pos)
 ;
 
+
+"<for>" REMOVE:unlikely n IF
+        # corpus bigrams for «fôr»:
+	(NEGATE -1 ("og") OR ("til") OR ("som") OR ("nok"))
+	(NEGATE 1 ("for") OR ("til") OR ("i") OR ("fordi"))
+;
 
 #:4825
  "<for>"   REMOVE:4825   (vblex) IF
