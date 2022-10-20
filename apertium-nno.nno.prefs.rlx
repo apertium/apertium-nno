@@ -69,5 +69,8 @@ REMOVE (v:kors_kross) ;
 SELECT (v:nærare_nærmare) IF (0 (VAR:nærare_nærmare)) ;
 REMOVE (v:nærare_nærmare) ;
 
+SELECT (v:skule_skole) IF (0 (VAR:skule_skole)) ;
+REMOVE (v:skule_skole) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]

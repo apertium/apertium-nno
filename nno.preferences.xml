@@ -56,4 +56,7 @@
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
   </preference>
+  <preference id="skule_skole">
+    <description lang="nno">skule → skole</description>
+  </preference>
 </preferences>
