@@ -41,7 +41,7 @@
     <description lang="nno">mengd → mengde, breidd → breidde</description>
   </preference>
   <preference id="blå_blåe">
-    <description lang="nno">blå/grå → blåe/gråe (i fleirtal)</description>
+    <description lang="nno">system: blå/grå/… → blåe/gråe/… (i fleirtal)</description>
     <description lang="nob">blå/grå → blåe/gråe (i flertall)</description>
   </preference>
   <preference id="lét_let">
@@ -61,5 +61,8 @@
   </preference>
   <preference id="då_da">
     <description lang="nno">då → da</description>
+  </preference>
+  <preference id="komme_kome">
+    <description lang="nno">komme → kome</description>
   </preference>
 </preferences>

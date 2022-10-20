@@ -75,5 +75,8 @@ REMOVE (v:skule_skole) ;
 SELECT (v:då_da) IF (0 (VAR:då_da)) ;
 REMOVE (v:då_da) ;
 
+SELECT (v:komme_kome) IF (0 (VAR:komme_kome)) ;
+REMOVE (v:komme_kome) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
