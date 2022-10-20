@@ -59,4 +59,7 @@
   <preference id="skule_skole">
     <description lang="nno">skule → skole</description>
   </preference>
+  <preference id="då_da">
+    <description lang="nno">då → da</description>
+  </preference>
 </preferences>
