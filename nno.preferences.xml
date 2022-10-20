@@ -59,4 +59,7 @@
   <preference id="skule_skole">
     <description lang="nno">skule → skole</description>
   </preference>
+  <preference id="komme_kome">
+    <description lang="nno">komme → kome</description>
+  </preference>
 </preferences>
