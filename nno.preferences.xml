@@ -62,6 +62,9 @@
   <preference id="då_da">
     <description lang="nno">då → da</description>
   </preference>
+  <preference id="no_nå">
+    <description lang="nno">no → nå</description>
+  </preference>
   <preference id="komme_kome">
     <description lang="nno">komme → kome</description>
   </preference>
