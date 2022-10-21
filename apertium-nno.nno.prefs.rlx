@@ -84,5 +84,8 @@ REMOVE (v:så_so) ;
 SELECT (v:komme_kome) IF (0 (VAR:komme_kome)) ;
 REMOVE (v:komme_kome) ;
 
+SELECT (v:dess-der_di) IF (0 (VAR:dess-der_di)) ;
+REMOVE (v:dess-der_di) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
