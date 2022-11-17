@@ -74,4 +74,10 @@
   <preference id="dess-der_di">
     <description lang="nno">dermed → dimed</description>
   </preference>
+  <preference id="fly_flyge">
+    <description lang="nno">fly → flyge (infinitiv)</description>
+  </preference>
+  <preference id="flyr_flyg">
+    <description lang="nno">flyr → flyg (presens)</description>
+  </preference>
 </preferences>

@@ -87,5 +87,11 @@ REMOVE (v:komme_kome) ;
 SELECT (v:dess-der_di) IF (0 (VAR:dess-der_di)) ;
 REMOVE (v:dess-der_di) ;
 
+SELECT (v:fly_flyge) IF (0 (VAR:fly_flyge)) ;
+REMOVE (v:fly_flyge) ;
+
+SELECT (v:flyr_flyg) IF (0 (VAR:flyr_flyg)) ;
+REMOVE (v:flyr_flyg) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
