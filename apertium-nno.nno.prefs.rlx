@@ -93,5 +93,8 @@ REMOVE (v:fly_flyge) ;
 SELECT (v:flyr_flyg) IF (0 (VAR:flyr_flyg)) ;
 REMOVE (v:flyr_flyg) ;
 
+SELECT (v:jern_jarn.vok-a2e) IF (0 (VAR:jern_jarn.vok-a2e)) ;
+REMOVE (v:jern_jarn.vok-a2e) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]

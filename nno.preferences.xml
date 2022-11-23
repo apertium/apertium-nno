@@ -80,4 +80,7 @@
   <preference id="flyr_flyg">
     <description lang="nno">flyr → flyg (presens)</description>
   </preference>
+  <preference id="jern_jarn.vok-a2e">
+    <description lang="nno">jern → jarn</description>
+  </preference>
 </preferences>
