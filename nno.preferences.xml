@@ -83,4 +83,13 @@
   <preference id="jern_jarn.vok-a2e">
     <description lang="nno">jern → jarn</description>
   </preference>
+  <preference id="voks_vaks.vok-o2a">
+    <description lang="nno">vekse: voks → vaks</description>
+  </preference>
+  <preference id="barna_borna.vok-o2a">
+    <description lang="nno">barn (pl): barn – barna → born – borna</description>
+  </preference>
+  <preference id="maske_moske.vok-o2a">
+    <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
+  </preference>
 </preferences>

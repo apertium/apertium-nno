@@ -48,8 +48,14 @@ REMOVE (v:vart_blei) ;
 SELECT (v:vit_vett) IF (0 (VAR:vit_vett)) ;
 REMOVE (v:vit_vett) ;
 
-SELECT (v:voks_vaks) IF (0 (VAR:voks_vaks)) ;
-REMOVE (v:voks_vaks) ;
+SELECT (v:voks_vaks.vok-o2a) IF (0 (VAR:voks_vaks.vok-o2a)) ;
+REMOVE (v:voks_vaks.vok-o2a) ;
+
+SELECT (v:barna_borna.vok-o2a) IF (0 (VAR:barna_borna.vok-o2a)) ;
+REMOVE (v:barna_borna.vok-o2a) ;
+
+SELECT (v:maske_moske.vok-o2a) IF (0 (VAR:maske_moske.vok-o2a)) ;
+REMOVE (v:maske_moske.vok-o2a) ;
 
 SELECT (v:mengd_mengde) IF (0 (VAR:mengd_mengde)) ;
 REMOVE (v:mengd_mengde) ;
