@@ -59,8 +59,14 @@
   <preference id="skule_skole">
     <description lang="nno">skule → skole</description>
   </preference>
-  <preference id="då_da">
+  <preference id="då_da.vok-a2å">
     <description lang="nno">då → da</description>
+  </preference>
+  <preference id="åleine_aleine.vok-a2å">
+    <description lang="nno">åleine → aleine</description>
+  </preference>
+  <preference id="allmenn_ålmenn.vok-a2å">
+    <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv</description>
   </preference>
   <preference id="no_nå">
     <description lang="nno">no → nå</description>
