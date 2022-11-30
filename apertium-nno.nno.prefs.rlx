@@ -96,6 +96,9 @@ REMOVE (v:så_so) ;
 SELECT (v:komme_kome) IF (0 (VAR:komme_kome)) ;
 REMOVE (v:komme_kome) ;
 
+SELECT (v:eigentleg_eigenleg) IF (0 (VAR:eigentleg_eigenleg)) ;
+REMOVE (v:eigentleg_eigenleg) ;
+
 SELECT (v:dess-der_di) IF (0 (VAR:dess-der_di)) ;
 REMOVE (v:dess-der_di) ;
 

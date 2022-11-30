@@ -77,6 +77,9 @@
   <preference id="komme_kome">
     <description lang="nno">komme → kome</description>
   </preference>
+  <preference id="eigentleg_eigenleg">
+    <description lang="nno">eigentleg → eigenleg</description>
+  </preference>
   <preference id="dess-der_di">
     <description lang="nno">dermed → dimed</description>
   </preference>
