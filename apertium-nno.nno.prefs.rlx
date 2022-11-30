@@ -108,6 +108,9 @@ REMOVE (v:flyr_flyg) ;
 SELECT (v:jern_jarn.vok-a2e) IF (0 (VAR:jern_jarn.vok-a2e)) ;
 REMOVE (v:jern_jarn.vok-a2e) ;
 
+SELECT (v:kvalp_kvelp.vok-a2e) IF (0 (VAR:kvalp_kvelp.vok-a2e)) ;
+REMOVE (v:kvalp_kvelp.vok-a2e) ;
+
 SELECT (v:drikk_drykk.vok-i2y) IF (0 (VAR:drikk_drykk.vok-i2y)) ;
 REMOVE (v:drikk_drykk.vok-i2y) ;
 
