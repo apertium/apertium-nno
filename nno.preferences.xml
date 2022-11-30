@@ -89,6 +89,9 @@
   <preference id="jern_jarn.vok-a2e">
     <description lang="nno">jern → jarn</description>
   </preference>
+  <preference id="drikk_drykk.vok-a2e">
+    <description lang="nno">drikk → drykk</description>
+  </preference>
   <preference id="voks_vaks.vok-o2a">
     <description lang="nno">vekse: voks → vaks</description>
   </preference>
