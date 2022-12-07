@@ -87,11 +87,11 @@ REMOVE (v:åleine_aleine.vok-a2å) ;
 SELECT (v:allmenn_ålmenn.vok-a2å) IF (0 (VAR:allmenn_ålmenn.vok-a2å)) ;
 REMOVE (v:allmenn_ålmenn.vok-a2å) ;
 
-SELECT (v:no_nå) IF (0 (VAR:no_nå)) ;
-REMOVE (v:no_nå) ;
+SELECT (v:no_nå.vok-o2å) IF (0 (VAR:no_nå.vok-o2å)) ;
+REMOVE (v:no_nå.vok-o2å) ;
 
-SELECT (v:så_so) IF (0 (VAR:så_so)) ;
-REMOVE (v:så_so) ;
+SELECT (v:så_so.vok-o2å) IF (0 (VAR:så_so.vok-o2å)) ;
+REMOVE (v:så_so.vok-o2å) ;
 
 SELECT (v:komme_kome) IF (0 (VAR:komme_kome)) ;
 REMOVE (v:komme_kome) ;

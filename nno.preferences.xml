@@ -68,10 +68,10 @@
   <preference id="allmenn_ålmenn.vok-a2å">
     <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv</description>
   </preference>
-  <preference id="no_nå">
+  <preference id="no_nå.vok-o2å">
     <description lang="nno">no → nå</description>
   </preference>
-  <preference id="så_so">
+  <preference id="så_so.vok-o2å">
     <description lang="nno">så → so</description>
   </preference>
   <preference id="komme_kome">
