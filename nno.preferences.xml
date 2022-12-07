@@ -28,11 +28,20 @@
     <description lang="nno">roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a om mogleg, -ane i subst)</description>
     <description lang="nob">roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a om mulig, -ane i subst)</description>
   </preference>
+  <preference id="stader_stadar.subst-ene2ane">
+    <description lang="nno">stader → stadar, stadene → stadane (systemrett fleirtalsform i hankjønnsord på -er/-ene)</description>
+  </preference>
   <preference id="tek_tar">
     <description lang="nno">tek → tar, dreg → drar</description>
   </preference>
-  <preference id="vart_blei">
-    <description lang="nno">vart/vorte → blei/blitt</description>
+  <preference id="vart-vorte_blei-blitt.verb-bli2verte">
+    <description lang="nno">bli–blir–vart–vorte → bli–blir–blei–blitt</description>
+  </preference>
+  <preference id="vart-vorte_vart-blitt.verb-bli2verte">
+    <description lang="nno">bli–blir–vart–vorte → bli–blir–vart–blitt</description>
+  </preference>
+  <preference id="bli_verte.verb-bli2verte">
+    <description lang="nno">bli–blir–vart–vorte → verte–vert–vart–vorte</description>
   </preference>
   <preference id="vit_vett">
     <description lang="nno">vit → vett</description>

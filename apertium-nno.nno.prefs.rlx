@@ -39,11 +39,20 @@ REMOVE (v:me_vi) ;
 SELECT (v:er_ar) IF (0 (VAR:er_ar)) ;
 REMOVE (v:er_ar) ;
 
+SELECT (v:stader_stadar.subst-ene2ane) IF (0 (VAR:stader_stadar.subst-ene2ane)) ;
+REMOVE (v:stader_stadar.subst-ene2ane) ;
+
 SELECT (v:tek_tar) IF (0 (VAR:tek_tar)) ;
 REMOVE (v:tek_tar) ;
 
-SELECT (v:vart_blei) IF (0 (VAR:vart_blei)) ;
-REMOVE (v:vart_blei) ;
+SELECT (v:vart-vorte_blei-blitt.verb-bli2verte) IF (0 (VAR:vart-vorte_blei-blitt.verb-bli2verte)) ;
+REMOVE (v:vart-vorte_blei-blitt.verb-bli2verte) ;
+
+SELECT (v:vart-vorte_vart-blitt.verb-bli2verte) IF (0 (VAR:vart-vorte_vart-blitt.verb-bli2verte)) ;
+REMOVE (v:vart-vorte_vart-blitt.verb-bli2verte) ;
+
+SELECT (v:bli_verte.verb-bli2verte) IF (0 (VAR:bli_verte.verb-bli2verte)) ;
+REMOVE (v:bli_verte.verb-bli2verte) ;
 
 SELECT (v:vit_vett) IF (0 (VAR:vit_vett)) ;
 REMOVE (v:vit_vett) ;
