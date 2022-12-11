@@ -122,6 +122,9 @@
   <preference id="drikk_drykk.vok-i2y">
     <description lang="nno">drikk → drykk</description>
   </preference>
+  <preference id="ekorn_ikorn.vok-a2i">
+    <description lang="nno">ekorn → ikorn</description>
+  </preference>
   <preference id="voks_vaks.vok-o2a">
     <description lang="nno">vekse: voks → vaks</description>
   </preference>
