@@ -110,6 +110,9 @@
   <preference id="anten_enten.vok-a2e">
     <description lang="nno">anten → enten</description>
   </preference>
+  <preference id="aftan_eftan.vok-a2e">
+    <description lang="nno">aftan → eftan</description>
+  </preference>
   <preference id="alter_altar.vok-a2e">
     <description lang="nno">alter → altar</description>
   </preference>
