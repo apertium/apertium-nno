@@ -116,6 +116,9 @@
   <preference id="alter_altar.vok-a2e">
     <description lang="nno">alter → altar</description>
   </preference>
+  <preference id="spenn_span.vok-a2e">
+    <description lang="nno">spenn → span</description>
+  </preference>
   <preference id="drikk_drykk.vok-i2y">
     <description lang="nno">drikk → drykk</description>
   </preference>
