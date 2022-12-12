@@ -131,6 +131,9 @@
   <preference id="segle_sigle.vok-a2i">
     <description lang="nno">segle → sigle</description>
   </preference>
+  <preference id="lyd_ljod.vok-y2jo">
+    <description lang="nno">lyd → ljod</description>
+  </preference>
   <preference id="voks_vaks.vok-o2a">
     <description lang="nno">vekse: voks → vaks</description>
   </preference>
