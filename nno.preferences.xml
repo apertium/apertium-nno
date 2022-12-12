@@ -71,6 +71,9 @@
   <preference id="jul_jol.vok-u2o">
     <description lang="nno">jul → jol</description>
   </preference>
+  <preference id="stove_stue.vok-u2o">
+    <description lang="nno">stove → stue</description>
+  </preference>
   <preference id="då_da.vok-a2å">
     <description lang="nno">då → da</description>
   </preference>
