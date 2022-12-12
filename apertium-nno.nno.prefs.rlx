@@ -87,6 +87,9 @@ REMOVE (v:nærare_nærmare) ;
 SELECT (v:skule_skole) IF (0 (VAR:skule_skole)) ;
 REMOVE (v:skule_skole) ;
 
+SELECT (v:jul_jol.vok-u2o) IF (0 (VAR:jul_jol.vok-u2o)) ;
+REMOVE (v:jul_jol.vok-u2o) ;
+
 SELECT (v:då_da.vok-a2å) IF (0 (VAR:då_da.vok-a2å)) ;
 REMOVE (v:då_da.vok-a2å) ;
 
