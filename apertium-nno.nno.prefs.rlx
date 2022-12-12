@@ -108,6 +108,9 @@ REMOVE (v:først_fyrst.vok-ø2y) ;
 SELECT (v:søndag_sundag.vok-ø2u) IF (0 (VAR:søndag_sundag.vok-ø2u)) ;
 REMOVE (v:søndag_sundag.vok-ø2u) ;
 
+SELECT (v:lykke_lukke.vok-y2u) IF (0 (VAR:lykke_lukke.vok-y2u)) ;
+REMOVE (v:lykke_lukke.vok-y2u) ;
+
 SELECT (v:komme_kome) IF (0 (VAR:komme_kome)) ;
 REMOVE (v:komme_kome) ;
 

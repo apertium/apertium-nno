@@ -89,6 +89,9 @@
   <preference id="søndag_sundag.vok-ø2u">
     <description lang="nno">søndag → sundag</description>
   </preference>
+  <preference id="lykke_lukke.vok-y2u">
+    <description lang="nno">lykke → lukke, skyve → skuve, dykke → dukke</description>
+  </preference>
   <preference id="komme_kome">
     <description lang="nno">komme → kome</description>
   </preference>
