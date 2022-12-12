@@ -74,6 +74,9 @@
   <preference id="stove_stue.vok-u2o">
     <description lang="nno">stove → stue</description>
   </preference>
+  <preference id="høvding_hovding.vok-ø2o">
+    <description lang="nno">høvding → hovding</description>
+  </preference>
   <preference id="då_da.vok-a2å">
     <description lang="nno">då → da</description>
   </preference>
