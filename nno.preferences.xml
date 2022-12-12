@@ -86,6 +86,9 @@
   <preference id="først_fyrst.vok-ø2y">
     <description lang="nno">først → fyrst, ønske → ynske, søster → syster o.fl.</description>
   </preference>
+  <preference id="søndag_sundag.vok-ø2u">
+    <description lang="nno">søndag → sundag</description>
+  </preference>
   <preference id="komme_kome">
     <description lang="nno">komme → kome</description>
   </preference>
