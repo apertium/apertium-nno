@@ -156,5 +156,8 @@ REMOVE (v:segle_sigle.vok-e2i) ;
 SELECT (v:lyd_ljod.vok-y2jo) IF (0 (VAR:lyd_ljod.vok-y2jo)) ;
 REMOVE (v:lyd_ljod.vok-y2jo) ;
 
+SELECT (v:lys_ljos.vok-y2jo) IF (0 (VAR:lys_ljos.vok-y2jo)) ;
+REMOVE (v:lys_ljos.vok-y2jo) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
