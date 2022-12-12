@@ -96,6 +96,9 @@ REMOVE (v:stove_stue.vok-u2o) ;
 SELECT (v:høvding_hovding.vok-ø2o) IF (0 (VAR:høvding_hovding.vok-ø2o)) ;
 REMOVE (v:høvding_hovding.vok-ø2o) ;
 
+SELECT (v:høved_hovud.vok-ø2o) IF (0 (VAR:høved_hovud.vok-ø2o)) ;
+REMOVE (v:høved_hovud.vok-ø2o) ;
+
 SELECT (v:då_da.vok-a2å) IF (0 (VAR:då_da.vok-a2å)) ;
 REMOVE (v:då_da.vok-a2å) ;
 
