@@ -102,7 +102,10 @@
     <description lang="nno">søndag → sundag</description>
   </preference>
   <preference id="lykke_lukke.vok-y2u">
-    <description lang="nno">lykke → lukke, skyve → skuve, dykke → dukke</description>
+    <description lang="nno">lykke → lukke, skyve → skuve, krybbe → krubbe</description>
+  </preference>
+  <preference id="fjøre_fjære.vok-ø2æ">
+    <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære</description>
   </preference>
   <preference id="komme_kome">
     <description lang="nno">komme → kome</description>
