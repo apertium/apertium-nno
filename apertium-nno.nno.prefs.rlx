@@ -174,5 +174,8 @@ REMOVE (v:lyd_ljod.vok-y2jo) ;
 SELECT (v:lys_ljos.vok-y2jo) IF (0 (VAR:lys_ljos.vok-y2jo)) ;
 REMOVE (v:lys_ljos.vok-y2jo) ;
 
+SELECT (v:nød_naud.dift-ø2au) IF (0 (VAR:nød_naud.dift-ø2au)) ;
+REMOVE (v:nød_naud.dift-ø2au) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
