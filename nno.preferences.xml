@@ -167,4 +167,7 @@
   <preference id="dødeleg_døyeleg.dift-ø2øy">
     <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr o.fl.</description>
   </preference>
+  <preference id="pek_peik.dift-e2ei">
+    <description lang="nno">pek → peik (s), lest → leist (sokk, strømpe)</description>
+  </preference>
 </preferences>

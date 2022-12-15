@@ -177,5 +177,8 @@ REMOVE (v:nød_naud.dift-ø2au) ;
 SELECT (v:dødeleg_døyeleg.dift-ø2øy) IF (0 (VAR:dødeleg_døyeleg.dift-ø2øy)) ;
 REMOVE (v:dødeleg_døyeleg.dift-ø2øy) ;
 
+SELECT (v:pek_peik.dift-e2ei) IF (0 (VAR:pek_peik.dift-e2ei)) ;
+REMOVE (v:pek_peik.dift-e2ei) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
