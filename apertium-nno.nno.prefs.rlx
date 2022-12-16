@@ -27,6 +27,9 @@ REMOVE (v:ggj_gg) ;
 SELECT (v:kj_k)        IF (0 (VAR:kj_k)) ;
 REMOVE (v:kj_k) ;
 
+SELECT (v:tenkje-leggje.kons-kj2k_gj2g)        IF (0 (VAR:tenkje-leggje.kons-kj2k_gj2g)) ;
+REMOVE (v:tenkje-leggje.kons-kj2k_gj2g) ;
+
 SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
 REMOVE (v:de_dokker) ;
 
