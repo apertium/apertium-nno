@@ -170,4 +170,7 @@
   <preference id="pek_peik.dift-e2ei">
     <description lang="nno">pek → peik (s), lest → leist (sokk, strømpe)</description>
   </preference>
+  <preference id="setje_sette.kons-tj2tt">
+    <description lang="nno">setje → sette, sitje → sitte</description>
+  </preference>
 </preferences>
