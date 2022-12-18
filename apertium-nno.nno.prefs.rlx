@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
+# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "cg-proc"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
 # GPL-2+
 #
 # Generator dictionary preference rules.
@@ -7,10 +7,19 @@
 # scheme "VAR:default_override", where "override" is chosen if set,
 # otherwise "default" is chosen. For any "default", there may be
 # multiple possible "override"''s.
+#
+# Lemma-specific and exceptional rules are in the beginning of this
+# file, simple rules towards the end.
 
 DELIMITERS = ".";
 
-# Handle kløyvd infinitiv here since it's a specific set of words that partially override infa_infe:
+########################
+# Unusual rules first: #
+########################
+
+# Kløyvd Infinitiv
+#
+# Handled in prefs.rlx instead of .dix since it's a specific set of words that partially override infa_infe:
 LIST kløyvd_a = "age" "ake" "ale" "ane" "ape" "ase" "bake" "bale" "bane" "base" "bede" "belje" "bere" "betale" "beve" "bevare" "blade" "blike" "bode" "bore" "bose" "brage" "brake" "brase" "byrje" "dage" "dale" "dane" "delje" "dette" "drage" "drepe" "drynje" "drysje" "dune" "dvelje" "dynje" "dølje" "ete" "eve" "fare" "fate" "ferje" "flage" "flare" "flasse" "flase" "flate" "flòte" "flysje" "flytte" "fole" "frede" "frege" "fremje" "frode" "gage" "gale" "gane" "gape" "gilje" "gjere" "gjete" "gidde" "gjeve" "glade" "glane" "glede" "glume" "gnage" "gnike" "gove" "grave" "gremje" "grope" "grune" "grysje" "gule" "gysje" "hage" "hake" "hame" "hate" "have" "hele" "hemje" "herje" "hesje" "hete" "hevje" "hjale" "hòle" "homme" "home" "hòpe" "hylje" "hysje" "hølje" "jage" "kake" "kare" "kave" "kjase" "kjee" "klage" "klake" "klede" "kløvje" "knake" "knase" "knise" "knode" "kole" "komme" "kome" "krake" "krase" "krave" "kreke" "krevje" "krite" "krote" "kunne" "kvede" "kvetje" "kvike" "kvime" "lade" "lage" "lape" "late" "lave" "lede" "lee" "leke" "lemme" "leme" "lemje" "lepje" "lese" "léte" "lete" "love" "lute" "make" "male" "mane" "mase" "mate" "mede" "moke" "mole" "mone" "møkje" "nase" "nave" "neve" "olboge" "pare" "pele" "pese" "pose" "prate" "rage" "rake" "rane" "rape" "rase" "reke" "remje" "reve" "rode" "rydje" "rysje" "sage" "sake" "same" "sede" "seie" "sele" "selje" "semje" "setja/sette" "sitja/sitte" "skade" "skake" "skale" "skape" "skare" "skave" "skilje" "skipe" "skjage" "sjage" "skjene" "skjere" "skjønne" "skjøne" "skode" "skòle" "skòre" "skote" "skrape" "skrate" "skreve" "skulle" "skule" "skvale" "skylje" "slave" "sleve" "smake" "smale" "smørje" "snake" "snare" "snase" "sove" "spade" "spare" "spekje" "spele" "spore" "sprake" "sprale" "spørje" "spøte" "stage" "stake" "stave" "stede" "stege" "stele" "stote" "streka " "strete" "streve" "stynje" "styrje" "svade" "svage" "svale" "svare" "svemje" "sverje" "svipe" "symje" "take" "tale" "tane" "tape" "tase" "teie" "tele" "telje" "temje" "tenje" "tevje" "timje" "tole" "tore" "tose" "trede" "trege" "trote" "tvike" "tvoge" "tysje" "umake" "une" "uvete" "uvite" "vade" "vake" "vare" "vase" "vege" "velje" "venje" "vere" "verje" "vete" "veve" "vevje" "vilje" "vime" "vite" "vrake" "ylje" "yrje" "ølje" "åtvare" ;
 
 # For v:kløyvd_inf, we only select e-inf if it's *not* part of the kløyvd_a set:
@@ -18,6 +27,30 @@ SELECT (v:infa_infe) IF (0 (VAR:kløyvd_inf)) (NEGATE 0 kløyvd_a) ;
 
 SELECT (v:infa_infe) IF (0 (VAR:infa_infe)) ;
 REMOVE (v:infa_infe) ;
+
+
+# Open Lemma Slots
+#
+# Preferences with open slots for lemmas start with an underscore.
+#
+# If you set AP_SETVAR="er_ar" you should get -er→-ar for all the
+# forms that have that tag, but if you instead
+# AP_SETVAR="er_ar=grue:male", then you only get er_ar for
+# those specific lemmas.
+#
+# NB. Rules match lemmas on "<wordforms>" – since this is input to
+# generator, wordforms/lemmas are backwards.
+#
+# Dirty one-liner to find all lemmas that can use a certain var-tag:
+# $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:_er_ar/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':_er_ar' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
+#
+# The #.* entry is to allow multiwords, e.g. AP_SETVAR="lene_er_ar"
+# should also affect "lene seg".
+
+SELECT:lm_filter (v:er_ar "<(.+)>"r)    IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
+SELECT:mw_filter (v:er_ar "<(.+)#.*>"r) IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
+SELECT:no_filter (v:er_ar)              IF (0      (VAR:er_ar=*)) ;
+REMOVE:unset     (v:er_ar) ;
 
 # The rest are quite straightforward:
 
@@ -47,9 +80,6 @@ REMOVE (v:medan_mens) ;
 
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;
-
-SELECT (v:er_ar) IF (0 (VAR:er_ar)) ;
-REMOVE (v:er_ar) ;
 
 SELECT (v:stader_stadar.subst-ene2ane) IF (0 (VAR:stader_stadar.subst-ene2ane)) ;
 REMOVE (v:stader_stadar.subst-ene2ane) ;
@@ -254,3 +284,6 @@ REMOVE (v:forvaltning_forvalting.afx-ning2ing) ;
 
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
+
+# For cg-format output, asf input:
+# (setq cg-pre-pipe "cat" cg-command "cg-proc" cg-extra-args "-t -z " cg-post-pipe "cg-conv --out-cg --in-apertium")
