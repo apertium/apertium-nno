@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno_e_vi.autogen.bin"; cg-command: "~/src/ap/vislcg3/src/cg-proc"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
+# -*- cg-pre-pipe: "lt-proc -N1 nno.automorf.bin|sed 's,\\^[^/]*/,^,g' | lt-proc -b nno.autogen.bin"; cg-extra-args: "-t -g -n -z apertium-nno.nno.prefs.rlx # " -*-
 # GPL-2+
 #
 # Generator dictionary preference rules.
@@ -7,10 +7,19 @@
 # scheme "VAR:default_override", where "override" is chosen if set,
 # otherwise "default" is chosen. For any "default", there may be
 # multiple possible "override"''s.
+#
+# Lemma-specific and exceptional rules are in the beginning of this
+# file, simple rules towards the end.
 
 DELIMITERS = ".";
 
-# Handle kløyvd infinitiv here since it's a specific set of words that partially override infa_infe:
+########################
+# Unusual rules first: #
+########################
+
+# Kløyvd Infinitiv
+#
+# Handled in prefs.rlx instead of .dix since it's a specific set of words that partially override infa_infe:
 LIST kløyvd_a = "age" "ake" "ale" "ane" "ape" "ase" "bake" "bale" "bane" "base" "bede" "belje" "bere" "betale" "beve" "bevare" "blade" "blike" "bode" "bore" "bose" "brage" "brake" "brase" "byrje" "dage" "dale" "dane" "delje" "dette" "drage" "drepe" "drynje" "drysje" "dune" "dvelje" "dynje" "dølje" "ete" "eve" "fare" "fate" "ferje" "flage" "flare" "flasse" "flase" "flate" "flòte" "flysje" "flytte" "fole" "frede" "frege" "fremje" "frode" "gage" "gale" "gane" "gape" "gilje" "gjere" "gjete" "gidde" "gjeve" "glade" "glane" "glede" "glume" "gnage" "gnike" "gove" "grave" "gremje" "grope" "grune" "grysje" "gule" "gysje" "hage" "hake" "hame" "hate" "have" "hele" "hemje" "herje" "hesje" "hete" "hevje" "hjale" "hòle" "homme" "home" "hòpe" "hylje" "hysje" "hølje" "jage" "kake" "kare" "kave" "kjase" "kjee" "klage" "klake" "klede" "kløvje" "knake" "knase" "knise" "knode" "kole" "komme" "kome" "krake" "krase" "krave" "kreke" "krevje" "krite" "krote" "kunne" "kvede" "kvetje" "kvike" "kvime" "lade" "lage" "lape" "late" "lave" "lede" "lee" "leke" "lemme" "leme" "lemje" "lepje" "lese" "léte" "lete" "love" "lute" "make" "male" "mane" "mase" "mate" "mede" "moke" "mole" "mone" "møkje" "nase" "nave" "neve" "olboge" "pare" "pele" "pese" "pose" "prate" "rage" "rake" "rane" "rape" "rase" "reke" "remje" "reve" "rode" "rydje" "rysje" "sage" "sake" "same" "sede" "seie" "sele" "selje" "semje" "setja/sette" "sitja/sitte" "skade" "skake" "skale" "skape" "skare" "skave" "skilje" "skipe" "skjage" "sjage" "skjene" "skjere" "skjønne" "skjøne" "skode" "skòle" "skòre" "skote" "skrape" "skrate" "skreve" "skulle" "skule" "skvale" "skylje" "slave" "sleve" "smake" "smale" "smørje" "snake" "snare" "snase" "sove" "spade" "spare" "spekje" "spele" "spore" "sprake" "sprale" "spørje" "spøte" "stage" "stake" "stave" "stede" "stege" "stele" "stote" "streka " "strete" "streve" "stynje" "styrje" "svade" "svage" "svale" "svare" "svemje" "sverje" "svipe" "symje" "take" "tale" "tane" "tape" "tase" "teie" "tele" "telje" "temje" "tenje" "tevje" "timje" "tole" "tore" "tose" "trede" "trege" "trote" "tvike" "tvoge" "tysje" "umake" "une" "uvete" "uvite" "vade" "vake" "vare" "vase" "vege" "velje" "venje" "vere" "verje" "vete" "veve" "vevje" "vilje" "vime" "vite" "vrake" "ylje" "yrje" "ølje" "åtvare" ;
 
 # For v:kløyvd_inf, we only select e-inf if it's *not* part of the kløyvd_a set:
@@ -19,7 +28,292 @@ SELECT (v:infa_infe) IF (0 (VAR:kløyvd_inf)) (NEGATE 0 kløyvd_a) ;
 SELECT (v:infa_infe) IF (0 (VAR:infa_infe)) ;
 REMOVE (v:infa_infe) ;
 
-# The rest are quite straightforward:
+
+# Open Lemma Slots
+#
+# Preferences with open slots for lemmas start with an underscore.
+#
+# If you set AP_SETVAR="_er_ar" you should get -er→-ar for all the
+# forms that have that tag, but if you instead
+# AP_SETVAR="grue_er_ar,male_er_ar", then you only get _er_ar for
+# those specific lemmas.
+#
+# NB. Rules match lemmas on "<wordforms>" – since this is input to
+# generator, wordforms/lemmas are backwards.
+#
+# Ideally we could use a regex to avoid the duplication, but
+# that requires support for varstring regex keys
+# https://github.com/GrammarSoft/cg3/issues/109
+# When ↑ gets solved we can replace the below long list with ↓
+# SELECT:varstring-regex (v:_er_ar) IF (0 (/^VAR:\(.*\)_er_ar$/r)) (0 ("<.*\\b$1\\b.*>"v)) ;
+#
+# Dirty one-liner to find all lemmas that can use a certain var-tag:
+# $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:_er_ar/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':_er_ar' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
+#
+# Some of the below do regex-matching to include multiwords, e.g.
+# AP_SETVAR="lene_er_ar" should also affect "lene seg".
+
+SELECT (v:_er_ar) IF (0 (VAR:ane_er_ar))               (0 ("<ane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:anrope_er_ar))            (0 ("<anrope>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:ape_er_ar))               (0 ("<ape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:atterskape_er_ar))        (0 ("<atterskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:attskape_er_ar))          (0 ("<attskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avbetale_er_ar))          (0 ("<avbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avekse_er_ar))            (0 ("<avekse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avklare_er_ar))           (0 ("<avklare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avkoke_er_ar))            (0 ("<avkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avlure_er_ar))            (0 ("<avlure>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avlute_er_ar))            (0 ("<avlute>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avmerke_er_ar))           (0 ("<avmerke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avmåle_er_ar))            (0 ("<avmåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avsile_er_ar))            (0 ("<avsile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avskape_er_ar))           (0 ("<avskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avsløre_er_ar))           (0 ("<avsløre>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:avtale_er_ar))            (0 ("<avtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bake_er_ar))              (0 ("<bake>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:banne_er_ar))             (0 ("<banne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:beføle_er_ar))            (0 ("<beføle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:berke_er_ar))             (0 ("<berke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bestråle_er_ar))          (0 ("<bestråle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:betale_er_ar))            (0 ("<betale\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:bie_er_ar))               (0 ("<bie>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bile_er_ar))              (0 ("<bile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:blankslipe_er_ar))        (0 ("<blankslipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:blautkoke_er_ar))         (0 ("<blautkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bortforklare_er_ar))      (0 ("<bortforklare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:breke_er_ar))             (0 ("<breke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bruke_er_ar))             (0 ("<bruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bruse_er_ar))             (0 ("<bruse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:bræke_er_ar))             (0 ("<bræke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:brøle_er_ar))             (0 ("<brøle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:buse_er_ar))              (0 ("<buse\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:buskape_er_ar))           (0 ("<buskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:dale_er_ar))              (0 ("<dale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:dibbe_er_ar))             (0 ("<dibbe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:dreie_er_ar))             (0 ("<dreie>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:duse_er_ar))              (0 ("<duse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:egse_er_ar))              (0 ("<egse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:eine_er_ar))              (0 ("<eine>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:einglane_er_ar))          (0 ("<einglane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:ekse_er_ar))              (0 ("<ekse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:etterape_er_ar))          (0 ("<etterape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:etterbetale_er_ar))       (0 ("<etterbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:feike_er_ar))             (0 ("<feike>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fike_er_ar))              (0 ("<fike>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:file_er_ar))              (0 ("<file\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:finslipe_er_ar))          (0 ("<finslipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:flise_er_ar))             (0 ("<flise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forbanne_er_ar))          (0 ("<forbanne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forbruke_er_ar))          (0 ("<forbruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fordøye_er_ar))           (0 ("<fordøye>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forhale_er_ar))           (0 ("<forhale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forklare_er_ar))          (0 ("<forklare\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:formane_er_ar))           (0 ("<formane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forskottsbetale_er_ar))   (0 ("<forskottsbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forskylde_er_ar))         (0 ("<forskylde>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:forsvare_er_ar))          (0 ("<forsvare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fortale_er_ar))           (0 ("<fortale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fortrylle_er_ar))         (0 ("<fortrylle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fortøye_er_ar))           (0 ("<fortøye>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fosskoke_er_ar))          (0 ("<fosskoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:frålure_er_ar))           (0 ("<frålure>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:fullrose_er_ar))          (0 ("<fullrose>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:føle_er_ar))              (0 ("<føle\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:føne_er_ar))              (0 ("<føne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:føre_er_ar))              (0 ("<føre\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:førehandsinnspele_er_ar)) (0 ("<førehandsinnspele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:førehandsomtale_er_ar))   (0 ("<førehandsomtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gane_er_ar))              (0 ("<gane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gine_er_ar))              (0 ("<gine>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gise_er_ar))              (0 ("<gise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gjenbruke_er_ar))         (0 ("<gjenbruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gjenskape_er_ar))         (0 ("<gjenskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gjepe_er_ar))             (0 ("<gjepe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gjestespele_er_ar))       (0 ("<gjestespele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:glane_er_ar))             (0 ("<glane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:glattslipe_er_ar))        (0 ("<glattslipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:glenne_er_ar))            (0 ("<glenne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:gnise_er_ar))             (0 ("<gnise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:godtale_er_ar))           (0 ("<godtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:grue_er_ar))              (0 ("<grue>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hale_er_ar))              (0 ("<hale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:halvklare_er_ar))         (0 ("<halvklare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hardkoke_er_ar))          (0 ("<hardkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hardtrene_er_ar))         (0 ("<hardtrene>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:heise_er_ar))             (0 ("<heise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hekse_er_ar))             (0 ("<hekse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:henslepe_er_ar))          (0 ("<henslepe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hole_er_ar))              (0 ("<hole\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:huke_er_ar))              (0 ("<huke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hyfse_er_ar))             (0 ("<hyfse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:hyle_er_ar))              (0 ("<hyle\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:håle_er_ar))              (0 ("<håle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:håne_er_ar))              (0 ("<håne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:håpe_er_ar))              (0 ("<håpe\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:innbetale_er_ar))         (0 ("<innbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:innspele_er_ar))          (0 ("<innspele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:jule_er_ar))              (0 ("<jule>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:jåle_er_ar))              (0 ("<jåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kapasitetsmåle_er_ar))    (0 ("<kapasitetsmåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kile_er_ar))              (0 ("<kile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kise_er_ar))              (0 ("<kise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kjølhale_er_ar))          (0 ("<kjølhale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:klare_er_ar))             (0 ("<klare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kleie_er_ar))             (0 ("<kleie>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:klosshale_er_ar))         (0 ("<klosshale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:knise_er_ar))             (0 ("<knise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:koke_er_ar))              (0 ("<koke\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:koke_er_ar))              (0 ("<koke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kontrollmåle_er_ar))      (0 ("<kontrollmåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kose_er_ar))              (0 ("<kose>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kruke_er_ar))             (0 ("<kruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kryssbruke_er_ar))        (0 ("<kryssbruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kukelure_er_ar))          (0 ("<kukelure>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kule_er_ar))              (0 ("<kule\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:kute_er_ar))              (0 ("<kute>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:kyle_er_ar))              (0 ("<kyle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:langkoke_er_ar))          (0 ("<langkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:leie_er_ar))              (0 ("<leie>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:lene_er_ar))              (0 ("<lene\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:like_er_ar))              (0 ("<like>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:linnkoke_er_ar))          (0 ("<linnkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:lire_er_ar))              (0 ("<lire>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:lose_er_ar))              (0 ("<lose>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:lòse_er_ar))              (0 ("<lòse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:luke_er_ar))              (0 ("<luke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:lure_er_ar))              (0 ("<lure>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:lyne_er_ar))              (0 ("<lyne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:mane_er_ar))              (0 ("<mane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:mine_er_ar))              (0 ("<mine>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:misbruke_er_ar))          (0 ("<misbruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:mislike_er_ar))           (0 ("<mislike>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:mistale_er_ar))           (0 ("<mistale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:mistvile_er_ar))          (0 ("<mistvile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:motsvare_er_ar))          (0 ("<motsvare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:måle_er_ar))              (0 ("<måle\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:måpe_er_ar))              (0 ("<måpe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:nedbetale_er_ar))         (0 ("<nedbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:nevehelse_er_ar))         (0 ("<nevehelse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:niglane_er_ar))           (0 ("<niglane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:nyskape_er_ar))           (0 ("<nyskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:oljegruse_er_ar))         (0 ("<oljegruse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:omnsbake_er_ar))          (0 ("<omnsbake>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:omskape_er_ar))           (0 ("<omskape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:omtale_er_ar))            (0 ("<omtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:oppklare_er_ar))          (0 ("<oppklare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:oppmane_er_ar))           (0 ("<oppmane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:ose_er_ar))               (0 ("<ose>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:overforbruke_er_ar))      (0 ("<overforbruke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:overhale_er_ar))          (0 ("<overhale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:overspele_er_ar))         (0 ("<overspele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:overstråle_er_ar))        (0 ("<overstråle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:overtale_er_ar))          (0 ("<overtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:pace_er_ar))              (0 ("<pace>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:pale_er_ar))              (0 ("<pale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:peke_er_ar))              (0 ("<peke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:pile_er_ar))              (0 ("<pile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:prise_er_ar))             (0 ("<prise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:prøvespele_er_ar))        (0 ("<prøvespele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:pøse_er_ar))              (0 ("<pøse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:påskjøne_er_ar))          (0 ("<påskjøne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:påskjønne_er_ar))         (0 ("<påskjønne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:påtale_er_ar))            (0 ("<påtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:rope_er_ar))              (0 ("<rope\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:rundjule_er_ar))          (0 ("<rundjule>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:rundlure_er_ar))          (0 ("<rundlure>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:rundspele_er_ar))         (0 ("<rundspele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:råskrelle_er_ar))         (0 ("<råskrelle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:samsvare_er_ar))          (0 ("<.*\\bsamsvare\\b.*>")) ; # \\b before too because "ikkje samsvarre med"
+SELECT (v:_er_ar) IF (0 (VAR:samtale_er_ar))           (0 ("<samtale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sile_er_ar))              (0 ("<sile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sipe_er_ar))              (0 ("<sipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sjørøverskute_er_ar))     (0 ("<sjørøverskute>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skamfile_er_ar))          (0 ("<skamfile>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skape_er_ar))             (0 ("<skape\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:skarpslipe_er_ar))        (0 ("<skarpslipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skjøne_er_ar))            (0 ("<skjøne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skjønne_er_ar))           (0 ("<skjønne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skrøne_er_ar))            (0 ("<skrøne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skråle_er_ar))            (0 ("<skråle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skule_er_ar))             (0 ("<skule>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skute_er_ar))             (0 ("<skute>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skye_er_ar))              (0 ("<skye>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skylde_er_ar))            (0 ("<skylde>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:skåle_er_ar))             (0 ("<skåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:slemme_er_ar))            (0 ("<slemme>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:slepe_er_ar))             (0 ("<slepe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:slipe_er_ar))             (0 ("<slipe\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:slute_er_ar))             (0 ("<slute>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:smake_er_ar))             (0 ("<smake\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:smie_er_ar))              (0 ("<smie>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:småkoke_er_ar))           (0 ("<småkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:småspise_er_ar))          (0 ("<småspise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:snuse_er_ar))             (0 ("<snuse\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:snøbake_er_ar))           (0 ("<snøbake>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sope_er_ar))              (0 ("<sope>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:spare_er_ar))             (0 ("<spare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:spele_er_ar))             (0 ("<spele\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:spike_er_ar))             (0 ("<spike>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:spise_er_ar))             (0 ("<spise>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:spjære_er_ar))            (0 ("<spjære>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sprele_er_ar))            (0 ("<sprele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sprene_er_ar))            (0 ("<sprene>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:sprøyte_er_ar))           (0 ("<sprøyte\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:stire_er_ar))             (0 ("<stire>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:stole_er_ar))             (0 ("<stole>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:storspele_er_ar))         (0 ("<storspele>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:stræne_er_ar))            (0 ("<stræne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:stråle_er_ar))            (0 ("<stråle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:suse_er_ar))              (0 ("<suse>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:svare_er_ar))             (0 ("<svare\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:tale_er_ar))              (0 ("<tale\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:tape_er_ar))              (0 ("<tape>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tilbakebetale_er_ar))     (0 ("<tilbakebetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tilmåle_er_ar))           (0 ("<tilmåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tilsvare_er_ar))          (0 ("<tilsvare>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tiltale_er_ar))           (0 ("<tiltale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tine_er_ar))              (0 ("<tine\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:tole_er_ar))              (0 ("<tole>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:trale_er_ar))             (0 ("<trale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:trykkoke_er_ar))          (0 ("<trykkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:trylle_er_ar))            (0 ("<trylle\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:turrbanne_er_ar))         (0 ("<turrbanne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:turrkoke_er_ar))          (0 ("<turrkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tverrstane_er_ar))        (0 ("<tverrstane>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tvile_er_ar))             (0 ("<tvile\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:tylle_er_ar))             (0 ("<tylle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tynne_er_ar))             (0 ("<tynne\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:tynnslipe_er_ar))         (0 ("<tynnslipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tøle_er_ar))              (0 ("<tøle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tørrbanne_er_ar))         (0 ("<tørrbanne>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:tørrkoke_er_ar))          (0 ("<tørrkoke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:ule_er_ar))               (0 ("<ule>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:underbetale_er_ar))       (0 ("<underbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:utbetale_er_ar))          (0 ("<utbetale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:uthole_er_ar))            (0 ("<uthole>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:utmerke_er_ar))           (0 ("<utmerke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:utmåle_er_ar))            (0 ("<utmåle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:utrope_er_ar))            (0 ("<utrope>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:utstråle_er_ar))          (0 ("<utstråle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:uttale_er_ar))            (0 ("<uttale>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:vake_er_ar))              (0 ("<vake>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:vare_er_ar))              (0 ("<vare\\b.*>"r)) ;
+SELECT (v:_er_ar) IF (0 (VAR:vasslipe_er_ar))          (0 ("<vasslipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:vass-slipe_er_ar))        (0 ("<vass-slipe>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:vegleie_er_ar))           (0 ("<vegleie>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:virke_er_ar))             (0 ("<virke>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:vræle_er_ar))             (0 ("<vræle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:øle_er_ar))               (0 ("<øle>")) ;
+SELECT (v:_er_ar) IF (0 (VAR:åle_er_ar))               (0 ("<åle\\b.*>"r)) ;
+
+# and if none of the above just treat it like the simple rules:
+SELECT (v:_er_ar) IF (0 (VAR:_er_ar)) ;
+REMOVE (v:_er_ar) ;
+
+
+#####################
+# The simple rules: #
+#####################
 
 SELECT (v:tenkje-leggje.kons-kj2k_gj2g)        IF (0 (VAR:tenkje-leggje.kons-kj2k_gj2g)) ;
 REMOVE (v:tenkje-leggje.kons-kj2k_gj2g) ;
@@ -47,9 +341,6 @@ REMOVE (v:medan_mens) ;
 
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;
-
-SELECT (v:er_ar) IF (0 (VAR:er_ar)) ;
-REMOVE (v:er_ar) ;
 
 SELECT (v:stader_stadar.subst-ene2ane) IF (0 (VAR:stader_stadar.subst-ene2ane)) ;
 REMOVE (v:stader_stadar.subst-ene2ane) ;
