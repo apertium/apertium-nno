@@ -36,9 +36,1017 @@
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
   </preference>
-  <preference id="er_ar">
-    <description lang="nno">roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a om mogleg, -ane i subst)</description>
-    <description lang="nob">roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a om mulig, -ane i subst)</description>
+  <preference id="ane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for ane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for ane</description>
+  </preference>
+  <preference id="anrope_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for anrope</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for anrope</description>
+  </preference>
+  <preference id="ape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for ape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for ape</description>
+  </preference>
+  <preference id="atterskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for atterskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for atterskape</description>
+  </preference>
+  <preference id="attskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for attskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for attskape</description>
+  </preference>
+  <preference id="avbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avbetale</description>
+  </preference>
+  <preference id="avekse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avekse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avekse</description>
+  </preference>
+  <preference id="avklare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avklare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avklare</description>
+  </preference>
+  <preference id="avkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avkoke</description>
+  </preference>
+  <preference id="avlure_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avlure</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avlure</description>
+  </preference>
+  <preference id="avlute_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avlute</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avlute</description>
+  </preference>
+  <preference id="avmerke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avmerke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avmerke</description>
+  </preference>
+  <preference id="avmåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avmåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avmåle</description>
+  </preference>
+  <preference id="avsile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avsile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avsile</description>
+  </preference>
+  <preference id="avskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avskape</description>
+  </preference>
+  <preference id="avsløre_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avsløre</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avsløre</description>
+  </preference>
+  <preference id="avtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for avtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for avtale</description>
+  </preference>
+  <preference id="bake_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bake</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bake</description>
+  </preference>
+  <preference id="banne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for banne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for banne</description>
+  </preference>
+  <preference id="beføle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for beføle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for beføle</description>
+  </preference>
+  <preference id="berke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for berke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for berke</description>
+  </preference>
+  <preference id="bestråle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bestråle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bestråle</description>
+  </preference>
+  <preference id="betale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for betale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for betale</description>
+  </preference>
+  <preference id="bie_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bie</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bie</description>
+  </preference>
+  <preference id="bile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bile</description>
+  </preference>
+  <preference id="blankslipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for blankslipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for blankslipe</description>
+  </preference>
+  <preference id="blautkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for blautkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for blautkoke</description>
+  </preference>
+  <preference id="bortforklare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bortforklare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bortforklare</description>
+  </preference>
+  <preference id="breke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for breke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for breke</description>
+  </preference>
+  <preference id="bruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bruke</description>
+  </preference>
+  <preference id="bruse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bruse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bruse</description>
+  </preference>
+  <preference id="bræke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for bræke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for bræke</description>
+  </preference>
+  <preference id="brøle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for brøle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for brøle</description>
+  </preference>
+  <preference id="buse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for buse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for buse</description>
+  </preference>
+  <preference id="buskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for buskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for buskape</description>
+  </preference>
+  <preference id="dale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for dale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for dale</description>
+  </preference>
+  <preference id="dibbe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for dibbe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for dibbe</description>
+  </preference>
+  <preference id="dreie_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for dreie</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for dreie</description>
+  </preference>
+  <preference id="duse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for duse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for duse</description>
+  </preference>
+  <preference id="egse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for egse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for egse</description>
+  </preference>
+  <preference id="eine_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for eine</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for eine</description>
+  </preference>
+  <preference id="einglane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for einglane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for einglane</description>
+  </preference>
+  <preference id="ekse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for ekse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for ekse</description>
+  </preference>
+  <preference id="etterape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for etterape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for etterape</description>
+  </preference>
+  <preference id="etterbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for etterbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for etterbetale</description>
+  </preference>
+  <preference id="feike_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for feike</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for feike</description>
+  </preference>
+  <preference id="fike_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fike</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fike</description>
+  </preference>
+  <preference id="file_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for file</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for file</description>
+  </preference>
+  <preference id="finslipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for finslipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for finslipe</description>
+  </preference>
+  <preference id="flise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for flise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for flise</description>
+  </preference>
+  <preference id="forbanne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forbanne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forbanne</description>
+  </preference>
+  <preference id="forbruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forbruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forbruke</description>
+  </preference>
+  <preference id="fordøye_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fordøye</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fordøye</description>
+  </preference>
+  <preference id="forhale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forhale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forhale</description>
+  </preference>
+  <preference id="forklare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forklare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forklare</description>
+  </preference>
+  <preference id="formane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for formane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for formane</description>
+  </preference>
+  <preference id="forskottsbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forskottsbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forskottsbetale</description>
+  </preference>
+  <preference id="forskylde_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forskylde</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forskylde</description>
+  </preference>
+  <preference id="forsvare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for forsvare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for forsvare</description>
+  </preference>
+  <preference id="fortale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fortale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fortale</description>
+  </preference>
+  <preference id="fortrylle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fortrylle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fortrylle</description>
+  </preference>
+  <preference id="fortøye_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fortøye</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fortøye</description>
+  </preference>
+  <preference id="fosskoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fosskoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fosskoke</description>
+  </preference>
+  <preference id="frålure_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for frålure</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for frålure</description>
+  </preference>
+  <preference id="fullrose_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for fullrose</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for fullrose</description>
+  </preference>
+  <preference id="føle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for føle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for føle</description>
+  </preference>
+  <preference id="føne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for føne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for føne</description>
+  </preference>
+  <preference id="føre_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for føre</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for føre</description>
+  </preference>
+  <preference id="førehandsinnspele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for førehandsinnspele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for førehandsinnspele</description>
+  </preference>
+  <preference id="førehandsomtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for førehandsomtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for førehandsomtale</description>
+  </preference>
+  <preference id="gane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gane</description>
+  </preference>
+  <preference id="gine_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gine</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gine</description>
+  </preference>
+  <preference id="gise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gise</description>
+  </preference>
+  <preference id="gjenbruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gjenbruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gjenbruke</description>
+  </preference>
+  <preference id="gjenskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gjenskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gjenskape</description>
+  </preference>
+  <preference id="gjepe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gjepe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gjepe</description>
+  </preference>
+  <preference id="gjestespele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gjestespele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gjestespele</description>
+  </preference>
+  <preference id="glane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for glane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for glane</description>
+  </preference>
+  <preference id="glattslipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for glattslipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for glattslipe</description>
+  </preference>
+  <preference id="glenne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for glenne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for glenne</description>
+  </preference>
+  <preference id="gnise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for gnise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for gnise</description>
+  </preference>
+  <preference id="godtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for godtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for godtale</description>
+  </preference>
+  <preference id="grue_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for grue</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for grue</description>
+  </preference>
+  <preference id="hale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hale</description>
+  </preference>
+  <preference id="halvklare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for halvklare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for halvklare</description>
+  </preference>
+  <preference id="hardkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hardkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hardkoke</description>
+  </preference>
+  <preference id="hardtrene_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hardtrene</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hardtrene</description>
+  </preference>
+  <preference id="heise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for heise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for heise</description>
+  </preference>
+  <preference id="hekse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hekse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hekse</description>
+  </preference>
+  <preference id="henslepe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for henslepe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for henslepe</description>
+  </preference>
+  <preference id="hole_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hole</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hole</description>
+  </preference>
+  <preference id="huke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for huke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for huke</description>
+  </preference>
+  <preference id="hyfse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hyfse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hyfse</description>
+  </preference>
+  <preference id="hyle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for hyle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for hyle</description>
+  </preference>
+  <preference id="håle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for håle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for håle</description>
+  </preference>
+  <preference id="håne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for håne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for håne</description>
+  </preference>
+  <preference id="håpe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for håpe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for håpe</description>
+  </preference>
+  <preference id="ikkje_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for ikkje</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for ikkje</description>
+  </preference>
+  <preference id="innbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for innbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for innbetale</description>
+  </preference>
+  <preference id="innspele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for innspele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for innspele</description>
+  </preference>
+  <preference id="jule_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for jule</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for jule</description>
+  </preference>
+  <preference id="jåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for jåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for jåle</description>
+  </preference>
+  <preference id="kapasitetsmåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kapasitetsmåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kapasitetsmåle</description>
+  </preference>
+  <preference id="kile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kile</description>
+  </preference>
+  <preference id="kise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kise</description>
+  </preference>
+  <preference id="kjølhale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kjølhale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kjølhale</description>
+  </preference>
+  <preference id="klare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for klare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for klare</description>
+  </preference>
+  <preference id="kleie_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kleie</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kleie</description>
+  </preference>
+  <preference id="klosshale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for klosshale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for klosshale</description>
+  </preference>
+  <preference id="knise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for knise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for knise</description>
+  </preference>
+  <preference id="koke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for koke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for koke</description>
+  </preference>
+  <preference id="kontrollmåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kontrollmåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kontrollmåle</description>
+  </preference>
+  <preference id="kose_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kose</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kose</description>
+  </preference>
+  <preference id="kruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kruke</description>
+  </preference>
+  <preference id="kryssbruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kryssbruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kryssbruke</description>
+  </preference>
+  <preference id="kukelure_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kukelure</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kukelure</description>
+  </preference>
+  <preference id="kule_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kule</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kule</description>
+  </preference>
+  <preference id="kute_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kute</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kute</description>
+  </preference>
+  <preference id="kyle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for kyle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for kyle</description>
+  </preference>
+  <preference id="langkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for langkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for langkoke</description>
+  </preference>
+  <preference id="leie_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for leie</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for leie</description>
+  </preference>
+  <preference id="lene_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for lene</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for lene</description>
+  </preference>
+  <preference id="like_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for like</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for like</description>
+  </preference>
+  <preference id="linnkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for linnkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for linnkoke</description>
+  </preference>
+  <preference id="lire_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for lire</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for lire</description>
+  </preference>
+  <preference id="lose_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for lose</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for lose</description>
+  </preference>
+  <preference id="lòse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for lòse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for lòse</description>
+  </preference>
+  <preference id="luke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for luke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for luke</description>
+  </preference>
+  <preference id="lure_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for lure</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for lure</description>
+  </preference>
+  <preference id="lyne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for lyne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for lyne</description>
+  </preference>
+  <preference id="mane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for mane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for mane</description>
+  </preference>
+  <preference id="mine_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for mine</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for mine</description>
+  </preference>
+  <preference id="misbruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for misbruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for misbruke</description>
+  </preference>
+  <preference id="mislike_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for mislike</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for mislike</description>
+  </preference>
+  <preference id="mistale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for mistale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for mistale</description>
+  </preference>
+  <preference id="mistvile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for mistvile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for mistvile</description>
+  </preference>
+  <preference id="motsvare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for motsvare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for motsvare</description>
+  </preference>
+  <preference id="måle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for måle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for måle</description>
+  </preference>
+  <preference id="måpe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for måpe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for måpe</description>
+  </preference>
+  <preference id="nedbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for nedbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for nedbetale</description>
+  </preference>
+  <preference id="nevehelse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for nevehelse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for nevehelse</description>
+  </preference>
+  <preference id="niglane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for niglane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for niglane</description>
+  </preference>
+  <preference id="nyskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for nyskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for nyskape</description>
+  </preference>
+  <preference id="oljegruse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for oljegruse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for oljegruse</description>
+  </preference>
+  <preference id="omnsbake_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for omnsbake</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for omnsbake</description>
+  </preference>
+  <preference id="omskape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for omskape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for omskape</description>
+  </preference>
+  <preference id="omtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for omtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for omtale</description>
+  </preference>
+  <preference id="oppklare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for oppklare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for oppklare</description>
+  </preference>
+  <preference id="oppmane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for oppmane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for oppmane</description>
+  </preference>
+  <preference id="ose_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for ose</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for ose</description>
+  </preference>
+  <preference id="overforbruke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for overforbruke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for overforbruke</description>
+  </preference>
+  <preference id="overhale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for overhale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for overhale</description>
+  </preference>
+  <preference id="overspele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for overspele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for overspele</description>
+  </preference>
+  <preference id="overstråle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for overstråle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for overstråle</description>
+  </preference>
+  <preference id="overtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for overtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for overtale</description>
+  </preference>
+  <preference id="pace_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for pace</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for pace</description>
+  </preference>
+  <preference id="pale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for pale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for pale</description>
+  </preference>
+  <preference id="peke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for peke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for peke</description>
+  </preference>
+  <preference id="pile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for pile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for pile</description>
+  </preference>
+  <preference id="prise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for prise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for prise</description>
+  </preference>
+  <preference id="prøvespele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for prøvespele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for prøvespele</description>
+  </preference>
+  <preference id="pøse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for pøse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for pøse</description>
+  </preference>
+  <preference id="påskjøne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for påskjøne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for påskjøne</description>
+  </preference>
+  <preference id="påskjønne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for påskjønne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for påskjønne</description>
+  </preference>
+  <preference id="påtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for påtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for påtale</description>
+  </preference>
+  <preference id="rope_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for rope</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for rope</description>
+  </preference>
+  <preference id="rundjule_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for rundjule</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for rundjule</description>
+  </preference>
+  <preference id="rundlure_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for rundlure</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for rundlure</description>
+  </preference>
+  <preference id="rundspele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for rundspele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for rundspele</description>
+  </preference>
+  <preference id="råskrelle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for råskrelle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for råskrelle</description>
+  </preference>
+  <preference id="samsvare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for samsvare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for samsvare</description>
+  </preference>
+  <preference id="samtale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for samtale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for samtale</description>
+  </preference>
+  <preference id="sile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sile</description>
+  </preference>
+  <preference id="sipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sipe</description>
+  </preference>
+  <preference id="sjørøverskute_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sjørøverskute</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sjørøverskute</description>
+  </preference>
+  <preference id="skamfile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skamfile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skamfile</description>
+  </preference>
+  <preference id="skape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skape</description>
+  </preference>
+  <preference id="skarpslipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skarpslipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skarpslipe</description>
+  </preference>
+  <preference id="skjøne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skjøne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skjøne</description>
+  </preference>
+  <preference id="skjønne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skjønne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skjønne</description>
+  </preference>
+  <preference id="skrøne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skrøne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skrøne</description>
+  </preference>
+  <preference id="skråle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skråle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skråle</description>
+  </preference>
+  <preference id="skule_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skule</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skule</description>
+  </preference>
+  <preference id="skute_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skute</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skute</description>
+  </preference>
+  <preference id="skye_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skye</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skye</description>
+  </preference>
+  <preference id="skylde_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skylde</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skylde</description>
+  </preference>
+  <preference id="skåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for skåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for skåle</description>
+  </preference>
+  <preference id="slemme_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for slemme</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for slemme</description>
+  </preference>
+  <preference id="slepe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for slepe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for slepe</description>
+  </preference>
+  <preference id="slipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for slipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for slipe</description>
+  </preference>
+  <preference id="slute_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for slute</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for slute</description>
+  </preference>
+  <preference id="smake_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for smake</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for smake</description>
+  </preference>
+  <preference id="smie_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for smie</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for smie</description>
+  </preference>
+  <preference id="småkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for småkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for småkoke</description>
+  </preference>
+  <preference id="småspise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for småspise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for småspise</description>
+  </preference>
+  <preference id="snuse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for snuse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for snuse</description>
+  </preference>
+  <preference id="snøbake_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for snøbake</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for snøbake</description>
+  </preference>
+  <preference id="sope_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sope</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sope</description>
+  </preference>
+  <preference id="spare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for spare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for spare</description>
+  </preference>
+  <preference id="spele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for spele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for spele</description>
+  </preference>
+  <preference id="spike_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for spike</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for spike</description>
+  </preference>
+  <preference id="spise_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for spise</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for spise</description>
+  </preference>
+  <preference id="spjære_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for spjære</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for spjære</description>
+  </preference>
+  <preference id="sprele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sprele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sprele</description>
+  </preference>
+  <preference id="sprene_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sprene</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sprene</description>
+  </preference>
+  <preference id="sprøyte_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for sprøyte</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for sprøyte</description>
+  </preference>
+  <preference id="stire_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for stire</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for stire</description>
+  </preference>
+  <preference id="stole_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for stole</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for stole</description>
+  </preference>
+  <preference id="storspele_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for storspele</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for storspele</description>
+  </preference>
+  <preference id="stræne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for stræne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for stræne</description>
+  </preference>
+  <preference id="stråle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for stråle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for stråle</description>
+  </preference>
+  <preference id="suse_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for suse</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for suse</description>
+  </preference>
+  <preference id="svare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for svare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for svare</description>
+  </preference>
+  <preference id="tale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tale</description>
+  </preference>
+  <preference id="tape_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tape</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tape</description>
+  </preference>
+  <preference id="tilbakebetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tilbakebetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tilbakebetale</description>
+  </preference>
+  <preference id="tilmåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tilmåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tilmåle</description>
+  </preference>
+  <preference id="tilsvare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tilsvare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tilsvare</description>
+  </preference>
+  <preference id="tiltale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tiltale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tiltale</description>
+  </preference>
+  <preference id="tine_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tine</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tine</description>
+  </preference>
+  <preference id="tole_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tole</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tole</description>
+  </preference>
+  <preference id="trale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for trale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for trale</description>
+  </preference>
+  <preference id="trykkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for trykkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for trykkoke</description>
+  </preference>
+  <preference id="trylle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for trylle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for trylle</description>
+  </preference>
+  <preference id="turrbanne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for turrbanne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for turrbanne</description>
+  </preference>
+  <preference id="turrkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for turrkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for turrkoke</description>
+  </preference>
+  <preference id="tverrstane_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tverrstane</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tverrstane</description>
+  </preference>
+  <preference id="tvile_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tvile</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tvile</description>
+  </preference>
+  <preference id="tylle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tylle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tylle</description>
+  </preference>
+  <preference id="tynne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tynne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tynne</description>
+  </preference>
+  <preference id="tynnslipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tynnslipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tynnslipe</description>
+  </preference>
+  <preference id="tøle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tøle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tøle</description>
+  </preference>
+  <preference id="tørrbanne_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tørrbanne</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tørrbanne</description>
+  </preference>
+  <preference id="tørrkoke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for tørrkoke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for tørrkoke</description>
+  </preference>
+  <preference id="ule_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for ule</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for ule</description>
+  </preference>
+  <preference id="underbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for underbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for underbetale</description>
+  </preference>
+  <preference id="utbetale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for utbetale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for utbetale</description>
+  </preference>
+  <preference id="uthole_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for uthole</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for uthole</description>
+  </preference>
+  <preference id="utmerke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for utmerke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for utmerke</description>
+  </preference>
+  <preference id="utmåle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for utmåle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for utmåle</description>
+  </preference>
+  <preference id="utrope_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for utrope</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for utrope</description>
+  </preference>
+  <preference id="utstråle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for utstråle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for utstråle</description>
+  </preference>
+  <preference id="uttale_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for uttale</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for uttale</description>
+  </preference>
+  <preference id="vake_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for vake</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for vake</description>
+  </preference>
+  <preference id="vare_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for vare</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for vare</description>
+  </preference>
+  <preference id="vasslipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for vasslipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for vasslipe</description>
+  </preference>
+  <preference id="vass-slipe_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for vass-slipe</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for vass-slipe</description>
+  </preference>
+  <preference id="vegleie_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for vegleie</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for vegleie</description>
+  </preference>
+  <preference id="virke_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for virke</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for virke</description>
+  </preference>
+  <preference id="vræle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for vræle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for vræle</description>
+  </preference>
+  <preference id="øle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for øle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for øle</description>
+  </preference>
+  <preference id="åle_er_ar">
+    <description lang="nno">-er/-te/-t → -ar/-a/-a for åle</description>
+    <description lang="nob">-er/-te/-t → -ar/-a/-a for åle</description>
+  </preference>
+  <preference id="_er_ar">
+    <description lang="nno">system: roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a der det er mogleg)</description>
+    <description lang="nob">system: roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a der det er mulig)</description>
   </preference>
   <preference id="stader_stadar.subst-ene2ane">
     <description lang="nno">stader → stadar, stadene → stadane (systemrett fleirtalsform i hankjønnsord på -er/-ene)</description>
