@@ -11,6 +11,9 @@
   <preference id="følgje_følge.kons-lgj2lg">
     <description lang="nno">følgje → følgje, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
   </preference>
+  <preference id="følgje_fylgje.vok-kons-ø-gj2y-gj">
+    <description lang="nno">følgje → fylgje, arvefølgje → arvefylgje, bølgje → bylgje</description>
+  </preference>
   <preference id="de_dokker">
     <description lang="nno">de → dokker</description>
   </preference>
@@ -179,4 +182,16 @@
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
   </preference>
+
+  <incompatibilities>
+    <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
+      <pref n="følgje_fylgje.vok-kons-ø-gj2y-gj" v="false"/>
+      <pref n="følgje_følge.kons-lgj2lg" v="true"/>
+    </incompat>
+    <incompat c="ikkje fylgje, bylgje viss først, ønske er vald">
+      <pref n="følgje_fylgje.vok-kons-ø-gj2y-gj" v="false"/>
+      <pref n="først_fyrst.vok-ø2y" v="false"/>
+    </incompat>
+  </incompatibilities>
+
 </preferences>
