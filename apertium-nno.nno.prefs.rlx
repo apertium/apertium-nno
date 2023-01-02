@@ -30,6 +30,9 @@ REMOVE (v:kj_k) ;
 SELECT (v:tenkje-leggje.kons-kj2k_gj2g)        IF (0 (VAR:tenkje-leggje.kons-kj2k_gj2g)) ;
 REMOVE (v:tenkje-leggje.kons-kj2k_gj2g) ;
 
+SELECT (v:følgje_følge.kons-lgj2lg)        IF (0 (VAR:følgje_følge.kons-lgj2lg)) ;
+REMOVE (v:følgje_følge.kons-lgj2lg) ;
+
 SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
 REMOVE (v:de_dokker) ;
 

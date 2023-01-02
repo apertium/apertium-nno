@@ -8,6 +8,9 @@
   <preference id="tenkje-leggje.kons-kj2k_gj2g">
     <description lang="nno">søkje → søke, byggje → bygge</description>
   </preference>
+  <preference id="følgje_følge.kons-lgj2lg">
+    <description lang="nno">følgje → følgje, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
+  </preference>
   <preference id="de_dokker">
     <description lang="nno">de → dokker</description>
   </preference>
