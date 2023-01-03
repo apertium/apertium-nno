@@ -33,8 +33,8 @@ REMOVE (v:tenkje-leggje.kons-kj2k_gj2g) ;
 SELECT (v:følgje_følge.kons-lgj2lg)        IF (0 (VAR:følgje_følge.kons-lgj2lg)) ;
 REMOVE (v:følgje_følge.kons-lgj2lg) ;
 
-SELECT (v:følgje_fylgje.vok-kons-ø-gj2y-gj)        IF (0 (VAR:følgje_fylgje.vok-kons-ø-gj2y-gj)) ;
-REMOVE (v:følgje_fylgje.vok-kons-ø-gj2y-gj) ;
+SELECT (v:følgje_fylgje.vok-ø_gj2y_gj)        IF (0 (VAR:følgje_fylgje.vok-ø_gj2y_gj)) ;
+REMOVE (v:følgje_fylgje.vok-ø_gj2y_gj) ;
 
 SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
 REMOVE (v:de_dokker) ;
