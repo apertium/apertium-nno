@@ -21,14 +21,11 @@ REMOVE (v:infa_infe) ;
 
 # The rest are quite straightforward:
 
-SELECT (v:ggj_gg)      IF (0 (VAR:ggj_gg)) ;
-REMOVE (v:ggj_gg) ;
-
-SELECT (v:kj_k)        IF (0 (VAR:kj_k)) ;
-REMOVE (v:kj_k) ;
-
 SELECT (v:tenkje-leggje.kons-kj2k_gj2g)        IF (0 (VAR:tenkje-leggje.kons-kj2k_gj2g)) ;
 REMOVE (v:tenkje-leggje.kons-kj2k_gj2g) ;
+
+SELECT (v:enkje_enke.kons-kj2k_gj2g)        IF (0 (VAR:enkje_enke.kons-kj2k_gj2g)) ;
+REMOVE (v:enkje_enke.kons-kj2k_gj2g) ;
 
 SELECT (v:følgje_følge.kons-lgj2lg)        IF (0 (VAR:følgje_følge.kons-lgj2lg)) ;
 REMOVE (v:følgje_følge.kons-lgj2lg) ;

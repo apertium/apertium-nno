@@ -1,12 +1,9 @@
 <preferences>
-  <preference id="ggj_gg">
-    <description lang="nno">byggje → bygge, fremje → fremme</description>
-  </preference>
-  <preference id="kj_k">
-    <description lang="nno">søkje → søke</description>
-  </preference>
   <preference id="tenkje-leggje.kons-kj2k_gj2g">
     <description lang="nno">søkje → søke, byggje → bygge</description>
+  </preference>
+  <preference id="enkje_enke.kons-kj2k_gj2g">
+    <description lang="nno">subst (f/n): rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri</description>
   </preference>
   <preference id="følgje_følge.kons-lgj2lg">
     <description lang="nno">følgje → følgje, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
@@ -187,6 +184,10 @@
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
       <pref n="følgje_fylgje.vok-ø_gj2y_gj" v="false"/>
       <pref n="følgje_følge.kons-lgj2lg" v="true"/>
+    </incompat>
+    <incompat c="berre fylgje, bylgje viss fyrst, ynske er vald">
+      <pref n="følgje_fylgje.vok-ø_gj2y_gj" v="true"/>
+      <pref n="først_fyrst.vok-ø2y" v="false"/>
     </incompat>
   </incompatibilities>
 
