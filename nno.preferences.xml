@@ -110,13 +110,16 @@
   <preference id="fjøre_fjære.vok-ø2æ">
     <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære</description>
   </preference>
+  <preference id="venn_ven.kons-mm2m">
+    <description lang="nno">dømme → døme, vennskap → venskap, medlemmer → medlemer; inkluderer komme → kome, ungdommen → ungdomen, kjøtt → kjøt</description>
+  </preference>
   <preference id="komme_kome.kons-mm2m">
     <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg</description>
   </preference>
   <preference id="dommen_domen.kons-mm2m">
     <description lang="nno">kristendommen → kristendomen, bispedømme → bispedøme</description>
   </preference>
-  <preference id="kjøtt_kjøt.kons-tt2t_kk2k">
+  <preference id="kjøtt_kjøt.kons-mm2m">
     <description lang="nno">kjøtt → kjøt, kjøkken → kjøken</description>
   </preference>
   <preference id="eigentleg_eigenleg">

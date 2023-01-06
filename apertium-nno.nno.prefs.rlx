@@ -129,11 +129,14 @@ REMOVE (v:lykke_lukke.vok-y2u) ;
 SELECT (v:fjøre_fjære.vok-ø2æ) IF (0 (VAR:fjøre_fjære.vok-ø2æ)) ;
 REMOVE (v:fjøre_fjære.vok-ø2æ) ;
 
+SELECT (v:venn_ven.kons-mm2m) IF (0 (VAR:venn_ven.kons-mm2m)) ;
+REMOVE (v:venn_ven.kons-mm2m) ;
+
 SELECT (v:komme_kome.kons-mm2m) IF (0 (VAR:komme_kome.kons-mm2m)) ;
 REMOVE (v:komme_kome.kons-mm2m) ;
 
-SELECT (v:kjøtt_kjøt.kons-tt2t_kk2k) IF (0 (VAR:kjøtt_kjøt.kons-tt2t_kk2k)) ;
-REMOVE (v:kjøtt_kjøt.kons-tt2t_kk2k) ;
+SELECT (v:kjøtt_kjøt.kons-mm2m) IF (0 (VAR:kjøtt_kjøt.kons-mm2m)) ;
+REMOVE (v:kjøtt_kjøt.kons-mm2m) ;
 
 SELECT (v:dommen_domen.kons-mm2m) IF (0 (VAR:dommen_domen.kons-mm2m)) ;
 REMOVE (v:dommen_domen.kons-mm2m) ;
