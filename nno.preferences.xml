@@ -188,6 +188,9 @@
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
   </preference>
+  <preference id="formål_føremål.afx-fore2føre">
+    <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn osv.</description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">

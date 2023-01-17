@@ -198,5 +198,8 @@ REMOVE (v:pek_peik.dift-e2ei) ;
 SELECT (v:setje_sette.kons-tj2tt) IF (0 (VAR:setje_sette.kons-tj2tt)) ;
 REMOVE (v:setje_sette.kons-tj2tt) ;
 
+SELECT (v:formål_føremål.afx-fore2føre) IF (0 (VAR:formål_føremål.afx-fore2føre)) ;
+REMOVE (v:formål_føremål.afx-fore2føre) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
