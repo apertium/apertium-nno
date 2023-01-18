@@ -74,6 +74,9 @@
   <preference id="jul_jol.vok-u2o">
     <description lang="nno">jul → jol</description>
   </preference>
+  <preference id="sommar_sumar.vok-o2u">
+    <description lang="nno">sommar → sumar</description>
+  </preference>
   <preference id="stove_stue.vok-u2o">
     <description lang="nno">stove → stue</description>
   </preference>

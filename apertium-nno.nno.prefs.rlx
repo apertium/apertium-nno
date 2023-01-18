@@ -93,6 +93,9 @@ REMOVE (v:skule_skole.vok-u2o) ;
 SELECT (v:jul_jol.vok-u2o) IF (0 (VAR:jul_jol.vok-u2o)) ;
 REMOVE (v:jul_jol.vok-u2o) ;
 
+SELECT (v:sommar_sumar.vok-o2u) IF (0 (VAR:sommar_sumar.vok-o2u)) ;
+REMOVE (v:sommar_sumar.vok-o2u) ;
+
 SELECT (v:stove_stue.vok-u2o) IF (0 (VAR:stove_stue.vok-u2o)) ;
 REMOVE (v:stove_stue.vok-u2o) ;
 
