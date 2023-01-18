@@ -174,9 +174,6 @@ REMOVE (v:spenn_span.vok-a2e) ;
 SELECT (v:drikk_drykk.vok-i2y) IF (0 (VAR:drikk_drykk.vok-i2y)) ;
 REMOVE (v:drikk_drykk.vok-i2y) ;
 
-SELECT (v:ekorn_ikorn.vok-e2i) IF (0 (VAR:ekorn_ikorn.vok-e2i)) ;
-REMOVE (v:ekorn_ikorn.vok-e2i) ;
-
 SELECT (v:segle_sigle.vok-e2i) IF (0 (VAR:segle_sigle.vok-e2i)) ;
 REMOVE (v:segle_sigle.vok-e2i) ;
 

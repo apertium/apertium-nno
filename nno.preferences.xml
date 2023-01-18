@@ -155,11 +155,8 @@
   <preference id="drikk_drykk.vok-i2y">
     <description lang="nno">drikk → drykk</description>
   </preference>
-  <preference id="ekorn_ikorn.vok-a2i">
-    <description lang="nno">ekorn → ikorn</description>
-  </preference>
   <preference id="segle_sigle.vok-a2i">
-    <description lang="nno">segle → sigle</description>
+    <description lang="nno">segle → sigle, ekorn → ikorn</description>
   </preference>
   <preference id="lyd_ljod.vok-y2jo">
     <description lang="nno">lyd → ljod</description>
