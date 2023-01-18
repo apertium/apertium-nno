@@ -198,6 +198,9 @@ REMOVE (v:setje_sette.kons-tj2tt) ;
 SELECT (v:fremje_fremme.kons-mj2mm) IF (0 (VAR:fremje_fremme.kons-mj2mm)) ;
 REMOVE (v:fremje_fremme.kons-mj2mm) ;
 
+SELECT (v:hemme_hemje.kons-mm2mj) IF (0 (VAR:hemme_hemje.kons-mm2mj)) ;
+REMOVE (v:hemme_hemje.kons-mm2mj) ;
+
 SELECT (v:formål_føremål.afx-fore2føre) IF (0 (VAR:formål_føremål.afx-fore2føre)) ;
 REMOVE (v:formål_føremål.afx-fore2føre) ;
 

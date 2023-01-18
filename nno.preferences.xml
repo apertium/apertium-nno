@@ -188,6 +188,9 @@
   <preference id="fremje_fremme.kons-mj2mm">
     <description lang="nno">fremje → fremme, fremjing → fremming</description>
   </preference>
+  <preference id="hemme_hemje.kons-mm2mj">
+    <description lang="nno">hemme → hemje, funksjonshemma → funksjonshemja</description>
+  </preference>
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn osv.</description>
   </preference>
