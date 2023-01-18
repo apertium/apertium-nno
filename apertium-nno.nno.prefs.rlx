@@ -90,6 +90,9 @@ REMOVE (v:nærare_nærmare) ;
 SELECT (v:skule_skole.vok-u2o) IF (0 (VAR:skule_skole.vok-u2o)) ;
 REMOVE (v:skule_skole.vok-u2o) ;
 
+SELECT (v:skulere_skolere.vok-u2o) IF (0 (VAR:skulere_skolere.vok-u2o)) ;
+REMOVE (v:skulere_skolere.vok-u2o) ;
+
 SELECT (v:jul_jol.vok-u2o) IF (0 (VAR:jul_jol.vok-u2o)) ;
 REMOVE (v:jul_jol.vok-u2o) ;
 
