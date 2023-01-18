@@ -198,5 +198,8 @@ REMOVE (v:setje_sette.kons-tj2tt) ;
 SELECT (v:formål_føremål.afx-fore2føre) IF (0 (VAR:formål_føremål.afx-fore2føre)) ;
 REMOVE (v:formål_føremål.afx-fore2føre) ;
 
+SELECT (v:forvaltning_forvalting.afx-ning2ing) IF (0 (VAR:forvaltning_forvalting.afx-ning2ing)) ;
+REMOVE (v:forvaltning_forvalting.afx-ning2ing) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]

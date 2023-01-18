@@ -188,6 +188,9 @@
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn osv.</description>
   </preference>
+  <preference id="forvaltning_forvalting.afx-ning2ing">
+    <description lang="nno">forvaltning → forvaltning, avkastning → avkasting, underhaldning → underhalding osv.</description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
