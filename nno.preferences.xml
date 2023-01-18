@@ -185,6 +185,9 @@
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
   </preference>
+  <preference id="fremje_fremme.kons-mj2mm">
+    <description lang="nno">fremje → fremme, fremjing → fremming</description>
+  </preference>
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn osv.</description>
   </preference>
