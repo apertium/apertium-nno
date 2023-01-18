@@ -158,9 +158,6 @@
   <preference id="segle_sigle.vok-a2i">
     <description lang="nno">segle → sigle, ekorn → ikorn</description>
   </preference>
-  <preference id="lyd_ljod.vok-y2jo">
-    <description lang="nno">lyd → ljod</description>
-  </preference>
   <preference id="lys_ljos.vok-y2jo">
     <description lang="nno">lys → ljos</description>
   </preference>
