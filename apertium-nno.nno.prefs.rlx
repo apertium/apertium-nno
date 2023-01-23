@@ -144,8 +144,8 @@ REMOVE (v:kjøtt_kjøt.kons-mm2m) ;
 SELECT (v:dommen_domen.kons-mm2m) IF (0 (VAR:dommen_domen.kons-mm2m)) ;
 REMOVE (v:dommen_domen.kons-mm2m) ;
 
-SELECT (v:eigentleg_eigenleg) IF (0 (VAR:eigentleg_eigenleg)) ;
-REMOVE (v:eigentleg_eigenleg) ;
+SELECT (v:eigentleg_eigenleg.stav) IF (0 (VAR:eigentleg_eigenleg.stav)) ;
+REMOVE (v:eigentleg_eigenleg.stav) ;
 
 SELECT (v:dess-der_di.afx) IF (0 (VAR:dess-der_di.afx)) ;
 REMOVE (v:dess-der_di.afx) ;
