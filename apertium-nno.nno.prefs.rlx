@@ -147,8 +147,8 @@ REMOVE (v:dommen_domen.kons-mm2m) ;
 SELECT (v:eigentleg_eigenleg) IF (0 (VAR:eigentleg_eigenleg)) ;
 REMOVE (v:eigentleg_eigenleg) ;
 
-SELECT (v:dess-der_di) IF (0 (VAR:dess-der_di)) ;
-REMOVE (v:dess-der_di) ;
+SELECT (v:dess-der_di.afx) IF (0 (VAR:dess-der_di.afx)) ;
+REMOVE (v:dess-der_di.afx) ;
 
 SELECT (v:fly_flyge) IF (0 (VAR:fly_flyge)) ;
 REMOVE (v:fly_flyge) ;

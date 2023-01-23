@@ -6,7 +6,7 @@
     <description lang="nno">subst (f/n): rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri</description>
   </preference>
   <preference id="følgje_følge.kons-lgj2lg">
-    <description lang="nno">følgje → følgje, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
+    <description lang="nno">følgje → følge, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
   </preference>
   <preference id="følgje_fylgje.vok-ø_gj2y_gj">
     <description lang="nno">følgje → fylgje, arvefølgje → arvefylgje, bølgje → bylgje</description>
@@ -128,7 +128,7 @@
   <preference id="eigentleg_eigenleg">
     <description lang="nno">eigentleg → eigenleg</description>
   </preference>
-  <preference id="dess-der_di">
+  <preference id="dess-der_di.afx">
     <description lang="nno">dermed → dimed</description>
   </preference>
   <preference id="fly_flyge">
