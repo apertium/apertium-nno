@@ -11,6 +11,9 @@
   <preference id="følgje_fylgje.vok-ø_gj2y_gj">
     <description lang="nno">følgje → fylgje, arvefølgje → arvefylgje, bølgje → bylgje</description>
   </preference>
+  <preference id="kjende_kjente.vb-d2t">
+    <description lang="nno">kjende → kjente, dømde → dømte</description>
+  </preference>
   <preference id="de_dokker">
     <description lang="nno">de → dokker</description>
   </preference>
