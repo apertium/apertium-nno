@@ -62,6 +62,9 @@
   <preference id="lét_let">
     <description lang="nno">lét/lèt → let/let</description>
   </preference>
+  <preference id="blæs_blåser">
+    <description lang="nno">blæs → blåser</description>
+  </preference>
   <preference id="nærare_nærmare">
     <description lang="nno">nærare → nærmare</description>
   </preference>

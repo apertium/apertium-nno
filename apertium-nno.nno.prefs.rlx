@@ -81,6 +81,9 @@ REMOVE (v:blå_blåe) ;
 SELECT (v:lét_let) IF (0 (VAR:lét_let)) ;
 REMOVE (v:lét_let) ;
 
+SELECT (v:blæs_blåser) IF (0 (VAR:blæs_blåser)) ;
+REMOVE (v:blæs_blåser) ;
+
 SELECT (v:kors_kross) IF (0 (VAR:kors_kross)) ;
 REMOVE (v:kors_kross) ;
 
