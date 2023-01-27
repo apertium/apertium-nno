@@ -20,6 +20,7 @@ LIST nt = nt ;
 LIST f = f ;
 LIST m = m ;
 LIST n = n ;
+LIST np = np ;
 LIST pl = pl ;
 LIST sg = sg ;
 LIST sp = sp ;
@@ -845,6 +846,7 @@ REMOVE:unlikely ("allé" "<alle>"ri);
 REMOVE:unlikely ("orde" "<orda>"ri);
 REMOVE:unlikely ("teppe" f);
 REMOVE:unlikely ("dikt") + adv;
+REMOVE:unlikely ("Berre") + np;
 
 # sec 1
 CONSTRAINTS
@@ -1071,6 +1073,7 @@ CONSTRAINTS
  "<bare>"   SELECT:4970   (adv) IF
 	(1 inf)
 ;
+
 
 
 #:4964
