@@ -847,6 +847,7 @@ REMOVE:unlikely ("orde" "<orda>"ri);
 REMOVE:unlikely ("teppe" f);
 REMOVE:unlikely ("dikt") + adv;
 REMOVE:unlikely ("Berre") + np;
+REMOVE:unlikely SUB:* ("mjølke") IF (0/* ("mjølk")); # sannsynlegvis ikkje rogn
 
 # sec 1
 CONSTRAINTS
