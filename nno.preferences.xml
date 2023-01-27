@@ -14,6 +14,9 @@
   <preference id="kjende_kjente.vb-d2t">
     <description lang="nno">kjende → kjente, dømde → dømte</description>
   </preference>
+  <preference id="bygd_bygt.vb-d2t">
+    <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum)</description>
+  </preference>
   <preference id="de_dokker">
     <description lang="nno">de → dokker</description>
   </preference>

@@ -36,6 +36,8 @@ REMOVE (v:følgje_fylgje.vok-ø_gj2y_gj) ;
 SELECT (v:kjende_kjente.vb-d2t)        IF (0 (VAR:kjende_kjente.vb-d2t)) ;
 REMOVE (v:kjende_kjente.vb-d2t) ;
 
+SELECT (v:bygd_bygt.vb-d2t)        IF (0 (VAR:bygd_bygt.vb-d2t)) ;
+REMOVE (v:bygd_bygt.vb-d2t) ;
 
 SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
 REMOVE (v:de_dokker) ;
