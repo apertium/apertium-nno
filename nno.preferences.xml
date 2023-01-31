@@ -71,8 +71,14 @@
   <preference id="blæs_blåser">
     <description lang="nno">blæs → blåser</description>
   </preference>
-  <preference id="nærare_nærmare">
+  <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
+  </preference>
+  <preference id="eigentleg_eigenleg.stav">
+    <description lang="nno">eigentleg → eigenleg</description>
+  </preference>
+  <preference id="styresmakt_styremakt.stav">
+    <description lang="nno">styresmakt → styremakt</description>
   </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
@@ -133,9 +139,6 @@
   </preference>
   <preference id="kjøtt_kjøt.kons-mm2m">
     <description lang="nno">kjøtt → kjøt, kjøkken → kjøken</description>
-  </preference>
-  <preference id="eigentleg_eigenleg.stav">
-    <description lang="nno">eigentleg → eigenleg</description>
   </preference>
   <preference id="dess-der_di.afx">
     <description lang="nno">dermed → dimed</description>

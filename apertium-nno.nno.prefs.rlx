@@ -93,8 +93,14 @@ REMOVE (v:blæs_blåser) ;
 SELECT (v:kors_kross) IF (0 (VAR:kors_kross)) ;
 REMOVE (v:kors_kross) ;
 
-SELECT (v:nærare_nærmare) IF (0 (VAR:nærare_nærmare)) ;
-REMOVE (v:nærare_nærmare) ;
+SELECT (v:nærare_nærmare.stav) IF (0 (VAR:nærare_nærmare.stav)) ;
+REMOVE (v:nærare_nærmare.stav) ;
+
+SELECT (v:eigentleg_eigenleg.stav) IF (0 (VAR:eigentleg_eigenleg.stav)) ;
+REMOVE (v:eigentleg_eigenleg.stav) ;
+
+SELECT (v:styresmakt_styremakt.stav) IF (0 (VAR:styresmakt_styremakt.stav)) ;
+REMOVE (v:styresmakt_styremakt.stav) ;
 
 SELECT (v:skule_skole.vok-u2o) IF (0 (VAR:skule_skole.vok-u2o)) ;
 REMOVE (v:skule_skole.vok-u2o) ;
