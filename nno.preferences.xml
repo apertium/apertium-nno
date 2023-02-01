@@ -46,6 +46,9 @@
   <preference id="tek_tar">
     <description lang="nno">tek → tar, dreg → drar</description>
   </preference>
+  <preference id="eigde_åtte">
+    <description lang="nno">eigde → åtte</description>
+  </preference>
   <preference id="vart-vorte_blei-blitt.verb-bli2verte">
     <description lang="nno">bli–blir–vart–vorte → bli–blir–blei–blitt</description>
   </preference>

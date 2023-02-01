@@ -57,6 +57,9 @@ REMOVE (v:stader_stadar.subst-ene2ane) ;
 SELECT (v:tek_tar) IF (0 (VAR:tek_tar)) ;
 REMOVE (v:tek_tar) ;
 
+SELECT (v:eigde_åtte) IF (0 (VAR:eigde_åtte)) ;
+REMOVE (v:eigde_åtte) ;
+
 SELECT (v:vart-vorte_blei-blitt.verb-bli2verte) IF (0 (VAR:vart-vorte_blei-blitt.verb-bli2verte)) ;
 REMOVE (v:vart-vorte_blei-blitt.verb-bli2verte) ;
 
