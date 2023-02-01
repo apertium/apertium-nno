@@ -105,6 +105,12 @@ REMOVE (v:eigentleg_eigenleg.stav) ;
 SELECT (v:styresmakt_styremakt.stav) IF (0 (VAR:styresmakt_styremakt.stav)) ;
 REMOVE (v:styresmakt_styremakt.stav) ;
 
+SELECT (v:true_truge.stav) IF (0 (VAR:true_truge.stav)) ;
+REMOVE (v:true_truge.stav) ;
+
+SELECT (v:symje_svømme.stav) IF (0 (VAR:symje_svømme.stav)) ;
+REMOVE (v:symje_svømme.stav) ;
+
 SELECT (v:skule_skole.vok-u2o) IF (0 (VAR:skule_skole.vok-u2o)) ;
 REMOVE (v:skule_skole.vok-u2o) ;
 

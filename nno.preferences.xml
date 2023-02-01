@@ -83,6 +83,12 @@
   <preference id="styresmakt_styremakt.stav">
     <description lang="nno">styresmakt → styremakt</description>
   </preference>
+  <preference id="true_truge.stav">
+    <description lang="nno">true → truge, trussel → trugsel</description>
+  </preference>
+  <preference id="symje_svømme.stav">
+    <description lang="nno">symje → svømme</description>
+  </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
   </preference>
