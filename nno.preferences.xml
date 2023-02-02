@@ -64,7 +64,7 @@
   <preference id="vit_vett">
     <description lang="nno">vit → vett</description>
   </preference>
-  <preference id="mengd_mengde">
+  <preference id="mengd_mengde.vok-2e">
     <description lang="nno">mengd → mengde, breidd → breidde</description>
   </preference>
   <preference id="blå_blåe">
@@ -196,6 +196,9 @@
   </preference>
   <preference id="maske_moske.vok-o2a">
     <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
+  </preference>
+  <preference id="oske_aske.vok-o2a">
+    <description lang="nno">oske → aske, oskeladd → askeladd (ikkje normert sideform)</description>
   </preference>
   <preference id="nød_naud.dift-ø2au">
     <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud o.fl.</description>

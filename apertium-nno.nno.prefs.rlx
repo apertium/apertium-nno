@@ -84,8 +84,11 @@ REMOVE (v:barna_borna.vok-o2a) ;
 SELECT (v:maske_moske.vok-o2a) IF (0 (VAR:maske_moske.vok-o2a)) ;
 REMOVE (v:maske_moske.vok-o2a) ;
 
-SELECT (v:mengd_mengde) IF (0 (VAR:mengd_mengde)) ;
-REMOVE (v:mengd_mengde) ;
+SELECT (v:oske_aske.vok-o2a) IF (0 (VAR:oske_aske.vok-o2a)) ;
+REMOVE (v:oske_aske.vok-o2a) ;
+
+SELECT (v:mengd_mengde.vok-2e) IF (0 (VAR:mengd_mengde.vok-2e)) ;
+REMOVE (v:mengd_mengde.vok-2e) ;
 
 SELECT (v:blå_blåe) IF (0 (VAR:blå_blåe)) ;
 REMOVE (v:blå_blåe) ;
@@ -170,6 +173,9 @@ REMOVE (v:kjøtt_kjøt.kons-mm2m) ;
 
 SELECT (v:dommen_domen.kons-mm2m) IF (0 (VAR:dommen_domen.kons-mm2m)) ;
 REMOVE (v:dommen_domen.kons-mm2m) ;
+
+SELECT (v:mogleg_mogeleg.vok-2e) IF (0 (VAR:mogleg_mogeleg.vok-2e)) ;
+REMOVE (v:mogleg_mogeleg.vok-2e) ;
 
 SELECT (v:eigentleg_eigenleg.stav) IF (0 (VAR:eigentleg_eigenleg.stav)) ;
 REMOVE (v:eigentleg_eigenleg.stav) ;
