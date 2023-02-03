@@ -54,8 +54,17 @@ REMOVE (v:er_ar) ;
 SELECT (v:stader_stadar.subst-ene2ane) IF (0 (VAR:stader_stadar.subst-ene2ane)) ;
 REMOVE (v:stader_stadar.subst-ene2ane) ;
 
-SELECT (v:tek_tar) IF (0 (VAR:tek_tar)) ;
-REMOVE (v:tek_tar) ;
+SELECT (v:tek_tar.vb-en2tt) IF (0 (VAR:tek_tar.vb-en2tt)) ;
+REMOVE (v:tek_tar.vb-en2tt) ;
+
+SELECT (v:dreg_drar.vb-en2tt) IF (0 (VAR:dreg_drar.vb-en2tt)) ;
+REMOVE (v:dreg_drar.vb-en2tt) ;
+
+SELECT (v:dratt_dradd.vb-en2tt) IF (0 (VAR:dratt_dradd.vb-en2tt)) ;
+REMOVE (v:dratt_dradd.vb-en2tt) ;
+
+SELECT (v:gir_gjev.vb-en2tt) IF (0 (VAR:gir_gjev.vb-en2tt)) ;
+REMOVE (v:gir_gjev.vb-en2tt) ;
 
 SELECT (v:eigde_åtte) IF (0 (VAR:eigde_åtte)) ;
 REMOVE (v:eigde_åtte) ;

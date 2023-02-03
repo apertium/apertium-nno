@@ -43,8 +43,17 @@
   <preference id="stader_stadar.subst-ene2ane">
     <description lang="nno">stader → stadar, stadene → stadane (systemrett fleirtalsform i hankjønnsord på -er/-ene)</description>
   </preference>
-  <preference id="tek_tar">
-    <description lang="nno">tek → tar, dreg → drar</description>
+  <preference id="tek_tar.vb-en2tt">
+    <description lang="nno">å ta: tek → tar, teken → tatt</description>
+  </preference>
+  <preference id="dreg_drar.vb-en2tt">
+    <description lang="nno">å dra: dreg → drar, dregen → dratt</description>
+  </preference>
+  <preference id="dratt_dradd.vb-en2tt">
+    <description lang="nno">å dra, perf.part. og adj: dratt → dradd</description>
+  </preference>
+  <preference id="gir_gjev.vb-en2tt">
+    <description lang="nno">å gi/gje: gi → gje, gir → gjev, gitt → gjeven</description>
   </preference>
   <preference id="eigde_åtte">
     <description lang="nno">eigde → åtte</description>
