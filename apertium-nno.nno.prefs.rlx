@@ -222,11 +222,14 @@ REMOVE (v:eigentleg_eigenleg.stav) ;
 SELECT (v:dess-der_di.afx) IF (0 (VAR:dess-der_di.afx)) ;
 REMOVE (v:dess-der_di.afx) ;
 
-SELECT (v:fly_flyge) IF (0 (VAR:fly_flyge)) ;
-REMOVE (v:fly_flyge) ;
+SELECT (v:fly_flyge.vb-inf) IF (0 (VAR:fly_flyge.vb-inf)) ;
+REMOVE (v:fly_flyge.vb-inf) ;
 
-SELECT (v:flyr_flyg) IF (0 (VAR:flyr_flyg)) ;
-REMOVE (v:flyr_flyg) ;
+SELECT (v:flyg_flyr.vb-inf) IF (0 (VAR:flyg_flyr.vb-inf)) ;
+REMOVE (v:flyg_flyr.vb-inf) ;
+
+SELECT (v:gle_glede.vb-inf) IF (0 (VAR:gle_glede.vb-inf)) ;
+REMOVE (v:gle_glede.vb-inf) ;
 
 SELECT (v:jern_jarn.vok-a2e) IF (0 (VAR:jern_jarn.vok-a2e)) ;
 REMOVE (v:jern_jarn.vok-a2e) ;

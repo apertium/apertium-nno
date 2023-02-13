@@ -416,11 +416,14 @@
   <preference id="dess-der_di.afx">
     <description lang="nno">dermed → dimed</description>
   </preference>
-  <preference id="fly_flyge">
+  <preference id="fly_flyge.vb-inf">
     <description lang="nno">fly → flyge (infinitiv)</description>
   </preference>
-  <preference id="flyr_flyg">
+  <preference id="flyg_flyr.vb-inf">
     <description lang="nno">flyr → flyg (presens)</description>
+  </preference>
+  <preference id="gle_glede.vb-inf">
+    <description lang="nno">gle → glede, gler → gleder (inf + presens)</description>
   </preference>
   <preference id="jern_jarn.vok-a2e">
     <description lang="nno">jern → jarn</description>
@@ -497,6 +500,10 @@
     <incompat c="berre fylgje, bylgje viss fyrst, ynske er vald">
       <pref n="følgje_fylgje.vok-ø_gj2y_gj" v="true"/>
       <pref n="først_fyrst.vok-ø2y" v="false"/>
+    </incompat>
+    <incompat c="ikkje flyr (pres) viss flyge (lang infinitiv) er vald">
+      <pref n="fly_flyge.vb-inf" v="false"/>
+      <pref n="flyg_flyr.vb-inf" v="true"/>
     </incompat>
   </incompatibilities>
 
