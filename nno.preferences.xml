@@ -292,6 +292,20 @@
       <option id="åle"/>
     </options>
   </preference>
+  <preference id="brukte_bruka.vb-e2a">
+    <description lang="nno">system: bruker → brukar, brukte → bruka (verb med valfri bøying -er/-te/-t (v2) → -ar/-a/-a (v1))</description>
+    <description lang="nob">system: bruker → brukar, brukte → bruka (verb med valgfri bøying -er/-te/-t (v2) → -ar/-a/-a (v1))</description>
+    <options>
+      <option id="bruke"/>
+    </options>
+  </preference>
+  <preference id="håpa_håpte.vb-a2e">
+    <description lang="nno">system: håpar → håper, håpa → håpte (verb med valfri bøying -ar/-a/-a (v1) → -er/-te/-t (v2))</description>
+    <description lang="nob">system: håpar → håper, håpa → håpte (verb med valgfri bøying -ar/-a/-a (v1) → -er/-te/-t (v2))</description>
+    <options>
+      <option id="håpe"/>
+    </options>
+  </preference>
   <preference id="stader_stadar.subst-ene2ane">
     <description lang="nno">stader → stadar, stadene → stadane (systemrett fleirtalsform i hankjønnsord på -er/-ene)</description>
   </preference>

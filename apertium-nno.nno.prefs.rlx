@@ -52,6 +52,16 @@ SELECT:mw_filter (v:er_ar "<(.+)#.*>"r) IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
 SELECT:no_filter (v:er_ar)              IF (0      (VAR:er_ar=*)) ;
 REMOVE:unset     (v:er_ar) ;
 
+SELECT:lm_filter (v:brukte_bruka.vb-e2a "<(.+)>"r)     IF (0 (VSTR:VAR:brukte_bruka.vb-e2a=/\\b$1\\b/r)) ;
+SELECT:mw_filter (v:brukte_bruka.vb-e2a "<(.+)#.*>"r)  IF (0 (VSTR:VAR:brukte_bruka.vb-e2a=/\\b$1\\b/r)) ;
+SELECT:no_filter (v:brukte_bruka.vb-e2a)               IF (0      (VAR:brukte_bruka.vb-e2a=*)) ;
+REMOVE:unset     (v:brukte_bruka.vb-e2a) ;
+
+SELECT:lm_filter (v:håpa_håpte.vb-a2e "<(.+)>"r)     IF (0 (VSTR:VAR:håpa_håpte.vb-a2e=/\\b$1\\b/r)) ;
+SELECT:mw_filter (v:håpa_håpte.vb-a2e "<(.+)#.*>"r)  IF (0 (VSTR:VAR:håpa_håpte.vb-a2e=/\\b$1\\b/r)) ;
+SELECT:no_filter (v:håpa_håpte.vb-a2e)               IF (0      (VAR:håpa_håpte.vb-a2e=*)) ;
+REMOVE:unset     (v:håpa_håpte.vb-a2e) ;
+
 # The rest are quite straightforward:
 
 SELECT (v:tenkje-leggje.kons-kj2k_gj2g)        IF (0 (VAR:tenkje-leggje.kons-kj2k_gj2g)) ;
