@@ -231,6 +231,9 @@ REMOVE (v:flyg_flyr.vb-inf) ;
 SELECT (v:gle_glede.vb-inf) IF (0 (VAR:gle_glede.vb-inf)) ;
 REMOVE (v:gle_glede.vb-inf) ;
 
+SELECT (v:lide_li.vb-inf) IF (0 (VAR:lide_li.vb-inf)) ;
+REMOVE (v:lide_li.vb-inf) ;
+
 SELECT (v:jern_jarn.vok-a2e) IF (0 (VAR:jern_jarn.vok-a2e)) ;
 REMOVE (v:jern_jarn.vok-a2e) ;
 

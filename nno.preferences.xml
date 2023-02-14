@@ -425,6 +425,9 @@
   <preference id="gle_glede.vb-inf">
     <description lang="nno">gle → glede, gler → gleder (inf + presens)</description>
   </preference>
+  <preference id="lide_li.vb-inf">
+    <description lang="nno">lide → li, lid → lir,  leid → lei (inf + pres + pret; om smerte, sjukdom)</description>
+  </preference>
   <preference id="jern_jarn.vok-a2e">
     <description lang="nno">jern → jarn</description>
   </preference>
