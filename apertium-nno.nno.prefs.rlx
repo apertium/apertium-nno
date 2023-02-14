@@ -91,8 +91,11 @@ REMOVE (v:medan_mens) ;
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;
 
-SELECT (v:stader_stadar.subst-ene2ane) IF (0 (VAR:stader_stadar.subst-ene2ane)) ;
-REMOVE (v:stader_stadar.subst-ene2ane) ;
+SELECT (v:stader_stadar.s-pl-e2a) IF (0 (VAR:stader_stadar.s-pl-e2a)) ;
+REMOVE (v:stader_stadar.s-pl-e2a) ;
+
+SELECT (v:elvar_elver.s-pl-e2a) IF (0 (VAR:elvar_elver.s-pl-e2a)) ;
+REMOVE (v:elvar_elver.s-pl-e2a) ;
 
 SELECT (v:tek_tar.vb-en2tt) IF (0 (VAR:tek_tar.vb-en2tt)) ;
 REMOVE (v:tek_tar.vb-en2tt) ;

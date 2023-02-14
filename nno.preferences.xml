@@ -306,8 +306,11 @@
       <option id="håpe"/>
     </options>
   </preference>
-  <preference id="stader_stadar.subst-ene2ane">
-    <description lang="nno">stader → stadar, stadene → stadane (systemrett fleirtalsform i hankjønnsord på -er/-ene)</description>
+  <preference id="stader_stadar.s-pl-e2a">
+    <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
+  </preference>
+  <preference id="elvar_elver.s-pl-e2a">
+    <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
   </preference>
   <preference id="tek_tar.vb-en2tt">
     <description lang="nno">å ta: tek → tar, teken → tatt</description>
