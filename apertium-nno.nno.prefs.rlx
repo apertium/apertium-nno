@@ -44,12 +44,16 @@ REMOVE (v:infa_infe) ;
 # Dirty one-liner to find all lemmas that can use a certain var-tag:
 # $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:_er_ar/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':_er_ar' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
 #
-# The #.* entry is to allow multiwords, e.g. AP_SETVAR="lene_er_ar"
+# The #.* entry is to allow multiwords, e.g. AP_SETVAR="er_ar=lene"
 # should also affect "lene seg".
 
-LIST er_ar_lems = "<.*(bruke|skape|rope|slipe|slepe|spele|hale|koke|skylde|leie|bake|like|tale|jule|føle|måle|stråle|mane|banne|skjønne|skjøne|klare|svare|lure|spise)>"r ;
+
+
+LIST er_ar_vbs = "<.*(bruke|skape|rope|slipe|slepe|spele|hale|koke|skylde|leie|bake|like|tale|jule|føle|måle|stråle|mane|banne|skjønne|skjøne|klare|svare|lure|spise)>"r ;
+LIST er_ar_adjs = "<.*(bruk|slip)t>"r ; # doesn't include final -t in $1
 # This lets "<gjenbruke>" match er_ar=bruke because the substring bruke is parenthesis group $1
-SELECT:compounds (v:er_ar) + er_ar_lems IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
+SELECT:compounds (v:er_ar) + er_ar_vbs  IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
+SELECT:adjs      (v:er_ar) + er_ar_adjs IF (0 (VSTR:VAR:er_ar=/\\b$1e\\b/r)) ; # add final -e
 SELECT:lm_filter (v:er_ar "<(.+)>"r)    IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
 SELECT:mw_filter (v:er_ar "<(.+)#.*>"r) IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
 SELECT:no_filter (v:er_ar)              IF (0      (VAR:er_ar=*)) ;
