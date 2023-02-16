@@ -61,8 +61,8 @@ REMOVE:unset     (v:er_ar) ;
 
 LIST brukte_bruka_vbs = "<.*(bruke|ane|bake|betale|bile|breke)>"r ;
 LIST brukte_bruka_adjs = "<.*(bruk|bak|betal|slip)t>"r ; # doesn't include final -t in $1
-SELECT:compounds (v:brukte_bruka.vb-e2a) + brukte_bruka_vbs  IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
-SELECT:adjs      (v:brukte_bruka.vb-e2a) + brukte_bruka_adjs IF (0 (VSTR:VAR:er_ar=/\\b$1e\\b/r)) ; # add final -e
+SELECT:compounds (v:brukte_bruka.vb-e2a) + brukte_bruka_vbs  IF (0 (VSTR:VAR:brukte_bruka.vb-e2a=/\\b$1\\b/r)) ;
+SELECT:adjs      (v:brukte_bruka.vb-e2a) + brukte_bruka_adjs IF (0 (VSTR:VAR:brukte_bruka.vb-e2a=/\\b$1e\\b/r)) ; # add final -e
 SELECT:lm_filter (v:brukte_bruka.vb-e2a "<(.+)>"r)     IF (0 (VSTR:VAR:brukte_bruka.vb-e2a=/\\b$1\\b/r)) ;
 SELECT:mw_filter (v:brukte_bruka.vb-e2a "<(.+)#.*>"r)  IF (0 (VSTR:VAR:brukte_bruka.vb-e2a=/\\b$1\\b/r)) ;
 SELECT:no_filter (v:brukte_bruka.vb-e2a)               IF (0      (VAR:brukte_bruka.vb-e2a=*)) ;
@@ -70,8 +70,8 @@ REMOVE:unset     (v:brukte_bruka.vb-e2a) ;
 
 LIST håpa_håpte_vbs = "<.*(ape|beite|brøyte|håpe)>"r ;
 LIST håpa_håpte_adjs = "<.*(beit|brøyt)t>"r ; # doesn't include final -t in $1
-SELECT:compounds (v:håpa_håpte.vb-e2a) + håpa_håpte_vbs  IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
-SELECT:adjs      (v:håpa_håpte.vb-e2a) + håpa_håpte_adjs IF (0 (VSTR:VAR:er_ar=/\\b$1e\\b/r)) ; # add final -e
+SELECT:compounds (v:håpa_håpte.vb-e2a) + håpa_håpte_vbs  IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;
+SELECT:adjs      (v:håpa_håpte.vb-e2a) + håpa_håpte_adjs IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1e\\b/r)) ; # add final -e
 SELECT:lm_filter (v:håpa_håpte.vb-e2a "<(.+)>"r)     IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;
 SELECT:mw_filter (v:håpa_håpte.vb-e2a "<(.+)#.*>"r)  IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;
 SELECT:no_filter (v:håpa_håpte.vb-e2a)               IF (0      (VAR:håpa_håpte.vb-e2a=*)) ;
