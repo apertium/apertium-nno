@@ -273,6 +273,9 @@
   <preference id="døgn_døger.stav">
     <description lang="nno">døgn → døger</description>
   </preference>
+    <preference id="augne_auge.stav">
+    <description lang="nno">augne- → auge-</description>
+  </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
   </preference>

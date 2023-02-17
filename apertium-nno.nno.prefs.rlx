@@ -187,6 +187,9 @@ REMOVE (v:symje_svømme.stav) ;
 SELECT (v:døgn_døger.stav) IF (0 (VAR:døgn_døger.stav)) ;
 REMOVE (v:døgn_døger.stav) ;
 
+SELECT (v:augne_auge.stav) IF (0 (VAR:augne_auge.stav)) ;
+REMOVE (v:augne_auge.stav) ;
+
 SELECT (v:skule_skole.vok-u2o) IF (0 (VAR:skule_skole.vok-u2o)) ;
 REMOVE (v:skule_skole.vok-u2o) ;
 
