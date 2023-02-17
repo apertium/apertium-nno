@@ -69,7 +69,7 @@ SELECT:no_filter (v:brukte_bruka.vb-e2a)               IF (0      (VAR:brukte_br
 REMOVE:unset     (v:brukte_bruka.vb-e2a) ;
 
 LIST håpa_håpte_vbs = "<.*(ape|beite|brøyte|håpe)>"r ;
-LIST håpa_håpte_adjs = "<.*(beit|brøyt)t>"r ; # doesn't include final -t in $1
+LIST håpa_håpte_adjs = "<.*(ap|beit|brøyt)a>"r ; # doesn't include final -a in $1
 SELECT:compounds (v:håpa_håpte.vb-e2a) + håpa_håpte_vbs  IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;
 SELECT:adjs      (v:håpa_håpte.vb-e2a) + håpa_håpte_adjs IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1e\\b/r)) ; # add final -e
 SELECT:lm_filter (v:håpa_håpte.vb-e2a "<(.+)>"r)     IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;
