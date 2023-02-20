@@ -192,6 +192,40 @@
       <option id="fortøye"/>
     </options>
   </preference>
+  <preference id="håpa_håpte.vb-e2a">
+    <description lang="nno">A-verb → e-verb. 'håpa_håpte.vb-e2a' gir e-verbbøying på alle a-verb som valfritt kan bøyast som e-verb. Enkeltverb kan spesifiserast med 'håpa_håpte.vb-e2a=flytte:helse:våge', som også inkluderer samansette verb og adjektiv (t.d. handhelse, utflytta).</description>
+    <description lang="nob">A-verb → e-verb. 'håpa_håpte.vb-e2a' gir e-verbbøying på alle a-verb som valgfritt kan bøyes som e-verb. Enkeltverb kan spesifiseres med 'håpa_håpte.vb-e2a=flytte:helse:våge', som også inkluderer sammensatte verb og adjektiv (t.d. handhelse, utflytta).</description>
+    <options>
+      <option id="ape"/>
+      <option id="beite"/>
+      <option id="brøyte"/>
+      <option id="drøfte"/>
+      <option id="ense"/>
+      <option id="feile"/>
+      <option id="feste"/>
+      <option id="fire"/>
+      <option id="flytte"/>
+      <option id="gifte"/>
+      <option id="helse"/>
+      <option id="håpe"/>
+      <option id="lade"/>
+      <option id="leike"/>
+      <option id="leite"/>
+      <option id="love"/>
+      <option id="løfte"/>
+      <option id="meie"/>
+      <option id="miste"/>
+      <option id="peike"/>
+      <option id="prise"/>
+      <option id="rose"/>
+      <option id="skifte"/>
+      <option id="skjerpe"/>
+      <option id="sprelle"/>
+      <option id="streve"/>
+      <option id="sveise"/>
+      <option id="trene"/>
+    </options>
+  </preference>
   <preference id="brukte_bruka.vb-e2a">
     <description lang="nno">system: bruker → brukar, brukte → bruka (verb med valfri bøying -er/-te/-t (v2) → -ar/-a/-a (v1))</description>
     <description lang="nob">system: bruker → brukar, brukte → bruka (verb med valgfri bøying -er/-te/-t (v2) → -ar/-a/-a (v1))</description>
