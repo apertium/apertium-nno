@@ -231,13 +231,7 @@
     <description lang="nob">system: bruker → brukar, brukte → bruka (verb med valgfri bøying -er/-te/-t (v2) → -ar/-a/-a (v1))</description>
     <options>
       <option id="bruke"/>
-    </options>
-  </preference>
-  <preference id="håpa_håpte.vb-e2a">
-    <description lang="nno">system: håpar → håper, håpa → håpte (verb med valfri bøying -ar/-a/-a (v1) → -er/-te/-t (v2))</description>
-    <description lang="nob">system: håpar → håper, håpa → håpte (verb med valgfri bøying -ar/-a/-a (v1) → -er/-te/-t (v2))</description>
-    <options>
-      <option id="håpe"/>
+      <option id="klare" c="forklare, oppklare, avklare må førast opp eksplisitt"/>
     </options>
   </preference>
   <preference id="stader_stadar.s-pl-e2a">
@@ -465,6 +459,9 @@
       <pref n="fly_flyge.vb-inf" v="false"/>
       <pref n="flyg_flyr.vb-inf" v="true"/>
     </incompat>
+    <incompat c="ikkje forklarar (pres) viss forklårar er vald">
+      <pref n="brukte_bruka.vb-e2a" v="false"/>
+      <pref n="allmenn_ålmenn.vok-a2å" v="true"/>
+    </incompat>
   </incompatibilities>
-
 </preferences>
