@@ -59,7 +59,7 @@ SELECT:mw_filter (v:er_ar "<(.+)#.*>"r) IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
 SELECT:no_filter (v:er_ar)              IF (0      (VAR:er_ar=*)) ;
 REMOVE:unset     (v:er_ar) ;
 
-LIST brukte_bruka_vbs = "<.*(bruke|ane|bake|betale|breke|dreie|dynge|eine|glane|hale|jule|forklare|koke|kose|leie|like|mane|lure|rope|sile|skape)>"r ;
+LIST brukte_bruka_vbs = "<.*(bruke|ane|bake|betale|breke|dreie|dynge|eine|glane|hale|jule|forklare|koke|kose|leie|like|mane|lure|rope|sile|skape|skjønne|slipe|sløre)>"r ;
 LIST brukte_bruka_adjs = "<.*(bruk|bak|betal|klar|kok|lur|rop|sil|slip)t>"r ; # doesn't include final -t in $1
 LIST brukte_bruka_adjs2 = "<.*(drei|lei)dd>"r ; # doesn't include final -dd in $1
 LIST brukte_bruka_adjs3 = "<.*(dyng)d>"r ;  # doesn't include final -d in $1
