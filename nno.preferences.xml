@@ -231,7 +231,7 @@
     <description lang="nob">system: bruker → brukar, brukte → bruka (verb med valgfri bøying -er/-te/-t (v2) → -ar/-a/-a (v1))</description>
     <options>
       <option id="bruke"/>
-      <option id="klare" c="forklare, oppklare, avklare må førast opp eksplisitt"/>
+      <option id="klare"/>
     </options>
   </preference>
   <preference id="stader_stadar.s-pl-e2a">
