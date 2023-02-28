@@ -180,8 +180,8 @@
   <preference id="skule_skole.vok-u2o">
     <description lang="nno">skule → skole</description>
   </preference>
-    <preference id="skulere_skolere.vok-u2o">
-    <description lang="nno">skulere → skolere</description>
+    <preference id="skolere_skulere.vok-u2o">
+    <description lang="nno">skolere → skulere</description>
   </preference>
   <preference id="jul_jol.vok-u2o">
     <description lang="nno">jul → jol</description>
