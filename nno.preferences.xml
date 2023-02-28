@@ -36,9 +36,9 @@
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
   </preference>
-  <preference id="er_ar">
-    <description lang="nno">system: roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a der det er mogleg)</description>
-    <description lang="nob">system: roper → ropar, stader → stadar (-er/-te/-t → -ar/-a/-a der det er mulig)</description>
+  <preference id="er_ar.vb-e2a">
+    <description lang="nno">System: e-verb med blanda bøying, presens på -ar: roper → ropar (keeps ropte – ropt)</description>
+    <description lang="nob">System: e-verb med blanda bøying, presens på -ar: roper → ropar (keeps ropte – ropt)</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. 'håpa_håpte.vb-e2a' gir e-verbbøying på alle a-verb som valfritt kan bøyast som e-verb. Enkeltverb kan spesifiserast med 'håpa_håpte.vb-e2a=flytte:helse:våge', som også inkluderer samansette verb og adjektiv (t.d. handhelse, utflytta).</description>

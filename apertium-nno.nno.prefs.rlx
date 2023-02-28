@@ -33,31 +33,26 @@ REMOVE (v:infa_infe) ;
 #
 # Preferences with open slots for lemmas start with an underscore.
 #
-# If you set AP_SETVAR="er_ar" you should get -er→-ar for all the
-# forms that have that tag, but if you instead
-# AP_SETVAR="er_ar=grue:male", then you only get er_ar for
-# those specific lemmas.
+# If you set AP_SETVAR="brukte_bruka.vb-e2a" you should get 
+# e-inflection (-er–-te/-de/-dde) → -a-inflection (-ar–-a)
+# for all the forms that have that tag, but if you instead set 
+# AP_SETVAR="brukte_bruka.vb-e2a=bruke:rope:sile", then you only get a-inflection
+# for those specific lemmas.
+#
+# AP_SETVAR="håpa_håpte.vb-e2a" does the same thing in the opposite direction,
+# a-inflection → e-inflection.
+#
+# AP_SETVAR="er_ar.vb-e2a" handles optional mixed inflection:
+# bruke – brukar – brukte – brukt.
 #
 # NB. Rules match lemmas on "<wordforms>" – since this is input to
 # generator, wordforms/lemmas are backwards.
 #
 # Dirty one-liner to find all lemmas that can use a certain var-tag:
-# $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:_er_ar/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':_er_ar' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
+# $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:_er_ar.vb-e2a/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':_er_ar.vb-e2a' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
 #
-# The #.* entry is to allow multiwords, e.g. AP_SETVAR="er_ar=lene"
+# The #.* entry is to allow multiwords, e.g. AP_SETVAR="er_ar.vb-e2a=lene"
 # should also affect "lene seg".
-
-
-
-LIST er_ar_vbs = "<.*(bruke|skape|rope|slipe|slepe|spele|hale|koke|skylde|leie|bake|like|tale|jule|føle|måle|stråle|mane|banne|skjønne|skjøne|klare|svare|lure|spise)>"r ;
-LIST er_ar_adjs = "<.*(bruk|slip)t>"r ; # doesn't include final -t in $1
-# This lets "<gjenbruke>" match er_ar=bruke because the substring bruke is parenthesis group $1
-SELECT:compounds (v:er_ar) + er_ar_vbs  IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
-SELECT:adjs      (v:er_ar) + er_ar_adjs IF (0 (VSTR:VAR:er_ar=/\\b$1e\\b/r)) ; # add final -e
-SELECT:lm_filter (v:er_ar "<(.+)>"r)    IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
-SELECT:mw_filter (v:er_ar "<(.+)#.*>"r) IF (0 (VSTR:VAR:er_ar=/\\b$1\\b/r)) ;
-SELECT:no_filter (v:er_ar)              IF (0      (VAR:er_ar=*)) ;
-REMOVE:unset     (v:er_ar) ;
 
 LIST brukte_bruka_vbs = "<.*(bruke|ane|bake|betale|breke|dreie|dynge|eine|glane|hale|jule|klare|koke|kose|leie|like|mane|lure|rope|sile|skape|skjønne|slipe|sløre|spele|stråle|svare|tale|tvile)>"r ;
 LIST brukte_bruka_adjs = "<.*(bruk|bak|betal|klar|kok|lur|rop|sil|slip|spar|spel|svar|tal|tvil)t>"r ; # doesn't include final -t in $1
@@ -82,6 +77,9 @@ SELECT:no_filter (v:håpa_håpte.vb-e2a)               IF (0      (VAR:håpa_hå
 REMOVE:unset     (v:håpa_håpte.vb-e2a) ;
 
 # The rest are quite straightforward:
+
+SELECT (v:er_ar.vb-e2a)                IF (0 (VAR:er_ar.vb-e2a)) ;
+REMOVE (v:er_ar.vb-e2a) ;
 
 SELECT (v:tenkje-leggje.kons-kj2k_gj2g)        IF (0 (VAR:tenkje-leggje.kons-kj2k_gj2g)) ;
 REMOVE (v:tenkje-leggje.kons-kj2k_gj2g) ;
