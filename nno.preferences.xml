@@ -41,8 +41,8 @@
     <description lang="nob">System: e-verb med blanda bøying, presens på -ar: roper → ropar (keeps ropte – ropt)</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
-    <description lang="nno">A-verb → e-verb. 'håpa_håpte.vb-e2a' gir e-verbbøying på alle a-verb som valfritt kan bøyast som e-verb. Enkeltverb kan spesifiserast med 'håpa_håpte.vb-e2a=flytte:helse:våge', som også inkluderer samansette verb og adjektiv (t.d. handhelse, utflytta).</description>
-    <description lang="nob">A-verb → e-verb. 'håpa_håpte.vb-e2a' gir e-verbbøying på alle a-verb som valgfritt kan bøyes som e-verb. Enkeltverb kan spesifiseres med 'håpa_håpte.vb-e2a=flytte:helse:våge', som også inkluderer sammensatte verb og adjektiv (f.eks. handhelse, utflytta).</description>
+    <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
+    <description lang="nob">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valgfritt kan bøyes som e-verb.</description>
     <options>
       <option id="ape"/>
       <option id="beite"/>
@@ -75,8 +75,8 @@
     </options>
   </preference>
   <preference id="brukte_bruka.vb-e2a">
-    <description lang="nno">E-verb → a-verb. 'brukte_bruka.vb-e2a' gir a-verbbøying på alle e-verb som valfritt kan bøyast som a-verb. Enkeltverb kan spesifiserast med 'brukte_bruka.vb-e2a=tale:leie:sløre', som også inkluderer samansette verb og adjektiv (t.d. overtale, innleie, tilsløra).</description>
-    <description lang="nob">E-verb → a-verb. 'brukte_bruka.vb-e2a' gir a-verbbøying på alle e-verb som valgfritt kan bøyes som a-verb. Enkeltverb kan spesifiseres med 'brukte_bruka.vb-e2a=tale:leie:sløre', som også inkluderer sammensatte verb og adjektiv (f.eks. overtale, innleie, tilsløra).</description>
+    <description lang="nno">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valfritt kan bøyast som a-verb.</description>
+    <description lang="nob">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valgfritt kan bøyes som a-verb.</description>
     <options>
       <option id="ane"/>
       <option id="bake"/>
