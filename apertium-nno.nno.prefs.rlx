@@ -76,6 +76,24 @@ SELECT:mw_filter (v:håpa_håpte.vb-e2a "<(.+)#.*>"r)  IF (0 (VSTR:VAR:håpa_hå
 SELECT:no_filter (v:håpa_håpte.vb-e2a)               IF (0      (VAR:håpa_håpte.vb-e2a=*)) ;
 REMOVE:unset     (v:håpa_håpte.vb-e2a) ;
 
+# General or individual selection of masculine nouns that optionally can be transformed into feminine form.
+# e.g. 'AP_SETVAR="teksten_teksta.s-m2f' (general) or 'AP_SETVAR="teksten_teksta.s-m2f=tekst:tale:bane' (specific)
+LIST teksten_teksta_n = "<.*(tekst|tale|bane)>"r ;
+SELECT:compounds (v:teksten_teksta.s-m2f) + teksten_teksta_n  IF (0 (VSTR:VAR:teksten_teksta.s-m2fa=/\\b$1\\b/r)) ;
+SELECT:lm_filter (v:teksten_teksta.s-m2f "<(.+)>"r)     IF (0 (VSTR:VAR:teksten_teksta.s-m2f=/\\b$1\\b/r)) ;
+SELECT:mw_filter (v:teksten_teksta.s-m2f "<(.+)#.*>"r)  IF (0 (VSTR:VAR:teksten_teksta.s-m2f=/\\b$1\\b/r)) ;
+SELECT:no_filter (v:teksten_teksta.s-m2f)               IF (0      (VAR:teksten_teksta.s-m2f=*)) ;
+REMOVE:unset     (v:teksten_teksta.s-m2f) ;
+
+# General or individual selection of feminine nouns that optionally can be transformed into masculine form.
+# e.g. 'AP_SETVAR="lova_loven.s-m2f' (general) or 'AP_SETVAR="lova_loven.s-m2f=lov:grad:prøve' (specific)
+LIST lova_loven_n = "<.*(lov|grad|tale)>"r ;
+SELECT:compounds (v:lova_loven.s-m2f) + lova_loven_n  IF (0 (VSTR:VAR:lova_loven.s-m2f=/\\b$1\\b/r)) ;
+SELECT:lm_filter (v:lova_loven.s-m2f "<(.+)>"r)     IF (0 (VSTR:VAR:lova_loven.s-m2f=/\\b$1\\b/r)) ;
+SELECT:mw_filter (v:lova_loven.s-m2f "<(.+)#.*>"r)  IF (0 (VSTR:VAR:lova_loven.s-m2f=/\\b$1\\b/r)) ;
+SELECT:no_filter (v:lova_loven.s-m2f)               IF (0      (VAR:lova_loven.s-m2f=*)) ;
+REMOVE:unset     (v:lova_loven.s-m2f) ;
+
 # The rest are quite straightforward:
 
 SELECT (v:er_ar.vb-e2a)                IF (0 (VAR:er_ar.vb-e2a)) ;
