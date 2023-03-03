@@ -110,12 +110,6 @@
   <preference id="elvar_elver.s-pl-e2a">
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
   </preference>
-  <preference id="teksten_teksta.s-m2f">
-    <description lang="nno">hankjønn → hokjønn; gir hokjønnsform til hankjønnsord som valfritt kan vere hokjønn (t.d. teksten → teksta, bygningen → bygninga)</description>
-  </preference>
-  <preference id="lova_loven.s-m2f">
-    <description lang="nno">hokjønn → hankjønn; gir hankjønnsform til hokjønnsord som valfritt kan vere hankjønn (t.d. lova → loven, prøva → prøven)</description>
-  </preference>
   <preference id="tek_tar.vb-en2tt">
     <description lang="nno">å ta: tek → tar, teken → tatt</description>
   </preference>
