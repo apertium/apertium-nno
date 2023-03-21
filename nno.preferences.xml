@@ -288,6 +288,9 @@
   <preference id="oske_aske.vok-o2a">
     <description lang="nno">oske → aske, oskeladd → askeladd (ikkje normert sideform)</description>
   </preference>
+  <preference id="trost_trast.vok-o2a">
+    <description lang="nno">trost → trast</description>
+  </preference>
   <preference id="nød_naud.dift-ø2au">
     <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud o.fl.</description>
   </preference>

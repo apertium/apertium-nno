@@ -156,6 +156,9 @@ REMOVE (v:maske_moske.vok-o2a) ;
 SELECT (v:oske_aske.vok-o2a) IF (0 (VAR:oske_aske.vok-o2a)) ;
 REMOVE (v:oske_aske.vok-o2a) ;
 
+SELECT (v:trost_trast.vok-o2a) IF (0 (VAR:trost_trast.vok-o2a)) ;
+REMOVE (v:trost_trast.vok-o2a) ;
+
 SELECT (v:mengd_mengde.vok-2e) IF (0 (VAR:mengd_mengde.vok-2e)) ;
 REMOVE (v:mengd_mengde.vok-2e) ;
 
