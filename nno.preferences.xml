@@ -318,9 +318,6 @@
   <preference id="forvaltning_forvalting.afx-ning2ing">
     <description lang="nno">forvaltning → forvaltning, avkastning → avkasting, underhaldning → underhalding osv.</description>
   </preference>
-  <preference id="medlemskapen_medlemskapet.n.m2nt">
-    <description lang="nno">bodskapen → bodskapet, meisterskapen → meisterskapet osv.</description>
-  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
