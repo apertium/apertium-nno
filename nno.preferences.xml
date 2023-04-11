@@ -409,6 +409,9 @@
   <preference id="forvaltning_forvalting.afx-ning2ing">
     <description lang="nno">forvaltning → forvaltning, avkastning → avkasting, underhaldning → underhalding osv.</description>
   </preference>
+  <preference id="redsel_redsle.kons-sel2sle">
+    <description lang="nno">redsel → redsle, redselsfull → redslefull osv.</description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">

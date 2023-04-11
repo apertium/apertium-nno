@@ -327,6 +327,9 @@ REMOVE (v:formål_føremål.afx-fore2føre) ;
 SELECT (v:forvaltning_forvalting.afx-ning2ing) IF (0 (VAR:forvaltning_forvalting.afx-ning2ing)) ;
 REMOVE (v:forvaltning_forvalting.afx-ning2ing) ;
 
+SELECT (v:redsel_redsle.kons-sel2sle) IF (0 (VAR:redsel_redsle.kons-sel2sle)) ;
+REMOVE (v:redsel_redsle.kons-sel2sle) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
 
