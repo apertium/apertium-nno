@@ -330,6 +330,9 @@ REMOVE (v:forvaltning_forvalting.afx-ning2ing) ;
 SELECT (v:redsel_redsle.kons-sel2sle) IF (0 (VAR:redsel_redsle.kons-sel2sle)) ;
 REMOVE (v:redsel_redsle.kons-sel2sle) ;
 
+SELECT (v:gløymsle_gløymsel.kons-sel2sle) IF (0 (VAR:gløymsle_gløymsel.kons-sel2sle)) ;
+REMOVE (v:gløymsle_gløymsel.kons-sel2sle) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
 
