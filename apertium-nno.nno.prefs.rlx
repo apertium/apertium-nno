@@ -67,8 +67,8 @@ SELECT:mw_filter (v:brukte_bruka.vb-e2a "<(.+)#.*>"r)  IF (0 (VSTR:VAR:brukte_br
 SELECT:no_filter (v:brukte_bruka.vb-e2a)               IF (0      (VAR:brukte_bruka.vb-e2a=*)) ;
 REMOVE:unset     (v:brukte_bruka.vb-e2a) ;
 
-LIST håpa_håpte_vbs = "<.*(ape|beite|brøyte|drøfte|ense|feile|feste|flytte|gifte|helse|håpe|lade|leike|leite|love|løfte|meie|miste|peike|prise|rose|skifte|skjerpe|sprelle|streve|sveise|trene)>"r ;
-LIST håpa_håpte_adjs = "<.*(ap|beit|brøyt|drøft|fest|flytt|gift|lad|lov|peik|skift|sveis|tren)a>"r ; # doesn't include final -a in $1
+LIST håpa_håpte_vbs = "<.*(ape|banne|beite|brøyte|drøfte|ense|feile|feste|flytte|gifte|helse|håpe|lade|leike|leite|love|løfte|meie|miste|peike|prise|rose|skifte|skjerpe|sprelle|streve|sveise|trene)>"r ;
+LIST håpa_håpte_adjs = "<.*(ap|bann|beit|brøyt|drøft|fest|flytt|gift|lad|lov|peik|skift|sveis|tren)a>"r ; # doesn't include final -a in $1
 SELECT:compounds (v:håpa_håpte.vb-e2a) + håpa_håpte_vbs  IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;
 SELECT:adjs      (v:håpa_håpte.vb-e2a) + håpa_håpte_adjs IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1e\\b/r)) ; # add final -e
 SELECT:lm_filter (v:håpa_håpte.vb-e2a "<(.+)>"r)     IF (0 (VSTR:VAR:håpa_håpte.vb-e2a=/\\b$1\\b/r)) ;

@@ -45,6 +45,7 @@
     <description lang="nob">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valgfritt kan bøyes som e-verb.</description>
     <options>
       <option id="ape"/>
+      <option id="banne"/>
       <option id="beite"/>
       <option id="brøyte"/>
       <option id="deise"/>
