@@ -832,6 +832,9 @@ REMOVE:unlikely ("íð") ;
 REMOVE:unlikely ("tilsjå");
 REMOVE:unlikely ("eie") + vblex;
 
+REMOVE:unlikely ("må") + vblex IF (0 ("måtte")) (NOT 1 ("over"));
+# TODO: òg faste uttrykk «eg mår det ikkje von»
+
 REMOVE:unlikely ("åre") IF (0 ("år"));
 REMOVE:unlikely ("live") IF (0 ("liv"));
 
