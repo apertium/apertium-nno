@@ -365,6 +365,9 @@
   <preference id="segle_sigle.vok-e2i">
     <description lang="nno">segle → sigle, ekorn → ikorn</description>
   </preference>
+  <preference id="krins_krets.syn">
+    <description lang="nno">krins → krets</description>
+  </preference>
   <preference id="lys_ljos.vok-y2jo">
     <description lang="nno">lys → ljos</description>
   </preference>
