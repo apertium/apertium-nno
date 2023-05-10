@@ -368,6 +368,9 @@
   <preference id="krins_krets.syn">
     <description lang="nno">krins → krets</description>
   </preference>
+  <preference id="bilete_bilde.syn">
+    <description lang="nno">bilete → bilde</description>
+  </preference>
   <preference id="lys_ljos.vok-y2jo">
     <description lang="nno">lys → ljos</description>
   </preference>

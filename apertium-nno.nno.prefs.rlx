@@ -177,6 +177,9 @@ REMOVE (v:kors_kross) ;
 SELECT (v:krins_krets.syn) IF (0 (VAR:krins_krets.syn)) ;
 REMOVE (v:krins_krets.syn) ;
 
+SELECT (v:bilete_bilde.syn) IF (0 (VAR:bilete_bilde.syn)) ;
+REMOVE (v:bilete_bilde.syn) ;
+
 SELECT (v:nærare_nærmare.stav) IF (0 (VAR:nærare_nærmare.stav)) ;
 REMOVE (v:nærare_nærmare.stav) ;
 
