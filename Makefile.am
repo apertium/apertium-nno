@@ -23,14 +23,22 @@ TARGETS_COMMON = $(LANG1).automorf.bin \
 ## Norwegian Nynorsk transducer
 ###############################################################################
 
-$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
+.deps/%.autogen.bin: $(BASENAME).%.dix .deps/.d
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
+$(LANG1).autogen.bin: .deps/$(LANG1).autogen.bin .deps/proper-$(LANG1).autogen.bin
+	lt-append $^ $@
+
+# .deps/improper-$(LANG1).automorf.bin  and  .deps/$(LANG1).automorf.bin:
+.deps/%.automorf.bin: $(BASENAME).%.dix $(BASENAME).$(LANG1).acx .deps/.d
 	apertium-validate-dictionary $<
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
+
+$(LANG1).automorf.bin: .deps/$(LANG1).automorf.bin .deps/proper-$(LANG1).automorf.bin
+	lt-append $^ $@
+
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@
@@ -46,6 +54,7 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 ###############################################################################
 EXTRA_DIST=$(BASENAME).$(LANG1).dix \
            $(BASENAME).post-$(LANG1).dix \
+           $(BASENAME).proper-$(LANG1).dix \
 	   $(BASENAME).$(LANG1).rlx \
 	   $(BASENAME).$(LANG1).seg.rlx \
 	   $(BASENAME).$(LANG1).syn.rlx \
@@ -68,6 +77,7 @@ apertium_nno_DATA=$(TARGETS_COMMON) $(LANG1).prob \
 				  $(LANG1).preferences.xml \
 				  $(BASENAME).$(LANG1).dix \
 				  $(BASENAME).post-$(LANG1).dix \
+				  $(BASENAME).proper-$(LANG1).dix \
 				  $(BASENAME).$(LANG1).rlx \
 				  $(BASENAME).$(LANG1).seg.rlx \
 				  $(BASENAME).$(LANG1).syn.rlx \
