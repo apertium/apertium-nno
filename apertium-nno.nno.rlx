@@ -838,6 +838,8 @@ REMOVE:unlikely ("må") + vblex IF (0 ("måtte")) (NOT 1 ("over"));
 REMOVE:unlikely ("åre") IF (0 ("år"));
 REMOVE:unlikely ("live") IF (0 ("liv"));
 
+"<Er>"i REMOVE:unlikely np;
+"<Hele>"i REMOVE:unlikely np;
 
 #Predikativ eller perfpart i nynorsk:
 # Etter ha/hadde/få: perfektum partisipp
