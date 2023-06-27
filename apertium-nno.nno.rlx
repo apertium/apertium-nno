@@ -32,6 +32,8 @@ LIST cmp-split = cmp-split ;
 LIST pret = pret ;
 LIST pp = pp ;
 
+LIST cm = cm ;
+
 # OBT sets converted to Apertium:
 LIST sp = sp ;
 LIST %-vis% = ".*vis"r ;
@@ -3666,6 +3668,9 @@ SELECT:ingen-andre ("ingen") + pl IF
 	(**2C pres/pret LINK 1 adverb/komp/ub-sup/pres-part LINK *1 ikkje-adv-komp-ub-sup LINK NOT 0 nom)
 ;
 
+"<som>" SELECT:som-ifølgje (cnjsub) IF
+        (*1 ("ifølgje") BARRIER (*) - cm)
+        ;
 
 #:4364
  "<spent>"   SELECT:4364   (vblex pp) IF
@@ -52984,6 +52989,9 @@ SELECT:nå-er-anlegget-gravminne $$NUMBER IF
         (-1C subst + $$NUMBER + $$GENDER + bu)
         (0C subst + $$GENDER)
         ;
+
+
+"<som>" SELECT:default (cnjsub) ;
 
 LIST målingpå = "hus" "vegg" "graffiti" "strek" "bilde" "bilete" ;
 SELECT ("måle¹") IF (1 målingpå) ;
