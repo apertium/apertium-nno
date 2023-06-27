@@ -52992,6 +52992,8 @@ SELECT:nå-er-anlegget-gravminne $$NUMBER IF
 
 
 "<som>" SELECT:default (cnjsub) ;
+SELECT:default ("arbeid") IF (0 ("arbeide")) ;
+SELECT:default ("samarbeid") IF (0 ("samarbeide")) ;
 
 LIST målingpå = "hus" "vegg" "graffiti" "strek" "bilde" "bilete" ;
 SELECT ("måle¹") IF (1 målingpå) ;
