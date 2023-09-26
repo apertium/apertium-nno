@@ -204,6 +204,9 @@ REMOVE (v:døgn_døger.stav) ;
 SELECT (v:augne_auge.stav) IF (0 (VAR:augne_auge.stav)) ;
 REMOVE (v:augne_auge.stav) ;
 
+SELECT (v:auga_augo.vok-a2o) IF (0 (VAR:auga_augo.vok-a2o)) ;
+REMOVE (v:auga_augo.vok-a2o) ;
+
 SELECT (v:skule_skole.vok-u2o) IF (0 (VAR:skule_skole.vok-u2o)) ;
 REMOVE (v:skule_skole.vok-u2o) ;
 
