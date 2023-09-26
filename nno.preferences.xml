@@ -425,6 +425,9 @@
   <preference id="gløymsle_gløymsel.kons-sel2sle">
     <description lang="nno">gløymsle → gløymsel</description>
   </preference>
+  <preference id="linje_line.stav">
+    <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
