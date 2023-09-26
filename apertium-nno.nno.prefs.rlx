@@ -345,6 +345,9 @@ REMOVE (v:gløymsle_gløymsel.kons-sel2sle) ;
 SELECT (v:linje_line.stav) IF (0 (VAR:linje_line.stav)) ;
 REMOVE (v:linje_line.stav) ;
 
+SELECT (v:brud_brur.stav) IF (0 (VAR:brud_brur.stav)) ;
+REMOVE (v:brud_brur.stav) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
 
