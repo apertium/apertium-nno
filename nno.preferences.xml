@@ -428,6 +428,9 @@
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
   </preference>
+  <preference id="brud_brur.syn">
+    <description lang="nno">brud → brur</description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
