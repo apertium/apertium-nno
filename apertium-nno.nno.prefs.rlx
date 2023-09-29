@@ -174,8 +174,8 @@ REMOVE (v:lét_let) ;
 SELECT (v:blæs_blåser) IF (0 (VAR:blæs_blåser)) ;
 REMOVE (v:blæs_blåser) ;
 
-SELECT (v:kors_kross) IF (0 (VAR:kors_kross)) ;
-REMOVE (v:kors_kross) ;
+SELECT (v:kors_kross.stav) IF (0 (VAR:kors_kross.stav)) ;
+REMOVE (v:kors_kross.stav) ;
 
 SELECT (v:krins_krets.syn) IF (0 (VAR:krins_krets.syn)) ;
 REMOVE (v:krins_krets.syn) ;
