@@ -99,11 +99,11 @@ REMOVE (v:kjende_kjente.vb-d2t) ;
 SELECT (v:bygd_bygt.vb-d2t)        IF (0 (VAR:bygd_bygt.vb-d2t)) ;
 REMOVE (v:bygd_bygt.vb-d2t) ;
 
-SELECT (v:de_dokker)   IF (0 (VAR:de_dokker)) ;
-REMOVE (v:de_dokker) ;
+SELECT (v:de_dokker.prn)   IF (0 (VAR:de_dokker.prn)) ;
+REMOVE (v:de_dokker.prn) ;
 
-SELECT (v:medan_mens)  IF (0 (VAR:medan_mens)) ;
-REMOVE (v:medan_mens) ;
+SELECT (v:medan_mens.syn)  IF (0 (VAR:medan_mens.syn)) ;
+REMOVE (v:medan_mens.syn) ;
 
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;
@@ -126,11 +126,11 @@ REMOVE (v:dratt_dradd.vb-en2tt) ;
 SELECT (v:gir_gjev.vb-en2tt) IF (0 (VAR:gir_gjev.vb-en2tt)) ;
 REMOVE (v:gir_gjev.vb-en2tt) ;
 
-SELECT (v:eigde_åtte) IF (0 (VAR:eigde_åtte)) ;
-REMOVE (v:eigde_åtte) ;
+SELECT (v:eigde_åtte.vb) IF (0 (VAR:eigde_åtte.vb)) ;
+REMOVE (v:eigde_åtte.vb) ;
 
-SELECT (v:venne_venje) IF (0 (VAR:venne_venje)) ;
-REMOVE (v:venne_venje) ;
+SELECT (v:venne_venje.vb) IF (0 (VAR:venne_venje.vb)) ;
+REMOVE (v:venne_venje.vb) ;
 
 SELECT (v:vart-vorte_blei-blitt.verb-bli2verte) IF (0 (VAR:vart-vorte_blei-blitt.verb-bli2verte)) ;
 REMOVE (v:vart-vorte_blei-blitt.verb-bli2verte) ;
@@ -144,8 +144,8 @@ REMOVE (v:bli_verte.verb-bli2verte) ;
 SELECT (v:vit_vett) IF (0 (VAR:vit_vett)) ;
 REMOVE (v:vit_vett) ;
 
-SELECT (v:brot_brott) IF (0 (VAR:brot_brott)) ;
-REMOVE (v:brot_brott) ;
+SELECT (v:brot_brott.kons-t2tt) IF (0 (VAR:brot_brott.kons-t2tt)) ;
+REMOVE (v:brot_brott.kons-t2tt) ;
 
 SELECT (v:voks_vaks.vok-o2a) IF (0 (VAR:voks_vaks.vok-o2a)) ;
 REMOVE (v:voks_vaks.vok-o2a) ;
@@ -165,14 +165,14 @@ REMOVE (v:trost_trast.vok-o2a) ;
 SELECT (v:mengd_mengde.vok-2e) IF (0 (VAR:mengd_mengde.vok-2e)) ;
 REMOVE (v:mengd_mengde.vok-2e) ;
 
-SELECT (v:blå_blåe) IF (0 (VAR:blå_blåe)) ;
-REMOVE (v:blå_blåe) ;
+SELECT (v:blå_blåe.adj) IF (0 (VAR:blå_blåe.adj)) ;
+REMOVE (v:blå_blåe.adj) ;
 
 SELECT (v:lét_let) IF (0 (VAR:lét_let)) ;
 REMOVE (v:lét_let) ;
 
-SELECT (v:blæs_blåser) IF (0 (VAR:blæs_blåser)) ;
-REMOVE (v:blæs_blåser) ;
+SELECT (v:blæs_blåser.vb) IF (0 (VAR:blæs_blåser.vb)) ;
+REMOVE (v:blæs_blåser.vb) ;
 
 SELECT (v:kors_kross.stav) IF (0 (VAR:kors_kross.stav)) ;
 REMOVE (v:kors_kross.stav) ;

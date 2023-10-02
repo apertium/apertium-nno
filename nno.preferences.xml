@@ -17,19 +17,19 @@
   <preference id="bygd_bygt.vb-d2t">
     <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum)</description>
   </preference>
-  <preference id="de_dokker">
+  <preference id="de_dokker.prn">
     <description lang="nno">de → dokker</description>
   </preference>
-  <preference id="medan_mens">
+  <preference id="medan_mens.syn">
     <description lang="nno">medan → mens</description>
   </preference>
-  <preference id="infa_infe">
+  <preference id="infa_infe.">
     <!-- inkompatibel med kløyvd_inf_infe -->
     <description lang="nno">a-infinitiv → e-infinitiv</description>
     <description lang="nob">infinitiv med a → infinitiv med e</description>
   </preference>
   <preference id="kløyvd_inf">
-    <!-- inkompatibel med infa_infe -->
+    <!-- inkompatibel med infa_infe. -->
     <description lang="nno">kløyvd infinitiv</description>
     <description lang="nob">kløyvd infinitiv</description>
   </preference>
@@ -214,10 +214,10 @@
   <preference id="gir_gjev.vb-en2tt">
     <description lang="nno">å gi/gje: gi → gje, gir → gjev, gitt → gjeven</description>
   </preference>
-  <preference id="eigde_åtte">
+  <preference id="eigde_åtte.vb">
     <description lang="nno">eigde → åtte</description>
   </preference>
-  <preference id="venne_venje">
+  <preference id="venne_venje.vb">
     <description lang="nno">venne → venje</description>
   </preference>
   <preference id="vart-vorte_blei-blitt.verb-bli2verte">
@@ -232,20 +232,20 @@
   <preference id="vit_vett">
     <description lang="nno">vit → vett, medvit → medvett, medviten → medveten, fjellvit → fjellvett, vitig → vettig</description>
   </preference>
-  <preference id="brot_brott">
+  <preference id="brot_brott.kons-t2tt">
     <description lang="nno">avbrot → avbrott, brotsverk → brottsverk, innskot → innskott, skothald → skotthald</description>
   </preference>
   <preference id="mengd_mengde.vok-2e">
     <description lang="nno">mengd → mengde, breidd → breidde</description>
   </preference>
-  <preference id="blå_blåe">
+  <preference id="blå_blåe.adj">
     <description lang="nno">system: blå/grå/… → blåe/gråe/… (i fleirtal)</description>
     <description lang="nob">blå/grå → blåe/gråe (i flertall)</description>
   </preference>
   <preference id="lét_let">
     <description lang="nno">lét/lèt → let/let</description>
   </preference>
-  <preference id="blæs_blåser">
+  <preference id="blæs_blåser.vb">
     <description lang="nno">blæs → blåser</description>
   </preference>
   <preference id="nærare_nærmare.stav">
