@@ -828,6 +828,7 @@ SELECT (vblex sep) IF (*1 ("å" sep)) ;
 "<Les>" SELECT (vblex imp);
 "<les>" SELECT (vblex imp);
 
+REMOVE:unlikely ("kot") IF (0 ("skot"));     # topp|s|kot
 REMOVE:unlikely ("velte") IF (0 ("velje"));
 REMOVE:unlikely ("auk");
 REMOVE:unlikely ("íð") ;
