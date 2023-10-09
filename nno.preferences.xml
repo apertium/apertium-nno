@@ -196,10 +196,10 @@
       <option id="åle"/>
     </options>
   </preference>
-  <preference id="stader_stadar.s-pl-e2a">
+  <preference id="stader_stadar.n-pl-e2a">
     <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
   </preference>
-  <preference id="elvar_elver.s-pl-e2a">
+  <preference id="elvar_elver.n-pl-e2a">
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
   </preference>
   <preference id="tek_tar.vb-en2tt">
@@ -220,13 +220,13 @@
   <preference id="venne_venje.vb">
     <description lang="nno">venne → venje</description>
   </preference>
-  <preference id="vart-vorte_blei-blitt.verb-bli2verte">
+  <preference id="vart-vorte_blei-blitt.vb-bli2verte">
     <description lang="nno">bli–blir–vart–vorte → bli–blir–blei–blitt</description>
   </preference>
-  <preference id="vart-vorte_vart-blitt.verb-bli2verte">
+  <preference id="vart-vorte_vart-blitt.vb-bli2verte">
     <description lang="nno">bli–blir–vart–vorte → bli–blir–vart–blitt</description>
   </preference>
-  <preference id="bli_verte.verb-bli2verte">
+  <preference id="bli_verte.vb-bli2verte">
     <description lang="nno">bli–blir–vart–vorte → verte–vert–vart–vorte</description>
   </preference>
   <preference id="vit_vett">

@@ -108,11 +108,11 @@ REMOVE (v:medan_mens.syn) ;
 SELECT (v:me_vi) IF (0 (VAR:me_vi)) ;
 REMOVE (v:me_vi) ;
 
-SELECT (v:stader_stadar.n.pl-e2a) IF (0 (VAR:stader_stadar.n.pl-e2a)) ;
-REMOVE (v:stader_stadar.n.pl-e2a) ;
+SELECT (v:stader_stadar.n-pl-e2a) IF (0 (VAR:stader_stadar.n-pl-e2a)) ;
+REMOVE (v:stader_stadar.n-pl-e2a) ;
 
-SELECT (v:elvar_elver.n.pl-e2a) IF (0 (VAR:elvar_elver.n.pl-e2a)) ;
-REMOVE (v:elvar_elver.n.pl-e2a) ;
+SELECT (v:elvar_elver.n-pl-e2a) IF (0 (VAR:elvar_elver.n-pl-e2a)) ;
+REMOVE (v:elvar_elver.n-pl-e2a) ;
 
 SELECT (v:tek_tar.vb-en2tt) IF (0 (VAR:tek_tar.vb-en2tt)) ;
 REMOVE (v:tek_tar.vb-en2tt) ;
@@ -132,14 +132,14 @@ REMOVE (v:eigde_åtte.vb) ;
 SELECT (v:venne_venje.vb) IF (0 (VAR:venne_venje.vb)) ;
 REMOVE (v:venne_venje.vb) ;
 
-SELECT (v:vart-vorte_blei-blitt.verb-bli2verte) IF (0 (VAR:vart-vorte_blei-blitt.verb-bli2verte)) ;
-REMOVE (v:vart-vorte_blei-blitt.verb-bli2verte) ;
+SELECT (v:vart-vorte_blei-blitt.vb-bli2verte) IF (0 (VAR:vart-vorte_blei-blitt.vb-bli2verte)) ;
+REMOVE (v:vart-vorte_blei-blitt.vb-bli2verte) ;
 
-SELECT (v:vart-vorte_vart-blitt.verb-bli2verte) IF (0 (VAR:vart-vorte_vart-blitt.verb-bli2verte)) ;
-REMOVE (v:vart-vorte_vart-blitt.verb-bli2verte) ;
+SELECT (v:vart-vorte_vart-blitt.vb-bli2verte) IF (0 (VAR:vart-vorte_vart-blitt.vb-bli2verte)) ;
+REMOVE (v:vart-vorte_vart-blitt.vb-bli2verte) ;
 
-SELECT (v:bli_verte.verb-bli2verte) IF (0 (VAR:bli_verte.verb-bli2verte)) ;
-REMOVE (v:bli_verte.verb-bli2verte) ;
+SELECT (v:bli_verte.vb-bli2verte) IF (0 (VAR:bli_verte.vb-bli2verte)) ;
+REMOVE (v:bli_verte.vb-bli2verte) ;
 
 SELECT (v:vit_vett) IF (0 (VAR:vit_vett)) ;
 REMOVE (v:vit_vett) ;
