@@ -453,4 +453,16 @@
       <pref n="allmenn_ålmenn.vok-a2å" v="true"/>
     </incompat>
   </incompatibilities>
+
+  <templates>
+    <template name="tradisjonell">
+      <enable n="brud_brur.stav"/>
+      <enable n="linje_line.stav"/>
+    </template>
+    <template name="moderne">
+      <enable n="infa_infe"/>
+      <enable n="me_vi"/>
+    </template>
+  </templates>
+
 </preferences>
