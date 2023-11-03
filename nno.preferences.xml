@@ -3,7 +3,7 @@
     <description lang="nno">søkje → søke, byggje → bygge</description>
   </preference>
   <preference id="enkje_enke.kons-kj2k_gj2g">
-    <description lang="nno">subst (f/n): rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri</description>
+    <description lang="nno">rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri, subst (f/n): </description>
   </preference>
   <preference id="følgje_følge.kons-lgj2lg">
     <description lang="nno">følgje → følge, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
@@ -37,8 +37,8 @@
     <description lang="nno">me → vi</description>
   </preference>
   <preference id="er_ar.vb-e2a">
-    <description lang="nno">System: e-verb med blanda bøying, presens på -ar: roper → ropar (keeps ropte – ropt)</description>
-    <description lang="nob">System: e-verb med blanda bøying, presens på -ar: roper → ropar (keeps ropte – ropt)</description>
+    <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt) ofl.</description>
+    <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt) ofl.</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
@@ -215,19 +215,19 @@
     <description lang="nno">å gi/gje: gi → gje, gir → gjev, gitt → gjeven</description>
   </preference>
   <preference id="eigde_åtte.vb">
-    <description lang="nno">eigde → åtte</description>
+    <description lang="nno">å eige: eigde → åtte</description>
   </preference>
   <preference id="venne_venje.vb">
-    <description lang="nno">venne → venje</description>
+    <description lang="nno">å venne/venje: venne → venje</description>
   </preference>
   <preference id="vart-vorte_blei-blitt.vb-bli2verte">
-    <description lang="nno">bli–blir–vart–vorte → bli–blir–blei–blitt</description>
+    <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–blei–blitt</description>
   </preference>
   <preference id="vart-vorte_vart-blitt.vb-bli2verte">
-    <description lang="nno">bli–blir–vart–vorte → bli–blir–vart–blitt</description>
+    <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–vart–blitt</description>
   </preference>
   <preference id="bli_verte.vb-bli2verte">
-    <description lang="nno">bli–blir–vart–vorte → verte–vert–vart–vorte</description>
+    <description lang="nno">å bli/verte: bli–blir–vart–vorte → verte–vert–vart–vorte</description>
   </preference>
   <preference id="vit_vett">
     <description lang="nno">vit → vett, medvit → medvett, medviten → medveten, fjellvit → fjellvett, vitig → vettig</description>
@@ -239,7 +239,7 @@
     <description lang="nno">mengd → mengde, breidd → breidde</description>
   </preference>
   <preference id="blå_blåe.adj">
-    <description lang="nno">system: blå/grå/… → blåe/gråe/… (i fleirtal)</description>
+    <description lang="nno">blå/grå/… → blåe/gråe/… (i fleirtal)</description>
     <description lang="nob">blå/grå → blåe/gråe (i flertall)</description>
   </preference>
   <preference id="lét_let">
@@ -309,7 +309,7 @@
     <description lang="nno">så → so</description>
   </preference>
   <preference id="først_fyrst.vok-ø2y">
-    <description lang="nno">først → fyrst, ønske → ynske, søster → syster o.fl.</description>
+    <description lang="nno">først → fyrst, ønske → ynske, søster → syster ofl.</description>
   </preference>
   <preference id="søndag_sundag.vok-ø2u">
     <description lang="nno">søndag → sundag, tørke → turke, tørr → turr, brønn → brunn</description>
@@ -384,7 +384,7 @@
     <description lang="nno">vekse: voks → vaks</description>
   </preference>
   <preference id="barna_borna.vok-o2a">
-    <description lang="nno">barn (pl): barn – barna → born – borna</description>
+    <description lang="nno">barn (fleirtal): barn – barna → born – borna</description>
   </preference>
   <preference id="maske_moske.vok-o2a">
     <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
@@ -396,13 +396,13 @@
     <description lang="nno">trost → trast</description>
   </preference>
   <preference id="nød_naud.dift-ø2au">
-    <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud o.fl.</description>
+    <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud ofl.</description>
   </preference>
   <preference id="dødeleg_døyeleg.dift-ø2øy">
-    <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr o.fl.</description>
+    <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr ofl.</description>
   </preference>
   <preference id="pek_peik.dift-e2ei">
-    <description lang="nno">pek → peik (s), lest → leist (sokk, strømpe)</description>
+    <description lang="nno">pek → peik (substantiv), lest → leist (sokk, strømpe)</description>
   </preference>
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
@@ -417,13 +417,13 @@
     <description lang="nno">gremme → gremje</description>
   </preference>
   <preference id="formål_føremål.afx-fore2føre">
-    <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn osv.</description>
+    <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn ofl.</description>
   </preference>
   <preference id="forvaltning_forvalting.afx-ning2ing">
-    <description lang="nno">forvaltning → forvaltning, avkastning → avkasting, underhaldning → underhalding osv.</description>
+    <description lang="nno">forvaltning → forvaltning, avkastning → avkasting, underhaldning → underhalding ofl.</description>
   </preference>
   <preference id="redsel_redsle.kons-sel2sle">
-    <description lang="nno">redsel → redsle, redselsfull → redslefull osv.</description>
+    <description lang="nno">redsel → redsle, redselsfull → redslefull ofl.</description>
   </preference>
   <preference id="gløymsle_gløymsel.kons-sel2sle">
     <description lang="nno">gløymsle → gløymsel</description>
