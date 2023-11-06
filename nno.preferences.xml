@@ -1,9 +1,9 @@
 <preferences>
   <preference id="tenkje-leggje.kons-kj2k_gj2g">
-    <description lang="nno">søkje → søke, byggje → bygge</description>
+    <description lang="nno">tenkje → tenke, leggje → legge, søkje → søke, byggje → bygge, ofl.</description>
   </preference>
   <preference id="enkje_enke.kons-kj2k_gj2g">
-    <description lang="nno">rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri, subst (f/n): </description>
+    <description lang="nno">enkje → enke, rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri, subst (f/n): </description>
   </preference>
   <preference id="følgje_følge.kons-lgj2lg">
     <description lang="nno">følgje → følge, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge</description>
@@ -321,13 +321,13 @@
     <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære</description>
   </preference>
   <preference id="venn_ven.kons-mm2m">
-    <description lang="nno">dømme → døme, vennskap → venskap, medlemmer → medlemer; inkluderer komme → kome, ungdommen → ungdomen, kjøtt → kjøt</description>
+    <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme</description>
   </preference>
   <preference id="komme_kome.kons-mm2m">
     <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg</description>
   </preference>
   <preference id="dommen_domen.kons-mm2m">
-    <description lang="nno">kristendommen → kristendomen, bispedømme → bispedøme</description>
+    <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme</description>
   </preference>
   <preference id="kjøtt_kjøt.kons-mm2m">
     <description lang="nno">kjøtt → kjøt, kjøkken → kjøken</description>
