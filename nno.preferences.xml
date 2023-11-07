@@ -321,7 +321,7 @@
     <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære</description>
   </preference>
   <preference id="venn_ven.kons-mm2m">
-    <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme</description>
+    <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme, ofl.</description>
   </preference>
   <preference id="komme_kome.kons-mm2m">
     <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg</description>
