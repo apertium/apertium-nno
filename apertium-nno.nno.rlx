@@ -895,6 +895,7 @@ REMOVE:unlikely ("teppe" f);
 REMOVE:unlikely ("dikt") + adv;
 REMOVE:unlikely ("Berre") + np;
 REMOVE:unlikely SUB:* ("mjølke") IF (0/* ("mjølk")); # sannsynlegvis ikkje rogn
+REMOVE:unlikely ("skylding") IF (0 ("skulding")) ;
 
 # sec 1
 CONSTRAINTS
@@ -2096,6 +2097,10 @@ SELECT:ingen-andre ("ingen") + pl IF
         (1C nr2-det OR adj OR subst)
         ;
 
+"<jula>"i SELECT ("jul") IF
+        (NEGATE 1 %opp%)
+        (NEGATE 2 %opp%)
+        ;
 
 #:4731
  "<kan>"   SELECT:4731   (adv) IF
