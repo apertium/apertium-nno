@@ -574,6 +574,10 @@
       <enable n="røyndom_verkelegheit.syn"/>
       <enable n="mellom_blant.syn"/>
     </template>
+    <template name="standard">
+      <enable n="infa_infe"/>
+      <enable n="me_vi"/>
+    </template>
   </templates>
 
 </preferences>
