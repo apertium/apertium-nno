@@ -49,12 +49,12 @@ REMOVE (v:infa_infe) ;
 # generator, wordforms/lemmas are backwards.
 #
 # Dirty one-liner to find all lemmas that can use a certain var-tag:
-# $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:_er_ar.vb-e2a/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':_er_ar.vb-e2a' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
+# $ grep -Ff <(awk '/<pardef /{p=$0}/<\/pardef/{p=""}/:brukte_bruka.vb-e2a/&&p{print p}' apertium-nno.nno.dix |sort -u|sed 's, c=.*,,'|grep -v ':brukte_bruka.vb-e2a' |sed 's,def,,' ) apertium-nno.nno.dix |grep -o 'lm="[^"]*"'|sed 's,^lm=,,'
 #
 # The #.* entry is to allow multiwords, e.g. AP_SETVAR="er_ar.vb-e2a=lene"
 # should also affect "lene seg".
 
-LIST brukte_bruka_vbs = "<.*(bruke|ane|bake|betale|breke|dreie|dynge|eine|glane|hale|jule|klare|koke|kose|leie|like|mane|lure|rope|sile|skape|skjønne|slipe|sløre|spele|stråle|svare|tale|tvile)>"r ;
+LIST brukte_bruka_vbs = "<.*(bruke|ane|bake|betale|breke|dreie|dynge|eine|glane|hale|jule|klare|koke|kose|lene|leie|like|mane|lure|rope|sile|skape|skjønne|slipe|sløre|spele|stråle|svare|tale|tvile)>"r ;
 LIST brukte_bruka_adjs = "<.*(bruk|bak|betal|klar|kok|lur|rop|sil|slip|spar|spel|svar|tal|tvil)t>"r ; # doesn't include final -t in $1
 LIST brukte_bruka_adjs2 = "<.*(drei|lei)dd>"r ; # doesn't include final -dd in $1
 LIST brukte_bruka_adjs3 = "<.*(dyng)d>"r ;  # doesn't include final -d in $1
