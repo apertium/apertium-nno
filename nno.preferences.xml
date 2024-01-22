@@ -132,25 +132,90 @@
     </long-description>
   </preference>
   <preference id="kjende_kjente.vb-d2t">
-    <description lang="nno">kjende → kjente, dømde → dømte</description>
+    <description lang="nno">kjende → kjente, dømde → dømte, ofl.</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld verb med valfri bøying på -de → -te i preteritum og tilsvarande valfridom i partisippbøyinga.
+        Valfridomen gjeld også for samansetjingar der desse orda er ein del av samansetjinga.
+        
+        Eksempel på ord valfridomen treffer:
+        
+        bestemde → bestemte
+        brende → brente (adjektivbøying: solbrend-solbrent-solbrende → solbrent-solbrent-solbrente, ofl.)
+        dømde → dømte
+        kjende → kjente (adjektivbøying: kjend-kjent-kjente  →  kjent-kjent-kjende) 
+    </long-description>
   </preference>
   <preference id="bygd_bygt.vb-d2t">
-    <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum)</description>
+    <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum), ofl.</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld verb med valfri form på -gd, -vd og -dd i perfektum partisipp og tilsvarande adjektiv.
+        Det vil seie at -gd, -vd og -dd vert erstatta med -gt, -vt og -tt. For eksempel vert bygd → bygt.
+        Valfridomen gjeld også for samansetjingar der desse orda er ein del av samansetjinga.
+
+        Eksempel på ord valfridomen treffer:
+
+        bygd → bygt (breibygd – breibygd – breibygde  →  breibygt – breibygd – breibygde, ofl.)
+        nådd → nått (oppnådd – oppnådd – oppnådde → oppnådd – oppnått – oppnådde, ofl.) 
+        prøvd → prøvt (behovsprøvd – behovsprøvd – behovsprøvde → behovsprøvd – behovsprøvt – behovdsprøvde, ofl.)              
+    </long-description>
   </preference>
   <preference id="de_dokker.prn">
     <description lang="nno">de → dokker</description>
+    <long-description lang="nn">
+        Denne valfridomen gjeld preposisjonen "de". Om du vel denne valfridomen, vil "de" bli erstatta av preposisjonen "dokker".
+
+        Eksempel:
+
+        de → dokker (subjektsform)
+        dykk → dokker (objektsform)
+        dykkar → dokkar (possessiv)
+    </long-description>
   </preference>
   <preference id="medan_mens.syn">
     <description lang="nno">medan → mens</description>
+    <long-description lang="nn">
+        Denne valfridomen gjeld subjunksjonen "medan". Om du vel denne valfridomen, vil "medan" bli erstatta av subjunksjonen "mens".
+
+        Eksempel:
+
+        medan → mens
+    </long-description>
   </preference>
   <preference id="infa_infe">
     <!-- inkompatibel med kløyvd_inf_infe -->
     <description lang="nno">a-infinitiv → e-infinitiv</description>
+        <long-description lang="nn">
+        Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil a-endinga i infinitiv bli erstatta med ei e-ending.
+
+        Eksempel på korleis valfridomen treffer:
+
+        å finna → å finne
+        å sykla → å sykle
+        å reisa → å reise
+        å vinna → å vinne
+        
+        Merk at dette valet ikkje er kompatibelt med "kløyvd infinitiv"-valet.
+    </long-description>
     <description lang="nob">infinitiv med a → infinitiv med e</description>
   </preference>
   <preference id="kløyvd_inf">
     <!-- inkompatibel med infa_infe. -->
     <description lang="nno">kløyvd infinitiv</description>
+    <long-description lang="nn">
+        Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil du få ei veksling mellom a og e i slutten av infinitivsformene av verba.
+
+        Eksempel på korleis valfridomen treffer:
+
+        å vere → å vera
+        å kaste → å kaste
+
+        Ei liste med verb som får a-ending:
+        age, ake, ale, ane, ape, ase, bake, bale, bane, base, bede, belje, bere, betale, beve, bevare, blade, blike, bode, bore, bose, brage, brake, brase, byrje, dage, dale, dane, delje, dette, drage, drepe, drynje, drysje, dune, dvelje, dynje, dølje, ete, eve, fare, fate, ferje, flage, flare, flasse, flase, flate, flòte, flysje, flytte, fole, frede, frege, fremje, frode, gage, gale, gane, gape, gilje, gjere, gjete, gidde, gjeve, glade, glane, glede, glume, gnage, gnike, gove, grave, gremje, grope, grune, grysje, gule, gysje, hage, hake, hame, hate, have, hele, hemje, herje, hesje, hete, hevje, hjale, hòle, homme, home, hòpe, hylje, hysje, hølje, jage, kake, kare, kave, kjase, kjee, klage, klake, klede, kløvje, knake, knase, knise, knode, kole, komme, kome, krake, krase, krave, kreke, krevje, krite, krote, kunne, kvede, kvetje, kvike, kvime, lade, lage, lape, late, lave, lede, lee, leke, lemme, leme, lemje, lepje, lese, léte, lete, love, lute, make, male, mane, mase, mate, mede, moke, mole, mone, møkje, nase, nave, neve, olboge, pare, pele, pese, pose, prate, rage, rake, rane, rape, rase, reke, remje, reve, rode, rydje, rysje, sage, sake, same, sede, seie, sele, selje, semje, setja/sette, sitja/sitte, skade, skake, skale, skape, skare, skave, skilje, skipe, skjage, sjage, skjene, skjere, skjønne, skjøne, skode, skòle, skòre, skote, skrape, skrate, skreve, skulle, skule, skvale, skylje, slave, sleve, smake, smale, smørje, snake, snare, snase, sove, spade, spare, spekje, spele, spore, sprake, sprale, spørje, spøte, stage, stake, stave, stede, stege, stele, stote, streka , strete, streve, stynje, styrje, svade, svage, svale, svare, svemje, sverje, svipe, symje, take, tale, tane, tape, tase, teie, tele, telje, temje, tenje, tevje, timje, tole, tore, tose, trede, trege, trote, tvike, tvoge, tysje, umake, une, uvete, uvite, vade, vake, vare, vase, vege, velje, venje, vere, verje, vete, veve, vevje, vilje, vime, vite, vrake, ylje, yrje, ølje, åtvare.        
+        
+        Resten av verba får e-ending i infinitiv.
+
+        Merk at dette valet ikkje er kompatibelt med "a-infinitiv → e-infinitiv"-valet.
+    </long-description>
     <description lang="nob">kløyvd infinitiv</description>
   </preference>
   <preference id="me_vi">
