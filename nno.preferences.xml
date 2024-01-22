@@ -162,7 +162,7 @@
   <preference id="de_dokker.prn">
     <description lang="nno">de → dokker</description>
     <long-description lang="nn">
-        Denne valfridomen gjeld preposisjonen "de". Om du vel denne valfridomen, vil "de" bli erstatta av preposisjonen "dokker".
+        Denne valfridomen gjeld pronomenet "de". Om du vel denne valfridomen, vil "de" bli erstatta av pronomenet "dokker".
 
         Eksempel:
 
@@ -220,6 +220,13 @@
   </preference>
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
+    <long-description lang="nn">
+        Denne valfridomen gjeld pronomenet "me". Om du vel denne valfridomen, vil "me" bli erstatta av pronomenet "vi".
+
+        Eksempel:
+
+        me → vi
+    </long-description>
   </preference>
   <preference id="er_ar.vb-e2a">
     <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt) ofl.</description>
