@@ -229,8 +229,17 @@
     </long-description>
   </preference>
   <preference id="er_ar.vb-e2a">
-    <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt) ofl.</description>
-    <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt) ofl.</description>
+    <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt), ofl.</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld valfri -ar i presens for e-verb. er-endinga i verb bøygd i presens blir erstatta med ei ar-ending.
+        For eksempel blir presensbøyinga av verbet "trene" til "trener" → "trenar".
+        
+        Eksempel på ord valfridomen treffer:
+        
+        leier - leidde  → leiar - leidde
+        trener - trente → trenar - trente    
+    </long-description>
+    <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt), ofl.</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
