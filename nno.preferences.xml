@@ -516,30 +516,100 @@
   </preference>
   <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av adjektivet "nærare". Om du vel denne valfridomen, vil "nærare" bli erstatta med "nærmare" med bokstaven m.
+
+    Eksempel:
+
+    nærare → nærmare
+    nærast → nærmast
+    </long-description>
   </preference>
   <preference id="eigentleg_eigenleg.stav">
     <description lang="nno">eigentleg → eigenleg</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "eigentleg". Om du vel denne valfridomen, vil "eigentleg" bli erstatta med "eigenleg" utan bokstaven t.
+
+    Eksempel:
+
+    eigentleg → eigenleg
+    </long-description>
   </preference>
   <preference id="styresmakt_styremakt.stav">
     <description lang="nno">styresmakt → styremakt</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av substantivet "styresmakt". Om du vel denne valfridomen, vil "styresmakt" bli erstatta med "styremakt" utan fuge-s.
+    Dette valet råkar også samansetjingar som inneheld ordet "styresmakt".
+
+    Eksempel:
+
+    styresmakt → styremakt
+    </long-description>
   </preference>
   <preference id="true_truge.stav">
     <description lang="nno">true → truge, trussel → trugsel</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av orda "true" og "trussel". Om du vel denne valfridomen, vil "true" og "trussel" erstattast med "truge" og "trugsel".
+    Dette valet råkar også samansetjingar som inneheld orda "true" og "trussel".
+
+    Eksempel:
+
+    true → truge
+    trussel → trugsel
+    </long-description>
   </preference>
   <preference id="symje_svømme.stav">
     <description lang="nno">symje → svømme</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "symje". Om du vel denne valfridomen, vil "symje" bli erstatta med "svømme".
+    Dette valet råkar også samansetjingar som inneheld ordet "symje" samt relaterte ord som "symjar".
+
+    Eksempel:
+
+    symje → svømme
+    symjing → svømming
+    symjar → svømmar
+    symjehall → svømmehall
+    </long-description>
   </preference>
   <preference id="døgn_døger.stav">
     <description lang="nno">døgn → døger</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "døgn". Om du vel denne valfridomen, vil "døgn" bli erstatta med "døger".
+    Dette valet råkar også samansetjingar som inneheld ordet "døgn".
+
+    Eksempel:
+
+    døgn → døger
+    døgnopen → døgeropen
+    </long-description>
   </preference>
     <preference id="augne_auge.stav">
     <description lang="nno">augne- → auge-</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga samansetjingar som startar med "augne-". Om du vel denne valfridomen, vil samansetjingar som inneheld "augne-" erstattast med "auge-".
+
+    Eksempel:
+
+    augne- → auge-
+    augneblink → augeblink
+    augnekast → augekast
+    </long-description>
   </preference>
   <preference id="auga_augo.vok-a2o">
   <description lang="nno">auge-auget-auge-auga → auga-auga-augo-augo, tilsvarande for øyre, hjarte</description>
 </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "kors". Om du vel denne valfridomen, vil "kors" bli erstatta med "kross".
+    Dette valet råkar også samansetjingar som inneheld ordet "kors".
+
+    Eksempel:
+
+    kors → kross
+    korstog → krossferd
+    </long-description>
   </preference>
   <preference id="skule_skole.vok-u2o">
     <description lang="nno">skule → skole</description>
@@ -696,9 +766,27 @@
   </preference>
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "linje". Om du vel denne valfridomen, vil "linje" bli erstatta med "line".
+    Dette valet råkar også samansetjingar som inneheld ordet "linje".
+
+    Eksempel:
+
+    linje → line
+    straumlinjeforma → straumlineforma
+    </long-description>
   </preference>
   <preference id="brud_brur.stav">
     <description lang="nno">brud → brur</description>
+    <long-description lang="nn">
+        Denne valfridomen gjeld stavinga av ordet "brud". Om du vel denne valfridomen, vil "brud" bli erstatta med "brur".
+        Dette valet råkar også samansetjingar som inneheld ordet "brud".
+
+        Eksempel:
+
+        brud → brur 
+        brudebukett → brurebukett
+    </long-description>
   </preference>
 
   <incompatibilities>
