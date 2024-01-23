@@ -231,18 +231,37 @@
   <preference id="er_ar.vb-e2a">
     <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt), ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld valfri -ar i presens for e-verb. er-endinga i verb bøygd i presens blir erstatta med ei ar-ending.
-        For eksempel blir presensbøyinga av verbet "trene" til "trener" → "trenar".
+        Denne valfridomen gjeld valfri -ar i presens for e-verb. Er-endingar bøygd i presens blir erstatta med ar-endingar.
         
         Eksempel på ord valfridomen treffer:
         
-        leier - leidde  → leiar - leidde
-        trener - trente → trenar - trente    
+        koker → kokar 
+        leier → leiar
+        trener → trenar  
     </long-description>
     <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt), ofl.</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
+    <long-description lang="nno">
+        Denne valfridomen gir verb e-bøying på a-verb. Dette gjeld verb som valfritt kan bøyast som e-verb.
+        Dette valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
+
+        Eksempel på korleis valet treffer a-verbet "å banne":
+
+        å banne → å banne (infinitiv)
+        bannar → banner (presens)
+        banna → bante (preteritum)
+        har banna → har bant (presens perfektum)
+        bann → bann (imperativ)
+        banna → bant (perfektum partisipp, ho-, han- og inkjekjønn)
+        banna → bante (perfektum partisipp, bunden form og fleirtal)
+        bannande → bannande (presens partisipp)
+
+        Liste med ord valfridommen gjeld for: ape, banne, beite, brøyte, deise, dimme, dreise, drøfte, drønne, ense, feile, feste, fike, fire, fleipe, flytte, fløyte, gape, geipe, gifte, gispe, glefse, glime, gremme (men ikkje gremje), gruse, helse, huse, hyfse, hyre, håpe, ise, kruse, kule, lade, lave, leike, leite, lóse, love, lute, løfte, meie, miste, peike, peise, prise, rane, rape, refse, rose, ruse, ruve, skifte, skjerpe, smeise, snuse, spleise, sprelle, sprute, sprøyte, stane, stile, strene, streve, sture, sveise, sveive, sveve, syre, trene, tynne, tøve, tøyser, veiver, våge ofl.
+
+        Merk at samansetjingar ikkje er med i lista over. Til dømes blir lovfeste, stadfeste, avtalefeste og korsfeste også råka av dette valet, ikkje berre "feste".    
+    </long-description>
     <description lang="nob">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valgfritt kan bøyes som e-verb.</description>
     <options>
       <option id="ape"/>
@@ -324,6 +343,26 @@
   </preference>
   <preference id="brukte_bruka.vb-e2a">
     <description lang="nno">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valfritt kan bøyast som a-verb.</description>
+    <long-description lang="nno">
+        Denne valfridomen gir e-verb a-bøying om verbet kan bøyast med ein valfri a-ending. 
+        Dette valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
+
+        Eksempel på korleis valet treffer a-verbet "å betale":
+
+        å betale → å betale (infinitiv)
+        betaler → betalar (presens)
+        betalte → betala (preteritum)
+        har betalt → har betala (presens perfektum)
+        betal → betal (imperativ)
+        betalt → betala (perfektum partisipp, ho-, han- og inkjekjønn)
+        betalte → betala (perfektum partisipp, bunden form og fleirtal)
+        betalande → betalande (presens partisipp)
+
+        Liste med ord valfridommen gjeld for: ane, bake, betale, bile, breke, bruke, bruse, brøle, buse, dale, dreie, dynge, eine, file, føne, glane, hale, heise, hyle, håne, jule, jåle, kile, klare, knise, koke, kose, kukelure, kyle, leie, lene, like, lire, luke, lure, mane, måpe, ose, pile, pøse, rope, sile, skade, skape, skjønne, skrelle, skrøne, skråle, skåle, slepe, slipe, sløre, smake, sope, spare, spele, stire, stole, stråle, suse, svare, tale, tape, tine, tvile, ule, vare, vræle, åle ofl.
+
+        Merk at samansetjingar ikkje er med i lista over. Til dømes blir utbetale, nedbetale, underbetale og etterbetale også råka av dette valet, ikkje berre "betale".
+    </long-description>    
+    
     <description lang="nob">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valgfritt kan bøyes som a-verb.</description>
     <options>
       <option id="ane"/>
