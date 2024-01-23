@@ -513,6 +513,18 @@
   </preference>
   <preference id="blæs_blåser.vb">
     <description lang="nno">blæs → blåser</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av verbet "blåse". Om du vel denne valfridomen, vil bøyingsparadigmet til "blåse" endrast.
+
+    Ei liste over korleis valet endrar "blåse":
+
+    blåser → blæs (presens)
+    blåste → bles (preteritum)
+    har blåst  → har blåse (presens perfektum)
+    blåst →  blåsen (perfektum partisipp, han- og hokjønnsbøying)
+    blåst →  blåse (perfektum partisipp, inkjekjønnsbøying)
+    blåste → blåsne (perfektum partisipp, bunden og fleirtalsform)
+    </long-description>
   </preference>
   <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
