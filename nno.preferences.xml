@@ -344,8 +344,8 @@
   <preference id="brukte_bruka.vb-e2a">
     <description lang="nno">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valfritt kan bøyast som a-verb.</description>
     <long-description lang="nno">
-        Denne valfridomen gir e-verb a-bøying om verbet kan bøyast med ein valfri a-ending. 
-        Dette valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
+        Denne valfridomen gir e-verba a-bøying om verbet kan bøyast med ein valfri a-ending. Det vil seie at til dømes presensbøyinga av verbet "bruke" går frå "bruker" → "brukar".
+        Valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
 
         Eksempel på korleis valet treffer a-verbet "å betale":
 
@@ -438,9 +438,35 @@
   </preference>
   <preference id="stader_stadar.n-pl-e2a">
     <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld fleirtalsbøyinga til hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinda si endra frå -er/ene → -ar/-ane.
+        Valfridomen dekkjer substantiv med hankjønnsbøying og kun fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        stader → stadar (ubunden fleirtal)
+        stadene → stadane (bunde fleirtal)
+        
+        Liste over ord dette valet famnar: vegger, stader, sauer, griser, gjester, gonger, lemmer, venner, medlemmer, benker, bekker, belger, drenger, drikker, flekker, klegger, kvister, legger, monner,  retter, rygger, stilker, sekker, strenger, venger, vever, -nader (bunader, søknader, månader, skilnader ofl.) og -aer (villaer, skalaer, arenaer, kollegaer, sofaer, auroaer ofl.).
+
+        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetjingar. 
+    </long-description>   
   </preference>
   <preference id="elvar_elver.n-pl-e2a">
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld fleirtalsbøyinga til hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endinda si endra frå -ar/ane → -er/-ene.
+        Valfridomen dekkjer substantiv med hokjønnsbøying og kun fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        elvar → elver (ubunden fleirtal)
+        elvane → elvene (bunde fleirtal)
+        
+        Liste over ord dette valet famnar: elvar, ermar, heiar, helgar, kleivar, kvernar, merrar, myrar, møyar, reimar, sildar, setrar, ørnar, øyar, årar, gygrar, levrar ofl.
+
+        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetjingar. 
+    </long-description>    
   </preference>
   <preference id="tek_tar.vb-en2tt">
     <description lang="nno">å ta: tek → tar, teken → tatt</description>
