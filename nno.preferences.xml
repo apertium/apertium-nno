@@ -231,18 +231,37 @@
   <preference id="er_ar.vb-e2a">
     <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt), ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld valfri -ar i presens for e-verb. er-endinga i verb bøygd i presens blir erstatta med ei ar-ending.
-        For eksempel blir presensbøyinga av verbet "trene" til "trener" → "trenar".
+        Denne valfridomen gjeld valfri -ar i presens for e-verb. Er-endingar bøygd i presens blir erstatta med ar-endingar.
         
         Eksempel på ord valfridomen treffer:
         
-        leier - leidde  → leiar - leidde
-        trener - trente → trenar - trente    
+        koker → kokar 
+        leier → leiar
+        trener → trenar  
     </long-description>
     <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt), ofl.</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
+    <long-description lang="nno">
+        Denne valfridomen gir verb e-bøying på a-verb. Dette gjeld verb som valfritt kan bøyast som e-verb.
+        Dette valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
+
+        Eksempel på korleis valet treffer a-verbet "å banne":
+
+        å banne → å banne (infinitiv)
+        bannar → banner (presens)
+        banna → bante (preteritum)
+        har banna → har bant (presens perfektum)
+        bann → bann (imperativ)
+        banna → bant (perfektum partisipp, ho-, han- og inkjekjønn)
+        banna → bante (perfektum partisipp, bunden form og fleirtal)
+        bannande → bannande (presens partisipp)
+
+        Liste med ord valfridommen gjeld for: ape, banne, beite, brøyte, deise, dimme, dreise, drøfte, drønne, ense, feile, feste, fike, fire, fleipe, flytte, fløyte, gape, geipe, gifte, gispe, glefse, glime, gremme (men ikkje gremje), gruse, helse, huse, hyfse, hyre, håpe, ise, kruse, kule, lade, lave, leike, leite, lóse, love, lute, løfte, meie, miste, peike, peise, prise, rane, rape, refse, rose, ruse, ruve, skifte, skjerpe, smeise, snuse, spleise, sprelle, sprute, sprøyte, stane, stile, strene, streve, sture, sveise, sveive, sveve, syre, trene, tynne, tøve, tøyser, veiver, våge ofl.
+
+        Merk at samansetjingar ikkje er med i lista over. Til dømes blir lovfeste, stadfeste, avtalefeste og korsfeste også råka av dette valet, ikkje berre "feste".    
+    </long-description>
     <description lang="nob">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valgfritt kan bøyes som e-verb.</description>
     <options>
       <option id="ape"/>
@@ -324,6 +343,26 @@
   </preference>
   <preference id="brukte_bruka.vb-e2a">
     <description lang="nno">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valfritt kan bøyast som a-verb.</description>
+    <long-description lang="nno">
+        Denne valfridomen gir e-verba a-bøying om verbet kan bøyast med ein valfri a-ending. Det vil seie at til dømes presensbøyinga av verbet "bruke" går frå "bruker" → "brukar".
+        Valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
+
+        Eksempel på korleis valet treffer a-verbet "å betale":
+
+        å betale → å betale (infinitiv)
+        betaler → betalar (presens)
+        betalte → betala (preteritum)
+        har betalt → har betala (presens perfektum)
+        betal → betal (imperativ)
+        betalt → betala (perfektum partisipp, ho-, han- og inkjekjønn)
+        betalte → betala (perfektum partisipp, bunden form og fleirtal)
+        betalande → betalande (presens partisipp)
+
+        Liste med ord valfridommen gjeld for: ane, bake, betale, bile, breke, bruke, bruse, brøle, buse, dale, dreie, dynge, eine, file, føne, glane, hale, heise, hyle, håne, jule, jåle, kile, klare, knise, koke, kose, kukelure, kyle, leie, lene, like, lire, luke, lure, mane, måpe, ose, pile, pøse, rope, sile, skade, skape, skjønne, skrelle, skrøne, skråle, skåle, slepe, slipe, sløre, smake, sope, spare, spele, stire, stole, stråle, suse, svare, tale, tape, tine, tvile, ule, vare, vræle, åle ofl.
+
+        Merk at samansetjingar ikkje er med i lista over. Til dømes blir utbetale, nedbetale, underbetale og etterbetale også råka av dette valet, ikkje berre "betale".
+    </long-description>    
+    
     <description lang="nob">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valgfritt kan bøyes som a-verb.</description>
     <options>
       <option id="ane"/>
@@ -399,9 +438,35 @@
   </preference>
   <preference id="stader_stadar.n-pl-e2a">
     <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld fleirtalsbøyinga til hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinda si endra frå -er/ene → -ar/-ane.
+        Valfridomen dekkjer substantiv med hankjønnsbøying og kun fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        stader → stadar (ubunden fleirtal)
+        stadene → stadane (bunde fleirtal)
+        
+        Liste over ord dette valet famnar: vegger, stader, sauer, griser, gjester, gonger, lemmer, venner, medlemmer, benker, bekker, belger, drenger, drikker, flekker, klegger, kvister, legger, monner,  retter, rygger, stilker, sekker, strenger, venger, vever, -nader (bunader, søknader, månader, skilnader ofl.) og -aer (villaer, skalaer, arenaer, kollegaer, sofaer, auroaer ofl.).
+
+        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetjingar. 
+    </long-description>   
   </preference>
   <preference id="elvar_elver.n-pl-e2a">
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld fleirtalsbøyinga til hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endinda si endra frå -ar/ane → -er/-ene.
+        Valfridomen dekkjer substantiv med hokjønnsbøying og kun fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        elvar → elver (ubunden fleirtal)
+        elvane → elvene (bunde fleirtal)
+        
+        Liste over ord dette valet famnar: elvar, ermar, heiar, helgar, kleivar, kvernar, merrar, myrar, møyar, reimar, sildar, setrar, ørnar, øyar, årar, gygrar, levrar ofl.
+
+        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetjingar. 
+    </long-description>    
   </preference>
   <preference id="tek_tar.vb-en2tt">
     <description lang="nno">å ta: tek → tar, teken → tatt</description>
@@ -448,33 +513,115 @@
   </preference>
   <preference id="blæs_blåser.vb">
     <description lang="nno">blæs → blåser</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av verbet "blåse". Om du vel denne valfridomen, vil bøyingsparadigmet til "blåse" endrast.
+
+    Ei liste over korleis valet endrar "blåse":
+
+    blåser → blæs (presens)
+    blåste → bles (preteritum)
+    har blåst  → har blåse (presens perfektum)
+    blåst →  blåsen (perfektum partisipp, han- og hokjønnsbøying)
+    blåst →  blåse (perfektum partisipp, inkjekjønnsbøying)
+    blåste → blåsne (perfektum partisipp, bunden og fleirtalsform)
+    </long-description>
   </preference>
   <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av adjektivet "nærare". Om du vel denne valfridomen, vil "nærare" bli erstatta med "nærmare" med bokstaven m.
+
+    Eksempel:
+
+    nærare → nærmare
+    nærast → nærmast
+    </long-description>
   </preference>
   <preference id="eigentleg_eigenleg.stav">
     <description lang="nno">eigentleg → eigenleg</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "eigentleg". Om du vel denne valfridomen, vil "eigentleg" bli erstatta med "eigenleg" utan bokstaven t.
+
+    Eksempel:
+
+    eigentleg → eigenleg
+    </long-description>
   </preference>
   <preference id="styresmakt_styremakt.stav">
     <description lang="nno">styresmakt → styremakt</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av substantivet "styresmakt". Om du vel denne valfridomen, vil "styresmakt" bli erstatta med "styremakt" utan fuge-s.
+    Dette valet råkar også samansetjingar som inneheld ordet "styresmakt".
+
+    Eksempel:
+
+    styresmakt → styremakt
+    </long-description>
   </preference>
   <preference id="true_truge.stav">
     <description lang="nno">true → truge, trussel → trugsel</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av orda "true" og "trussel". Om du vel denne valfridomen, vil "true" og "trussel" erstattast med "truge" og "trugsel".
+    Dette valet råkar også samansetjingar som inneheld orda "true" og "trussel".
+
+    Eksempel:
+
+    true → truge
+    trussel → trugsel
+    </long-description>
   </preference>
   <preference id="symje_svømme.stav">
     <description lang="nno">symje → svømme</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "symje". Om du vel denne valfridomen, vil "symje" bli erstatta med "svømme".
+    Dette valet råkar også samansetjingar som inneheld ordet "symje" samt relaterte ord som "symjar".
+
+    Eksempel:
+
+    symje → svømme
+    symjing → svømming
+    symjar → svømmar
+    symjehall → svømmehall
+    </long-description>
   </preference>
   <preference id="døgn_døger.stav">
     <description lang="nno">døgn → døger</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "døgn". Om du vel denne valfridomen, vil "døgn" bli erstatta med "døger".
+    Dette valet råkar også samansetjingar som inneheld ordet "døgn".
+
+    Eksempel:
+
+    døgn → døger
+    døgnopen → døgeropen
+    </long-description>
   </preference>
     <preference id="augne_auge.stav">
     <description lang="nno">augne- → auge-</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga samansetjingar som startar med "augne-". Om du vel denne valfridomen, vil samansetjingar som inneheld "augne-" erstattast med "auge-".
+
+    Eksempel:
+
+    augne- → auge-
+    augneblink → augeblink
+    augnekast → augekast
+    </long-description>
   </preference>
   <preference id="auga_augo.vok-a2o">
   <description lang="nno">auge-auget-auge-auga → auga-auga-augo-augo, tilsvarande for øyre, hjarte</description>
 </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "kors". Om du vel denne valfridomen, vil "kors" bli erstatta med "kross".
+    Dette valet råkar også samansetjingar som inneheld ordet "kors".
+
+    Eksempel:
+
+    kors → kross
+    korstog → krossferd
+    </long-description>
   </preference>
   <preference id="skule_skole.vok-u2o">
     <description lang="nno">skule → skole</description>
@@ -631,9 +778,27 @@
   </preference>
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "linje". Om du vel denne valfridomen, vil "linje" bli erstatta med "line".
+    Dette valet råkar også samansetjingar som inneheld ordet "linje".
+
+    Eksempel:
+
+    linje → line
+    straumlinjeforma → straumlineforma
+    </long-description>
   </preference>
   <preference id="brud_brur.stav">
     <description lang="nno">brud → brur</description>
+    <long-description lang="nn">
+        Denne valfridomen gjeld stavinga av ordet "brud". Om du vel denne valfridomen, vil "brud" bli erstatta med "brur".
+        Dette valet råkar også samansetjingar som inneheld ordet "brud".
+
+        Eksempel:
+
+        brud → brur 
+        brudebukett → brurebukett
+    </long-description>
   </preference>
 
   <incompatibilities>
