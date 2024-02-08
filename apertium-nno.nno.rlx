@@ -735,6 +735,11 @@ LIST spørsmål-t = "$?" "?" ;
 LIST st-form = pasv ;
 LIST st-verb = pstv ;
 LIST storbokstav = "<\\p{Lu}.*>"r ;
+LIST berre-litenbokstav = "<\\p{Ll}+>"r ;
+LIST storbokstav = "<\\p{Lu}.*>"r ;
+LIST berre-storbokstav =  ("<\\p{Lu}+>"r);
+LIST storbokstav-ok-etter = >>> guio lquot rquot lpar "[0-9]{4,4}"r sent ;
+LIST storbokstav-ok-etter-mellom = guio rpar ("[0-9.]+"r) ; # t.d. punktliste: «9. Kampen ble dømt av …»
 LIST strek = guio ;
 LIST strek/parentes = guio lpar rpar ;
 LIST strek/parentes-beg/anf = guio lpar <anf> ;
@@ -831,6 +836,7 @@ LIST adjn = "militær" "fornærma" "sikta" "sivil" "tiltalt" "tilsett" "etterlat
 
 # sec 0: MWE / particle verbs TODO!
 CONSTRAINTS
+
 SELECT:over_30._Men clb IF
         (0/1 det-kvant)
         (0 (<<<) LINK 1*> (*) LINK @1 storbokstav) # This is the way to say "I am at a sentence-ending cohort and the one immediately to my right is storbokstav"
@@ -861,6 +867,65 @@ REMOVE:prefer-sg-ind-cmp-split adj + cmp-split + def;
 
 SELECT ("å" sep) IF (*-1 (vblex sep)) ;
 SELECT (vblex sep) IF (*1 ("å" sep)) ;
+
+REMOVE:acronym-samecase ("[A-ZÆØÅ]?[a-zæøå]+"r) IF
+        (0 ("<([A-ZÆØÅ][A-ZÆØÅ]+)>"r "$1"v))
+        ;
+# If we have an all-upper wordform and a reading that's exactly the
+# same, remove lower-case readings.
+# E.g.: AU is an acronym, not adv
+
+REMOVE:acronym-samecase-num ("[0-9][0-9\-]*[a-zæøå]+"r) IF
+        (0 ("<([0-9][0-9\-]*[A-ZÆØÅ]+)>"r "$1"v))
+        ;
+# as above, with initial number
+
+REMOVE:acronym-samecase-gen ("[A-ZÆØÅ]?[a-zæøå]+"r) IF
+        (0 ("<([A-ZÆØÅ][A-ZÆØÅ]+)s>"r "$1"v) + gen)
+        ;
+
+REMOVE:acronym-samecase-nogen ("[A-ZÆØÅ]?[A-ZÆØÅ]+"r) + gen IF
+        (0 ("<([A-ZÆØÅ][A-ZÆØÅ]*S)>"r "$1"v))
+        ;
+# "<HRS>" is "HRS", not "HR" gen
+
+REMOVE:acronym-samecase-cmp ("[A-ZÆØÅ]?[a-zæøå]+"r) IF
+        (0/1 cmp)
+        (0 ("<.*-([A-ZÆØÅ][A-ZÆØÅ]+)>"r "$1"v))
+        ;
+
+REMOVE:acronym-samecase-cmp SUB:1 ("[A-ZÆØÅ]?[a-zæøå]+-?"r) IF
+        (0/1 ("<([A-ZÆØÅ][A-ZÆØÅ]+-).*>"r "$1"v))
+        ;
+# «en VAR-sjekk»
+
+REMOVE:acronym-samecase-cmp-gen ("[A-ZÆØÅ]?[a-zæøå]+"r) IF
+        (0/1 cmp)
+        (0 ("<.*-([A-ZÆØÅ][A-ZÆØÅ]+)s>"r "$1"v) + gen)
+        ;
+# «curling-EMs B-divisjon»
+
+REMOVE:acronym-dash ("[A-ZÆØÅ]?[a-zæøå]+-.*"r) IF
+        (0 ("<([A-ZÆØÅ][A-ZÆØÅ]+)-.*>"r))
+        ;
+# «TV-kanalen» (remove "tv-kanalen")
+
+
+SELECT:name-seen-samecase-midsent np + ("(<\\p{Lu}.*>)"r) IF
+        (*-1 storbokstav-ok-etter BARRIER (*) - storbokstav-ok-etter-mellom)
+        # Same word form (with same casing) was seen elsewhere in the
+        # window (up to 2 sentences on either side by default) after
+        # an unambiguous name or lowercased word:
+        (**0WC np OR berre-litenbokstav LINK 1 (VSTR:"$1"))
+        ;
+# «Vold med VM-gull i maraton for U23. Amund Vold hadde det beste giret i avslutningen …»
+# «Kilde på annenplass i utfortreningen. Aleksander Aamodt Kilde kjørte knallsterkt …»
+# «Sammenlagtpremien er den gjeveste, sa Kilde til NTB. Kilde og Alexis Pinturault kjempet om totalseieren …»
+
+###################################################
+# SECTION Early removal of unlikely / rare forms: #
+###################################################
+
 
 
 "<LES>" SELECT (vblex imp);
