@@ -862,12 +862,57 @@
   </preference>
   <preference id="venn_ven.kons-mm2m">
     <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane mm-nn-tt-kk erstattast med enkeltkonsonantane m-n-t-k.
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+    Merk at dette valet inkluderer orda frå dei smalare vala: "komme → kome"-valet, "-dommen → -domen"-valet og "kjøtt → kjøt"-valet.
+
+    Eksempel: 
+    
+    dømme → døme
+    sømme → søme
+    skjønne → skjøne
+    skjønneleg → skjøneleg
+    dommar → domar
+    venn → ven
+    vennskap → venskap
+    monne → mone
+    medlemmer → medlemer 
+    komme → kome (velkommen → velkomen, fullkommen → fullkomen, oppkomme → oppkome, tilkortkomming → tilkortkoming ofl.)
+    -dommen → -domen (kristendommen → kristendommen ofl.) 
+    -dømme → -døme (kongedømme → kongedøme ofl.)
+    -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
+    kjøtt → kjøt
+    kjøkken → kjøken
+    skott → skut (akterskott → akterskut ofl.)
+    </long-description>  
   </preference>
   <preference id="komme_kome.kons-mm2m">
-    <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg</description>
+    <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i ordet erstattast med ein enkel m.
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    komme → kome
+    fullkommen → fullkomen
+    oppkomme → oppkome
+    tilkortkomming → tilkortkoming
+    velkommen → velkomen
+    </long-description>    
   </preference>
   <preference id="dommen_domen.kons-mm2m">
-    <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme</description>
+    <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe etterledd. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i etterleddet erstattast med ein enkel m.
+
+    Eksempel: 
+    
+     -dommen → -domen (kristendommen → kristendommen ofl.)
+     -dømme → -døme (kongedømme → kongedøme ofl.)
+     -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
+    </long-description> 
   </preference>
   <preference id="kjøtt_kjøt.kons-mm2m">
     <description lang="nno">kjøtt → kjøt, kjøkken → kjøken</description>
