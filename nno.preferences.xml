@@ -909,22 +909,55 @@
 
     Eksempel: 
     
-     -dommen → -domen (kristendommen → kristendommen ofl.)
-     -dømme → -døme (kongedømme → kongedøme ofl.)
-     -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
+    -dommen → -domen (kristendommen → kristendommen ofl.)
+    -dømme → -døme (kongedømme → kongedøme ofl.)
+    -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
     </long-description> 
   </preference>
   <preference id="kjøtt_kjøt.kons-mm2m">
-    <description lang="nno">kjøtt → kjøt, kjøkken → kjøken</description>
+    <description lang="nno">kjøtt → kjøt, kjøkken → kjøken, ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane tt og kk i ordet erstattast med dei enkle konsonantane t eller k.
+    Dette valet råkar også samansetjingar som inneheld orda med dei aktuelle konsonantane.
+
+    Eksempel: 
+    kjøtt → kjøt
+    kjøkken → kjøken
+    skott → skut (akterskott → akterskut ofl.)
+    </long-description>  
   </preference>
   <preference id="dess-der_di.afx">
     <description lang="nno">der/dess → di, dermed → dimed, dessverre → diverre ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei endringa i stavinga i ei gruppe ord. Om du vel denne valfridomen, vil stavingane "der" eller "dess" i ordet erstattast med stavinga "di".
+
+    Eksempel: 
+    derfor → difor
+    dermed → dimed
+    dernest → dinest
+    dess → di
+    dessverre → diverre
+    </long-description> 
   </preference>
   <preference id="fly_flyge.vb-inf">
     <description lang="nno">fly → flyge (infinitiv)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil "fly" erstattast med den lengre varianten "flyge".
+    Merk at valet kun råkar ordet når det er bøygd i infinitiv.
+
+    Eksempel: 
+    å fly → å flyge
+    </long-description>
   </preference>
   <preference id="flyg_flyr.vb-inf">
     <description lang="nno">flyr → flyg (presens)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil presensbøyinga "flyr" erstattast med varianten "flyg".
+    Merk at valet kun råkar ordet når det er bøygd i presens.
+
+    Eksempel: 
+    flyr → flyg
+    </long-description>
   </preference>
   <preference id="gle_glede.vb-inf">
     <description lang="nno">gle → glede, gler → gleder (inf + presens)</description>
