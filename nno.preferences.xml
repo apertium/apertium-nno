@@ -625,15 +625,57 @@
   </preference>
   <preference id="skule_skole.vok-u2o">
     <description lang="nno">skule → skole</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "skule". Om du vel denne valfridomen, vil "skule" erstattast med "skole".
+    Dette valet råkar også samansetjingar som inneheld ordet "skule".
+
+    Eksempel:
+
+    skule → skole
+    folkeskule → folkeskole
+    skulebarn → skolebarn
+    </long-description>
   </preference>
     <preference id="skolere_skulere.vok-u2o">
     <description lang="nno">skolere → skulere</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "skolere". Om du vel denne valfridomen, vil "skolere" erstattast med "skulere".
+    Dette valet råkar også samansetjingar som inneheld ordet "skolere".
+
+    Eksempel:
+
+    skolere → skulere
+    omskolere → omskulere
+    skole → skule (verb)
+    skolering → skulering
+    </long-description>
   </preference>
   <preference id="jul_jol.vok-u2o">
     <description lang="nno">jul → jol</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "jul". Om du vel denne valfridomen, vil "jul" erstattast med "jol".
+    Dette valet råkar også samansetjingar som inneheld ordet "jul".
+
+    Eksempel:
+
+    jul → jol
+    juletre → joletre
+    julaftan → jolaftan
+    </long-description>
   </preference>
   <preference id="sommar_sumar.vok-o2u">
     <description lang="nno">sommar → sumar</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "sommar". Om du vel denne valfridomen, vil "sommar" erstattast med "sumar". Merk også at dette ikkje berre er ei vokalendring, men at den eine konsonanten også forsvinn.
+    Dette valet råkar også samansetjingar som inneheld ordet "sommar".
+
+    Eksempel: 
+    
+    sommar  → sumar
+    sommartid → sumartid
+    forsommar → forsumar
+    sommarleg → sumarleg
+    </long-description>
   </preference>
   <preference id="stove_stue.vok-u2o">
     <description lang="nno">stove → stue</description>
