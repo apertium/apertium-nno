@@ -1,6 +1,6 @@
 <preferences>
   <preference id="tenkje-leggje.kons-kj2k_gj2g">
-    <description lang="nno">tenkje → tenke, leggje → legge, søkje → søke, byggje → bygge, ofl.</description>
+    <description lang="nno">tenkje → tenke, leggje → legge, søkje → søke, byggje → bygge ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld konsonantendringa gj-kj → g-k. Det vil seie at j-en etter g eller k vert fjerna i ord der j-en er valfri.
         Valfridomen dekkjer verb, substantiv, adjektiv og samansetjingar av ord med ord av denne typen. Det er mange ord som vert råka av denne valfridomen.
@@ -8,39 +8,39 @@
         Eksempel på ord valfridomen treffer:
 
         bleikjeri → bleikeri 
-        bryggje → brygge (bryggjekant → bryggekant, flytebryggje → flyttebrygge, ofl.)
-        -byggjar → -byggar (innbyggjar → innbyggar, ofl.)
+        bryggje → brygge (bryggjekant → bryggekant, flytebryggje → flyttebrygge ofl.)
+        -byggjar → -byggar (innbyggjar → innbyggar ofl.)
         byggje → bygge
-        byggje- → bygge- (byggjeaktivitet → byggeaktivitet, byggjestein → byggestein, byggjeløyve → byggeløyve, ofl.)
-        bryggjeri → bryggeri (bryggjar → bryggar, bryggjarhus → bryggarhus, ofl.)
-        dyngje → dynge (søppeldyngje → søppedynge, ofl.)
-        enkje → enke (reveenkje → reveenke, enkjemann → enkemann, ofl.)
+        byggje- → bygge- (byggjeaktivitet → byggeaktivitet, byggjestein → byggestein, byggjeløyve → byggeløyve ofl.)
+        bryggjeri → bryggeri (bryggjar → bryggar, bryggjarhus → bryggarhus ofl.)
+        dyngje → dynge (søppeldyngje → søppedynge ofl.)
+        enkje → enke (reveenkje → reveenke, enkjemann → enkemann ofl.)
         flengje → flenge
-        hengjar → hengar (tilhengjar → tilhengar, ofl.)
-        hyggje → hygge (hyggjekveld → hyggekveld, sengehyggje → sengehygge; uhyggje → uhygge, hyggjeleg → hyggeleg, ofl.)
-        klyngje → klynge (klyngjetun → klyngetun, husklyngje → husklynge, ofl.)
+        hengjar → hengar (tilhengjar → tilhengar ofl.)
+        hyggje → hygge (hyggjekveld → hyggekveld, sengehyggje → sengehygge; uhyggje → uhygge, hyggjeleg → hyggeleg ofl.)
+        klyngje → klynge (klyngjetun → klyngetun, husklyngje → husklynge ofl.)
         klekkjeri → klekkeri          
         klengje → klenge
         krykkje → krykke
         leggje → legge
-        -leggje → -legge (nedleggje → nedlegge, ordleggje → ordlegge, ofl.)
-        lenkje → lenke (både verb og substantiv, hyperlenkje → hyperlenke, ofl.)
+        -leggje → -legge (nedleggje → nedlegge, ordleggje → ordlegge ofl.)
+        lenkje → lenke (både verb og substantiv, hyperlenkje → hyperlenke ofl.)
         liggje → ligge
-        rekkje → rekke (rekkjehus → rekkehus, assosiasjonsrekkje → assosiasjonsrekke, ofl.)
+        rekkje → rekke (rekkjehus → rekkehus, assosiasjonsrekkje → assosiasjonsrekke ofl.)
         ringje → ringe          
         røykjar → røykar  
         røykje → røyke                 
         røykjelse → røykelse 
         røykjeri → røykeri
-        skjenkje → skjenke (skjenkjeløyve → skjenkeløyve, ofl.)
+        skjenkje → skjenke (skjenkjeløyve → skjenkeløyve ofl.)
         sleggje → slegge
         slengjar → slengar
-        slyngje → slynge (teleslyngje → teleslynge, slyngjestokk → slyngestokk, ofl.)
+        slyngje → slynge (teleslyngje → teleslynge, slyngjestokk → slyngestokk ofl.)
         søkje → søke
         søkjar → søker
         spøkje- → spøke-
         spøkjelse → spøkelse
-        steikje → steike (steikjespade → steikespade, ofl.)
+        steikje → steike (steikjespade → steikespade ofl.)
         stengje → stenge
         styggjeleg → styggeleg
         syngje → synge
@@ -48,66 +48,66 @@
         tenkjeleg → tenkeleg
         tenkjande → tenkande
         tenkjehette → tenkehette
-        -trekkjar → -trekkar (opptrekkjeri → opptrekkeri, ofl.)
+        -trekkjar → -trekkar (opptrekkjeri → opptrekkeri ofl.)
         tryggje → trygge
-        trykkjeri → trykkeri (trykkjar → trykka, undertrykkjar → undertrykkar, ofl.)
+        trykkjeri → trykkeri (trykkjar → trykka, undertrykkjar → undertrykkar ofl.)
         trykkjende → trykkende
-        tyggje → tygge (kjake; få ein på tyggja → tygga, ofl.)
+        tyggje → tygge (kjake; få ein på tyggja → tygga ofl.)
         tykkje → tykke
         vengje → venge
         ønskje → ønske (både verb og substantiv)
         </long-description>
   </preference>
   <preference id="enkje_enke.kons-kj2k_gj2g">
-    <description lang="nno">enkje → enke, rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri, ofl.</description>
+    <description lang="nno">enkje → enke, rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri ofl.</description>
     <long-description lang="nno">
         Denne valfridomen er ein avgrensa variant av konsonantendringa gj-kj → g-k.
         Valfridomen inkluderer ein del substantiv, særleg ho- og inkjekjønnsord, med valfri j etter g og k, og nokre verb. Alle vala i denne valfridomen er inkludert i "tenkje → tenke"-valet som har eit større ordtilfang.
         
         Eksempel på ord valfridomen treffer:
     
-        dyngje → dynge (søppeldyngje → søppedynge, ofl.)
-        rekkje → rekke (rekkjehus → rekkehus, assosiasjonsrekkje → assosiasjonsrekke, ofl.)
-        hyggje → hygge (hyggjekveld → hyggekveld, sengehyggje → sengehygge; uhyggje → uhygge, hyggjeleg → hyggeleg, ofl.)
-        bryggje → brygge (bryggjekant → bryggekant, flytebryggje → flyttebrygge, ofl.)
-        lenkje → lenke (hyperlenkje → hyperlenke, ofl.)
-        klyngje → klynge (klyngjetun → klyngetun, husklyngje → husklynge, ofl.)
+        dyngje → dynge (søppeldyngje → søppedynge ofl.)
+        rekkje → rekke (rekkjehus → rekkehus, assosiasjonsrekkje → assosiasjonsrekke ofl.)
+        hyggje → hygge (hyggjekveld → hyggekveld, sengehyggje → sengehygge; uhyggje → uhygge, hyggjeleg → hyggeleg ofl.)
+        bryggje → brygge (bryggjekant → bryggekant, flytebryggje → flyttebrygge ofl.)
+        lenkje → lenke (hyperlenkje → hyperlenke ofl.)
+        klyngje → klynge (klyngjetun → klyngetun, husklyngje → husklynge ofl.)
         flengje → flenge
-        slyngje → slynge (teleslyngje → teleslynge, slyngjestokk → slyngestokk, ofl.)
+        slyngje → slynge (teleslyngje → teleslynge, slyngjestokk → slyngestokk ofl.)
         tyggje → tygge (kjake; få ein på tyggja → tygga)
-        enkje → enke (reveenkje → reveenke, enkjemann → enkemann, ofl.)
+        enkje → enke (reveenkje → reveenke, enkjemann → enkemann ofl.)
         krykkje → krykke
         spøkjelse → spøkelse
         spøkje- → spøke-
         røykjelse → røykelse
-        byggjeri → byggeri (båtbyggjeri → båtbyggeri, ofl.)
-        -byggjar → -byggar (innbyggjar → innbyggar, ofl.)
+        byggjeri → byggeri (båtbyggjeri → båtbyggeri ofl.)
+        -byggjar → -byggar (innbyggjar → innbyggar ofl.)
         bryggjeri → bryggeri (bryggjar → bryggar, bryggjarhus → bryggarhus)
         røykjeri → røykeri
         røykjar → røykar
         bleikjeri → bleikeri 
         trykkjeri → trykkeri (trykkjar → trykka, undertrykkjar → undertrykkar)
         klekkjeri → klekkeri
-        -trekkjar → -trekkar (opptrekkjeri → opptrekkeri, ofl.)
+        -trekkjar → -trekkar (opptrekkjeri → opptrekkeri ofl.)
         slengjar → slengar
         vengje → venge
-        hengjar → hengar (tilhengjar → tilhengar, ofl.)
+        hengjar → hengar (tilhengjar → tilhengar ofl.)
         røykje → røyke
         steikje → steike
-        skjenkje → skjenke (steikjespade → steikespade, skjekjeløyve → skjenkeløyve, ofl.)
+        skjenkje → skjenke (steikjespade → steikespade, skjekjeløyve → skjenkeløyve ofl.)
         ringje → ringe (og andre verb på -nge, ikkje trans/intrans: hengje/henge, trengje/trenge, men slengje → slenge).
     </long-description>
   </preference>
   <preference id="følgje_følge.kons-lgj2lg">
-    <description lang="nno">følgje → følge, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge, ofl.</description>
+    <description lang="nno">følgje → følge, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld konsonantendringa lgj → lg. Det vil seie at j-en etter lg vert fjerna i ord der j-en er valfri.
         Valfridomen dekkjer verb, substantiv, adjektiv, preposisjon, adverb og samansetjingar av ord med ord av denne typen. 
         
         Eksempel på ord valfridomen treffer:
 
-        følgje → følge (å følgje → å følge, ifølgje → ifølge, følgjeleg → følgeleg, ofl.)    
-        bølgje → bølge (å bølgje → å bølge, bølgjedal → bølgedal, lydbølgje → lydbølge, ofl.)
+        følgje → følge (å følgje → å følge, ifølgje → ifølge, følgjeleg → følgeleg ofl.)    
+        bølgje → bølge (å bølgje → å bølge, bølgjedal → bølgedal, lydbølgje → lydbølge ofl.)
         svelgje → svelge
         elgje → elge
         belgje → belge
@@ -124,15 +124,15 @@
         Eksempel på ord valfridomen treffer:
 
         ølgj → ylgj (grunnendringa)
-        følgje → fylgje (følgje → fylgje, å følgje → å fylgje, ifølgje → ifylgje, følgjeleg → fylgjeleg, ofl.)
-        bølgje → bylgje (bølgje → bylgje, å bølgje → å bylgje, bølgjedal → bylgjedal, lydbølgje → lydbylgje, ofl.)
-        sørgje → syrgje (å sørgje → å syrgje sørging → syrging, sørgjeleg → syrgjeleg, forsørgje → forsyrgje, forsørging → forsyrging, sjelesørgjar → sjelesyrgjar, ofl. Ikkje "bylging")
+        følgje → fylgje (følgje → fylgje, å følgje → å fylgje, ifølgje → ifylgje, følgjeleg → fylgjeleg ofl.)
+        bølgje → bylgje (bølgje → bylgje, å bølgje → å bylgje, bølgjedal → bylgjedal, lydbølgje → lydbylgje ofl.)
+        sørgje → syrgje (å sørgje → å syrgje sørging → syrging, sørgjeleg → syrgjeleg, forsørgje → forsyrgje, forsørging → forsyrging, sjelesørgjar → sjelesyrgjar ofl. Ikkje "bylging")
 
         Merk at dette valet ikkje er kompatibelt med "følgje → følge"-valet.
     </long-description>
   </preference>
   <preference id="kjende_kjente.vb-d2t">
-    <description lang="nno">kjende → kjente, dømde → dømte, ofl.</description>
+    <description lang="nno">kjende → kjente, dømde → dømte ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld verb med valfri bøying på -de → -te i preteritum og tilsvarande valfridom i partisippbøyinga.
         Valfridomen gjeld også for samansetjingar der desse orda er ein del av samansetjinga.
@@ -140,13 +140,13 @@
         Eksempel på ord valfridomen treffer:
         
         bestemde → bestemte
-        brende → brente (adjektivbøying: solbrend-solbrent-solbrende → solbrent-solbrent-solbrente, ofl.)
+        brende → brente (adjektivbøying: solbrend-solbrent-solbrende → solbrent-solbrent-solbrente ofl.)
         dømde → dømte
         kjende → kjente (adjektivbøying: kjend-kjent-kjente  →  kjent-kjent-kjende) 
     </long-description>
   </preference>
   <preference id="bygd_bygt.vb-d2t">
-    <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum), ofl.</description>
+    <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum) ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld verb med valfri form på -gd, -vd og -dd i perfektum partisipp og tilsvarande adjektiv.
         Det vil seie at -gd, -vd og -dd vert erstatta med -gt, -vt og -tt. For eksempel vert bygd → bygt.
@@ -154,9 +154,9 @@
 
         Eksempel på ord valfridomen treffer:
 
-        bygd → bygt (breibygd – breibygd – breibygde  →  breibygt – breibygd – breibygde, ofl.)
-        nådd → nått (oppnådd – oppnådd – oppnådde → oppnådd – oppnått – oppnådde, ofl.) 
-        prøvd → prøvt (behovsprøvd – behovsprøvd – behovsprøvde → behovsprøvd – behovsprøvt – behovdsprøvde, ofl.)              
+        bygd → bygt (breibygd – breibygd – breibygde  →  breibygt – breibygd – breibygde ofl.)
+        nådd → nått (oppnådd – oppnådd – oppnådde → oppnådd – oppnått – oppnådde ofl.) 
+        prøvd → prøvt (behovsprøvd – behovsprøvd – behovsprøvde → behovsprøvd – behovsprøvt – behovdsprøvde ofl.)              
     </long-description>
   </preference>
   <preference id="de_dokker.prn">
@@ -229,7 +229,7 @@
     </long-description>
   </preference>
   <preference id="er_ar.vb-e2a">
-    <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt), ofl.</description>
+    <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt) ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld valfri -ar i presens for e-verb. Er-endingar bøygd i presens blir erstatta med ar-endingar.
         
@@ -239,7 +239,7 @@
         leier → leiar
         trener → trenar  
     </long-description>
-    <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt), ofl.</description>
+    <description lang="nob">E-verb med blanda bøying, presens på -ar: roper → ropar (beholder ropte – ropt) ofl.</description>
   </preference>
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
@@ -440,7 +440,7 @@
     <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
     <long-description lang="nno">
         Denne valfridomen gjeld fleirtalsbøyinga til hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinda si endra frå -er/ene → -ar/-ane.
-        Valfridomen dekkjer substantiv med hankjønnsbøying og kun fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        Valfridomen dekkjer substantiv med hankjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
         
         Eksempel på korleis valfridomen treffer:
 
@@ -456,7 +456,7 @@
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
     <long-description lang="nno">
         Denne valfridomen gjeld fleirtalsbøyinga til hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endinda si endra frå -ar/ane → -er/-ene.
-        Valfridomen dekkjer substantiv med hokjønnsbøying og kun fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        Valfridomen dekkjer substantiv med hokjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
         
         Eksempel på korleis valfridomen treffer:
 
@@ -659,8 +659,8 @@
     Eksempel:
 
     jul → jol
-    juletre → joletre
     julaftan → jolaftan
+    juletre → joletre
     </long-description>
   </preference>
   <preference id="sommar_sumar.vok-o2u">
@@ -691,7 +691,7 @@
     </long-description>
   </preference>
   <preference id="høvding_hovding.vok-ø2o">
-    <description lang="nno">høvding → hovding, ofl.</description>
+    <description lang="nno">høvding → hovding ofl.</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "o".
     Dette valet råkar også samansetjingar som inneheld desse orda.
@@ -700,9 +700,9 @@
     
     høvding → hovding
     høvedsmann → hovudsmann
-    røde → ròde (morgonrøde → moronròde, ofl.)
-    størkne → storkne (størkning → storkning, ofl.)
-    tørste → torste (blodtørste → blodtorste, tørstedrikk → torstedrikk, ofl.)
+    røde → ròde (morgonrøde → moronròde ofl.)
+    størkne → storkne (størkning → storkning ofl.)
+    tørste → torste (blodtørste → blodtorste, tørstedrikk → torstedrikk ofl.)
     </long-description>
   </preference>
   <preference id="då_da.vok-a2å">
@@ -729,73 +729,349 @@
     </long-description>
   </preference>
   <preference id="allmenn_ålmenn.vok-a2å">
-    <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv</description>
+    <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "a"-en i ordet erstattast med "å".
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    allmenn → ålmenn (allmenndanning → ålmenndanning, allmente → ålmente ofl.)
+    allmenning → ålmenning
+    allmuge → ålmuge
+    klar → klår
+    klare → klåre (NB! Tvitydig: soleklar → soleklår, avklare → avklåre, avklaring → avklåring, forklare → forklåre, forklaring → forklåring ofl.; ikkje "klare" i meininga "ordne, makte greie") 
+    lagasild → lågåsild
+    skap → skåp (kjøkkenskap → kjøkkenskåp, skapdør → skåpdør ofl.)
+    trave → tråve (trav → tråv, travløp → tråvløp ofl.)
+    </long-description>  
   </preference>
   <preference id="no_nå.vok-o2å">
-    <description lang="nno">no → nå</description>
+    <description lang="nno">no → nå, enno → ennå, notidig → nåtidig</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "no". Om du vel denne valfridomen, vil "no" erstattast med "nå".
+    Dette valet råkar også avleiingar av "no".
+
+    Eksempel: 
+    
+    no → nå
+    enno → ennå
+    notidig → nåtidig
+    </long-description>
   </preference>
   <preference id="så_so.vok-o2å">
-    <description lang="nno">så → so</description>
+    <description lang="nno">så → so ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "så". Om du vel denne valfridomen, vil "så" erstattast med "so".
+    Dette valet råkar også avleiingar av "så".
+
+    Eksempel: 
+    
+    så → so
+    også → ogso
+    altså → altso
+    nokså → nokso
+    jaså → jaso
+    ja så  →  ja so
+    såkalla → sokalla
+    så nær  →  so nær
+    så som så → so som so
+    så godt som → so godt som
+    </long-description>
   </preference>
   <preference id="først_fyrst.vok-ø2y">
     <description lang="nno">først → fyrst, ønske → ynske, søster → syster ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "y".
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    bøtte → bytte (søppebøtte → søppelbytte, bøttekott → byttekott ofl.)
+    først → fyrst
+    første → fyrste
+    gløtte → glytte (verb)
+    gløtt → glytt (substantiv)
+    løfte → lyfte (verb)
+    løft → lyft
+    løftar → lyftar
+    løfting → lyfting (styrkjeløft → styrkjelyft, løftekran → lyftekran ofl. NB: ikkje løfte (lovnad))
+    løgn → lygn
+    løgnar → lygnar
+    nøkkel → nykel (nøkle- → nykle-; NB: Ikkje "nøkkelost")
+    nøkk → nykk (nøkken → nykken)
+    nøste → nyste (substantiv og verb) (garnnøste → garnnyste ofl.)
+    røllik → ryllik
+    søsken → sysken
+    søster → syster
+    sølje → sylje
+    sølv → sylv
+    tønne → tynne
+    tørst → tyrst (adjektiv)
+    vørde → vyrde (verb)
+    vørd → vyrd (vørdnad → vyrdnad)
+    ønske → ynske (substantiv)
+    ønskje → ynskje → ynske → ønske (verb) 
+
+    Merk at dette valet ikkje gjeld for orda: løkke, møllar, mølle, støtte og hjørne.
+    </long-description>  
   </preference>
   <preference id="søndag_sundag.vok-ø2u">
-    <description lang="nno">søndag → sundag, tørke → turke, tørr → turr, brønn → brunn</description>
+    <description lang="nno">søndag → sundag, tørke → turke, tørr → turr ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "u".
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    søndag → sundag
+    tørke → turke (substantiv, tørkesommar → turkesommar ofl.)
+    tørr → turr (tørrtrene → turrtrene, verken vått eller tørt  →  verken vått eller turt ofl.)
+    brønn → brunn (brønnbåt → brunnbåt, ønskebrønn → ønskebrunn ofl.)
+    </long-description>    
   </preference>
   <preference id="lykke_lukke.vok-y2u">
-    <description lang="nno">lykke → lukke, skyve → skuve, krybbe → krubbe</description>
+    <description lang="nno">lykke → lukke, skyve → skuve, krybbe → krubbe ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "y"-en i ordet erstattast med "u".
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    dykkar → dukkar (substantiv, perledykkar → perledukkar, dykkarmaske → dukkarmaske ofl.)
+    dykke → dukke (verb)
+    krybbe → krubbe (krybbedød → krubbedød, julekrybbe → julekrubbe ofl.)
+    lykke → lukke (lykketreff → lukketreff, lykkeleg → lukkeleg, lykkast → lukkast, ulykke → ulukke ofl.)
+    skylde → skulde
+    skuld → skyld
+    skyve → skuve (forskyve → forskuve, skyvedør → skuvedør, skyving → skuving ofl.)
+    </long-description>   
   </preference>
   <preference id="fjøre_fjære.vok-ø2æ">
-    <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære</description>
+    <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "æ".
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    fjøre → fjære (substantiv, fjørestein → fjærestein, tangfjøre → tangfjære, føling i fjøra → fjæra)
+    tjøre → tjære (verb) 
+    tjøre → tjære (substantiv, tretjøre → tretjære, tjørepapp → tjærepapp ofl.)
+    </long-description>     
   </preference>
   <preference id="venn_ven.kons-mm2m">
-    <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme, ofl.</description>
+    <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane mm-nn-tt-kk erstattast med enkeltkonsonantane m-n-t-k.
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+    Merk at dette valet inkluderer orda frå dei smalare vala: "komme → kome"-valet, "-dommen → -domen"-valet og "kjøtt → kjøt"-valet.
+
+    Eksempel: 
+    
+    dømme → døme
+    sømme → søme
+    skjønne → skjøne
+    skjønneleg → skjøneleg
+    dommar → domar
+    venn → ven
+    vennskap → venskap
+    monne → mone
+    medlemmer → medlemer 
+    komme → kome (velkommen → velkomen, fullkommen → fullkomen, oppkomme → oppkome, tilkortkomming → tilkortkoming ofl.)
+    -dommen → -domen (kristendommen → kristendommen ofl.) 
+    -dømme → -døme (kongedømme → kongedøme ofl.)
+    -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
+    kjøtt → kjøt
+    kjøkken → kjøken
+    skott → skut (akterskott → akterskut ofl.)
+    </long-description>  
   </preference>
   <preference id="komme_kome.kons-mm2m">
-    <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg</description>
+    <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i ordet erstattast med ein enkel m.
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    komme → kome
+    fullkommen → fullkomen
+    oppkomme → oppkome
+    tilkortkomming → tilkortkoming
+    velkommen → velkomen
+    </long-description>    
   </preference>
   <preference id="dommen_domen.kons-mm2m">
-    <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme</description>
+    <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe etterledd. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i etterleddet erstattast med ein enkel m.
+
+    Eksempel: 
+    
+    -dommen → -domen (kristendommen → kristendommen ofl.)
+    -dømme → -døme (kongedømme → kongedøme ofl.)
+    -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
+    </long-description> 
   </preference>
   <preference id="kjøtt_kjøt.kons-mm2m">
-    <description lang="nno">kjøtt → kjøt, kjøkken → kjøken</description>
+    <description lang="nno">kjøtt → kjøt, kjøkken → kjøken, ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane tt og kk i ordet erstattast med dei enkle konsonantane t eller k.
+    Dette valet råkar også samansetjingar som inneheld orda med dei aktuelle konsonantane.
+
+    Eksempel: 
+    kjøtt → kjøt
+    kjøkken → kjøken
+    skott → skut (akterskott → akterskut ofl.)
+    </long-description>  
   </preference>
   <preference id="dess-der_di.afx">
-    <description lang="nno">der/dess → di, dermed → dimed, dessverre → diverre, ofl.</description>
+    <description lang="nno">der/dess → di, dermed → dimed, dessverre → diverre ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei endringa i stavinga i ei gruppe ord. Om du vel denne valfridomen, vil stavingane "der" eller "dess" i ordet erstattast med stavinga "di".
+
+    Eksempel: 
+    
+    derfor → difor
+    dermed → dimed
+    dernest → dinest
+    dess → di
+    dessverre → diverre
+    </long-description> 
   </preference>
   <preference id="fly_flyge.vb-inf">
     <description lang="nno">fly → flyge (infinitiv)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil "fly" erstattast med den lengre varianten "flyge".
+    Merk at valet berre råkar ordet når det er bøygd i infinitiv.
+
+    Eksempel: 
+    
+    å fly → å flyge
+    </long-description>
   </preference>
   <preference id="flyg_flyr.vb-inf">
     <description lang="nno">flyr → flyg (presens)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil presensbøyinga "flyr" erstattast med varianten "flyg".
+    Merk at valet berre råkar ordet når det er bøygd i presens.
+
+    Eksempel: 
+    
+    flyr → flyg
+    </long-description>
   </preference>
   <preference id="gle_glede.vb-inf">
-    <description lang="nno">gle → glede, gler → gleder (inf + presens)</description>
+    <description lang="nno">gle → glede, gler → gleder (infinitiv og presens)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld verbet "å gle". Om du vel denne valfridomen, vil ordet "gle" erstattast med den lengre varianten "glede".
+    Merk at valet berre råkar ordet når det er bøygd i infinitiv og presens.
+    
+    Eksempel:
+    
+    gle → glede (infinitiv)
+    gler → gleder (presense)
+    </long-description>
   </preference>
   <preference id="lide_li.vb-inf">
-    <description lang="nno">lide → li, lid → lir,  leid → lei (inf + pres + pret; om smerte, sjukdom)</description>
+    <description lang="nno">lide → li, lid → lir,  leid → lei (infinitiv, presens og preteritum)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld verbet "å lide". Om du vel denne valfridomen, vil ordet "lide" erstattast med den kortare varianten "li".
+    Merk at valet berre råkar ordet når det er bøygd i infinitiv, presens og preteritum.
+    
+    Eksempel:
+    
+    lide → li (infinitiv)
+    lid → lir (presense)
+    leid → lei (preteritum)
+    </long-description>  
   </preference>
   <preference id="jern_jarn.vok-a2e">
-    <description lang="nno">jern → jarn</description>
+    <description lang="nno">jern → jarn ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "jern". Om du vel denne valfridomen, vil ordet "jern" erstattast med "jarn".
+    Dette valet råkar også samansetjingar som inneheld ordet.
+    
+    Eksempel:
+    
+    jern → jarn
+    jernbane → jarnbane
+    skrujern → skrujarn
+    </long-description>  
   </preference>
   <preference id="kvalp_kvelp.vok-a2e">
-    <description lang="nno">kvalp → kvelp</description>
+    <description lang="nno">kvalp → kvelp ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "kvalp". Om du vel denne valfridomen, vil ordet "kvalp" erstattast med "kvelp".
+    Dette valet råkar også avleiingar og samansetjingar av dette ordet.
+    
+    Eksempel:
+    
+    kvalp → kvelp
+    kvalpe → kvelpe
+    kvalping → kvelping
+    </long-description>
   </preference>
   <preference id="anten_enten.vok-a2e">
     <description lang="nno">anten → enten</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "anten". Om du vel denne valfridomen, vil ordet "anten" erstattast med "enten".
+    Dette valet råkar også samansetjingar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    anten → enten
+    </long-description>
   </preference>
   <preference id="aftan_eftan.vok-a2e">
-    <description lang="nno">aftan → eftan</description>
+    <description lang="nno">aftan → eftan ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "aftan". Om du vel denne valfridomen, vil ordet "aftan" erstattast med "eftan".
+    Dette valet råkar også samansetjingar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    aftan → eftan
+    julaftan → juleftan
+    aftanstund → eftanstund
+    </long-description>
   </preference>
   <preference id="alter_altar.vok-a2e">
-    <description lang="nno">alter → altar</description>
+    <description lang="nno">alter → altar ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "alter". Om du vel denne valfridomen, vil ordet "alter" erstattast med "altar".
+    Dette valet råkar også samansetjingar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    alter → altar
+    altervin → altarvin
+    </long-description>
   </preference>
   <preference id="spenn_span.vok-a2e">
-    <description lang="nno">spenn → span</description>
+    <description lang="nno">spenn- → span-, spennande → spanande ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei endring i stavinga av "spennande". Om du vel denne valfridomen, vil ordet "spennande" erstattast med "spanande".
+    Dette valet råkar også samansetjingar og avleiingar.
+    
+    Eksempel:
+    
+    spennande → spanande
+    avspenning → avspaning
+    </long-description>
   </preference>
   <preference id="drikk_drykk.vok-i2y">
-    <description lang="nno">drikk → drykk</description>
+    <description lang="nno">drikk → drykk ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "drikk". Om du vel denne valfridomen, vil ordet "drikk" erstattast med "drykk".
+    Dette valet råkar også samansetjingar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    drikk → drykk
+    energidrikk → energidrykk
+    </long-description>
   </preference>
   <preference id="segle_sigle.vok-e2i">
     <description lang="nno">segle → sigle, ekorn → ikorn</description>
