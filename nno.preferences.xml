@@ -670,7 +670,7 @@
     Dette valet råkar også samansetjingar som inneheld ordet "sommar".
 
     Eksempel: 
-    
+
     sommar  → sumar
     sommartid → sumartid
     forsommar → forsumar
@@ -679,15 +679,54 @@
   </preference>
   <preference id="stove_stue.vok-u2o">
     <description lang="nno">stove → stue</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld stavinga av ordet "stove". Om du vel denne valfridomen, vil "stove" erstattast med "stue".
+    Dette valet råkar også samansetjingar som inneheld ordet "stove".
+
+    Eksempel: 
+    
+    stove → stue
+    finstove → finstue
+    stovegolv → stuegolv
+    </long-description>
   </preference>
   <preference id="høvding_hovding.vok-ø2o">
-    <description lang="nno">høvding → hovding</description>
+    <description lang="nno">høvding → hovding, ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "o".
+    Dette valet råkar også samansetjingar som inneheld desse orda.
+
+    Eksempel: 
+    
+    høvding → hovding
+    høvedsmann → hovudsmann
+    røde → ròde (morgonrøde → moronròde, ofl.)
+    størkne → storkne (størkning → storkning, ofl.)
+    tørste → torste (blodtørste → blodtorste, tørstedrikk → torstedrikk, ofl.)
+    </long-description>
   </preference>
   <preference id="då_da.vok-a2å">
-    <description lang="nno">då → da</description>
+    <description lang="nno">då → da, endå → enda</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "då". Om du vel denne valfridomen, vil "då" erstattast med "da".
+    Dette valet råkar også avleiingar av "då".
+
+    Eksempel: 
+    
+    då → da
+    endå → enda
+    </long-description>
   </preference>
   <preference id="åleine_aleine.vok-a2å">
     <description lang="nno">åleine → aleine</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "åleine". Om du vel denne valfridomen, vil "åleine" erstattast med "aleine".
+    Dette valet råkar også avleiingar av "åleine".
+
+    Eksempel: 
+    
+    åleine → aleine
+    </long-description>
   </preference>
   <preference id="allmenn_ålmenn.vok-a2å">
     <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv</description>
