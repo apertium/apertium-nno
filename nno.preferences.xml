@@ -1118,16 +1118,54 @@
     avbilete → avbilde
     biletbok → bildebok
     bilethoggar → bildehoggar
+
+    Merk at valet ikkje gjeld for eineformer, eksempelvis biletleg, avbild(n)ing og bildande.
     </long-description>
   </preference>
   <preference id="lys_ljos.vok-y2jo">
-    <description lang="nno">lys → ljos</description>
+    <description lang="nno">lys → ljos, lyd → ljod</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei lydendring i ei gruppe ord. Om du vel denne valfridomen, vil y-en i ordet erstattast med stavinga jo.
+    Dette valet råkar også samansetningar av desse orda.
+    
+    Eksempel:
+    
+    lyd → ljod
+    lydmur → ljodmur
+    lydleg → ljodleg
+    gjenlyd → gjenljod
+    lys → ljos
+    lysne → ljosne
+    lyseblå → ljosblå
+    stearinlys → stearinljos
+    lysår → ljosår
+
+    Merk at valet ikkje endrar verbet lyde → ljode, som kan forvekslast med å lyde (i betydinga: høyre, lystre).
+    </long-description>
   </preference>
   <preference id="voks_vaks.vok-o2a">
-    <description lang="nno">vekse: voks → vaks</description>
+    <description lang="nno">å vekse: voks → vaks</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i preteritumsbøyinga av verbet "å vekse". Om du vel denne valfridomen, vil o-en i "voks" erstattast med ein a.
+    
+    Eksempel:
+    
+    voks → vaks
+    det voks fram ei ny tid → det vaks fram ei ny tid
+    </long-description>
   </preference>
   <preference id="barna_borna.vok-o2a">
     <description lang="nno">barn (fleirtal): barn – barna → born – borna</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i fleirtalsbøyinga av substantivet "barn". Om du vel denne valfridomen, vil a-en i "barn" og "barna" erstattast med ein o.
+    
+    Eksempel:
+    
+    barn → born 
+    barna → borna
+    det var fleire barn → det var fleire born
+    alle barna åt is → alle borna åt is 
+    </long-description>
   </preference>
   <preference id="maske_moske.vok-o2a">
     <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
