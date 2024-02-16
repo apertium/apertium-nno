@@ -760,7 +760,7 @@
     </long-description>
   </preference>
   <preference id="så_so.vok-o2å">
-    <description lang="nno">så → so ofl.</description>
+    <description lang="nno">så → so</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "så". Om du vel denne valfridomen, vil "så" erstattast med "so".
     Dette valet råkar også avleiingar av "så".
@@ -988,7 +988,7 @@
     </long-description>  
   </preference>
   <preference id="jern_jarn.vok-a2e">
-    <description lang="nno">jern → jarn ofl.</description>
+    <description lang="nno">jern → jarn</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "jern". Om du vel denne valfridomen, vil ordet "jern" erstattast med "jarn".
     Dette valet råkar også samansetningar som inneheld ordet.
@@ -1001,7 +1001,7 @@
     </long-description>  
   </preference>
   <preference id="kvalp_kvelp.vok-a2e">
-    <description lang="nno">kvalp → kvelp ofl.</description>
+    <description lang="nno">kvalp → kvelp</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "kvalp". Om du vel denne valfridomen, vil ordet "kvalp" erstattast med "kvelp".
     Dette valet råkar også avleiingar og samansetningar av dette ordet.
@@ -1025,7 +1025,7 @@
     </long-description>
   </preference>
   <preference id="aftan_eftan.vok-a2e">
-    <description lang="nno">aftan → eftan ofl.</description>
+    <description lang="nno">aftan → eftan</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "aftan". Om du vel denne valfridomen, vil ordet "aftan" erstattast med "eftan".
     Dette valet råkar også samansetningar som inneheld dette ordet.
@@ -1038,7 +1038,7 @@
     </long-description>
   </preference>
   <preference id="alter_altar.vok-a2e">
-    <description lang="nno">alter → altar ofl.</description>
+    <description lang="nno">alter → altar</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "alter". Om du vel denne valfridomen, vil ordet "alter" erstattast med "altar".
     Dette valet råkar også samansetningar som inneheld dette ordet.
@@ -1050,7 +1050,7 @@
     </long-description>
   </preference>
   <preference id="spenn_span.vok-a2e">
-    <description lang="nno">spenn- → span-, spennande → spanande ofl.</description>
+    <description lang="nno">spenn- → span-, spennande → spanande</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei endring i stavinga av "spennande". Om du vel denne valfridomen, vil ordet "spennande" erstattast med "spanande".
     Dette valet råkar også samansetningar og avleiingar.
@@ -1169,15 +1169,58 @@
   </preference>
   <preference id="maske_moske.vok-o2a">
     <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "maske". Om du vel denne valfridomen, vil a-en i "maske" erstattast med ein o.
+    Dette valet råkar også samansetningar med dette ordet.
+
+    Eksempel:
+    
+    maske → moske (verbet)
+    garnmaske → garnmoske
+    maskevidd → moskevidd
+    
+    Merk at valet ikkje påverkar substantivet "maske". Vi held substantivet "maske" utanfor, ettersom det vil krevje ein del disambiguering å skilje "maske" (ansiktsmaske) og "maske" (garnmaske), men tek med nokre trygge samansette ord: garnmaske, nettmaske, luftmaske, fastmaske, maskevidd.
+    </long-description>
   </preference>
   <preference id="oske_aske.vok-o2a">
     <description lang="nno">oske → aske, oskeladd → askeladd (ikkje normert sideform)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "oske". Om du vel denne valfridomen, vil o-en i "oske" erstattast med ein a.
+    Dette valet råkar også samansetningar med dette ordet.
+    
+    Eksempel:
+    
+    oske → aske
+    Oskeladden → Askeladden
+    
+    Merk at "aske" ikkje er normert, men a-forma er ein del brukt og etterspurd. Vi merkar oss også at "askepott" er normert som eineform i nynorsk. 
+    </long-description>  
   </preference>
   <preference id="trost_trast.vok-o2a">
     <description lang="nno">trost → trast</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "trost". Om du vel denne valfridomen, vil o-en i "trost" erstattast med ein a.
+    Dette valet råkar også samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    trost → trast
+    måltrost → måltrast
+    trostunge → trastunge
+    </long-description>  
   </preference>
   <preference id="nød_naud.dift-ø2au">
     <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ordet "trost". Om du vel denne valfridomen, vil o-en i "trost" erstattast med ein a.
+    Dette valet råkar også samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    trost → trast
+    måltrost → måltrast
+    trostunge → trastunge
+    </long-description>   
   </preference>
   <preference id="dødeleg_døyeleg.dift-ø2øy">
     <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr ofl.</description>
