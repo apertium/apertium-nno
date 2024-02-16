@@ -1240,18 +1240,95 @@
   </preference>
   <preference id="dødeleg_døyeleg.dift-ø2øy">
     <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil ø-en i ordet erstattast med diftongen øy. 
+    Dette valet råkar også samansetningar som inneheld desse orda.
+    
+    Eksempel:
+
+    dødeleg → døyeleg
+    dødelegheit → døying
+    dødelegheitsrate → døyingsrate
+    mør → møyr
+    skjør → skøyr
+    strø → strøy (substantiv)
+    strø → strøye (verb)
+    strøbil → strøyebil
+    saltstrøing → saltstrøying
+    tø → tøy
+    tøvêr → tøyvêr
+    tø → tøye (verb)
+    tø opp → tøye opp
+    </long-description>  
   </preference>
   <preference id="pek_peik.dift-e2ei">
     <description lang="nno">pek → peik (substantiv), lest → leist (sokk, strømpe)</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil e-en i ordet erstattast med diftongen ei. 
+    Dette valet råkar også samansetningar som inneheld desse orda.
+    
+    Eksempel:
+    
+    pek → peik
+    fingerpek → fingerpeik
+    lest → leist
+    sokkelest → sokkeleist
+    bli ved sin lest → bli ved sin leist
+    </long-description>   
   </preference>
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ei lita gruppe ord. Om du vel denne valfridomen, vil konsonantane tj erstattast med dobbeltkonsonanten tt. 
+    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
+    
+    Eksempel:
+    
+    setje → sette
+    fortsetje → fortsette
+    fortsetjing → fortsetting
+    avsetje → avsette
+    avsetjing → avsetting
+    omsetjeleg → omsetteleg
+    utsetjing → utsetting
+    setjepotet → settepotet
+    sitje → sitte
+    sitjeplass → sitteplass
+    innesitjing → innesitting
+    heimesitjar → heimesittar
+    ettersitjande → ettersittande
+    </long-description>   
   </preference>
   <preference id="fremje_fremme.kons-mj2mm">
     <description lang="nno">fremje → fremme, fremjing → fremming</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ordet "fremje". Om du vel denne valfridomen, vil konsonantane mj erstattast med dobbeltkonsonanten mm. 
+    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    fremje → fremme (infinitiv)
+    fremjar → fremmar (presens)
+    fremja → fremma (preteritum, presens perfektum og perfektum partisipp)
+    fremj → frem
+    fremjing → fremming
+    forfremja → forfremma
+    </long-description>  
   </preference>
   <preference id="hemme_hemje.kons-mm2mj">
     <description lang="nno">hemme → hemje, funksjonshemma → funksjonshemja</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ordet "hemme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
+    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    hemme → hemje (infinitiv)
+    hemmar → hemjar (presens)
+    hemma → hemja (preteritum, presens perfektum og perfektum partisipp)
+    hemming → hemjing
+    funksjonshemma → funksjonshemja
+    </long-description>    
   </preference>
   <preference id="gremme_gremje.kons-mm2mj">
     <description lang="nno">gremme → gremje</description>
