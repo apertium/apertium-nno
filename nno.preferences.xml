@@ -1062,7 +1062,7 @@
     </long-description>
   </preference>
   <preference id="drikk_drykk.vok-i2y">
-    <description lang="nno">drikk → drykk ofl.</description>
+    <description lang="nno">drikk → drykk</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "drikk". Om du vel denne valfridomen, vil ordet "drikk" erstattast med "drykk".
     Dette valet råkar også samansetningar som inneheld dette ordet.
@@ -1075,12 +1075,50 @@
   </preference>
   <preference id="segle_sigle.vok-e2i">
     <description lang="nno">segle → sigle, ekorn → ikorn</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil vokalen e i ordet erstattast med vokalen i.
+    Dette valet råkar også samansetningar av desse orda.
+    
+    Eksempel:
+    
+    ekorn → ikorn
+    segle → sigle
+    segling → sigling
+    seglaren → siglaren
+    påsegla → påsigla
+    akterutsegla → akterutsigla
+    </long-description>
   </preference>
   <preference id="krins_krets.syn">
     <description lang="nno">krins → krets</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei endring i ordet "krins". Om du vel denne valfridomen, vil ordet "krins" erstattast med "krets".
+    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    krins → krets
+    krinse → kretse
+    Dyrekrinsen → Dyrekretsen
+    omkrins → omkrets
+    omkrinsing → omkretsing
+    krinsmeisterskap → kretsmeisterskap
+    </long-description>
   </preference>
   <preference id="bilete_bilde.syn">
     <description lang="nno">bilete → bilde</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei endring i ordet "bilete". Om du vel denne valfridomen, vil ordet "bilete" erstattast med "bilde".
+    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    bilete → bilde
+    førebilete → forbilde
+    avbilete → avbilde
+    biletbok → bildebok
+    bilethoggar → bildehoggar
+    </long-description>
   </preference>
   <preference id="lys_ljos.vok-y2jo">
     <description lang="nno">lys → ljos</description>
