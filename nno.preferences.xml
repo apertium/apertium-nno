@@ -1212,14 +1212,30 @@
   <preference id="nød_naud.dift-ø2au">
     <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud ofl.</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld ei vokalendring i ordet "trost". Om du vel denne valfridomen, vil o-en i "trost" erstattast med ein a.
-    Dette valet råkar også samansetningar som inneheld dette ordet.
+    Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil ø-en i ordet erstattast med diftongen au. 
+    Dette valet råkar også samansetningar som inneheld desse orda.
     
     Eksempel:
     
-    trost → trast
-    måltrost → måltrast
-    trostunge → trastunge
+    nød → naud
+    nødhjelp → naudhjelp
+    hungersnød → hungersnaud
+    andenød → andenaud
+    løk → lauk
+    løp → laup
+    forløp → forlaup
+    i løpet av  →  i laupet av
+    løpe → laupe
+    løpar → laupar
+    skiløpar → skilaupar
+    løpetid → laupetid
+    døv → dauv
+    døvhøyrd → dauvhøyrd
+    tonedøv → tonedauv
+    dødball → daudball
+    død og gravlagd  →  daud og gravlagd
+    
+    Merk at grunnadjektivet "død" førebels ikkje er inkludert, då det elles skaper mange problem. 
     </long-description>   
   </preference>
   <preference id="dødeleg_døyeleg.dift-ø2øy">
