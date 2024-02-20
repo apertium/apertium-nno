@@ -793,7 +793,17 @@
   </preference>
   <preference id="auga_augo.vok-a2o">
   <description lang="nno">auge-auget-auge-auga → auga-auga-augo-augo, tilsvarande for øyre, hjarte</description>
-</preference>
+    <long-description lang="nn">
+      Denne valfridomen gjeld bøyinga av orda "auge", "øyre" og "hjarte". 
+      Om du vel denne valfridomen, vil den siste vokalen den bundne formen erstattast med ein a og den siste vokalen i fleirtalsbøyingane erstattast med ein o. 
+
+      Eksempel:
+
+      auge-auget-auge-auga → auga-auga-augo-augo
+      øyre-øyret-øyre-øyra → øyra-øyra-øyro-øyro
+      hjarte-hjartet-hjarte-hjarta → hjarta-hjarta-hjarto-hjarto
+    </long-description>
+  </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
     <long-description lang="nn">
