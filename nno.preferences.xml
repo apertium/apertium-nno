@@ -584,18 +584,87 @@
   </preference>
   <preference id="vart-vorte_vart-blitt.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–vart–blitt</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga i presens perfektum til verbet "å bli". I staden for forma "har vorte", vel dette valet forma "har blitt".
+        
+        Eksempel på korleis bøyinga av "å bli" vert med dette valet:
+
+        å bli → å bli (infinitiv, inga endring)
+        blir → blir (presens, inga endring)
+        vart → vart (preteritum, inga endring)
+        har vorte → har blitt (presens perfektum)
+
+        Merk at dette valet er eit av fleire val som omhandlar verbet "å bli".
+    </long-description> 
   </preference>
   <preference id="bli_verte.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → verte–vert–vart–vorte</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld verba "å bli" og "å verte". I staden for verbet "å bli, vel dette valet verbet "å verte".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        å bli → å verte (infinitiv)
+        blir → vert (presens)
+        vart → vart (preteritum)
+        har vorte → har vorte (presens perfektum)
+
+        Merk at dette valet er eit av fleire val som omhandlar verbet "å bli".
+    </long-description> 
   </preference>
   <preference id="vit_vett">
     <description lang="nno">vit → vett, medvit → medvett, medviten → medveten, fjellvit → fjellvett, vitig → vettig</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld ordet "vit". Med dette valet vert "vit" erstatta med "vett".
+        Dette valet råkar også avleiingar og samansetningar som inneheld ordet "vit".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        vit → vett
+        medvit → medvett
+        medviten → medveten
+        fjellvit → fjellvett
+        vitig → vettig
+    </long-description> 
   </preference>
   <preference id="brot_brott.kons-t2tt">
     <description lang="nno">avbrot → avbrott, brotsverk → brottsverk, innskot → innskott, skothald → skotthald</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld ei gruppe ord som "brot" og "skot". Med dette valet vert enkeltkonsonanten t erstatta med dobbeltkonsonanten tt.
+        Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        brot → brott
+        avbrot → avbrott
+        brotsverk → brottsverk
+        skot → skott
+        innskot → innskott
+        skothald → skotthald
+    </long-description> 
   </preference>
   <preference id="mengd_mengde.vok-2e">
     <description lang="nno">mengd → mengde, breidd → breidde</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld ei gruppe ord, som eksempelvis "mengd" og "breidd". Med dette valet vert vokalen e lagd til på slutten av ordet.
+        Dette valet råkar også avleiingar og samansetningar som inneheld denne gruppa med orda.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        breidd → breidde
+        hårsbreidd → hårsbreidde
+        høgd → høgde
+        takhøgd → takhøgde
+        lengd → lengde
+        bremselengd → bremselengde
+        mengd → mengde
+        nedbørsmengd → nedbørsmengde
+        vidd → vidde
+        rekkjevidd → rekkjevidde
+        synsvidd → synsvidde
+        tyngd → tyngde
+        hovudtyngd → hovudtyngde
+    </long-description> 
   </preference>
   <preference id="blå_blåe.adj">
     <description lang="nno">blå/grå/… → blåe/gråe/… (i fleirtal)</description>
