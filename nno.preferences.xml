@@ -668,10 +668,31 @@
   </preference>
   <preference id="blå_blåe.adj">
     <description lang="nno">blå/grå/… → blåe/gråe/… (i fleirtal)</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld adjektiv med stammeutgang på vokal. Om adjektivet har ein valfri -e i bunden eller fleirtalsforma, får det -e med dette valet.
+
+        Eksempel på korleis valfridomen treffer:
+        blå → blåe
+        grå → gråe
+        rå → råe
+        trå → tråe
+        (u)tru → (u)true
+        slu → slue
+        sprø → sprøe
+        (u)stø → (u)støe
+    </long-description> 
     <description lang="nob">blå/grå → blåe/gråe (i flertall)</description>
   </preference>
   <preference id="lét_let">
     <description lang="nno">lét/lèt → let/let</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld verbet "å late". Valet endrar presens- og preteritumsbøyinga til verbet.
+        Med dette valet vert aksentteikna til formene fjerna.
+
+        Eksempel på korleis valfridomen treffer:
+        lèt → let (presens)
+        lét → let (preteritum)
+    </long-description> 
   </preference>
   <preference id="blæs_blåser.vb">
     <description lang="nno">blæs → blåser</description>
