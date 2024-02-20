@@ -470,24 +470,117 @@
   </preference>
   <preference id="tek_tar.vb-en2tt">
     <description lang="nno">å ta: tek → tar, teken → tatt</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga til verbet "å ta". Det vil seie at nokre av bøyingane til verbet "å ta" vil endre form.
+        Valfridomen dekkjer også avleiingar av verbet "å ta", eksempelvis: "å overta".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        tek → tar (presens)
+        har teke → har tatt (presens perfektum)
+        teken → tatt (perfektum partisipp, han- og hokjønn)
+        teke → tatt (perfektum partisipp, inkjekjønn)
+        tekne → tatte (perfektum partisipp, bunden og fleirtalsform)
+        overtek → overtar (presens)
+        overteken → overtatt (presens perfektum)       
+    </long-description> 
   </preference>
   <preference id="dreg_drar.vb-en2tt">
     <description lang="nno">å dra: dreg → drar, dregen → dratt</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga til verbet "å dra". Det vil seie at nokre av bøyingane til verbet "å dra" vil endre form.
+        Valfridomen dekkjer også avleiingar av verbet "å dra", eksempelvis: "å overdra".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        dra → dra
+        dreg → drar (presens)
+        har drege → har dratt (presens perfektum)
+        dregen → dratt (perfektum partisipp, han- og hokjønn)
+        drege → dratt (perfektum partisipp, inkjekjønn)
+        dregne → dratte (perfektum partisipp, bunden og fleirtalsform)
+        inndreg → inndrar (presens)
+        har inndregen → har inndratt (presens perfektum)
+    </long-description> 
   </preference>
   <preference id="dratt_dradd.vb-en2tt">
-    <description lang="nno">å dra, perf.part. og adj: dratt → dradd</description>
+    <description lang="nno">å dra, pres.perf. og adj: dratt → dradd</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga i presens perfektum og perfektum partisipp til verbet "å dra". Det vil seie at nokre av bøyingane til verbet "å dra" vil endre form.
+        Valfridomen dekkjer også avleiingar av verbet "å dra", eksempelvis: "å overdra".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        har dratt → har dradd (presens perfektum)
+        dratt → dradd (perfektum partisipp, han-, ho- og inkjekjønn)
+        dratte → dradde (perfektum partisipp, bunden og fleirtalsform)
+    </long-description> 
   </preference>
   <preference id="gir_gjev.vb-en2tt">
     <description lang="nno">å gi/gje: gi → gje, gir → gjev, gitt → gjeven</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga til verbet "å gi". Det vil seie at nokre av bøyingane til verbet "å gi" vil endre form til den lengre forma "å gje".
+        Valfridomen dekkjer også avleiingar av verbet "å gi", eksempelvis: "å overgi".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        å gi → å gje (infinitiv og imperativ)
+        gir → gjev (presens)
+        har gitt → har gjeve (presens perfektum)
+        gitt → gjeven (perfektum partisipp, han- og hokjønn)
+        gitt → gjeve (perfektum partisipp, inkjekjønn)
+        gitte → gjevne (perfektum partisipp, bunden og fleirtalsform)
+        å overgi → å overgje (infinitiv og imperativ)
+        oppgir → oppgjev (presens)
+        oppgitt → oppgjeven (perfektum partisipp, han- og hokjønn)
+        
+        Merk at dette valet ikkje omhandlar det lange infinitivet "å gjeve".
+    </long-description> 
   </preference>
   <preference id="eigde_åtte.vb">
     <description lang="nno">å eige: eigde → åtte</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga til verbet "å eige". Det vil seie at nokre av bøyingane til verbet "å eige" vil endre form.
+        
+        Eksempel på korleis valfridomen treffer:
+
+        eigde → åtte (preteritum)
+        har eigd → har ått (presens perfektum)
+        eigd → ått (perfektum partisipp, han-, ho- og inkjekjønn)
+        eigde → åtte (perfektum partisipp, bunden og fleirtalsform)
+    </long-description> 
   </preference>
   <preference id="venne_venje.vb">
     <description lang="nno">å venne/venje: venne → venje</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga til verbet "å venne". Det vil seie at verbet "å venne" vil endre form til verbet "å venje" med dei tilhøyrande bøyingane til "å venje".
+        
+        Eksempel på korleis valfridomen treffer:
+
+        å venne → å venje (infinitiv)
+        venner → ven (presens)
+        vende → vande (preteritum)
+        har vent → har vant (presens perfektum)
+        vend → vand (perfektum partisipp, han- og hokjønn)
+        vent → vant (perfektum partisipp, inkjekjønn)
+        vende → vande (perfektum partisipp, bunden og fleirtalsform)
+        vennande → venjande (presens partisipp)
+    </long-description> 
   </preference>
   <preference id="vart-vorte_blei-blitt.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–blei–blitt</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld bøyinga til verbet "å bli". Dette valet gjer at du held på "bli"-formene og ekskluderer "vart/vorte"-formene som er valfrie bøyingsformer av verbet "å bli". 
+        
+        Eksempel på korleis bøyinga av "å bli" vert med dette valet:
+
+        å bli → å bli (infinitiv, inga endring)
+        blir → blir (presens, inga endring)
+        vart → blei (preteritum)
+        har vorte → har blitt (presens perfektum)
+
+        Merk at dette valet er eit av fleire val som omhandlar verbet "å bli".
+    </long-description> 
   </preference>
   <preference id="vart-vorte_vart-blitt.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–vart–blitt</description>
