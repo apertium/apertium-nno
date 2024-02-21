@@ -1525,18 +1525,136 @@
   </preference>
   <preference id="gremme_gremje.kons-mm2mj">
     <description lang="nno">gremme → gremje</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ordet "gremme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
+    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    gremme → gremje (infinitiv)
+    gremmar → grem (presens)
+    gremma → gramde (preteritum)
+    har gremma → har gramt (presens perfektum)
+    gremming → gremjing
+    </long-description>   
   </preference>
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei stor gruppe ord som startar med det valfrie prefikset "for-". Om du vel denne valfridomen, vil "for-" erstattast med "føre-". Eksempelvis blir "formål" til "føremål" når du vel denne valdrifomen. 
+    Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
+    
+    Eksempel:
+    
+    foredrag → føredrag
+    forelese → førelese
+    forelesar → førelesar
+    forelesing → førelesing
+    foreslå → føreslå
+    forarbeid → førearbeid
+    forbokstav → førebokstav
+    forgard → føregard
+    forheng → føreheng
+    forløpar → føreløpar
+    forledd → føreledd
+    formiddag → føremiddag
+    formål → føremål
+    fornamn → førenamn
+    forord → føreord
+    fororde → føreorde
+    forprosjekt → føreprosjekt
+    forprosjektere → føreprosjektere
+    forprøve → føreprøve
+    forrang → førerang
+    forrett → førerett
+    forrom → førerom
+    forsmak → føresmak
+    forsommar → føresommar
+    forsongar → føresongar
+    forspel → førespel
+    forspent → førespent
+    forstaving → førestaving
+    fortropp → føretropp
+    forvarsel → førevarsel
+    forvask → førevask
+    forvern → førevern
+    </long-description>   
   </preference>
   <preference id="forvaltning_forvalting.afx-ning2ing">
     <description lang="nno">forvaltning → forvalting, avkastning → avkasting, underhaldning → underhalding ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei gruppe ord med det valfrie suffikset "-ning". Om du vel denne valfridomen, vil "-ning" erstattast med "-ing". Eksempelvis blir "betydning" til "betyding" når du vel denne valdrifomen. 
+    Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
+    
+    Eksempel:
+    
+    avkastning → avkasting
+    befruktning → befrukting
+    belastning → belasting
+    overbelastning → overbelasting
+    prikkbelastning → prikkbelastning
+    betydning → betyding
+    buktning → bukting
+    forfrysning → forfrysing
+    forplantning → forplanting
+    forsterkning → forsterking
+    forvaltning → forvalting
+    sentralforvaltning → sentralforvalting
+    statsforvaltning → statsforvalting
+    forventning → forventing
+    -lysning → -lysing (opplysning → opplysing, grålysning → grålysing)
+    helleristning → helleristing
+    stigning → stiging
+    oppstigning → oppstiging
+    temperaturstigning → temperaturstiging
+    verdistigning → verdistiging
+    stigningsforhold → stigingsforhold
+    -visning → -vising (oppvisning → oppvising, undervisning → undervising, tilvisning → tilvising ofl.)
+    underhaldning → underhalding
+    </long-description>    
   </preference>
   <preference id="redsel_redsle.kons-sel2sle">
-    <description lang="nno">redsel → redsle, redselsfull → redslefull ofl.</description>
+    <description lang="nno">redsel → redsle, høyrsel → høyrsle ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei gruppe ord som sluttar på "-sel". Om du vel denne valfridomen, vil endinga "-sel" erstattast med "-sle". Eksempelvis blir ordet "ferdsel" til "ferdsle".
+    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
+     
+    Eksempel:
+    
+    blygsel → blygsle
+    drygsel → drygsle
+    høyrsel → høyrsle
+    køyrsel → køyrsle
+    avkøyrsel → avkøyrsle
+    ferdsel → ferdsle
+    samferdsel → samferdsle
+    fortrengsel → fortrengsle
+    førsel → førsle
+    tilførsel → tilførsle
+    innførsel → innførsle
+    rekneskapsførsel → rekneskapsførsle
+    redsel → redsle
+    redselsstyre → redslestyre
+    redselsfull → redslefull
+    vigsel → vigsle
+    prestevigsel → prestevigsle
+    skremsel → skremsle
+    fugleskremsel → fugleskremsle
+    tyngsel → tyngsle
+    hengsel → hengsle
+    </long-description>   
   </preference>
   <preference id="gløymsle_gløymsel.kons-sel2sle">
-    <description lang="nno">gløymsle → gløymsel</description>
+    <description lang="nno">gløymsle → gløymsel, gøymsle → gøymsel</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i slutten av orda "gløymsle" og "gøymsle". Om du vel denne valfridomen, vil endinga "-sle" erstattast med "-sel". 
+    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
+    
+    Eksempel:
+    
+    gløymsle → gløymsel
+    gøymsle → gøymsel
+    </long-description>   
   </preference>
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
