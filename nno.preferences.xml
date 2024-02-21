@@ -1614,10 +1614,47 @@
     </long-description>    
   </preference>
   <preference id="redsel_redsle.kons-sel2sle">
-    <description lang="nno">redsel → redsle, redselsfull → redslefull ofl.</description>
+    <description lang="nno">redsel → redsle, høyrsel → høyrsle ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei gruppe ord som sluttar på "-sel". Om du vel denne valfridomen, vil endinga "-sel" erstattast med "-sle". Eksempelvis blir ordet "ferdsel" til "ferdsle".
+    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
+     
+    Eksempel:
+    
+    blygsel → blygsle
+    drygsel → drygsle
+    høyrsel → høyrsle
+    køyrsel → køyrsle
+    avkøyrsel → avkøyrsle
+    ferdsel → ferdsle
+    samferdsel → samferdsle
+    fortrengsel → fortrengsle
+    førsel → førsle
+    tilførsel → tilførsle
+    innførsel → innførsle
+    rekneskapsførsel → rekneskapsførsle
+    redsel → redsle
+    redselsstyre → redslestyre
+    redselsfull → redslefull
+    vigsel → vigsle
+    prestevigsel → prestevigsle
+    skremsel → skremsle
+    fugleskremsel → fugleskremsle
+    tyngsel → tyngsle
+    hengsel → hengsle
+    </long-description>   
   </preference>
   <preference id="gløymsle_gløymsel.kons-sel2sle">
-    <description lang="nno">gløymsle → gløymsel</description>
+    <description lang="nno">gløymsle → gløymsel, gøymsle → gøymsel</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i slutten av orda "gløymsle" og "gøymsle". Om du vel denne valfridomen, vil endinga "-sle" erstattast med "-sel". 
+    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
+    
+    Eksempel:
+    
+    gløymsle → gløymsel
+    gøymsle → gøymsel
+    </long-description>   
   </preference>
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
