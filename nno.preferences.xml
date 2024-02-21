@@ -1540,9 +1540,78 @@
   </preference>
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei stor gruppe ord som startar med det valfrie prefikset "for-". Om du vel denne valfridomen, vil "for-" erstattast med "føre-". Eksempelvis blir "formål" til "føremål" når du vel denne valdrifomen. 
+    Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
+    
+    Eksempel:
+    
+    foredrag → føredrag
+    forelese → førelese
+    forelesar → førelesar
+    forelesing → førelesing
+    foreslå → føreslå
+    forarbeid → førearbeid
+    forbokstav → førebokstav
+    forgard → føregard
+    forheng → føreheng
+    forløpar → føreløpar
+    forledd → føreledd
+    formiddag → føremiddag
+    formål → føremål
+    fornamn → førenamn
+    forord → føreord
+    fororde → føreorde
+    forprosjekt → føreprosjekt
+    forprosjektere → føreprosjektere
+    forprøve → føreprøve
+    forrang → førerang
+    forrett → førerett
+    forrom → førerom
+    forsmak → føresmak
+    forsommar → føresommar
+    forsongar → føresongar
+    forspel → førespel
+    forspent → førespent
+    forstaving → førestaving
+    fortropp → føretropp
+    forvarsel → førevarsel
+    forvask → førevask
+    forvern → førevern
+    </long-description>   
   </preference>
   <preference id="forvaltning_forvalting.afx-ning2ing">
     <description lang="nno">forvaltning → forvalting, avkastning → avkasting, underhaldning → underhalding ofl.</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei gruppe ord med det valfrie suffikset "-ning". Om du vel denne valfridomen, vil "-ning" erstattast med "-ing". Eksempelvis blir "betydning" til "betyding" når du vel denne valdrifomen. 
+    Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
+    
+    Eksempel:
+    
+    avkastning → avkasting
+    befruktning → befrukting
+    belastning → belasting
+    overbelastning → overbelasting
+    prikkbelastning → prikkbelastning
+    betydning → betyding
+    buktning → bukting
+    forfrysning → forfrysing
+    forplantning → forplanting
+    forsterkning → forsterking
+    forvaltning → forvalting
+    sentralforvaltning → sentralforvalting
+    statsforvaltning → statsforvalting
+    forventning → forventing
+    -lysning → -lysing (opplysning → opplysing, grålysning → grålysing)
+    helleristning → helleristing
+    stigning → stiging
+    oppstigning → oppstiging
+    temperaturstigning → temperaturstiging
+    verdistigning → verdistiging
+    stigningsforhold → stigingsforhold
+    -visning → -vising (oppvisning → oppvising, undervisning → undervising, tilvisning → tilvising ofl.)
+    underhaldning → underhalding
+    </long-description>    
   </preference>
   <preference id="redsel_redsle.kons-sel2sle">
     <description lang="nno">redsel → redsle, redselsfull → redslefull ofl.</description>
