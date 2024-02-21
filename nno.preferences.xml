@@ -1525,6 +1525,18 @@
   </preference>
   <preference id="gremme_gremje.kons-mm2mj">
     <description lang="nno">gremme → gremje</description>
+    <long-description lang="nn">
+    Denne valfridomen gjeld ei konsonantendring i ordet "gremme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
+    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+    
+    Eksempel:
+    
+    gremme → gremje (infinitiv)
+    gremmar → grem (presens)
+    gremma → gramde (preteritum)
+    har gremma → har gramt (presens perfektum)
+    gremming → gremjing
+    </long-description>   
   </preference>
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn ofl.</description>
