@@ -123,10 +123,22 @@
         
         Eksempel på ord valfridomen treffer:
 
-        ølgj → ylgj (grunnendringa)
-        følgje → fylgje (følgje → fylgje, å følgje → å fylgje, ifølgje → ifylgje, følgjeleg → fylgjeleg ofl.)
-        bølgje → bylgje (bølgje → bylgje, å bølgje → å bylgje, bølgjedal → bylgjedal, lydbølgje → lydbylgje ofl.)
-        sørgje → syrgje (å sørgje → å syrgje sørging → syrging, sørgjeleg → syrgjeleg, forsørgje → forsyrgje, forsørging → forsyrging, sjelesørgjar → sjelesyrgjar ofl. Ikkje "bylging")
+        ø_gj → y_gj (grunnendringa)
+        følgje → fylgje
+        å følgje → å fylgje
+        ifølgje → ifylgje
+        følgjeleg → fylgjeleg
+        bølgje → bylgje
+        å bølgje → å bylgje
+        bølgjedal → bylgjedal
+        lydbølgje → lydbylgje
+        sørgje → syrgje
+        å sørgje → å syrgje 
+        sørging → syrging
+        sørgjeleg → syrgjeleg
+        forsørgje → forsyrgje
+        forsørging → forsyrging
+        sjelesørgjar → sjelesyrgjar
 
         Merk at dette valet ikkje er kompatibelt med "følgje → følge"-valet.
     </long-description>
@@ -135,34 +147,39 @@
     <description lang="nno">kjende → kjente, dømde → dømte ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld verb med valfri bøying på -de → -te i preteritum og tilsvarande valfridom i partisippbøyinga.
-        Valfridomen gjeld også for samansetningar der desse orda er ein del av samansetjinga.
+        Valfridomen gjeld også for samansetningar som inneheld desse orda.
         
         Eksempel på ord valfridomen treffer:
         
         bestemde → bestemte
-        brende → brente (adjektivbøying: solbrend-solbrent-solbrende → solbrent-solbrent-solbrente ofl.)
+        brende → brente
+        solbrend-solbrent-solbrende → solbrent-solbrent-solbrente (adjektivbøying)
         dømde → dømte
-        kjende → kjente (adjektivbøying: kjend-kjent-kjente  →  kjent-kjent-kjende) 
+        kjende → kjente
+        kjend-kjent-kjente → kjent-kjent-kjende (adjektivbøying)
     </long-description>
   </preference>
   <preference id="bygd_bygt.vb-d2t">
     <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum) ofl.</description>
     <long-description lang="nno">
         Denne valfridomen gjeld verb med valfri form på -gd, -vd og -dd i perfektum partisipp og tilsvarande adjektiv.
-        Det vil seie at -gd, -vd og -dd vert erstatta med -gt, -vt og -tt. For eksempel vert bygd → bygt.
-        Valfridomen gjeld også for samansetningar der desse orda er ein del av samansetjinga.
+        Det vil seie at -gd, -vd og -dd vert erstatta med -gt, -vt og -tt. For eksempel vert "bygd" erstatta med "bygt".
+        Valfridomen gjeld også for samansetningar som inneheld desse orda.
 
         Eksempel på ord valfridomen treffer:
 
-        bygd → bygt (breibygd – breibygd – breibygde  →  breibygt – breibygd – breibygde ofl.)
-        nådd → nått (oppnådd – oppnådd – oppnådde → oppnådd – oppnått – oppnådde ofl.) 
-        prøvd → prøvt (behovsprøvd – behovsprøvd – behovsprøvde → behovsprøvd – behovsprøvt – behovdsprøvde ofl.)              
+        bygd → bygt
+        breibygd – breibygd – breibygde  →  breibygt – breibygd – breibygde
+        nådd → nått
+        oppnådd – oppnådd – oppnådde → oppnådd – oppnått – oppnådde 
+        prøvd → prøvt
+        behovsprøvd – behovsprøvd – behovsprøvde → behovsprøvd – behovsprøvt – behovdsprøvde            
     </long-description>
   </preference>
   <preference id="de_dokker.prn">
     <description lang="nno">de → dokker</description>
     <long-description lang="nn">
-        Denne valfridomen gjeld pronomenet "de". Om du vel denne valfridomen, vil "de" bli erstatta av pronomenet "dokker".
+        Denne valfridomen gjeld pronomenet "de". Om du vel denne valfridomen, vil "de" erstattast av pronomenet "dokker".
 
         Eksempel:
 
@@ -174,7 +191,7 @@
   <preference id="medan_mens.syn">
     <description lang="nno">medan → mens</description>
     <long-description lang="nn">
-        Denne valfridomen gjeld subjunksjonen "medan". Om du vel denne valfridomen, vil "medan" bli erstatta av subjunksjonen "mens".
+        Denne valfridomen gjeld subjunksjonen "medan". Om du vel denne valfridomen, vil "medan" erstattast av subjunksjonen "mens".
 
         Eksempel:
 
@@ -185,7 +202,7 @@
     <!-- inkompatibel med kløyvd_inf_infe -->
     <description lang="nno">a-infinitiv → e-infinitiv</description>
         <long-description lang="nn">
-        Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil a-endinga i infinitiv bli erstatta med ei e-ending.
+        Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil a-endinga i infinitiv erstattast med ei e-ending.
 
         Eksempel på korleis valfridomen treffer:
 
@@ -210,7 +227,7 @@
         å kaste → å kaste
 
         Ei liste med verb som får a-ending:
-        age, ake, ale, ane, ape, ase, bake, bale, bane, base, bede, belje, bere, betale, beve, bevare, blade, blike, bode, bore, bose, brage, brake, brase, byrje, dage, dale, dane, delje, dette, drage, drepe, drynje, drysje, dune, dvelje, dynje, dølje, ete, eve, fare, fate, ferje, flage, flare, flasse, flase, flate, flòte, flysje, flytte, fole, frede, frege, fremje, frode, gage, gale, gane, gape, gilje, gjere, gjete, gidde, gjeve, glade, glane, glede, glume, gnage, gnike, gove, grave, gremje, grope, grune, grysje, gule, gysje, hage, hake, hame, hate, have, hele, hemje, herje, hesje, hete, hevje, hjale, hòle, homme, home, hòpe, hylje, hysje, hølje, jage, kake, kare, kave, kjase, kjee, klage, klake, klede, kløvje, knake, knase, knise, knode, kole, komme, kome, krake, krase, krave, kreke, krevje, krite, krote, kunne, kvede, kvetje, kvike, kvime, lade, lage, lape, late, lave, lede, lee, leke, lemme, leme, lemje, lepje, lese, léte, lete, love, lute, make, male, mane, mase, mate, mede, moke, mole, mone, møkje, nase, nave, neve, olboge, pare, pele, pese, pose, prate, rage, rake, rane, rape, rase, reke, remje, reve, rode, rydje, rysje, sage, sake, same, sede, seie, sele, selje, semje, setja/sette, sitja/sitte, skade, skake, skale, skape, skare, skave, skilje, skipe, skjage, sjage, skjene, skjere, skjønne, skjøne, skode, skòle, skòre, skote, skrape, skrate, skreve, skulle, skule, skvale, skylje, slave, sleve, smake, smale, smørje, snake, snare, snase, sove, spade, spare, spekje, spele, spore, sprake, sprale, spørje, spøte, stage, stake, stave, stede, stege, stele, stote, streka , strete, streve, stynje, styrje, svade, svage, svale, svare, svemje, sverje, svipe, symje, take, tale, tane, tape, tase, teie, tele, telje, temje, tenje, tevje, timje, tole, tore, tose, trede, trege, trote, tvike, tvoge, tysje, umake, une, uvete, uvite, vade, vake, vare, vase, vege, velje, venje, vere, verje, vete, veve, vevje, vilje, vime, vite, vrake, ylje, yrje, ølje, åtvare.        
+        age, ake, ale, ane, ape, ase, bake, bale, bane, base, bede, belje, bere, betale, beve, bevare, blade, blike, bode, bore, bose, brage, brake, brase, byrje, dage, dale, dane, delje, dette, drage, drepe, drynje, drysje, dune, dvelje, dynje, dølje, ete, eve, fare, fate, ferje, flage, flare, flasse, flase, flate, flòte, flysje, flytte, fole, frede, frege, fremje, frode, gage, gale, gane, gape, gilje, gjere, gjete, gidde, gjeve, glade, glane, glede, glume, gnage, gnike, gove, grave, gremje, grope, grune, grysje, gule, gysje, hage, hake, hame, hate, have, hele, hemje, herje, hesje, hete, hevje, hjale, hòle, homme, home, hòpe, hylje, hysje, hølje, jage, kake, kare, kave, kjase, kjee, klage, klake, klede, kløvje, knake, knase, knise, knode, kole, komme, kome, krake, krase, krave, kreke, krevje, krite, krote, kunne, kvede, kvetje, kvike, kvime, lade, lage, lape, late, lave, lede, lee, leke, lemme, leme, lemje, lepje, lese, léte, lete, love, lute, make, male, mane, mase, mate, mede, moke, mole, mone, møkje, nase, nave, neve, olboge, pare, pele, pese, pose, prate, rage, rake, rane, rape, rase, reke, remje, reve, rode, rydje, rysje, sage, sake, same, sede, seie, sele, selje, semje, setja/sette, sitja/sitte, skade, skake, skale, skape, skare, skave, skilje, skipe, skjage, sjage, skjene, skjere, skjønne, skjøne, skode, skòle, skòre, skote, skrape, skrate, skreve, skulle, skule, skvale, skylje, slave, sleve, smake, smale, smørje, snake, snare, snase, sove, spade, spare, spekje, spele, spore, sprake, sprale, spørje, spøte, stage, stake, stave, stede, stege, stele, stote, streka , strete, streve, stynje, styrje, svade, svage, svale, svare, svemje, sverje, svipe, symje, take, tale, tane, tape, tase, teie, tele, telje, temje, tenje, tevje, timje, tole, tore, tose, trede, trege, trote, tvike, tvoge, tysje, umake, une, uvete, uvite, vade, vake, vare, vase, vege, velje, venje, vere, verje, vete, veve, vevje, vilje, vime, vite, vrake, ylje, yrje, ølje og åtvare.        
         
         Resten av verba får e-ending i infinitiv.
 
@@ -221,7 +238,7 @@
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
     <long-description lang="nn">
-        Denne valfridomen gjeld pronomenet "me". Om du vel denne valfridomen, vil "me" bli erstatta av pronomenet "vi".
+        Denne valfridomen gjeld pronomenet "me". Om du vel denne valfridomen, vil "me" erstattast av pronomenet "vi".
 
         Eksempel:
 
@@ -231,7 +248,7 @@
   <preference id="er_ar.vb-e2a">
     <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt) ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld valfri -ar i presens for e-verb. Er-endingar bøygd i presens blir erstatta med ar-endingar.
+        Denne valfridomen gjeld valfri -ar i presens for e-verb. Er-endingar bøygd i presens erstattast med ar-endingar.
         
         Eksempel på ord valfridomen treffer:
         
@@ -439,7 +456,7 @@
   <preference id="stader_stadar.n-pl-e2a">
     <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld fleirtalsbøyinga til hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinda si endra frå -er/ene → -ar/-ane.
+        Denne valfridomen gjeld fleirtalsbøyinga til hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinga endra frå -er/ene til -ar/-ane.
         Valfridomen dekkjer substantiv med hankjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
         
         Eksempel på korleis valfridomen treffer:
@@ -455,7 +472,7 @@
   <preference id="elvar_elver.n-pl-e2a">
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld fleirtalsbøyinga til hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endinda si endra frå -ar/ane → -er/-ene.
+        Denne valfridomen gjeld fleirtalsbøyinga til hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endringa endra frå -ar/ane → -er/-ene.
         Valfridomen dekkjer substantiv med hokjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
         
         Eksempel på korleis valfridomen treffer:
@@ -585,7 +602,7 @@
   <preference id="vart-vorte_vart-blitt.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–vart–blitt</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga i presens perfektum til verbet "å bli". I staden for forma "har vorte", vel dette valet forma "har blitt".
+        Denne valfridomen gjeld bøyinga i presens perfektum til verbet "å bli". I staden for forma "har vorte", erstattar dette valet orda til "har blitt".
         
         Eksempel på korleis bøyinga av "å bli" vert med dette valet:
 
@@ -600,7 +617,7 @@
   <preference id="bli_verte.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → verte–vert–vart–vorte</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld verba "å bli" og "å verte". I staden for verbet "å bli, vel dette valet verbet "å verte".
+        Denne valfridomen gjeld verba "å bli" og "å verte". I staden for verbet "å bli", vel dette valet verbet "å verte".
         
         Eksempel på korleis valfridomen treffer:
 
@@ -669,7 +686,7 @@
   <preference id="blå_blåe.adj">
     <description lang="nno">blå/grå/… → blåe/gråe/… (i fleirtal)</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld adjektiv med stammeutgang på vokal. Om adjektivet har ein valfri -e i bunden eller fleirtalsforma, får det -e med dette valet.
+        Denne valfridomen gjeld adjektiv med stammeutgang på vokal. Om adjektivet har ein valfri -e i bunden eller fleirtalsforma, får adjektivet ein -e med dette valet.
 
         Eksempel på korleis valfridomen treffer:
         blå → blåe
@@ -690,6 +707,7 @@
         Med dette valet vert aksentteikna til formene fjerna.
 
         Eksempel på korleis valfridomen treffer:
+
         lèt → let (presens)
         lét → let (preteritum)
     </long-description> 
@@ -712,7 +730,7 @@
   <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av adjektivet "nærare". Om du vel denne valfridomen, vil "nærare" bli erstatta med "nærmare" med bokstaven m.
+    Denne valfridomen gjeld stavinga av adjektivet "nærare". Om du vel denne valfridomen, vil "nærare" erstattast med "nærmare" med bokstaven m.
 
     Eksempel:
 
@@ -723,7 +741,7 @@
   <preference id="eigentleg_eigenleg.stav">
     <description lang="nno">eigentleg → eigenleg</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av ordet "eigentleg". Om du vel denne valfridomen, vil "eigentleg" bli erstatta med "eigenleg" utan bokstaven t.
+    Denne valfridomen gjeld stavinga av ordet "eigentleg". Om du vel denne valfridomen, vil "eigentleg" erstattast med "eigenleg" utan bokstaven t.
 
     Eksempel:
 
@@ -733,7 +751,7 @@
   <preference id="styresmakt_styremakt.stav">
     <description lang="nno">styresmakt → styremakt</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av substantivet "styresmakt". Om du vel denne valfridomen, vil "styresmakt" bli erstatta med "styremakt" utan fuge-s.
+    Denne valfridomen gjeld stavinga av substantivet "styresmakt". Om du vel denne valfridomen, vil "styresmakt" erstattast med "styremakt" utan fuge-s.
     Dette valet råkar også samansetningar som inneheld ordet "styresmakt".
 
     Eksempel:
@@ -756,7 +774,7 @@
   <preference id="symje_svømme.stav">
     <description lang="nno">symje → svømme</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av ordet "symje". Om du vel denne valfridomen, vil "symje" bli erstatta med "svømme".
+    Denne valfridomen gjeld stavinga av ordet "symje". Om du vel denne valfridomen, vil "symje" erstattast med "svømme".
     Dette valet råkar også samansetningar som inneheld ordet "symje" samt relaterte ord som "symjar".
 
     Eksempel:
@@ -770,7 +788,7 @@
   <preference id="døgn_døger.stav">
     <description lang="nno">døgn → døger</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av ordet "døgn". Om du vel denne valfridomen, vil "døgn" bli erstatta med "døger".
+    Denne valfridomen gjeld stavinga av ordet "døgn". Om du vel denne valfridomen, vil "døgn" erstattast med "døger".
     Dette valet råkar også samansetningar som inneheld ordet "døgn".
 
     Eksempel:
@@ -807,7 +825,7 @@
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av ordet "kors". Om du vel denne valfridomen, vil "kors" bli erstatta med "kross".
+    Denne valfridomen gjeld stavinga av ordet "kors". Om du vel denne valfridomen, vil "kors" erstattast med "kross".
     Dette valet råkar også samansetningar som inneheld ordet "kors".
 
     Eksempel:
@@ -893,9 +911,13 @@
     
     høvding → hovding
     høvedsmann → hovudsmann
-    røde → ròde (morgonrøde → moronròde ofl.)
-    størkne → storkne (størkning → storkning ofl.)
-    tørste → torste (blodtørste → blodtorste, tørstedrikk → torstedrikk ofl.)
+    røde → ròde
+    morgonrøde → moronròde
+    størkne → storkne
+    størkning → storkning
+    tørste → torste
+    blodtørste → blodtorste
+    tørstedrikk → torstedrikk
     </long-description>
   </preference>
   <preference id="då_da.vok-a2å">
@@ -914,11 +936,12 @@
     <description lang="nno">åleine → aleine</description>
     <long-description lang="nn">
     Denne valfridomen gjeld ei vokalendring i ordet "åleine". Om du vel denne valfridomen, vil "åleine" erstattast med "aleine".
-    Dette valet råkar også avleiingar av "åleine".
+    Dette valet råkar også samansetningar og avleiingar av "åleine".
 
     Eksempel: 
     
     åleine → aleine
+    åleineforsørgar → aleineforsørgar
     </long-description>
   </preference>
   <preference id="allmenn_ålmenn.vok-a2å">
@@ -929,14 +952,25 @@
 
     Eksempel: 
     
-    allmenn → ålmenn (allmenndanning → ålmenndanning, allmente → ålmente ofl.)
+    allmenn → ålmenn
+    allmenndanning → ålmenndanning
+    allmente → ålmente
     allmenning → ålmenning
     allmuge → ålmuge
     klar → klår
-    klare → klåre (NB! Tvitydig: soleklar → soleklår, avklare → avklåre, avklaring → avklåring, forklare → forklåre, forklaring → forklåring ofl.; ikkje "klare" i meininga "ordne, makte greie") 
+    klare → klåre
+    soleklar → soleklår
+    avklare → avklåre
+    avklaring → avklåring
+    forklare → forklåre
+    forklaring → forklåring
     lagasild → lågåsild
-    skap → skåp (kjøkkenskap → kjøkkenskåp, skapdør → skåpdør ofl.)
-    trave → tråve (trav → tråv, travløp → tråvløp ofl.)
+    skap → skåp
+    kjøkkenskap → kjøkkenskåp
+    skapdør → skåpdør
+    trave → tråve
+    trav → tråv
+    travløp → tråvløp
     </long-description>  
   </preference>
   <preference id="no_nå.vok-o2å">
@@ -980,7 +1014,9 @@
 
     Eksempel: 
     
-    bøtte → bytte (søppebøtte → søppelbytte, bøttekott → byttekott ofl.)
+    bøtte → bytte
+    søppebøtte → søppelbytte
+    bøttekott → byttekott
     først → fyrst
     første → fyrste
     gløtte → glytte (verb)
@@ -988,12 +1024,17 @@
     løfte → lyfte (verb)
     løft → lyft
     løftar → lyftar
-    løfting → lyfting (styrkjeløft → styrkjelyft, løftekran → lyftekran ofl. NB: ikkje løfte (lovnad))
+    løfting → lyfting
+    styrkjeløft → styrkjelyft
+    løftekran → lyftekran
     løgn → lygn
     løgnar → lygnar
-    nøkkel → nykel (nøkle- → nykle-; NB: Ikkje "nøkkelost")
-    nøkk → nykk (nøkken → nykken)
-    nøste → nyste (substantiv og verb) (garnnøste → garnnyste ofl.)
+    nøkkel → nykel
+    nøkle- → nykle-
+    nøkk → nykk
+    nøkken → nykken
+    nøste → nyste (substantiv og verb) 
+    garnnøste → garnnyste
     røllik → ryllik
     søsken → sysken
     søster → syster
@@ -1002,7 +1043,8 @@
     tønne → tynne
     tørst → tyrst (adjektiv)
     vørde → vyrde (verb)
-    vørd → vyrd (vørdnad → vyrdnad)
+    vørd → vyrd
+    vørdnad → vyrdnad
     ønske → ynske (substantiv)
     ønskje → ynskje → ynske → ønske (verb) 
 
@@ -1018,9 +1060,14 @@
     Eksempel: 
     
     søndag → sundag
-    tørke → turke (substantiv, tørkesommar → turkesommar ofl.)
-    tørr → turr (tørrtrene → turrtrene, verken vått eller tørt  →  verken vått eller turt ofl.)
-    brønn → brunn (brønnbåt → brunnbåt, ønskebrønn → ønskebrunn ofl.)
+    tørke → turke (substantiv)
+    tørkesommar → turkesommar
+    tørr → turr
+    tørrtrene → turrtrene
+    verken vått eller tørt  →  verken vått eller turt
+    brønn → brunn
+    brønnbåt → brunnbåt
+    ønskebrønn → ønskebrunn
     </long-description>    
   </preference>
   <preference id="lykke_lukke.vok-y2u">
@@ -1031,13 +1078,24 @@
 
     Eksempel: 
     
-    dykkar → dukkar (substantiv, perledykkar → perledukkar, dykkarmaske → dukkarmaske ofl.)
+    dykkar → dukkar (substantiv)
+    perledykkar → perledukkar
+    dykkarmaske → dukkarmaske
     dykke → dukke (verb)
-    krybbe → krubbe (krybbedød → krubbedød, julekrybbe → julekrubbe ofl.)
-    lykke → lukke (lykketreff → lukketreff, lykkeleg → lukkeleg, lykkast → lukkast, ulykke → ulukke ofl.)
+    krybbe → krubbe
+    krybbedød → krubbedød
+    julekrybbe → julekrubbe
+    lykke → lukke
+    lykketreff → lukketreff
+    lykkeleg → lukkeleg
+    lykkast → lukkast
+    ulykke → ulukke
     skylde → skulde
     skuld → skyld
-    skyve → skuve (forskyve → forskuve, skyvedør → skuvedør, skyving → skuving ofl.)
+    skyve → skuve
+    forskyve → forskuve
+    skyvedør → skuvedør
+    skyving → skuving
     </long-description>   
   </preference>
   <preference id="fjøre_fjære.vok-ø2æ">
@@ -1048,9 +1106,14 @@
 
     Eksempel: 
     
-    fjøre → fjære (substantiv, fjørestein → fjærestein, tangfjøre → tangfjære, føling i fjøra → fjæra)
+    fjøre → fjære (substantiv)
+    fjørestein → fjærestein
+    tangfjøre → tangfjære
+    føling i fjøra → føling i fjæra
     tjøre → tjære (verb) 
-    tjøre → tjære (substantiv, tretjøre → tretjære, tjørepapp → tjærepapp ofl.)
+    tjøre → tjære (substantiv)
+    tretjøre → tretjære
+    tjørepapp → tjærepapp
     </long-description>     
   </preference>
   <preference id="venn_ven.kons-mm2m">
@@ -1071,13 +1134,18 @@
     vennskap → venskap
     monne → mone
     medlemmer → medlemer 
-    komme → kome (velkommen → velkomen, fullkommen → fullkomen, oppkomme → oppkome, tilkortkomming → tilkortkoming ofl.)
+    komme → kome
+    velkommen → velkomen
+    fullkommen → fullkomen
+    oppkomme → oppkome
+    tilkortkomming → tilkortkoming
     -dommen → -domen (kristendommen → kristendommen ofl.) 
     -dømme → -døme (kongedømme → kongedøme ofl.)
     -dommeleg → domleg (alderdommeleg → alderdomleg ofl.)
     kjøtt → kjøt
     kjøkken → kjøken
-    skott → skut (akterskott → akterskut ofl.)
+    skott → skut
+    akterskott → akterskut
     </long-description>  
   </preference>
   <preference id="komme_kome.kons-mm2m">
@@ -1116,7 +1184,8 @@
     Eksempel: 
     kjøtt → kjøt
     kjøkken → kjøken
-    skott → skut (akterskott → akterskut ofl.)
+    skott → skut
+    akterskott → akterskut
     </long-description>  
   </preference>
   <preference id="dess-der_di.afx">
@@ -1312,7 +1381,7 @@
     biletbok → bildebok
     bilethoggar → bildehoggar
 
-    Merk at valet ikkje gjeld for eineformer, eksempelvis biletleg, avbild(n)ing og bildande.
+    Merk at valet ikkje gjeld for eineformer, eksempelvis "biletleg", "avbild(n)ing" og "bildande".
     </long-description>
   </preference>
   <preference id="lys_ljos.vok-y2jo">
@@ -1602,7 +1671,7 @@
     sentralforvaltning → sentralforvalting
     statsforvaltning → statsforvalting
     forventning → forventing
-    -lysning → -lysing (opplysning → opplysing, grålysning → grålysing)
+    -lysning → -lysing (opplysning → opplysing, grålysning → grålysing ofl.)
     helleristning → helleristing
     stigning → stiging
     oppstigning → oppstiging
@@ -1659,7 +1728,7 @@
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
     <long-description lang="nn">
-    Denne valfridomen gjeld stavinga av ordet "linje". Om du vel denne valfridomen, vil "linje" bli erstatta med "line".
+    Denne valfridomen gjeld stavinga av ordet "linje". Om du vel denne valfridomen, vil "linje" erstattast med "line".
     Dette valet råkar også samansetningar som inneheld ordet "linje".
 
     Eksempel:
@@ -1671,7 +1740,7 @@
   <preference id="brud_brur.stav">
     <description lang="nno">brud → brur</description>
     <long-description lang="nn">
-        Denne valfridomen gjeld stavinga av ordet "brud". Om du vel denne valfridomen, vil "brud" bli erstatta med "brur".
+        Denne valfridomen gjeld stavinga av ordet "brud". Om du vel denne valfridomen, vil "brud" erstattast med "brur".
         Dette valet råkar også samansetningar som inneheld ordet "brud".
 
         Eksempel:
