@@ -117,7 +117,7 @@
   </preference>
   <preference id="følgje_fylgje.vok-ø_gj2y_gj">
     <description lang="nno">følgje → fylgje, arvefølgje → arvefylgje, bølgje → bylgje</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
         Denne valfridomen gjeld konsonantendringa ø_gj → y_gj. Det vil seie at ø-en før gj vert erstatta med ein y i ord der han er valfri.
         Valfridomen dekkjer verb, substantiv, adjektiv, preposisjon, adverb og samansetningar av ord med ord av denne typen. 
         
@@ -178,7 +178,7 @@
   </preference>
   <preference id="de_dokker.prn">
     <description lang="nno">de → dokker</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
         Denne valfridomen gjeld pronomenet "de". Om du vel denne valfridomen, vil "de" erstattast av pronomenet "dokker".
 
         Eksempel:
@@ -190,7 +190,7 @@
   </preference>
   <preference id="medan_mens.syn">
     <description lang="nno">medan → mens</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
         Denne valfridomen gjeld subjunksjonen "medan". Om du vel denne valfridomen, vil "medan" erstattast av subjunksjonen "mens".
 
         Eksempel:
@@ -201,7 +201,7 @@
   <preference id="infa_infe">
     <!-- inkompatibel med kløyvd_inf_infe -->
     <description lang="nno">a-infinitiv → e-infinitiv</description>
-        <long-description lang="nn">
+        <long-description lang="nno">
         Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil a-endinga i infinitiv erstattast med ei e-ending.
 
         Eksempel på korleis valfridomen treffer:
@@ -218,7 +218,7 @@
   <preference id="kløyvd_inf">
     <!-- inkompatibel med infa_infe. -->
     <description lang="nno">kløyvd infinitiv</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
         Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil du få ei veksling mellom a og e i slutten av infinitivsformene av verba.
 
         Eksempel på korleis valfridomen treffer:
@@ -237,7 +237,7 @@
   </preference>
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
         Denne valfridomen gjeld pronomenet "me". Om du vel denne valfridomen, vil "me" erstattast av pronomenet "vi".
 
         Eksempel:
@@ -714,7 +714,7 @@
   </preference>
   <preference id="blæs_blåser.vb">
     <description lang="nno">blæs → blåser</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av verbet "blåse". Om du vel denne valfridomen, vil bøyingsparadigmet til "blåse" endrast.
 
     Ei liste over korleis valet endrar "blåse":
@@ -729,7 +729,7 @@
   </preference>
   <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av adjektivet "nærare". Om du vel denne valfridomen, vil "nærare" erstattast med "nærmare" med bokstaven m.
 
     Eksempel:
@@ -740,7 +740,7 @@
   </preference>
   <preference id="eigentleg_eigenleg.stav">
     <description lang="nno">eigentleg → eigenleg</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "eigentleg". Om du vel denne valfridomen, vil "eigentleg" erstattast med "eigenleg" utan bokstaven t.
 
     Eksempel:
@@ -750,7 +750,7 @@
   </preference>
   <preference id="styresmakt_styremakt.stav">
     <description lang="nno">styresmakt → styremakt</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av substantivet "styresmakt". Om du vel denne valfridomen, vil "styresmakt" erstattast med "styremakt" utan fuge-s.
     Dette valet råkar også samansetningar som inneheld ordet "styresmakt".
 
@@ -761,7 +761,7 @@
   </preference>
   <preference id="true_truge.stav">
     <description lang="nno">true → truge, trussel → trugsel</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av orda "true" og "trussel". Om du vel denne valfridomen, vil "true" og "trussel" erstattast med "truge" og "trugsel".
     Dette valet råkar også samansetningar som inneheld orda "true" og "trussel".
 
@@ -773,7 +773,7 @@
   </preference>
   <preference id="symje_svømme.stav">
     <description lang="nno">symje → svømme</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "symje". Om du vel denne valfridomen, vil "symje" erstattast med "svømme".
     Dette valet råkar også samansetningar som inneheld ordet "symje" samt relaterte ord som "symjar".
 
@@ -787,7 +787,7 @@
   </preference>
   <preference id="døgn_døger.stav">
     <description lang="nno">døgn → døger</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "døgn". Om du vel denne valfridomen, vil "døgn" erstattast med "døger".
     Dette valet råkar også samansetningar som inneheld ordet "døgn".
 
@@ -799,7 +799,7 @@
   </preference>
     <preference id="augne_auge.stav">
     <description lang="nno">augne- → auge-</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga samansetningar som startar med "augne-". Om du vel denne valfridomen, vil samansetningar som inneheld "augne-" erstattast med "auge-".
 
     Eksempel:
@@ -811,7 +811,7 @@
   </preference>
   <preference id="auga_augo.vok-a2o">
   <description lang="nno">auge-auget-auge-auga → auga-auga-augo-augo, tilsvarande for øyre, hjarte</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
       Denne valfridomen gjeld bøyinga av orda "auge", "øyre" og "hjarte". 
       Om du vel denne valfridomen, vil den siste vokalen den bundne formen erstattast med ein a og den siste vokalen i fleirtalsbøyingane erstattast med ein o. 
 
@@ -824,7 +824,7 @@
   </preference>
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "kors". Om du vel denne valfridomen, vil "kors" erstattast med "kross".
     Dette valet råkar også samansetningar som inneheld ordet "kors".
 
@@ -836,7 +836,7 @@
   </preference>
   <preference id="skule_skole.vok-u2o">
     <description lang="nno">skule → skole</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "skule". Om du vel denne valfridomen, vil "skule" erstattast med "skole".
     Dette valet råkar også samansetningar som inneheld ordet "skule".
 
@@ -849,7 +849,7 @@
   </preference>
     <preference id="skolere_skulere.vok-u2o">
     <description lang="nno">skolere → skulere</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "skolere". Om du vel denne valfridomen, vil "skolere" erstattast med "skulere".
     Dette valet råkar også samansetningar som inneheld ordet "skolere".
 
@@ -863,7 +863,7 @@
   </preference>
   <preference id="jul_jol.vok-u2o">
     <description lang="nno">jul → jol</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "jul". Om du vel denne valfridomen, vil "jul" erstattast med "jol".
     Dette valet råkar også samansetningar som inneheld ordet "jul".
 
@@ -876,7 +876,7 @@
   </preference>
   <preference id="sommar_sumar.vok-o2u">
     <description lang="nno">sommar → sumar</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "sommar". Om du vel denne valfridomen, vil "sommar" erstattast med "sumar". Merk også at dette ikkje berre er ei vokalendring, men at den eine konsonanten også forsvinn.
     Dette valet råkar også samansetningar som inneheld ordet "sommar".
 
@@ -890,7 +890,7 @@
   </preference>
   <preference id="stove_stue.vok-u2o">
     <description lang="nno">stove → stue</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "stove". Om du vel denne valfridomen, vil "stove" erstattast med "stue".
     Dette valet råkar også samansetningar som inneheld ordet "stove".
 
@@ -903,7 +903,7 @@
   </preference>
   <preference id="høvding_hovding.vok-ø2o">
     <description lang="nno">høvding → hovding ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "o".
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -922,7 +922,7 @@
   </preference>
   <preference id="då_da.vok-a2å">
     <description lang="nno">då → da, endå → enda</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "då". Om du vel denne valfridomen, vil "då" erstattast med "da".
     Dette valet råkar også avleiingar av "då".
 
@@ -934,7 +934,7 @@
   </preference>
   <preference id="åleine_aleine.vok-a2å">
     <description lang="nno">åleine → aleine</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "åleine". Om du vel denne valfridomen, vil "åleine" erstattast med "aleine".
     Dette valet råkar også samansetningar og avleiingar av "åleine".
 
@@ -946,7 +946,7 @@
   </preference>
   <preference id="allmenn_ålmenn.vok-a2å">
     <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "a"-en i ordet erstattast med "å".
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -975,7 +975,7 @@
   </preference>
   <preference id="no_nå.vok-o2å">
     <description lang="nno">no → nå, enno → ennå, notidig → nåtidig</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "no". Om du vel denne valfridomen, vil "no" erstattast med "nå".
     Dette valet råkar også avleiingar av "no".
 
@@ -988,7 +988,7 @@
   </preference>
   <preference id="så_so.vok-o2å">
     <description lang="nno">så → so</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "så". Om du vel denne valfridomen, vil "så" erstattast med "so".
     Dette valet råkar også avleiingar av "så".
 
@@ -1008,7 +1008,7 @@
   </preference>
   <preference id="først_fyrst.vok-ø2y">
     <description lang="nno">først → fyrst, ønske → ynske, søster → syster ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "y".
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -1053,7 +1053,7 @@
   </preference>
   <preference id="søndag_sundag.vok-ø2u">
     <description lang="nno">søndag → sundag, tørke → turke, tørr → turr ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "u".
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -1072,7 +1072,7 @@
   </preference>
   <preference id="lykke_lukke.vok-y2u">
     <description lang="nno">lykke → lukke, skyve → skuve, krybbe → krubbe ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "y"-en i ordet erstattast med "u".
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -1100,7 +1100,7 @@
   </preference>
   <preference id="fjøre_fjære.vok-ø2æ">
     <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "æ".
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -1118,7 +1118,7 @@
   </preference>
   <preference id="venn_ven.kons-mm2m">
     <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane mm-nn-tt-kk erstattast med enkeltkonsonantane m-n-t-k.
     Dette valet råkar også samansetningar som inneheld desse orda.
     Merk at dette valet inkluderer orda frå dei smalare vala: "komme → kome"-valet, "-dommen → -domen"-valet og "kjøtt → kjøt"-valet.
@@ -1150,7 +1150,7 @@
   </preference>
   <preference id="komme_kome.kons-mm2m">
     <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i ordet erstattast med ein enkel m.
     Dette valet råkar også samansetningar som inneheld desse orda.
 
@@ -1165,7 +1165,7 @@
   </preference>
   <preference id="dommen_domen.kons-mm2m">
     <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ei gruppe etterledd. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i etterleddet erstattast med ein enkel m.
 
     Eksempel: 
@@ -1177,7 +1177,7 @@
   </preference>
   <preference id="kjøtt_kjøt.kons-mm2m">
     <description lang="nno">kjøtt → kjøt, kjøkken → kjøken, ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane tt og kk i ordet erstattast med dei enkle konsonantane t eller k.
     Dette valet råkar også samansetningar som inneheld orda med dei aktuelle konsonantane.
 
@@ -1190,7 +1190,7 @@
   </preference>
   <preference id="dess-der_di.afx">
     <description lang="nno">der/dess → di, dermed → dimed, dessverre → diverre ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei endringa i stavinga i ei gruppe ord. Om du vel denne valfridomen, vil stavingane "der" eller "dess" i ordet erstattast med stavinga "di".
 
     Eksempel: 
@@ -1204,7 +1204,7 @@
   </preference>
   <preference id="fly_flyge.vb-inf">
     <description lang="nno">fly → flyge (infinitiv)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil "fly" erstattast med den lengre varianten "flyge".
     Merk at valet berre råkar ordet når det er bøygd i infinitiv.
 
@@ -1215,7 +1215,7 @@
   </preference>
   <preference id="flyg_flyr.vb-inf">
     <description lang="nno">flyr → flyg (presens)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil presensbøyinga "flyr" erstattast med varianten "flyg".
     Merk at valet berre råkar ordet når det er bøygd i presens.
 
@@ -1226,7 +1226,7 @@
   </preference>
   <preference id="gle_glede.vb-inf">
     <description lang="nno">gle → glede, gler → gleder (infinitiv og presens)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld verbet "å gle". Om du vel denne valfridomen, vil ordet "gle" erstattast med den lengre varianten "glede".
     Merk at valet berre råkar ordet når det er bøygd i infinitiv og presens.
     
@@ -1238,7 +1238,7 @@
   </preference>
   <preference id="lide_li.vb-inf">
     <description lang="nno">lide → li, lid → lir,  leid → lei (infinitiv, presens og preteritum)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld verbet "å lide". Om du vel denne valfridomen, vil ordet "lide" erstattast med den kortare varianten "li".
     Merk at valet berre råkar ordet når det er bøygd i infinitiv, presens og preteritum.
     
@@ -1251,7 +1251,7 @@
   </preference>
   <preference id="jern_jarn.vok-a2e">
     <description lang="nno">jern → jarn</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "jern". Om du vel denne valfridomen, vil ordet "jern" erstattast med "jarn".
     Dette valet råkar også samansetningar som inneheld ordet.
     
@@ -1264,7 +1264,7 @@
   </preference>
   <preference id="kvalp_kvelp.vok-a2e">
     <description lang="nno">kvalp → kvelp</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "kvalp". Om du vel denne valfridomen, vil ordet "kvalp" erstattast med "kvelp".
     Dette valet råkar også avleiingar og samansetningar av dette ordet.
     
@@ -1277,7 +1277,7 @@
   </preference>
   <preference id="anten_enten.vok-a2e">
     <description lang="nno">anten → enten</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "anten". Om du vel denne valfridomen, vil ordet "anten" erstattast med "enten".
     Dette valet råkar også samansetningar som inneheld dette ordet.
     
@@ -1288,7 +1288,7 @@
   </preference>
   <preference id="aftan_eftan.vok-a2e">
     <description lang="nno">aftan → eftan</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "aftan". Om du vel denne valfridomen, vil ordet "aftan" erstattast med "eftan".
     Dette valet råkar også samansetningar som inneheld dette ordet.
     
@@ -1301,7 +1301,7 @@
   </preference>
   <preference id="alter_altar.vok-a2e">
     <description lang="nno">alter → altar</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "alter". Om du vel denne valfridomen, vil ordet "alter" erstattast med "altar".
     Dette valet råkar også samansetningar som inneheld dette ordet.
     
@@ -1313,7 +1313,7 @@
   </preference>
   <preference id="spenn_span.vok-a2e">
     <description lang="nno">spenn- → span-, spennande → spanande</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei endring i stavinga av "spennande". Om du vel denne valfridomen, vil ordet "spennande" erstattast med "spanande".
     Dette valet råkar også samansetningar og avleiingar.
     
@@ -1325,7 +1325,7 @@
   </preference>
   <preference id="drikk_drykk.vok-i2y">
     <description lang="nno">drikk → drykk</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "drikk". Om du vel denne valfridomen, vil ordet "drikk" erstattast med "drykk".
     Dette valet råkar også samansetningar som inneheld dette ordet.
     
@@ -1337,7 +1337,7 @@
   </preference>
   <preference id="segle_sigle.vok-e2i">
     <description lang="nno">segle → sigle, ekorn → ikorn</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil vokalen e i ordet erstattast med vokalen i.
     Dette valet råkar også samansetningar av desse orda.
     
@@ -1353,7 +1353,7 @@
   </preference>
   <preference id="krins_krets.syn">
     <description lang="nno">krins → krets</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei endring i ordet "krins". Om du vel denne valfridomen, vil ordet "krins" erstattast med "krets".
     Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
     
@@ -1369,7 +1369,7 @@
   </preference>
   <preference id="bilete_bilde.syn">
     <description lang="nno">bilete → bilde</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei endring i ordet "bilete". Om du vel denne valfridomen, vil ordet "bilete" erstattast med "bilde".
     Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
     
@@ -1386,7 +1386,7 @@
   </preference>
   <preference id="lys_ljos.vok-y2jo">
     <description lang="nno">lys → ljos, lyd → ljod</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei lydendring i ei gruppe ord. Om du vel denne valfridomen, vil y-en i ordet erstattast med stavinga jo.
     Dette valet råkar også samansetningar av desse orda.
     
@@ -1407,7 +1407,7 @@
   </preference>
   <preference id="voks_vaks.vok-o2a">
     <description lang="nno">å vekse: voks → vaks</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i preteritumsbøyinga av verbet "å vekse". Om du vel denne valfridomen, vil o-en i "voks" erstattast med ein a.
     
     Eksempel:
@@ -1418,7 +1418,7 @@
   </preference>
   <preference id="barna_borna.vok-o2a">
     <description lang="nno">barn (fleirtal): barn – barna → born – borna</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i fleirtalsbøyinga av substantivet "barn". Om du vel denne valfridomen, vil a-en i "barn" og "barna" erstattast med ein o.
     
     Eksempel:
@@ -1431,7 +1431,7 @@
   </preference>
   <preference id="maske_moske.vok-o2a">
     <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "maske". Om du vel denne valfridomen, vil a-en i "maske" erstattast med ein o.
     Dette valet råkar også samansetningar med dette ordet.
 
@@ -1446,7 +1446,7 @@
   </preference>
   <preference id="oske_aske.vok-o2a">
     <description lang="nno">oske → aske, oskeladd → askeladd (ikkje normert sideform)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "oske". Om du vel denne valfridomen, vil o-en i "oske" erstattast med ein a.
     Dette valet råkar også samansetningar med dette ordet.
     
@@ -1460,7 +1460,7 @@
   </preference>
   <preference id="trost_trast.vok-o2a">
     <description lang="nno">trost → trast</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei vokalendring i ordet "trost". Om du vel denne valfridomen, vil o-en i "trost" erstattast med ein a.
     Dette valet råkar også samansetningar som inneheld dette ordet.
     
@@ -1473,7 +1473,7 @@
   </preference>
   <preference id="nød_naud.dift-ø2au">
     <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil ø-en i ordet erstattast med diftongen au. 
     Dette valet råkar også samansetningar som inneheld desse orda.
     
@@ -1502,7 +1502,7 @@
   </preference>
   <preference id="dødeleg_døyeleg.dift-ø2øy">
     <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil ø-en i ordet erstattast med diftongen øy. 
     Dette valet råkar også samansetningar som inneheld desse orda.
     
@@ -1525,7 +1525,7 @@
   </preference>
   <preference id="pek_peik.dift-e2ei">
     <description lang="nno">pek → peik (substantiv), lest → leist (sokk, strømpe)</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil e-en i ordet erstattast med diftongen ei. 
     Dette valet råkar også samansetningar som inneheld desse orda.
     
@@ -1540,7 +1540,7 @@
   </preference>
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ei lita gruppe ord. Om du vel denne valfridomen, vil konsonantane tj erstattast med dobbeltkonsonanten tt. 
     Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
     
@@ -1563,7 +1563,7 @@
   </preference>
   <preference id="fremje_fremme.kons-mj2mm">
     <description lang="nno">fremje → fremme, fremjing → fremming</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ordet "fremje". Om du vel denne valfridomen, vil konsonantane mj erstattast med dobbeltkonsonanten mm. 
     Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
     
@@ -1579,7 +1579,7 @@
   </preference>
   <preference id="hemme_hemje.kons-mm2mj">
     <description lang="nno">hemme → hemje, funksjonshemma → funksjonshemja</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ordet "hemme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
     Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
     
@@ -1594,7 +1594,7 @@
   </preference>
   <preference id="gremme_gremje.kons-mm2mj">
     <description lang="nno">gremme → gremje</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i ordet "gremme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
     Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
     
@@ -1609,7 +1609,7 @@
   </preference>
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei stor gruppe ord som startar med det valfrie prefikset "for-". Om du vel denne valfridomen, vil "for-" erstattast med "føre-". Eksempelvis blir "formål" til "føremål" når du vel denne valdrifomen. 
     Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
     
@@ -1651,7 +1651,7 @@
   </preference>
   <preference id="forvaltning_forvalting.afx-ning2ing">
     <description lang="nno">forvaltning → forvalting, avkastning → avkasting, underhaldning → underhalding ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei gruppe ord med det valfrie suffikset "-ning". Om du vel denne valfridomen, vil "-ning" erstattast med "-ing". Eksempelvis blir "betydning" til "betyding" når du vel denne valdrifomen. 
     Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
     
@@ -1684,7 +1684,7 @@
   </preference>
   <preference id="redsel_redsle.kons-sel2sle">
     <description lang="nno">redsel → redsle, høyrsel → høyrsle ofl.</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei gruppe ord som sluttar på "-sel". Om du vel denne valfridomen, vil endinga "-sel" erstattast med "-sle". Eksempelvis blir ordet "ferdsel" til "ferdsle".
     Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
      
@@ -1715,7 +1715,7 @@
   </preference>
   <preference id="gløymsle_gløymsel.kons-sel2sle">
     <description lang="nno">gløymsle → gløymsel, gøymsle → gøymsel</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld ei konsonantendring i slutten av orda "gløymsle" og "gøymsle". Om du vel denne valfridomen, vil endinga "-sle" erstattast med "-sel". 
     Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
     
@@ -1727,7 +1727,7 @@
   </preference>
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
     Denne valfridomen gjeld stavinga av ordet "linje". Om du vel denne valfridomen, vil "linje" erstattast med "line".
     Dette valet råkar også samansetningar som inneheld ordet "linje".
 
@@ -1739,7 +1739,7 @@
   </preference>
   <preference id="brud_brur.stav">
     <description lang="nno">brud → brur</description>
-    <long-description lang="nn">
+    <long-description lang="nno">
         Denne valfridomen gjeld stavinga av ordet "brud". Om du vel denne valfridomen, vil "brud" erstattast med "brur".
         Dette valet råkar også samansetningar som inneheld ordet "brud".
 
