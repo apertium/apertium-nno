@@ -1749,6 +1749,16 @@
         brudebukett → brurebukett
     </long-description>
   </preference>
+  <preference id="fot_apos.teikn">
+    <description lang="nno">kvite hus' → kvite hus’ (apostrof)</description>
+    <long-description lang="nno">
+      Dette valet gir deg bøygd apostrof i staden for fot-teiknet i genitiv osb.
+
+      Eksempel:
+
+      Kripos' anbefaling → Kripos’ anbefaling
+    </long-description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">

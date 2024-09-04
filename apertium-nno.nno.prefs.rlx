@@ -351,6 +351,9 @@ REMOVE (v:linje_line.stav) ;
 SELECT (v:brud_brur.stav) IF (0 (VAR:brud_brur.stav)) ;
 REMOVE (v:brud_brur.stav) ;
 
+SELECT (v:fot_apos.teikn) IF (0 (VAR:fot_apos.teikn)) ;
+REMOVE (v:fot_apos.teikn) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
 
