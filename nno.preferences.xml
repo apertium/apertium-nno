@@ -1750,9 +1750,9 @@
     </long-description>
   </preference>
   <preference id="fot_apos.teikn">
-    <description lang="nno">kvite hus' → kvite hus’ (apostrof)</description>
+    <description lang="nno">skrivemaskinapostrof ' → typgrafisk apostrof ’</description>
     <long-description lang="nno">
-      Dette valet gir deg bøygd apostrof i staden for fot-teiknet i genitiv osb.
+      Dette valet gir deg bøygd / typografisk apostrof i staden for rett apostrof / skrivemaskinapostrof i genitiv osb.
 
       Eksempel:
 
