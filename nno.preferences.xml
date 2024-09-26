@@ -1749,14 +1749,14 @@
         brudebukett → brurebukett
     </long-description>
   </preference>
-  <preference id="fot_apos.teikn">
-    <description lang="nno">skrivemaskinapostrof ' → typgrafisk apostrof ’</description>
+  <preference id="apos_fot.teikn">
+    <description lang="nno">typografisk apostrof ’ → skrivemaskinapostrof '</description>
     <long-description lang="nno">
-      Dette valet gir deg bøygd / typografisk apostrof i staden for rett apostrof / skrivemaskinapostrof i genitiv osb.
+      Dette valet gir deg rett apostrof / skrivemaskinapostrof i staden for bøygd / typografisk apostrof i genitiv osb.
 
       Eksempel:
 
-      Kripos' anbefaling → Kripos’ anbefaling
+      Kripos’ anbefaling → Kripos' anbefaling
     </long-description>
   </preference>
 
