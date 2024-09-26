@@ -2,7 +2,7 @@
 [/GBhwuqXhOUgQ]
 [Muuxq8wcYBzr#0] ^(/(<lpar>$
 [/Muuxq8wcYBzr]
-[VA3Tl7LTgNzD#0] ^5./5.<n><m><sg><ind><cmp>/5.<adj><ord><pst><nt><sg><ind>/5.<adj><ord><pst><un><sp><def>/5.<adj><ord><pst><un><pl><ind>/5.<adj><ord><pst><mf><sg><ind>/5<det><qnt><un><pl>+.<sent><clb>$
+[VA3Tl7LTgNzD#0] ^5./5<det><qnt><un><pl>+.<sent><clb><remspc>/5.<n><m><sg><ind><cmp>/5.<adj><ord><pst><nt><sg><ind>/5.<adj><ord><pst><un><sp><def>/5.<adj><ord><pst><un><pl><ind>/5.<adj><ord><pst><mf><sg><ind>$
 [/VA3Tl7LTgNzD]
 [poEKQq2qTVXt#0] ^«/«<lquot>$
 [/poEKQq2qTVXt]
