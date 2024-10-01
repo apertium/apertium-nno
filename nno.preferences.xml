@@ -537,7 +537,9 @@
     <description lang="nno">å gi/gje: gi → gje, gir → gjev, gitt → gjeven</description>
     <long-description lang="nno">
         Denne valfridomen gjeld bøyinga til verbet "å gi". Det vil seie at nokre av bøyingane til verbet "å gi" vil endre form til den lengre forma "å gje".
-        Valfridomen dekkjer også avleiingar av verbet "å gi", eksempelvis: "å overgi".
+        Valfridomen dekkjer også avleiingar av verbet "å gi", eksempelvis: "å overgi". 
+
+        I tillegg vil denne valfridomen omsetje ord av typen "-giv-" til "-gjev-", til dømes vert "givande" til "gjevande".
         
         Eksempel på korleis valfridomen treffer:
 
@@ -550,8 +552,23 @@
         å overgi → å overgje (infinitiv og imperativ)
         oppgir → oppgjev (presens)
         oppgitt → oppgjeven (perfektum partisipp, han- og hokjønn)
+        givande → gjevande
         
         Merk at dette valet ikkje omhandlar det lange infinitivet "å gjeve".
+    </long-description> 
+  </preference>
+  <preference id="givar_gjevar.stav">
+    <description lang="nno">-giver → -gjevar: arbeidsgivar  → arbeidsgjevar</description>
+    <long-description lang="nno">
+        Denne valfridomen gjeld for ord som inneheld rota "-giv-" eller "-gjev-". Om du vel denne valfridomen vil denne typen ord bli til "-gjev-" i staden for "-giv-".
+        
+        Eksempel på korleis valfridomen treffer:
+        
+        givande → gjevande
+        arbeidsgivar → arbeidsgjevar
+        veglovgiving → veglovgjeving
+
+        Merk at dette valet ikkje endrar på verbet "å gi" til "å gje", då må du i staden for velje "å gi/gje"-valet. 
     </long-description> 
   </preference>
   <preference id="eigde_åtte.vb">

@@ -126,6 +126,9 @@ REMOVE (v:dratt_dradd.vb-en2tt) ;
 SELECT (v:gir_gjev.vb-en2tt) IF (0 (VAR:gir_gjev.vb-en2tt)) ;
 REMOVE (v:gir_gjev.vb-en2tt) ;
 
+SELECT (v:givar_gjevar.stav) IF (0 (VAR:givar_gjevar.stav)) ;
+REMOVE (v:givar_gjevar.stav) ;
+
 SELECT (v:eigde_åtte.vb) IF (0 (VAR:eigde_åtte.vb)) ;
 REMOVE (v:eigde_åtte.vb) ;
 
