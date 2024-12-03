@@ -2,10 +2,10 @@
   <preference id="tenkje-leggje.kons-kj2k_gj2g">
     <description lang="nno">tenkje → tenke, leggje → legge, søkje → søke, byggje → bygge ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld konsonantendringa gj-kj → g-k. Det vil seie at j-en etter g eller k vert fjerna i ord der j-en er valfri.
-        Valfridomen dekkjer verb, substantiv, adjektiv og samansetningar av ord med ord av denne typen. Det er mange ord som vert råka av denne valfridomen.
+        Denne valfridommen gjeld konsonantendringa gj-kj → g-k. Det vil seie at j-en etter g eller k blir fjerna i ord der j-en er valfri.
+        Valfridommen dekkjer verb, substantiv, adjektiv og samansetningar av ord med ord av denne typen. Det er mange ord som blir råka av denne valfridommen.
 
-        Eksempel på ord valfridomen treffer:
+        Eksempel på ord valfridommen treffer
 
         bleikjeri → bleikeri 
         bryggje → brygge (bryggjekant → bryggekant, flytebryggje → flyttebrygge ofl.)
@@ -61,10 +61,10 @@
   <preference id="enkje_enke.kons-kj2k_gj2g">
     <description lang="nno">enkje → enke, rekkje → rekke, bryggje → brygge, spøkjelse → spøkelse, bryggjeri → bryggeri ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen er ein avgrensa variant av konsonantendringa gj-kj → g-k.
-        Valfridomen inkluderer ein del substantiv, særleg ho- og inkjekjønnsord, med valfri j etter g og k, og nokre verb. Alle vala i denne valfridomen er inkludert i "tenkje → tenke"-valet som har eit større ordtilfang.
-        
-        Eksempel på ord valfridomen treffer:
+        Denne valfridommen er ein avgrensa variant av konsonantendringa gj-kj → g-k.
+        Valfridommen inkluderer ein del substantiv, særleg ho- og inkjekjønnsord, med valfri j etter g og k, og nokre verb. Alle vala i denne valfridommen er inkluderte i "tenkje → tenke"-valet som har eit større ordtilfang.
+
+        Eksempel på ord valfridommen treffer:
     
         dyngje → dynge (søppeldyngje → søppedynge ofl.)
         rekkje → rekke (rekkjehus → rekkehus, assosiasjonsrekkje → assosiasjonsrekke ofl.)
@@ -101,10 +101,10 @@
   <preference id="følgje_følge.kons-lgj2lg">
     <description lang="nno">følgje → følge, arvefølgje → arvefølge, bølgje → bølge, svelgje → svelge ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld konsonantendringa lgj → lg. Det vil seie at j-en etter lg vert fjerna i ord der j-en er valfri.
-        Valfridomen dekkjer verb, substantiv, adjektiv, preposisjon, adverb og samansetningar av ord med ord av denne typen. 
-        
-        Eksempel på ord valfridomen treffer:
+        Denne valfridommen gjeld konsonantendringa lgj → lg. Det vil seie at j-en etter lg blir fjerna i ord der j-en er valfri.
+        Valfridommen dekkjer verb, substantiv, adjektiv, preposisjon, adverb og samansetningar av ord med ord av denne typen.
+
+        Eksempel på ord valfridommen treffer:
 
         følgje → følge (å følgje → å følge, ifølgje → ifølge, følgjeleg → følgeleg ofl.)    
         bølgje → bølge (å bølgje → å bølge, bølgjedal → bølgedal, lydbølgje → lydbølge ofl.)
@@ -118,10 +118,10 @@
   <preference id="følgje_fylgje.vok-ø_gj2y_gj">
     <description lang="nno">følgje → fylgje, arvefølgje → arvefylgje, bølgje → bylgje</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld konsonantendringa ø_gj → y_gj. Det vil seie at ø-en før gj vert erstatta med ein y i ord der han er valfri.
-        Valfridomen dekkjer verb, substantiv, adjektiv, preposisjon, adverb og samansetningar av ord med ord av denne typen. 
+        Denne valfridommen gjeld konsonantendringa ø_gj → y_gj. Det vil seie at ø-en før gj blir erstatta med ein y i ord der han er valfri.
+        Valfridommen dekkjer verb, substantiv, adjektiv, preposisjon, adverb og samansetningar av ord med ord av denne typen.
         
-        Eksempel på ord valfridomen treffer:
+        Eksempel på ord valfridommen treffer:
 
         ø_gj → y_gj (grunnendringa)
         følgje → fylgje
@@ -146,10 +146,10 @@
   <preference id="kjende_kjente.vb-d2t">
     <description lang="nno">kjende → kjente, dømde → dømte ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld verb med valfri bøying på -de → -te i preteritum og tilsvarande valfridom i partisippbøyinga.
-        Valfridomen gjeld også for samansetningar som inneheld desse orda.
-        
-        Eksempel på ord valfridomen treffer:
+        Denne valfridommen gjeld verb med valfri bøying på -de → -te i preteritum og tilsvarande valfridom i partisippbøyinga.
+        Valfridommen gjeld også for samansetningar som inneheld desse orda.
+
+        Eksempel på ord valfridommen treffer:
         
         bestemde → bestemte
         brende → brente
@@ -162,11 +162,11 @@
   <preference id="bygd_bygt.vb-d2t">
     <description lang="nno">ha bygd → bygt, ha nådd → nått (supinum) ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld verb med valfri form på -gd, -vd og -dd i perfektum partisipp og tilsvarande adjektiv.
-        Det vil seie at -gd, -vd og -dd vert erstatta med -gt, -vt og -tt. For eksempel vert "bygd" erstatta med "bygt".
-        Valfridomen gjeld også for samansetningar som inneheld desse orda.
+        Denne valfridommen gjeld verb med valfri form på -gd, -vd og -dd i perfektum partisipp og tilsvarande adjektiv.
+        Det vil seie at -gd, -vd og -dd blir erstatta med -gt, -vt og -tt. For eksempel blir "bygd" erstatta med "bygt".
+        Valfridommen gjeld også for samansetningar som inneheld desse orda.
 
-        Eksempel på ord valfridomen treffer:
+        Eksempel på ord valfridommen treffer:
 
         bygd → bygt
         breibygd – breibygd – breibygde  →  breibygt – breibygd – breibygde
@@ -179,7 +179,7 @@
   <preference id="de_dokker.prn">
     <description lang="nno">de → dokker</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld pronomenet "de". Om du vel denne valfridomen, vil "de" erstattast av pronomenet "dokker".
+        Denne valfridommen gjeld pronomenet "de". Med dette valet blir "de" erstatta av pronomenet "dokker".
 
         Eksempel:
 
@@ -191,7 +191,7 @@
   <preference id="medan_mens.syn">
     <description lang="nno">medan → mens</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld subjunksjonen "medan". Om du vel denne valfridomen, vil "medan" erstattast av subjunksjonen "mens".
+        Denne valfridommen gjeld subjunksjonen "medan". Med dette valet blir "medan" erstatta av subjunksjonen "mens".
 
         Eksempel:
 
@@ -202,9 +202,9 @@
     <!-- inkompatibel med kløyvd_inf_infe -->
     <description lang="nno">a-infinitiv → e-infinitiv</description>
         <long-description lang="nno">
-        Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil a-endinga i infinitiv erstattast med ei e-ending.
+        Denne valfridommen gjeld infinitivsforma av verba. Med dette valet blir a-endinga i infinitiv erstatta med ei e-ending.
 
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         å finna → å finne
         å sykla → å sykle
@@ -219,9 +219,9 @@
     <!-- inkompatibel med infa_infe. -->
     <description lang="nno">kløyvd infinitiv</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld infinitivsformen til verba. Om du vel denne valfridomen, vil du få ei veksling mellom a og e i slutten av infinitivsformene av verba.
+        Denne valfridommen gjeld infinitivsforma av verba. Med dette valet får du ei veksling mellom a og e i slutten av infinitivsformene av verba.
 
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         å vere → å vera
         å kaste → å kaste
@@ -238,7 +238,7 @@
   <preference id="me_vi">
     <description lang="nno">me → vi</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld pronomenet "me". Om du vel denne valfridomen, vil "me" erstattast av pronomenet "vi".
+        Denne valfridommen gjeld pronomenet "me". Med dette valet blir "me" erstatta av pronomenet "vi".
 
         Eksempel:
 
@@ -248,9 +248,9 @@
   <preference id="er_ar.vb-e2a">
     <description lang="nno">E-verb med blanda bøying, presens på -ar: roper → ropar (beheld ropte – ropt) ofl.</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld valfri -ar i presens for e-verb. Er-endingar bøygd i presens erstattast med ar-endingar.
-        
-        Eksempel på ord valfridomen treffer:
+        Denne valfridommen gjeld valfri -ar i presens for e-verb. Er-endingar bøygde i presens blir erstatta med ar-endingar.
+
+        Eksempel på ord valfridommen treffer:
         
         koker → kokar 
         leier → leiar
@@ -261,7 +261,7 @@
   <preference id="håpa_håpte.vb-e2a">
     <description lang="nno">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valfritt kan bøyast som e-verb.</description>
     <long-description lang="nno">
-        Denne valfridomen gir verb e-bøying på a-verb. Dette gjeld verb som valfritt kan bøyast som e-verb.
+        Denne valfridommen gir verb e-bøying på a-verb. Dette gjeld verb som valfritt kan bøyast som e-verb.
         Dette valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
 
         Eksempel på korleis valet treffer a-verbet "å banne":
@@ -277,7 +277,7 @@
 
         Liste med ord valfridommen gjeld for: ape, banne, beite, brøyte, deise, dimme, dreise, drøfte, drønne, ense, feile, feste, fike, fire, fleipe, flytte, fløyte, gape, geipe, gifte, gispe, glefse, glime, gremme (men ikkje gremje), gruse, helse, huse, hyfse, hyre, håpe, ise, kruse, kule, lade, lave, leike, leite, lóse, love, lute, løfte, meie, miste, peike, peise, prise, rane, rape, refse, rose, ruse, ruve, skifte, skjerpe, smeise, snuse, spleise, sprelle, sprute, sprøyte, stane, stile, strene, streve, sture, sveise, sveive, sveve, syre, trene, tynne, tøve, tøyser, veiver, våge ofl.
 
-        Merk at samansetningar ikkje er med i lista over. Til dømes blir lovfeste, stadfeste, avtalefeste og korsfeste også råka av dette valet, ikkje berre "feste".    
+        Merk at samansetningar ikkje er med i lista over. Til dømes blir lovfeste, stadfeste, avtalefeste og korsfeste også råka av dette valet, ikkje berre "feste".
     </long-description>
     <description lang="nob">A-verb → e-verb. Dette gir e-verbbøying på a-verb som valgfritt kan bøyes som e-verb.</description>
     <options>
@@ -361,7 +361,7 @@
   <preference id="brukte_bruka.vb-e2a">
     <description lang="nno">E-verb → a-verb. Dette gir a-verbbøying på e-verb som valfritt kan bøyast som a-verb.</description>
     <long-description lang="nno">
-        Denne valfridomen gir e-verba a-bøying om verbet kan bøyast med ein valfri a-ending. Det vil seie at til dømes presensbøyinga av verbet "bruke" går frå "bruker" → "brukar".
+        Denne valfridommen gir e-verba a-bøying om verbet kan bøyast med ei valfri a-ending. Det vil seie at til dømes presensbøyinga av verbet "bruke" går frå "bruker" til "brukar".
         Valet endrar fleire delar av bøyingsparadigmet til verbet, mellom anna bøyinga i presens, preteritum, imperativ og perfektum partisipp.
 
         Eksempel på korleis valet treffer a-verbet "å betale":
@@ -375,7 +375,7 @@
         betalte → betala (perfektum partisipp, bunden form og fleirtal)
         betalande → betalande (presens partisipp)
 
-        Liste med ord valfridommen gjeld for: ane, bake, betale, bile, breke, bruke, bruse, brøle, buse, dale, dreie, dynge, eine, file, føne, glane, hale, heise, hyle, håne, jule, jåle, kile, klare, knise, koke, kose, kukelure, kyle, leie, lene, like, lire, luke, lure, mane, måpe, ose, pile, pøse, rope, sile, skade, skape, skjønne, skrelle, skrøne, skråle, skåle, slepe, slipe, sløre, smake, sope, spare, spele, stire, stole, stråle, suse, svare, tale, tape, tine, tvile, ule, vare, vræle, åle ofl.
+        Her er ei liste med ord valfridommen gjeld for: ane, bake, betale, bile, breke, bruke, bruse, brøle, buse, dale, dreie, dynge, eine, file, føne, glane, hale, heise, hyle, håne, jule, jåle, kile, klare, knise, koke, kose, kukelure, kyle, leie, lene, like, lire, luke, lure, mane, måpe, ose, pile, pøse, rope, sile, skade, skape, skjønne, skrelle, skrøne, skråle, skåle, slepe, slipe, sløre, smake, sope, spare, spele, stire, stole, stråle, suse, svare, tale, tape, tine, tvile, ule, vare, vræle, åle ofl.
 
         Merk at samansetningar ikkje er med i lista over. Til dømes blir utbetale, nedbetale, underbetale og etterbetale også råka av dette valet, ikkje berre "betale".
     </long-description>    
@@ -456,42 +456,42 @@
   <preference id="stader_stadar.n-pl-e2a">
     <description lang="nno">stader → stadar, stadene → stadane (konsekvent hankjønnsform i fleirtal av kortstava hankjønnsord på -er/-ene)</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld fleirtalsbøyinga til hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinga endra frå -er/ene til -ar/-ane.
-        Valfridomen dekkjer substantiv med hankjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+        Denne valfridommen gjeld fleirtalsbøyinga av hankjønnsord. Kortstava hankjønnsord med valfri fleirtalsbøying får endinga endra frå -er/ene til -ar/-ane.
+        Valfridommen dekkjer substantiv med hankjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
         
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         stader → stadar (ubunden fleirtal)
         stadene → stadane (bunde fleirtal)
         
         Liste over ord dette valet famnar: vegger, stader, sauer, griser, gjester, gonger, lemmer, venner, medlemmer, benker, bekker, belger, drenger, drikker, flekker, klegger, kvister, legger, monner,  retter, rygger, stilker, sekker, strenger, venger, vever, -nader (bunader, søknader, månader, skilnader ofl.) og -aer (villaer, skalaer, arenaer, kollegaer, sofaer, auroaer ofl.).
 
-        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetningar. 
+        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetningar.
     </long-description>   
   </preference>
   <preference id="elvar_elver.n-pl-e2a">
     <description lang="nno">elvar → elver, elvane → elvene (konsekvent hokjønnsform i fleirtal av kortstava hokjønnsord på -er/-ene)</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld fleirtalsbøyinga til hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endringa endra frå -ar/ane → -er/-ene.
-        Valfridomen dekkjer substantiv med hokjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
-        
-        Eksempel på korleis valfridomen treffer:
+        Denne valfridommen gjeld fleirtalsbøyinga av hokjønnsord. Kortstava hokjønnsord med valfri fleirtalsbøying får endringa endra frå -ar/ane → -er/-ene.
+        Valfridommen dekkjer substantiv med hokjønnsbøying og berre fleirtalsbøyinga. Eintalsbøyinga blir ikkje råka.
+
+        Eksempel på korleis valfridommen treffer:
 
         elvar → elver (ubunden fleirtal)
         elvane → elvene (bunde fleirtal)
         
         Liste over ord dette valet famnar: elvar, ermar, heiar, helgar, kleivar, kvernar, merrar, myrar, møyar, reimar, sildar, setrar, ørnar, øyar, årar, gygrar, levrar ofl.
 
-        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetningar. 
+        Merk at lista over ikkje er komplett, ho manglar mellom anna samansetningar.
     </long-description>    
   </preference>
   <preference id="tek_tar.vb-en2tt">
     <description lang="nno">å ta: tek → tar, teken → tatt</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga til verbet "å ta". Det vil seie at nokre av bøyingane til verbet "å ta" vil endre form.
-        Valfridomen dekkjer også avleiingar av verbet "å ta", eksempelvis: "å overta".
+        Denne valfridommen gjeld bøyinga av verbet "å ta". Det vil seie at nokre av bøyingane av verbet "å ta" endrar form.
+        Valfridommen dekkjer også avleiingar av verbet "å ta", eksempelvis: "å overta".
         
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         tek → tar (presens)
         har teke → har tatt (presens perfektum)
@@ -505,10 +505,10 @@
   <preference id="dreg_drar.vb-en2tt">
     <description lang="nno">å dra: dreg → drar, dregen → dratt</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga til verbet "å dra". Det vil seie at nokre av bøyingane til verbet "å dra" vil endre form.
-        Valfridomen dekkjer også avleiingar av verbet "å dra", eksempelvis: "å overdra".
+        Denne valfridommen gjeld bøyinga av verbet "å dra". Det vil seie at nokre av bøyingane av verbet "å dra" endrar form.
+        Valfridommen dekkjer også avleiingar av verbet "å dra", eksempelvis: "å overdra".
         
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         dra → dra
         dreg → drar (presens)
@@ -523,10 +523,10 @@
   <preference id="dratt_dradd.vb-en2tt">
     <description lang="nno">å dra, pres.perf. og adj: dratt → dradd</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga i presens perfektum og perfektum partisipp til verbet "å dra". Det vil seie at nokre av bøyingane til verbet "å dra" vil endre form.
-        Valfridomen dekkjer også avleiingar av verbet "å dra", eksempelvis: "å overdra".
+        Denne valfridommen gjeld bøyinga i presens perfektum og perfektum partisipp av verbet "å dra". Det vil seie at nokre av bøyingane av verbet "å dra" endrar form.
+        Valfridommen dekkjer også avleiingar av verbet "å dra", eksempelvis: "å overdra".
         
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         har dratt → har dradd (presens perfektum)
         dratt → dradd (perfektum partisipp, han-, ho- og inkjekjønn)
@@ -536,12 +536,10 @@
   <preference id="gir_gjev.vb-en2tt">
     <description lang="nno">å gi/gje: gi → gje, gir → gjev, gitt → gjeven</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga til verbet "å gi". Det vil seie at nokre av bøyingane til verbet "å gi" vil endre form til den lengre forma "å gje".
-        Valfridomen dekkjer også avleiingar av verbet "å gi", eksempelvis: "å overgi". 
+        Denne valfridommen gjeld bøyinga av verbet "å gi". Det vil seie at nokre av bøyingane av verbet "å gi" endrar form til den lengre forma "å gje".
+        Valfridommen dekkjer også avleiingar av verbet "å gi", eksempelvis: "å overgi".
 
-        I tillegg vil denne valfridomen omsetje ord av typen "-giv-" til "-gjev-", til dømes vert "givande" til "gjevande".
-        
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         å gi → å gje (infinitiv og imperativ)
         gir → gjev (presens)
@@ -554,15 +552,15 @@
         oppgitt → oppgjeven (perfektum partisipp, han- og hokjønn)
         givande → gjevande
         
-        Merk at dette valet ikkje omhandlar det lange infinitivet "å gjeve".
+        Merk at dette valet ikkje handlar om det lange infinitivet "å gjeve".
     </long-description> 
   </preference>
   <preference id="givar_gjevar.stav">
     <description lang="nno">-giver → -gjevar: arbeidsgivar  → arbeidsgjevar</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld for ord som inneheld rota "-giv-" eller "-gjev-". Om du vel denne valfridomen vil denne typen ord bli til "-gjev-" i staden for "-giv-".
+        Denne valfridommen gjeld for ord som inneheld rota "-giv-" eller "-gjev-". Om du vel denne valfridommen vil denne typen ord bli til "-gjev-" i staden for "-giv-".
         
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
         
         givande → gjevande
         arbeidsgivar → arbeidsgjevar
@@ -574,9 +572,9 @@
   <preference id="eigde_åtte.vb">
     <description lang="nno">å eige: eigde → åtte</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga til verbet "å eige". Det vil seie at nokre av bøyingane til verbet "å eige" vil endre form.
+        Denne valfridommen gjeld bøyinga av verbet "å eige". Det vil seie at nokre av bøyingane av verbet "å eige" endrar form.
         
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         eigde → åtte (preteritum)
         har eigd → har ått (presens perfektum)
@@ -587,9 +585,9 @@
   <preference id="venne_venje.vb">
     <description lang="nno">å venne/venje: venne → venje</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga til verbet "å venne". Det vil seie at verbet "å venne" vil endre form til verbet "å venje" med dei tilhøyrande bøyingane til "å venje".
-        
-        Eksempel på korleis valfridomen treffer:
+        Denne valfridommen gjeld bøyinga av verbet "å venne". Det vil seie at verbet "å venne" endrar form til verbet "å venje" med dei tilhøyrande bøyingane av "å venje".
+
+        Eksempel på korleis valfridommen treffer:
 
         å venne → å venje (infinitiv)
         venner → ven (presens)
@@ -604,55 +602,55 @@
   <preference id="vart-vorte_blei-blitt.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–blei–blitt</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga til verbet "å bli". Dette valet gjer at du held på "bli"-formene og ekskluderer "vart/vorte"-formene som er valfrie bøyingsformer av verbet "å bli". 
-        
-        Eksempel på korleis bøyinga av "å bli" vert med dette valet:
+        Denne valfridommen gjeld bøyinga av verbet "å bli". Dette valet gjer at du held på "bli"-formene og ekskluderer "vart/vorte"-formene som er valfrie bøyingsformer av verbet "å bli".
+
+        Eksempel på korleis bøyinga av "å bli" blir med dette valet:
 
         å bli → å bli (infinitiv, inga endring)
         blir → blir (presens, inga endring)
         vart → blei (preteritum)
         har vorte → har blitt (presens perfektum)
 
-        Merk at dette valet er eit av fleire val som omhandlar verbet "å bli".
+        Merk at dette valet er eit av fleire val som gjeld verbet "å bli".
     </long-description> 
   </preference>
   <preference id="vart-vorte_vart-blitt.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → bli–blir–vart–blitt</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld bøyinga i presens perfektum til verbet "å bli". I staden for forma "har vorte", erstattar dette valet orda til "har blitt".
-        
-        Eksempel på korleis bøyinga av "å bli" vert med dette valet:
+        Denne valfridommen gjeld bøyinga i presens perfektum av verbet "å bli". I staden for forma "har vorte" endrar dette valet til "har blitt".
+
+        Eksempel på korleis bøyinga av "å bli" blir med dette valet:
 
         å bli → å bli (infinitiv, inga endring)
         blir → blir (presens, inga endring)
         vart → vart (preteritum, inga endring)
         har vorte → har blitt (presens perfektum)
 
-        Merk at dette valet er eit av fleire val som omhandlar verbet "å bli".
+        Merk at dette valet er eit av fleire val som gjeld verbet "å bli".
     </long-description> 
   </preference>
   <preference id="bli_verte.vb-bli2verte">
     <description lang="nno">å bli/verte: bli–blir–vart–vorte → verte–vert–vart–vorte</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld verba "å bli" og "å verte". I staden for verbet "å bli", vel dette valet verbet "å verte".
-        
-        Eksempel på korleis valfridomen treffer:
+        Denne valfridommen gjeld verba "å bli" og "å verte". I staden for verbet "å bli" blir det "å verte".
+
+        Eksempel på korleis valfridommen treffer:
 
         å bli → å verte (infinitiv)
         blir → vert (presens)
         vart → vart (preteritum)
         har vorte → har vorte (presens perfektum)
 
-        Merk at dette valet er eit av fleire val som omhandlar verbet "å bli".
+        Merk at dette valet er eit av fleire val som gjeld verbet "å bli".
     </long-description> 
   </preference>
   <preference id="vit_vett">
     <description lang="nno">vit → vett, medvit → medvett, medviten → medveten, fjellvit → fjellvett, vitig → vettig</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld ordet "vit". Med dette valet vert "vit" erstatta med "vett".
-        Dette valet råkar også avleiingar og samansetningar som inneheld ordet "vit".
-        
-        Eksempel på korleis valfridomen treffer:
+        Denne valfridommen gjeld ordet "vit". Med dette valet blir "vit" erstatta med "vett".
+        Valet råkar også avleiingar og samansetningar som inneheld ordet "vit".
+
+        Eksempel på korleis valfridommen treffer:
 
         vit → vett
         medvit → medvett
@@ -664,10 +662,10 @@
   <preference id="brot_brott.kons-t2tt">
     <description lang="nno">avbrot → avbrott, brotsverk → brottsverk, innskot → innskott, skothald → skotthald</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld ei gruppe ord som "brot" og "skot". Med dette valet vert enkeltkonsonanten t erstatta med dobbeltkonsonanten tt.
-        Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
-        
-        Eksempel på korleis valfridomen treffer:
+        Denne valfridommen gjeld ei gruppe ord som "brot" og "skot". Med dette valet blir enkeltkonsonanten t erstatta med dobbeltkonsonanten tt.
+        Valet råkar også avleiingar og samansetningar som inneheld desse orda.
+
+        Eksempel på korleis valfridommen treffer:
 
         brot → brott
         avbrot → avbrott
@@ -680,10 +678,10 @@
   <preference id="mengd_mengde.vok-2e">
     <description lang="nno">mengd → mengde, breidd → breidde</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld ei gruppe ord, som eksempelvis "mengd" og "breidd". Med dette valet vert vokalen e lagd til på slutten av ordet.
-        Dette valet råkar også avleiingar og samansetningar som inneheld denne gruppa med orda.
-        
-        Eksempel på korleis valfridomen treffer:
+        Denne valfridommen gjeld ei gruppe ord, som eksempelvis "mengd" og "breidd". Med dette valet blir vokalen e lagd til på slutten av ordet.
+        Valet råkar også avleiingar og samansetningar som inneheld denne gruppa med ord.
+
+        Eksempel på korleis valfridommen treffer:
 
         breidd → breidde
         hårsbreidd → hårsbreidde
@@ -703,9 +701,9 @@
   <preference id="blå_blåe.adj">
     <description lang="nno">blå/grå/… → blåe/gråe/… (i fleirtal)</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld adjektiv med stammeutgang på vokal. Om adjektivet har ein valfri -e i bunden eller fleirtalsforma, får adjektivet ein -e med dette valet.
+        Denne valfridommen gjeld adjektiv med stammeutgang på vokal. Om adjektivet har ein valfri -e i bunden form eller i fleirtalsforma, får adjektivet ein -e med dette valet.
 
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
         blå → blåe
         grå → gråe
         rå → råe
@@ -720,10 +718,10 @@
   <preference id="lét_let">
     <description lang="nno">lét/lèt → let/let</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld verbet "å late". Valet endrar presens- og preteritumsbøyinga til verbet.
-        Med dette valet vert aksentteikna til formene fjerna.
+        Denne valfridommen gjeld verbet "å late". Valet endrar presens- og preteritumsbøyinga av verbet.
+        Med dette valet blir aksentteikna til formene fjerna.
 
-        Eksempel på korleis valfridomen treffer:
+        Eksempel på korleis valfridommen treffer:
 
         lèt → let (presens)
         lét → let (preteritum)
@@ -732,9 +730,9 @@
   <preference id="blæs_blåser.vb">
     <description lang="nno">blæs → blåser</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av verbet "blåse". Om du vel denne valfridomen, vil bøyingsparadigmet til "blåse" endrast.
+    Denne valfridommen gjeld stavinga av verbet "blåse". Med dette valet endrar du bøyingsparadigmet til "blåse".
 
-    Ei liste over korleis valet endrar "blåse":
+    Her er ei liste over korleis valet endrar "blåse":
 
     blåser → blæs (presens)
     blåste → bles (preteritum)
@@ -747,7 +745,7 @@
   <preference id="nærare_nærmare.stav">
     <description lang="nno">nærare → nærmare</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av adjektivet "nærare". Om du vel denne valfridomen, vil "nærare" erstattast med "nærmare" med bokstaven m.
+    Denne valfridommen gjeld stavinga av adjektivet "nærare". Tek du dette valet, blir "nærare" erstatta med "nærmare" med bokstaven m.
 
     Eksempel:
 
@@ -758,7 +756,7 @@
   <preference id="eigentleg_eigenleg.stav">
     <description lang="nno">eigentleg → eigenleg</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "eigentleg". Om du vel denne valfridomen, vil "eigentleg" erstattast med "eigenleg" utan bokstaven t.
+    Denne valfridommen gjeld stavinga av ordet "eigentleg". Om du tek dette valet, blir "eigentleg" erstatta med "eigenleg" utan bokstaven t.
 
     Eksempel:
 
@@ -768,8 +766,8 @@
   <preference id="styresmakt_styremakt.stav">
     <description lang="nno">styresmakt → styremakt</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av substantivet "styresmakt". Om du vel denne valfridomen, vil "styresmakt" erstattast med "styremakt" utan fuge-s.
-    Dette valet råkar også samansetningar som inneheld ordet "styresmakt".
+    Denne valfridommen gjeld stavinga av substantivet "styresmakt". Med dette valet blir "styresmakt" erstatta med "styremakt" utan fuge-s.
+    Valet råkar også samansetningar som inneheld ordet "styresmakt".
 
     Eksempel:
 
@@ -779,8 +777,8 @@
   <preference id="true_truge.stav">
     <description lang="nno">true → truge, trussel → trugsel</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av orda "true" og "trussel". Om du vel denne valfridomen, vil "true" og "trussel" erstattast med "truge" og "trugsel".
-    Dette valet råkar også samansetningar som inneheld orda "true" og "trussel".
+    Denne valfridommen gjeld stavinga av orda "true" og "trussel". Med dette valet blir "true" og "trussel" erstatta med "truge" og "trugsel".
+    Valet råkar også samansetningar som inneheld orda "true" og "trussel".
 
     Eksempel:
 
@@ -791,8 +789,8 @@
   <preference id="symje_svømme.stav">
     <description lang="nno">symje → svømme</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "symje". Om du vel denne valfridomen, vil "symje" erstattast med "svømme".
-    Dette valet råkar også samansetningar som inneheld ordet "symje" samt relaterte ord som "symjar".
+    Denne valfridommen gjeld stavinga av ordet "symje". Med dette valet blir "symje" erstatta med "svømme".
+    Valet råkar også samansetningar som inneheld ordet "symje", og dessutan relaterte ord som "symjar".
 
     Eksempel:
 
@@ -805,8 +803,8 @@
   <preference id="døgn_døger.stav">
     <description lang="nno">døgn → døger</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "døgn". Om du vel denne valfridomen, vil "døgn" erstattast med "døger".
-    Dette valet råkar også samansetningar som inneheld ordet "døgn".
+    Denne valfridommen gjeld stavinga av ordet "døgn". Med dette valet blir "døgn" erstatta med "døger".
+    Valet råkar også samansetningar som inneheld ordet "døgn".
 
     Eksempel:
 
@@ -817,7 +815,7 @@
     <preference id="augne_auge.stav">
     <description lang="nno">augne- → auge-</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga samansetningar som startar med "augne-". Om du vel denne valfridomen, vil samansetningar som inneheld "augne-" erstattast med "auge-".
+    Denne valfridommen gjeld samansetningar som startar med "augne-". Med dette valet blir samansetningar som inneheld "augne-", erstatta med "auge-".
 
     Eksempel:
 
@@ -829,8 +827,8 @@
   <preference id="auga_augo.vok-a2o">
   <description lang="nno">auge-auget-auge-auga → auga-auga-augo-augo, tilsvarande for øyre, hjarte</description>
     <long-description lang="nno">
-      Denne valfridomen gjeld bøyinga av orda "auge", "øyre" og "hjarte". 
-      Om du vel denne valfridomen, vil den siste vokalen den bundne formen erstattast med ein a og den siste vokalen i fleirtalsbøyingane erstattast med ein o. 
+      Denne valfridommen gjeld bøyinga av orda "auge", "øyre" og "hjarte".
+      Med dette valet blir den siste vokalen i den bundne forma erstatta med ein a og den siste vokalen i fleirtalsbøyingane med ein o.
 
       Eksempel:
 
@@ -842,8 +840,8 @@
   <preference id="kors_kross">
     <description lang="nno">kors → kross, korstog → krossferd</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "kors". Om du vel denne valfridomen, vil "kors" erstattast med "kross".
-    Dette valet råkar også samansetningar som inneheld ordet "kors".
+    Denne valfridommen gjeld stavinga av ordet "kors". Dette valet erstattar "kors" med "kross".
+    Valet råkar også samansetningar som inneheld ordet "kors".
 
     Eksempel:
 
@@ -854,8 +852,8 @@
   <preference id="skule_skole.vok-u2o">
     <description lang="nno">skule → skole</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "skule". Om du vel denne valfridomen, vil "skule" erstattast med "skole".
-    Dette valet råkar også samansetningar som inneheld ordet "skule".
+    Denne valfridommen gjeld stavinga av ordet "skule". Dette valet endrar "skule" til "skole".
+    Valet råkar også samansetningar med ordet "skule".
 
     Eksempel:
 
@@ -867,8 +865,8 @@
     <preference id="skolere_skulere.vok-u2o">
     <description lang="nno">skolere → skulere</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "skolere". Om du vel denne valfridomen, vil "skolere" erstattast med "skulere".
-    Dette valet råkar også samansetningar som inneheld ordet "skolere".
+    Denne valfridommen gjeld stavinga av ordet "skolere". Med dette valet blir "skolere" erstatta med "skulere".
+    Valet råkar også samansetningar som inneheld ordet "skolere".
 
     Eksempel:
 
@@ -881,8 +879,8 @@
   <preference id="jul_jol.vok-u2o">
     <description lang="nno">jul → jol</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "jul". Om du vel denne valfridomen, vil "jul" erstattast med "jol".
-    Dette valet råkar også samansetningar som inneheld ordet "jul".
+    Denne valfridommen gjeld stavinga av ordet "jul". Med dette valet blir "jul" erstatta med "jol".
+    Valet råkar også samansetningar som inneheld ordet "jul".
 
     Eksempel:
 
@@ -894,10 +892,10 @@
   <preference id="sommar_sumar.vok-o2u">
     <description lang="nno">sommar → sumar</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "sommar". Om du vel denne valfridomen, vil "sommar" erstattast med "sumar". Merk også at dette ikkje berre er ei vokalendring, men at den eine konsonanten også forsvinn.
-    Dette valet råkar også samansetningar som inneheld ordet "sommar".
+    Denne valfridommen gjeld stavinga av ordet "sommar". Med dette valet blir "sommar" erstatta med "sumar". Merk også at dette ikkje berre er ei vokalendring, men at den eine konsonanten også forsvinn.
+    Valet råkar også samansetningar som inneheld ordet "sommar".
 
-    Eksempel: 
+    Eksempel:
 
     sommar  → sumar
     sommartid → sumartid
@@ -908,10 +906,10 @@
   <preference id="stove_stue.vok-u2o">
     <description lang="nno">stove → stue</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "stove". Om du vel denne valfridomen, vil "stove" erstattast med "stue".
-    Dette valet råkar også samansetningar som inneheld ordet "stove".
+    Denne valfridommen gjeld stavinga av ordet "stove". Med dette valet blir "stove" erstatta med "stue".
+    Valet råkar også samansetningar som inneheld ordet "stove".
 
-    Eksempel: 
+    Eksempel:
     
     stove → stue
     finstove → finstue
@@ -921,10 +919,10 @@
   <preference id="høvding_hovding.vok-ø2o">
     <description lang="nno">høvding → hovding ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "o".
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir "ø"-en i ordet erstatta med "o".
+    Valet råkar også samansetningar som inneheld desse orda.
 
-    Eksempel: 
+    Eksempel:
     
     høvding → hovding
     høvedsmann → hovudsmann
@@ -940,10 +938,10 @@
   <preference id="då_da.vok-a2å">
     <description lang="nno">då → da, endå → enda</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "då". Om du vel denne valfridomen, vil "då" erstattast med "da".
-    Dette valet råkar også avleiingar av "då".
+    Denne valfridommen gjeld ei vokalendring i ordet "då". Med dette valet blir "då" erstatta med "da".
+    Valet råkar også avleiingar av "då".
 
-    Eksempel: 
+    Eksempel:
     
     då → da
     endå → enda
@@ -952,10 +950,10 @@
   <preference id="åleine_aleine.vok-a2å">
     <description lang="nno">åleine → aleine</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "åleine". Om du vel denne valfridomen, vil "åleine" erstattast med "aleine".
-    Dette valet råkar også samansetningar og avleiingar av "åleine".
+    Denne valfridommen gjeld ei vokalendring i ordet "åleine". Med dette valet blir "åleine" erstatta med "aleine".
+    Valet råkar også samansetningar og avleiingar av "åleine".
 
-    Eksempel: 
+    Eksempel:
     
     åleine → aleine
     åleineforsørgar → aleineforsørgar
@@ -964,10 +962,10 @@
   <preference id="allmenn_ålmenn.vok-a2å">
     <description lang="nno">allmenn → ålmenn, klar → klår, skap → skåp, trav → tråv ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "a"-en i ordet erstattast med "å".
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir "a"-en i ordet erstatta med "å".
+    Valet råkar også samansetningar som inneheld desse orda.
 
-    Eksempel: 
+    Eksempel:
     
     allmenn → ålmenn
     allmenndanning → ålmenndanning
@@ -993,10 +991,10 @@
   <preference id="no_nå.vok-o2å">
     <description lang="nno">no → nå, enno → ennå, notidig → nåtidig</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "no". Om du vel denne valfridomen, vil "no" erstattast med "nå".
-    Dette valet råkar også avleiingar av "no".
+    Denne valfridommen gjeld ei vokalendring i ordet "no". Med dette valet blir "no" erstatta med "nå".
+    Valet råkar også avleiingar av "no".
 
-    Eksempel: 
+    Eksempel:
     
     no → nå
     enno → ennå
@@ -1006,10 +1004,10 @@
   <preference id="så_so.vok-o2å">
     <description lang="nno">så → so</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "så". Om du vel denne valfridomen, vil "så" erstattast med "so".
-    Dette valet råkar også avleiingar av "så".
+    Denne valfridommen gjeld ei vokalendring i ordet "så". Med dette valet blir "så" erstatta med "so".
+    Valet råkar også avleiingar av "så".
 
-    Eksempel: 
+    Eksempel:
     
     så → so
     også → ogso
@@ -1026,10 +1024,10 @@
   <preference id="først_fyrst.vok-ø2y">
     <description lang="nno">først → fyrst, ønske → ynske, søster → syster ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "y".
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir "ø"-en i ordet erstatta med "y".
+    Valet råkar også samansetningar som inneheld desse orda.
 
-    Eksempel: 
+    Eksempel:
     
     bøtte → bytte
     søppebøtte → søppelbytte
@@ -1065,16 +1063,16 @@
     ønske → ynske (substantiv)
     ønskje → ynskje → ynske → ønske (verb) 
 
-    Merk at dette valet ikkje gjeld for orda: løkke, møllar, mølle, støtte og hjørne.
+    Merk at dette valet ikkje gjeld for desse orda: løkke, møllar, mølle, støtte og hjørne.
     </long-description>  
   </preference>
   <preference id="søndag_sundag.vok-ø2u">
     <description lang="nno">søndag → sundag, tørke → turke, tørr → turr ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "u".
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir "ø"-en i ordet erstatta med "u".
+    Valet råkar også samansetningar som inneheld desse orda.
 
-    Eksempel: 
+    Eksempel:
     
     søndag → sundag
     tørke → turke (substantiv)
@@ -1090,10 +1088,10 @@
   <preference id="lykke_lukke.vok-y2u">
     <description lang="nno">lykke → lukke, skyve → skuve, krybbe → krubbe ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "y"-en i ordet erstattast med "u".
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir "y"-en i ordet erstatta med "u".
+    Valet råkar også samansetningar som inneheld desse orda.
 
-    Eksempel: 
+    Eksempel:
     
     dykkar → dukkar (substantiv)
     perledykkar → perledukkar
@@ -1118,10 +1116,10 @@
   <preference id="fjøre_fjære.vok-ø2æ">
     <description lang="nno">fjøre → fjære (havvasstand), tjøre → tjære ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil "ø"-en i ordet erstattast med "æ".
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir "ø"-en i ordet erstatta med "æ".
+    Valet råkar også samansetningar som inneheld desse orda.
 
-    Eksempel: 
+    Eksempel:
     
     fjøre → fjære (substantiv)
     fjørestein → fjærestein
@@ -1136,12 +1134,12 @@
   <preference id="venn_ven.kons-mm2m">
     <description lang="nno">venn → ven, medlemmer → medlemer, kjøtt → kjøt (mm-nn-tt-kk → m-n-t-k); inkluderer komme → kome, -dommen → -domen, -dømme → -døme ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane mm-nn-tt-kk erstattast med enkeltkonsonantane m-n-t-k.
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei konsonantendring i ei gruppe ord. Med dette valet blir dobbeltkonsonantane mm-nn-tt-kk erstatta med enkeltkonsonantane m-n-t-k.
+    Valet råkar også samansetningar som inneheld desse orda.
     Merk at dette valet inkluderer orda frå dei smalare vala: "komme → kome"-valet, "-dommen → -domen"-valet og "kjøtt → kjøt"-valet.
 
-    Eksempel: 
-    
+    Eksempel:
+
     dømme → døme
     sømme → søme
     skjønne → skjøne
@@ -1168,8 +1166,8 @@
   <preference id="komme_kome.kons-mm2m">
     <description lang="nno">komme → kome, velkommen → velkomen, framkommeleg → framkomeleg ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i ordet erstattast med ein enkel m.
-    Dette valet råkar også samansetningar som inneheld desse orda.
+    Denne valfridommen gjeld ei konsonantendring i ei gruppe ord. Med dette valet blir dobbeltkonsonanten mm i ordet erstatta med ein enkel m.
+    Valet råkar også samansetningar som inneheld desse orda.
 
     Eksempel: 
     
@@ -1183,9 +1181,9 @@
   <preference id="dommen_domen.kons-mm2m">
     <description lang="nno">-dommen → -domen, -dømme → -døme, kristendommen → kristendomen, bispedømme → bispedøme ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ei gruppe etterledd. Om du vel denne valfridomen, vil dobbeltkonsonanten mm i etterleddet erstattast med ein enkel m.
+    Denne valfridommen gjeld ei konsonantendring i ei gruppe etterledd. Med dette valet blir dobbeltkonsonanten mm i etterleddet erstatta med ein enkel m.
 
-    Eksempel: 
+    Eksempel:
     
     -dommen → -domen (kristendommen → kristendommen ofl.)
     -dømme → -døme (kongedømme → kongedøme ofl.)
@@ -1195,10 +1193,11 @@
   <preference id="kjøtt_kjøt.kons-mm2m">
     <description lang="nno">kjøtt → kjøt, kjøkken → kjøken, ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ei gruppe ord. Om du vel denne valfridomen, vil dobbeltkonsonantane tt og kk i ordet erstattast med dei enkle konsonantane t eller k.
-    Dette valet råkar også samansetningar som inneheld orda med dei aktuelle konsonantane.
+    Denne valfridommen gjeld ei konsonantendring i ei gruppe ord. Med dette valet blir dobbeltkonsonantane tt og kk i ordet erstatta med dei enkle konsonantane t eller k.
+    Valet råkar også samansetningar som inneheld orda med dei aktuelle konsonantane.
 
-    Eksempel: 
+    Eksempel:
+
     kjøtt → kjøt
     kjøkken → kjøken
     skott → skut
@@ -1208,7 +1207,7 @@
   <preference id="dess-der_di.afx">
     <description lang="nno">der/dess → di, dermed → dimed, dessverre → diverre ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei endringa i stavinga i ei gruppe ord. Om du vel denne valfridomen, vil stavingane "der" eller "dess" i ordet erstattast med stavinga "di".
+    Denne valfridommen gjeld ei endring i stavinga i ei gruppe ord. Med dette valet blir stavingane "der" eller "dess" i ordet erstatta med stavinga "di".
 
     Eksempel: 
     
@@ -1222,7 +1221,7 @@
   <preference id="fly_flyge.vb-inf">
     <description lang="nno">fly → flyge (infinitiv)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil "fly" erstattast med den lengre varianten "flyge".
+    Denne valfridommen gjeld verbet "å fly". Med dette valet blir "fly" erstatta med den lengre varianten "flyge".
     Merk at valet berre råkar ordet når det er bøygd i infinitiv.
 
     Eksempel: 
@@ -1233,7 +1232,7 @@
   <preference id="flyg_flyr.vb-inf">
     <description lang="nno">flyr → flyg (presens)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld verbet "å fly". Om du vel denne valfridomen, vil presensbøyinga "flyr" erstattast med varianten "flyg".
+    Denne valfridommen gjeld verbet "å fly". Med dette valet blir presensbøyinga "flyr" erstatta med varianten "flyg".
     Merk at valet berre råkar ordet når det er bøygd i presens.
 
     Eksempel: 
@@ -1244,7 +1243,7 @@
   <preference id="gle_glede.vb-inf">
     <description lang="nno">gle → glede, gler → gleder (infinitiv og presens)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld verbet "å gle". Om du vel denne valfridomen, vil ordet "gle" erstattast med den lengre varianten "glede".
+    Denne valfridommen gjeld verbet "å gle". Med dette valet blir ordet "gle" erstatta med den lengre varianten "glede".
     Merk at valet berre råkar ordet når det er bøygd i infinitiv og presens.
     
     Eksempel:
@@ -1256,11 +1255,11 @@
   <preference id="lide_li.vb-inf">
     <description lang="nno">lide → li, lid → lir,  leid → lei (infinitiv, presens og preteritum)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld verbet "å lide". Om du vel denne valfridomen, vil ordet "lide" erstattast med den kortare varianten "li".
+    Denne valfridommen gjeld verbet "å lide". Med dette valet blir ordet "lide" erstatta med den kortare varianten "li".
     Merk at valet berre råkar ordet når det er bøygd i infinitiv, presens og preteritum.
-    
+
     Eksempel:
-    
+
     lide → li (infinitiv)
     lid → lir (presense)
     leid → lei (preteritum)
@@ -1269,9 +1268,9 @@
   <preference id="jern_jarn.vok-a2e">
     <description lang="nno">jern → jarn</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "jern". Om du vel denne valfridomen, vil ordet "jern" erstattast med "jarn".
-    Dette valet råkar også samansetningar som inneheld ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "jern". Med dette valet blir ordet "jern" erstatta med "jarn".
+    Valet råkar også samansetningar som inneheld ordet.
+
     Eksempel:
     
     jern → jarn
@@ -1282,11 +1281,11 @@
   <preference id="kvalp_kvelp.vok-a2e">
     <description lang="nno">kvalp → kvelp</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "kvalp". Om du vel denne valfridomen, vil ordet "kvalp" erstattast med "kvelp".
-    Dette valet råkar også avleiingar og samansetningar av dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "kvalp". Med dette valet blir ordet "kvalp" erstatta med "kvelp".
+    Valet råkar også avleiingar og samansetningar av dette ordet.
+
     Eksempel:
-    
+
     kvalp → kvelp
     kvalpe → kvelpe
     kvalping → kvelping
@@ -1295,22 +1294,22 @@
   <preference id="anten_enten.vok-a2e">
     <description lang="nno">anten → enten</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "anten". Om du vel denne valfridomen, vil ordet "anten" erstattast med "enten".
-    Dette valet råkar også samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "anten". Med dette valet blir ordet "anten" erstatta med "enten".
+    Valet råkar også samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     anten → enten
     </long-description>
   </preference>
   <preference id="aftan_eftan.vok-a2e">
     <description lang="nno">aftan → eftan</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "aftan". Om du vel denne valfridomen, vil ordet "aftan" erstattast med "eftan".
-    Dette valet råkar også samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "aftan". Med dette valet blir ordet "aftan" erstatta med "eftan".
+    Valet råkar også samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     aftan → eftan
     julaftan → juleftan
     aftanstund → eftanstund
@@ -1319,11 +1318,11 @@
   <preference id="alter_altar.vok-a2e">
     <description lang="nno">alter → altar</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "alter". Om du vel denne valfridomen, vil ordet "alter" erstattast med "altar".
-    Dette valet råkar også samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "alter". Med dette valet blir ordet "alter" erstatta med "altar".
+    Valet råkar også samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     alter → altar
     altervin → altarvin
     </long-description>
@@ -1331,11 +1330,11 @@
   <preference id="spenn_span.vok-a2e">
     <description lang="nno">spenn- → span-, spennande → spanande</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei endring i stavinga av "spennande". Om du vel denne valfridomen, vil ordet "spennande" erstattast med "spanande".
-    Dette valet råkar også samansetningar og avleiingar.
-    
+    Denne valfridommen gjeld ei endring i stavinga av "spennande". Med dette valet blir ordet "spennande" erstatta med "spanande".
+    Valet råkar også samansetningar og avleiingar.
+
     Eksempel:
-    
+
     spennande → spanande
     avspenning → avspaning
     </long-description>
@@ -1343,11 +1342,11 @@
   <preference id="drikk_drykk.vok-i2y">
     <description lang="nno">drikk → drykk</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "drikk". Om du vel denne valfridomen, vil ordet "drikk" erstattast med "drykk".
-    Dette valet råkar også samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "drikk". Med dette valet blir ordet "drikk" erstatta med "drykk".
+    Valet råkar også samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     drikk → drykk
     energidrikk → energidrykk
     </long-description>
@@ -1355,11 +1354,11 @@
   <preference id="segle_sigle.vok-e2i">
     <description lang="nno">segle → sigle, ekorn → ikorn</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ei gruppe ord. Om du vel denne valfridomen, vil vokalen e i ordet erstattast med vokalen i.
-    Dette valet råkar også samansetningar av desse orda.
-    
+    Denne valfridommen gjeld ei vokalendring i ei gruppe ord. Med dette valet blir vokalen e i ordet erstatta med vokalen i.
+    Valet råkar også samansetningar av desse orda.
+
     Eksempel:
-    
+
     ekorn → ikorn
     segle → sigle
     segling → sigling
@@ -1371,11 +1370,11 @@
   <preference id="krins_krets.syn">
     <description lang="nno">krins → krets</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei endring i ordet "krins". Om du vel denne valfridomen, vil ordet "krins" erstattast med "krets".
-    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei endring i ordet "krins". Med dette valet blir ordet "krins" erstatta med "krets".
+    Valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     krins → krets
     krinse → kretse
     Dyrekrinsen → Dyrekretsen
@@ -1387,11 +1386,11 @@
   <preference id="bilete_bilde.syn">
     <description lang="nno">bilete → bilde</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei endring i ordet "bilete". Om du vel denne valfridomen, vil ordet "bilete" erstattast med "bilde".
-    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei endring i ordet "bilete". Med dette valet blir ordet "bilete" erstatta med "bilde".
+    Valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     bilete → bilde
     førebilete → forbilde
     avbilete → avbilde
@@ -1404,11 +1403,11 @@
   <preference id="lys_ljos.vok-y2jo">
     <description lang="nno">lys → ljos, lyd → ljod</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei lydendring i ei gruppe ord. Om du vel denne valfridomen, vil y-en i ordet erstattast med stavinga jo.
-    Dette valet råkar også samansetningar av desse orda.
-    
+    Denne valfridommen gjeld ei lydendring i ei gruppe ord. Med dette valet blir y-en i ordet erstatta med stavinga jo.
+    Valet råkar også samansetningar av desse orda.
+
     Eksempel:
-    
+
     lyd → ljod
     lydmur → ljodmur
     lydleg → ljodleg
@@ -1425,10 +1424,10 @@
   <preference id="voks_vaks.vok-o2a">
     <description lang="nno">å vekse: voks → vaks</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i preteritumsbøyinga av verbet "å vekse". Om du vel denne valfridomen, vil o-en i "voks" erstattast med ein a.
-    
+    Denne valfridommen gjeld ei vokalendring i preteritumsbøyinga av verbet "å vekse". Med dette valet blir o-en i "voks" erstatta med ein a.
+
     Eksempel:
-    
+
     voks → vaks
     det voks fram ei ny tid → det vaks fram ei ny tid
     </long-description>
@@ -1436,10 +1435,10 @@
   <preference id="barna_borna.vok-o2a">
     <description lang="nno">barn (fleirtal): barn – barna → born – borna</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i fleirtalsbøyinga av substantivet "barn". Om du vel denne valfridomen, vil a-en i "barn" og "barna" erstattast med ein o.
-    
+    Denne valfridommen gjeld ei vokalendring i fleirtalsbøyinga av substantivet "barn". Med dette valet blir a-en i "barn" og "barna" erstatta med ein o.
+
     Eksempel:
-    
+
     barn → born 
     barna → borna
     det var fleire barn → det var fleire born
@@ -1449,8 +1448,8 @@
   <preference id="maske_moske.vok-o2a">
     <description lang="nno">maske → moske (garnmaske → garnmoske)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "maske". Om du vel denne valfridomen, vil a-en i "maske" erstattast med ein o.
-    Dette valet råkar også samansetningar med dette ordet.
+    Denne valfridommen gjeld ei vokalendring i ordet "maske". Med dette valet blir a-en i "maske" erstatta med ein o.
+    Valet råkar også samansetningar med dette ordet.
 
     Eksempel:
     
@@ -1464,25 +1463,25 @@
   <preference id="oske_aske.vok-o2a">
     <description lang="nno">oske → aske, oskeladd → askeladd (ikkje normert sideform)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "oske". Om du vel denne valfridomen, vil o-en i "oske" erstattast med ein a.
-    Dette valet råkar også samansetningar med dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "oske". Med dette valet blir o-en i "oske" erstatta med ein a.
+    Valet råkar også samansetningar med dette ordet.
+
     Eksempel:
-    
+
     oske → aske
     Oskeladden → Askeladden
     
-    Merk at "aske" ikkje er normert, men a-forma er ein del brukt og etterspurd. Vi merkar oss også at "askepott" er normert som eineform i nynorsk. 
+    Merk at "aske" ikkje er normert, men a-forma er ein del brukt og etterspurd. Vi merkar oss også at "askepott" er normert som eineform i nynorsk.
     </long-description>  
   </preference>
   <preference id="trost_trast.vok-o2a">
     <description lang="nno">trost → trast</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei vokalendring i ordet "trost". Om du vel denne valfridomen, vil o-en i "trost" erstattast med ein a.
-    Dette valet råkar også samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei vokalendring i ordet "trost". Med dette valet blir o-en i "trost" erstatta med ein a.
+    Valet råkar også samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     trost → trast
     måltrost → måltrast
     trostunge → trastunge
@@ -1491,11 +1490,11 @@
   <preference id="nød_naud.dift-ø2au">
     <description lang="nno">nød → naud, løk → lauk, løp → laup, død → daud ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil ø-en i ordet erstattast med diftongen au. 
-    Dette valet råkar også samansetningar som inneheld desse orda.
-    
+    Denne valfridommen gjeld ei diftongendring i ei gruppe ord. Med dette valet blir ø-en i ordet erstatta med diftongen au.
+    Valet råkar også samansetningar som inneheld desse orda.
+
     Eksempel:
-    
+
     nød → naud
     nødhjelp → naudhjelp
     hungersnød → hungersnaud
@@ -1514,15 +1513,15 @@
     dødball → daudball
     død og gravlagd  →  daud og gravlagd
     
-    Merk at grunnadjektivet "død" førebels ikkje er inkludert, då det elles skaper mange problem. 
+    Merk at grunnadjektivet "død" førebels ikkje er inkludert, fordi det elles skaper mange problem.
     </long-description>   
   </preference>
   <preference id="dødeleg_døyeleg.dift-ø2øy">
     <description lang="nno">dødeleg → døyeleg, dødelegheit → døying, mør → møyr, skjør → skøyr ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil ø-en i ordet erstattast med diftongen øy. 
-    Dette valet råkar også samansetningar som inneheld desse orda.
-    
+    Denne valfridommen gjeld ei diftongendring i ei gruppe ord. Med dette valet blir ø-en i ordet erstatta med diftongen øy.
+    Valet råkar også samansetningar som inneheld desse orda.
+
     Eksempel:
 
     dødeleg → døyeleg
@@ -1543,11 +1542,11 @@
   <preference id="pek_peik.dift-e2ei">
     <description lang="nno">pek → peik (substantiv), lest → leist (sokk, strømpe)</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei diftongendring i ei gruppe ord. Om du vel denne valfridomen, vil e-en i ordet erstattast med diftongen ei. 
-    Dette valet råkar også samansetningar som inneheld desse orda.
-    
+    Denne valfridommen gjeld ei diftongendring i ei gruppe ord. Med dette valet blir e-en i ordet erstatta med diftongen ei.
+    Valet råkar også samansetningar som inneheld desse orda.
+
     Eksempel:
-    
+
     pek → peik
     fingerpek → fingerpeik
     lest → leist
@@ -1558,11 +1557,11 @@
   <preference id="setje_sette.kons-tj2tt">
     <description lang="nno">setje → sette, sitje → sitte</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ei lita gruppe ord. Om du vel denne valfridomen, vil konsonantane tj erstattast med dobbeltkonsonanten tt. 
-    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
-    
+    Denne valfridommen gjeld ei konsonantendring i ei lita gruppe ord. Med dette valet blir konsonantane tj erstatta med dobbeltkonsonanten tt.
+    Valet råkar også avleiingar og samansetningar som inneheld desse orda.
+
     Eksempel:
-    
+
     setje → sette
     fortsetje → fortsette
     fortsetjing → fortsetting
@@ -1581,11 +1580,11 @@
   <preference id="fremje_fremme.kons-mj2mm">
     <description lang="nno">fremje → fremme, fremjing → fremming</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ordet "fremje". Om du vel denne valfridomen, vil konsonantane mj erstattast med dobbeltkonsonanten mm. 
-    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei konsonantendring i ordet "fremje". Med dette valet blir konsonantane mj erstatta med dobbeltkonsonanten mm.
+    Valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     fremje → fremme (infinitiv)
     fremjar → fremmar (presens)
     fremja → fremma (preteritum, presens perfektum og perfektum partisipp)
@@ -1597,11 +1596,11 @@
   <preference id="hemme_hemje.kons-mm2mj">
     <description lang="nno">hemme → hemje, funksjonshemma → funksjonshemja</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ordet "hemme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
-    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei konsonantendring i ordet "hemme". Med dette valet blir dobbeltkonsonanten mm erstatta med konsonantane mj.
+    Valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     hemme → hemje (infinitiv)
     hemmar → hemjar (presens)
     hemma → hemja (preteritum, presens perfektum og perfektum partisipp)
@@ -1612,11 +1611,11 @@
   <preference id="gremme_gremje.kons-mm2mj">
     <description lang="nno">gremme → gremje</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i ordet "gremme". Om du vel denne valfridomen, vil dobbeltkonsonanten mm erstattast med konsonantane mj. 
-    Dette valet råkar også avleiingar og samansetningar som inneheld dette ordet.
-    
+    Denne valfridommen gjeld ei konsonantendring i ordet "gremme". Med dette valet blir dobbeltkonsonanten mm erstatta med konsonantane mj.
+    Valet råkar også avleiingar og samansetningar som inneheld dette ordet.
+
     Eksempel:
-    
+
     gremme → gremje (infinitiv)
     gremmar → grem (presens)
     gremma → gramde (preteritum)
@@ -1627,11 +1626,11 @@
   <preference id="formål_føremål.afx-fore2føre">
     <description lang="nno">formål → føremål, foredrag → føredrag, formamn → førenamn ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei stor gruppe ord som startar med det valfrie prefikset "for-". Om du vel denne valfridomen, vil "for-" erstattast med "føre-". Eksempelvis blir "formål" til "føremål" når du vel denne valdrifomen. 
-    Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
-    
+    Denne valfridommen gjeld ei stor gruppe ord som startar med det valfrie prefikset "for-". Med dette valet blir "for-" erstatta med "føre-". Eksempelvis blir "formål" til "føremål" når du vel denne valdrifomen.
+    Valet råkar også avleiingar og samansetningar av orda i denne gruppa.
+
     Eksempel:
-    
+
     foredrag → føredrag
     forelese → førelese
     forelesar → førelesar
@@ -1669,11 +1668,11 @@
   <preference id="forvaltning_forvalting.afx-ning2ing">
     <description lang="nno">forvaltning → forvalting, avkastning → avkasting, underhaldning → underhalding ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei gruppe ord med det valfrie suffikset "-ning". Om du vel denne valfridomen, vil "-ning" erstattast med "-ing". Eksempelvis blir "betydning" til "betyding" når du vel denne valdrifomen. 
-    Dette valet råkar også avleiingar og samansetningar av orda i denne gruppa.
-    
+    Denne valfridommen gjeld ei gruppe ord med det valfrie suffikset "-ning". Med dette valet blir "-ning" erstatta med "-ing". Eksempelvis blir "betydning" til "betyding" når du tek dette valet.
+    Valet råkar også avleiingar og samansetningar av orda i denne gruppa.
+
     Eksempel:
-    
+
     avkastning → avkasting
     befruktning → befrukting
     belastning → belasting
@@ -1702,11 +1701,11 @@
   <preference id="redsel_redsle.kons-sel2sle">
     <description lang="nno">redsel → redsle, høyrsel → høyrsle ofl.</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei gruppe ord som sluttar på "-sel". Om du vel denne valfridomen, vil endinga "-sel" erstattast med "-sle". Eksempelvis blir ordet "ferdsel" til "ferdsle".
-    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
-     
-    Eksempel:
-    
+   Denne valfridommen gjeld ei gruppe ord som sluttar på "-sel". Med dette valet blir endinga "-sel" erstatta med "-sle". Eksempelvis blir ordet "ferdsel" til "ferdsle".
+   Valet råkar også avleiingar og samansetningar som inneheld desse orda.
+
+   Eksempel:
+
     blygsel → blygsle
     drygsel → drygsle
     høyrsel → høyrsle
@@ -1733,11 +1732,11 @@
   <preference id="gløymsle_gløymsel.kons-sel2sle">
     <description lang="nno">gløymsle → gløymsel, gøymsle → gøymsel</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld ei konsonantendring i slutten av orda "gløymsle" og "gøymsle". Om du vel denne valfridomen, vil endinga "-sle" erstattast med "-sel". 
-    Dette valet råkar også avleiingar og samansetningar som inneheld desse orda.
-    
+    Denne valfridommen gjeld ei konsonantendring i slutten av orda "gløymsle" og "gøymsle". Med dette valet blir endinga "-sle" erstatta med "-sel".
+    Valet råkar også avleiingar og samansetningar som inneheld desse orda.
+
     Eksempel:
-    
+
     gløymsle → gløymsel
     gøymsle → gøymsel
     </long-description>   
@@ -1745,8 +1744,8 @@
   <preference id="linje_line.stav">
     <description lang="nno">linje → line, straumlinjeforma → straumlineforma</description>
     <long-description lang="nno">
-    Denne valfridomen gjeld stavinga av ordet "linje". Om du vel denne valfridomen, vil "linje" erstattast med "line".
-    Dette valet råkar også samansetningar som inneheld ordet "linje".
+    Denne valfridommen gjeld stavinga av ordet "linje". Med dette valet blir "linje" erstatta med "line".
+    Valet råkar også samansetningar som inneheld ordet "linje".
 
     Eksempel:
 
@@ -1757,8 +1756,8 @@
   <preference id="brud_brur.stav">
     <description lang="nno">brud → brur</description>
     <long-description lang="nno">
-        Denne valfridomen gjeld stavinga av ordet "brud". Om du vel denne valfridomen, vil "brud" erstattast med "brur".
-        Dette valet råkar også samansetningar som inneheld ordet "brud".
+        Denne valfridommen gjeld stavinga av ordet "brud". Med dette valet blir "brud" erstatta med "brur".
+        Valet råkar også samansetningar som inneheld ordet "brud".
 
         Eksempel:
 
