@@ -1230,14 +1230,14 @@
     </long-description>
   </preference>
   <preference id="flyg_flyr.vb-inf">
-    <description lang="nno">flyr → flyg (presens)</description>
+    <description lang="nno">flyg → flyr (presens)</description>
     <long-description lang="nno">
-    Denne valfridommen gjeld verbet "å fly". Med dette valet blir presensbøyinga "flyr" erstatta med varianten "flyg".
+    Denne valfridommen gjeld verbet "å fly". Med dette valet blir presensbøyinga "flyg" erstatta med varianten "flyr".
     Merk at valet berre råkar ordet når det er bøygd i presens.
 
     Eksempel: 
     
-    flyr → flyg
+    flyg → flyr
     </long-description>
   </preference>
   <preference id="gle_glede.vb-inf">
