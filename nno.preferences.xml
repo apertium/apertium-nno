@@ -1205,7 +1205,7 @@
     </long-description>  
   </preference>
   <preference id="dess-der_di.afx">
-    <description lang="nno">derfor → difor, dessverre → diverre,  der/dess → di</description>
+    <description lang="nno">derfor → difor, dessverre → diverre, dess → di</description>
     <long-description lang="nno">
     Denne valfridommen gjeld ei endring i forstavingane dess-, der- og di- i orda derfor/difor, dessverre/diverre og dess/di. Valet erstattar forstavingane "der" eller "dess" med "di". Sjå også valet "der_di.afx", som gjeld ordformene dermed/dimed og dernest/dinest.
 
