@@ -276,6 +276,9 @@ REMOVE (v:eigentleg_eigenleg.stav) ;
 SELECT (v:dess-der_di.afx) IF (0 (VAR:dess-der_di.afx)) ;
 REMOVE (v:dess-der_di.afx) ;
 
+SELECT (v:der_di.afx) IF (0 (VAR:der_di.afx)) ;
+REMOVE (v:der_di.afx) ;
+
 SELECT (v:fly_flyge.vb-inf) IF (0 (VAR:fly_flyge.vb-inf)) ;
 REMOVE (v:fly_flyge.vb-inf) ;
 

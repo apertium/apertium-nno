@@ -1205,17 +1205,26 @@
     </long-description>  
   </preference>
   <preference id="dess-der_di.afx">
-    <description lang="nno">der/dess → di, dermed → dimed, dessverre → diverre ofl.</description>
+    <description lang="nno">derfor → difor, dessverre → diverre,  der/dess → di</description>
     <long-description lang="nno">
-    Denne valfridommen gjeld ei endring i stavinga i ei gruppe ord. Med dette valet blir stavingane "der" eller "dess" i ordet erstatta med stavinga "di".
+    Denne valfridommen gjeld ei endring i forstavingane dess-, der- og di- i orda derfor/difor, dessverre/diverre og dess/di. Valet erstattar forstavingane "der" eller "dess" med "di". Sjå også valet "der_di.afx", som gjeld ordformene dermed/dimed og dernest/dinest.
 
     Eksempel: 
     
     derfor → difor
-    dermed → dimed
-    dernest → dinest
     dess → di
     dessverre → diverre
+    </long-description> 
+  </preference>
+  <preference id="der_di.afx">
+    <description lang="nno">dermed → dimed, dernest → dinest</description>
+    <long-description lang="nno">
+    Denne valfridommen gjeld forstavingane der- og di- i orda dermed/dimed og dernest/dinest. Med dette valet blir forstavinga "der" i ordet erstatta med "di". Vi tilrår at du bruker dette valet saman med valet "dess-der_di.afx".
+
+    Eksempel: 
+    
+    dermed → dimed
+    dernest → dinest
     </long-description> 
   </preference>
   <preference id="fly_flyge.vb-inf">
