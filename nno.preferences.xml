@@ -1888,6 +1888,7 @@
       <enable n="styresmakt_myndigheit.syn"/>
       <enable n="tilrå_anbefale.syn"/>
       <enable n="tryggleik_sikkerheit.syn"/>
+      <enable n="uvisse_usikkerheit.syn"/>
       <enable n="lagnad_skjebne.syn"/>
       <enable n="stadfeste_bekrefte.syn"/>
       <enable n="kvar_kor.syn"/>
