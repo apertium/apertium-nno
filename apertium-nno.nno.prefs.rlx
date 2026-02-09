@@ -362,6 +362,9 @@ REMOVE (v:brud_brur.stav) ;
 SELECT (v:apos_fot.teikn) IF (0 (VAR:apos_fot.teikn)) ;
 REMOVE (v:apos_fot.teikn) ;
 
+SELECT (v:sitat_tomme.teikn) IF (0 (VAR:sitat_tomme.teikn)) ;
+REMOVE (v:sitat_tomme.teikn) ;
+
 # Possible input:
 # ^byggeleiing<n><f><sg><def>/b<v:ggj_gg>yggeleiinga/byggjeleiinga$ ^vere<vblex><pres>/er$ […]
 

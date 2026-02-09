@@ -1784,6 +1784,16 @@
       Kripos’ anbefaling → Kripos' anbefaling
     </long-description>
   </preference>
+  <preference id="sitat_tomme.teikn">
+    <description lang="nno">typografisk hermeteikn “ ” → skrivemaskinhermeteikn "</description>
+    <long-description lang="nno">
+      Dette valet gir deg rett hermeteikn / skrivemaskinhermeteikn i staden for bøygd / typografisk hermeteikn.
+
+      Eksempel:
+
+      Vera Lynn var kjend som “feltartist“ → Vera Lynn var kjend som "feltartist"
+    </long-description>
+  </preference>
 
   <incompatibilities>
     <incompat c="ikkje fylgje, bylgje viss følge, bølge er vald">
