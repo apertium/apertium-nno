@@ -1937,6 +1937,8 @@
     <template name="standard">
       <enable n="infa_infe"/>
       <enable n="me_vi"/>
+      <enable n="sitat.lastå"/>
+      <enable n="enkje_enke.kons-kj2k_gj2g"/>
     </template>
   </templates>
 
