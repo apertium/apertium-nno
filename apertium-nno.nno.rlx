@@ -49511,6 +49511,21 @@ CONSTRAINTS
 	(NOT 1 prep)
 ;
 
+"<auga>" SELECT:det-nakne-auga n + sg + def IF
+        (-2 ("den"))
+        (-1 ("naken"))
+        ;
+"<auga>" SELECT:auga-til-stormen n + sg + def IF # uff
+        (1 ("til"))
+        (2 ("storm"))
+        ;
+"<auga>" SELECT:eine-auga n + sg + def IF
+        (-1 ("eine"))
+        ;
+"<auga>" SELECT:få-auga-på n + sg + ind IF
+        (-1 ("få"))
+        (1 ("på"))
+        ;
 
 #:6044
  "<beste>"   SELECT:6044   (n) IF
@@ -53119,6 +53134,7 @@ SELECT:nå-er-anlegget-gravminne $$NUMBER IF
 "<som>" SELECT:default (cnjsub) ;
 SELECT:default ("arbeid") IF (0 ("arbeide")) ;
 SELECT:default ("samarbeid") IF (0 ("samarbeide")) ;
+SELECT:default pl IF (0 ("<auga>"i)) ;
 
 LIST målingpå = "hus" "vegg" "graffiti" "strek" "bilde" "bilete" ;
 SELECT ("måle¹") IF (1 målingpå) ;
