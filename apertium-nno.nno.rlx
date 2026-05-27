@@ -53135,6 +53135,7 @@ SELECT:nå-er-anlegget-gravminne $$NUMBER IF
 SELECT:default ("arbeid") IF (0 ("arbeide")) ;
 SELECT:default ("samarbeid") IF (0 ("samarbeide")) ;
 SELECT:default pl IF (0 ("<auga>"i)) ;
+REMOVE:default ("finn") IF (0 ("finne")) ;
 
 LIST målingpå = "hus" "vegg" "graffiti" "strek" "bilde" "bilete" ;
 SELECT ("måle¹") IF (1 målingpå) ;
