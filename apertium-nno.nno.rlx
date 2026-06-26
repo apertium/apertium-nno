@@ -976,6 +976,7 @@ REMOVE:unlikely ("dikt") + adv;
 REMOVE:unlikely ("Berre") + np;
 REMOVE:unlikely SUB:* ("mjølke") IF (0/* ("mjølk")); # sannsynlegvis ikkje rogn
 REMOVE:unlikely ("skylding") IF (0 ("skulding")) ;
+"<Stor>"i REMOVE:unlikely np;
 
 # sec 1
 CONSTRAINTS
