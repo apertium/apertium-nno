@@ -59524,7 +59524,16 @@
 <e lm="horn">            <i>horn</i><par n="ty__n"/></e>
 <e lm="bidrag">          <i>bidrag</i><par n="ty_\s__n"/></e>
 <e lm="bane">            <i>ban</i><par n="od/e__n"/></e>
-<e lm="berg-og-dal-bane">            <i>berg-og-dal-ban</i><par n="od/e__n"/></e>
+
+<e lm="berg-og-dal-bane">       <i>berg-og-dal-ban</i><par n="od/e__n"/></e>
+<e r="LR" lm="berg- og dal-bane" c="typo"><p><l>berg-<b/>og<b/>dal-bane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg-og dal-bane" c="typo"><p><l>berg-og<b/>dal-bane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg og dal-bane" c="typo"><p><l>berg<b/>og<b/>dal-bane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg og dalbane" c="typo"><p><l>berg<b/>og<b/>dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg-og-dalbane" c="typo"><p><l>berg-og-dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg-og dalbane" c="typo"><p><l>berg-og<b/>dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg- og dalbane" c="typo"><p><l>berg-<b/>og<b/>dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+
 <e lm="band">            <i>band</i><par n="ty__n"/></e>
 <e lm="bunteband">            <i>bunteband</i><par n="ty__n"/></e>
 <e lm="bank">            <i>bank</i><par n="ul__n"/></e>
@@ -111800,7 +111809,6 @@
 <e lm="aurgrunn"><i>aurgrunn</i><par n="ep__n"/></e>
 <e lm="drambedros"><i>drambedros</i><par n="å__n"/></e>
 <e lm="fisel"><i>fis</i><par n="ad/el__n"/></e>
-<e lm="berg-og-dalbane"><i>berg-og-dalban</i><par n="od/e__n"/></e>
 <e lm="gonge"><i>gong</i><par n="lø/e__n"/></e>
 <e lm="fredingsføresegn"><i>fredingsføresegn</i><par n="å__n"/></e>
 <e lm="bundingshue"><i>bundingshu</i><par n="lø/e__n"/></e>
@@ -134566,7 +134574,6 @@
 <e lm="hjarterytme">	<i>hjarterytm</i><par n="r/e__n"/></e>
 <e lm="løpebane">	<i>l</i><par n="ø_au"/><i>peban</i><par n="r/e__n"/></e>
 <e lm="bobsleighbane">	<i>bobsleighban</i><par n="r/e__n"/></e>
-<e lm="berg-og-dal-bane">	<i>berg-og-dal-ban</i><par n="r/e__n"/></e>
 <e lm="partikkelbane">	<i>partikkelban</i><par n="r/e__n"/></e>
 <e lm="tunellbane">	<i>tunellban</i><par n="r/e__n"/></e>
 <e lm="krumbane">	<i>krumban</i><par n="r/e__n"/></e>
