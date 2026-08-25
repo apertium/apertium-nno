@@ -49722,6 +49722,7 @@
 <e lm="parasympatisk">	<i>parasympatisk</i><par n="minst__adj"/></e>
 <e lm="usympatisk">	<i>usympatisk</i><par n="minst__adj"/></e>
 <e lm="psykopatisk">	<i>psykopatisk</i><par n="minst__adj"/></e>
+<e lm="sosiopatisk">	<i>sosiopatisk</i><par n="minst__adj"/></e>
 <e lm="hieratisk">	<i>hieratisk</i><par n="minst__adj"/></e>
 <e lm="idiosynkratisk">	<i>idiosynkratisk</i><par n="minst__adj"/></e>
 <e lm="teokratisk">	<i>teokratisk</i><par n="minst__adj"/></e>
@@ -81179,6 +81180,7 @@
 <e lm="psykolingvistikk"><i>psykolingvistikk</i><par n="ep__n"/></e>
 <e lm="psykolog"><i>psykolog</i><par n="ep__n"/></e>
 <e lm="psykopat"><i>psykopat</i><par n="ep__n"/></e>
+<e lm="sosiopat"><i>sosiopat</i><par n="ep__n"/></e>
 <e lm="psykopati"><i>psykopati</i><par n="ep__n"/></e>
 <e lm="enteropati"><i>enteropati</i><par n="ep__n"/></e>
 <e lm="psykose"><i>psykos</i><par n="r/e__n"/></e>
