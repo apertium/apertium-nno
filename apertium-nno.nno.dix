@@ -3435,7 +3435,7 @@
   <e r="LR"><p><l>et</l>    <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="s_case_cp-R"/></e>
   <e r="LR"><p><l></l>      <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case\Ø\s_cp-both"/></e>
 </pardef>
-<pardef n="dom__n">
+<pardef n="dødsdom__n">
   <e r="LR"><p><l></l>      <r></r></p><par n="ep__n"/></e>
   <e c="NPK"><p><l>mane</l>  <r><s n="n"/><s n="m"/><s n="pl"/><s n="def"/></r></p><par n="s_case_cp-R"/></e>
   <e c="NPK"><p><l>mar</l>   <r><s n="n"/><s n="m"/><s n="pl"/><s n="ind"/></r></p><par n="s_case_cp-R"/></e>
@@ -3446,7 +3446,7 @@
   <e c="v:"><p><l>ar</l>   <r><s n="n"/><s n="m"/><s n="pl"/><s n="ind"/></r></p><par n="v:venn_ven.kons-mm2m"/><par n="s_case_cp-R"/></e>
   <e c="v:"><p><l>en</l>   <r><s n="n"/><s n="m"/><s n="sg"/><s n="def"/></r></p><par n="v:venn_ven.kons-mm2m"/><par n="s_case_cp-R"/></e>
 </pardef>
-<pardef n="dom_\s__n">
+<pardef n="dødsdom_\s__n">
   <e r="LR"><p><l></l>      <r></r></p><par n="ep_\s__n"/></e>
   <e c="NPK"><p><l>mane</l>  <r><s n="n"/><s n="m"/><s n="pl"/><s n="def"/></r></p><par n="s_case_cp-R"/></e>
   <e c="NPK"><p><l>mar</l>   <r><s n="n"/><s n="m"/><s n="pl"/><s n="ind"/></r></p><par n="s_case_cp-R"/></e>
@@ -3457,7 +3457,7 @@
   <e c="v:"><p><l>ar</l>   <r><s n="n"/><s n="m"/><s n="pl"/><s n="ind"/></r></p><par n="v:venn_ven.kons-mm2m"/><par n="s_case_cp-R"/></e>
   <e c="v:"><p><l>en</l>   <r><s n="n"/><s n="m"/><s n="sg"/><s n="def"/></r></p><par n="v:venn_ven.kons-mm2m"/><par n="s_case_cp-R"/></e>
 </pardef>
-<pardef n="dom/m_\s__n">
+<pardef n="dom_\s__n" c="two lemmas, dom: rettsavgjerd; dom¹: domkyrkje, domus Dei">
   <e r="LR"><p><l></l>      <r></r></p><par n="ep_\s__n"/></e>
   <e c="NPK"><p><l>mane</l>  <r><s n="n"/><s n="m"/><s n="pl"/><s n="def"/></r></p><par n="s_case_cp-R"/></e>
   <e c="NPK"><p><l>mar</l>   <r><s n="n"/><s n="m"/><s n="pl"/><s n="ind"/></r></p><par n="s_case_cp-R"/></e>
@@ -37263,6 +37263,7 @@
 <e lm="astronomisk">          <i>astronomisk</i><par n="minst__adj"/></e>
 <e lm="antisemittisk">          <i>antisemittisk</i><par n="minst__adj"/></e>
 <e lm="analytisk">          <i>analytisk</i><par n="minst__adj"/></e>
+<e lm="hemolytisk">          <i>hemolytisk</i><par n="minst__adj"/></e>
 <e lm="algebraisk">          <i>algebraisk</i><par n="minst__adj"/></e>
 <e lm="økumenisk">          <i>økumenisk</i><par n="minst__adj"/></e>
 <e lm="upraktisk">          <i>upraktisk</i><par n="minst__adj"/></e>
@@ -49721,6 +49722,7 @@
 <e lm="parasympatisk">	<i>parasympatisk</i><par n="minst__adj"/></e>
 <e lm="usympatisk">	<i>usympatisk</i><par n="minst__adj"/></e>
 <e lm="psykopatisk">	<i>psykopatisk</i><par n="minst__adj"/></e>
+<e lm="sosiopatisk">	<i>sosiopatisk</i><par n="minst__adj"/></e>
 <e lm="hieratisk">	<i>hieratisk</i><par n="minst__adj"/></e>
 <e lm="idiosynkratisk">	<i>idiosynkratisk</i><par n="minst__adj"/></e>
 <e lm="teokratisk">	<i>teokratisk</i><par n="minst__adj"/></e>
@@ -58799,7 +58801,7 @@
 <e lm="lagspelar">          <i>lagspelar</i><par n="ep__n"/></e>
 <e lm="langspelar">      <i>langspelar</i><par n="ep__n"/></e>
 <e lm="bosmanspelar">    <i>bosmanspelar</i><par n="ep__n"/></e>
-<e lm="bosmandom">       <i>bosmandom</i><par n="dom__n"/></e>
+<e lm="bosmandom">       <i>bosmandom</i><par n="dødsdom__n"/></e>
 <e lm="bosmanregel">     <i>bosmanreg</i><par n="ad/el__n"/></e>
 <e lm="lagdel">          <i>lagdel</i><par n="ep__n"/></e>
 <e lm="munndel">          <i>munndel</i><par n="ep__n"/></e>
@@ -59523,7 +59525,16 @@
 <e lm="horn">            <i>horn</i><par n="ty__n"/></e>
 <e lm="bidrag">          <i>bidrag</i><par n="ty_\s__n"/></e>
 <e lm="bane">            <i>ban</i><par n="od/e__n"/></e>
-<e lm="berg-og-dal-bane">            <i>berg-og-dal-ban</i><par n="od/e__n"/></e>
+
+<e lm="berg-og-dal-bane">       <i>berg-og-dal-ban</i><par n="od/e__n"/></e>
+<e r="LR" lm="berg- og dal-bane" c="typo"><p><l>berg-<b/>og<b/>dal-bane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg-og dal-bane" c="typo"><p><l>berg-og<b/>dal-bane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg og dal-bane" c="typo"><p><l>berg<b/>og<b/>dal-bane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg og dalbane" c="typo"><p><l>berg<b/>og<b/>dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg-og-dalbane" c="typo"><p><l>berg-og-dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg-og dalbane" c="typo"><p><l>berg-og<b/>dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+<e r="LR" lm="berg- og dalbane" c="typo"><p><l>berg-<b/>og<b/>dalbane</l><r>berg-og-dal-bane</r></p><par n="od/e__n"/></e>
+
 <e lm="band">            <i>band</i><par n="ty__n"/></e>
 <e lm="bunteband">            <i>bunteband</i><par n="ty__n"/></e>
 <e lm="bank">            <i>bank</i><par n="ul__n"/></e>
@@ -59600,7 +59611,7 @@
 <e lm="fugl">            <i>fugl</i><par n="ep_\e__n"/></e>
 <e lm="faktum">          <i>fakt</i><par n="fakt/um__n"/></e>
 <e lm="don">             <i>don</i><par n="ul_no-cp__n"/></e>
-<e lm="dom">             <i>dom</i><par n="dom/m_\s__n"/></e>
+<e lm="dom">             <i>dom</i><par n="dom_\s__n"/></e>
 <e lm="høgre">           <i>høgr</i><par n="høgr/e__n"/></e>
 <e lm="eigenskap">       <i>eigenskap</i><par n="ep_\s__n"/></e>
 <e lm="doktorgrad">      <i>doktorgrad</i><par n="så_\s__n"/></e>
@@ -61005,7 +61016,7 @@
 <e lm="krater">          <i>krat</i><par n="vat/er__n"/></e>
 <e lm="mose">            <i>mos</i><par n="r/e__n"/></e>
 <e lm="kubikkmeter">     <i>kubikkmet</i><par n="nanomet/er__n"/></e>
-<e lm="kvam">            <i>kvam</i><par n="dom__n"/></e>
+<e lm="kvam">            <i>kvam</i><par n="dødsdom__n"/></e>
 <e lm="møre">            <i>mør</i><par n="lø/e__n"/></e>
 <e lm="manager">         <i>manager</i><par n="ep__n"/></e>
 <e lm="morfologi">       <i>morfologi</i><par n="ep__n"/></e>
@@ -64792,7 +64803,7 @@
 <e lm="brudespore"><i>br</i><par n="ud_ur"/><i>espor</i><par n="r/e__n"/></e>
 <e lm="brudeutstyr"><i>br</i><par n="ud_ur"/><i>eutstyr</i><par n="ty__n"/></e>
 <e lm="brudevigsel"><i>br</i><par n="ud_ur"/><i>evigs</i><par n="reds/el__n"/></e>
-<e lm="brudgom"><i>brudgom</i><par n="dom__n"/></e>
+<e lm="brudgom"><i>brudgom</i><par n="dødsdom__n"/></e>
 <e lm="brudulje"><i>brudulj</i><par n="r/e__n"/></e>
 <e lm="bruksdyr"><i>bruksdyr</i><par n="ty__n"/></e>
 <e lm="bruksfrist"><i>bruksfrist</i><par n="ep__n"/></e>
@@ -65143,8 +65154,8 @@
 <e lm="byrde"><i>byrd</i><par n="lø/e__n"/></e>
 <e lm="byrett"><i>byrett</i><par n="ep_\s__n"/></e>
 <e lm="byrette"><i>byrette</i><par n="ep__n"/></e>
-<e lm="byrettsdom"><i>byrettsdom</i><par n="dom__n"/></e>
-<e lm="riksrettsdom"><i>riksrettsdom</i><par n="dom__n"/></e>
+<e lm="byrettsdom"><i>byrettsdom</i><par n="dødsdom__n"/></e>
+<e lm="riksrettsdom"><i>riksrettsdom</i><par n="dødsdom__n"/></e>
 <e lm="byrettsjustitiarius"><i>byrettsjustitiarius</i><par n="pels__n"/></e>
 <e lm="byrå"><i>byrå</i><par n="ty__n"/></e>
 <e lm="antidopingbyrå"><i>antidopingbyrå</i><par n="ty__n"/></e>
@@ -66455,7 +66466,7 @@
 <e lm="bustadsattest"><i>bustadsattest</i><par n="ep__n"/></e>
 <e lm="dødsbu"><i>dødsbu</i><par n="ty__n"/></e>
 <e lm="dødsdag"><i>dødsdag</i><par n="ep_\s__n"/></e>
-<e lm="dødsdom"><i>dødsdom</i><par n="dom__n"/></e>
+<e lm="dødsdom"><i>dødsdom</i><par n="dødsdom__n"/></e>
 <e lm="dødsfare"><i>dødsfar</i><par n="r/e__n"/></e>
 <e lm="dødsfiende"><i>dødsfiend</i><par n="r/e__n"/></e>
 <e lm="enkeltfiende"><i>enkeltfiend</i><par n="r/e__n"/></e>
@@ -68351,7 +68362,7 @@
 <e lm="fordelingskurve"><i>fordelingskurv</i><par n="r/e__n"/></e>
 <e lm="fordelingsnøkkel"><i>fordelingsn</i><par n="n/økkel__n"/></e>
 <e lm="forderv"><i>forderv</i><par n="ty__n"/></e>
-<e lm="fordom"><i>fordom</i><par n="dom_\s__n"/></e>
+<e lm="fordom"><i>fordom</i><par n="dødsdom_\s__n"/></e>
 <e lm="fordringskreditt"><i>fordringskreditt</i><par n="ep__n"/></e>
 <e lm="fordøyelse"><i>fordøyels</i><par n="r/e_\s__n"/></e>
 <e lm="fordøying"><i>fordøying</i><par n="yting_\s__n"/></e>
@@ -70246,7 +70257,7 @@
 <e lm="gudfar"><i>gudf</i><par n="morf/ar_\s__n"/></e>
 <e lm="gudsbarn"><i>gudsb</i><par n="b/arn_\s__n"/></e>
 <e lm="gudsbilde"><i>gudsbil</i><par n="bil/de__n"/></e>
-<e lm="gudsdom"><i>gudsdom</i><par n="dom_\s__n"/></e>
+<e lm="gudsdom"><i>gudsdom</i><par n="dødsdom_\s__n"/></e>
 <e lm="gudsengel"><i>gudseng</i><par n="ad/el__n"/></e>
 <e lm="gudsfred"><i>gudsfred</i><par n="ep__n"/></e>
 <e lm="gudshus"><i>gudshus</i><par n="glas__n"/></e>
@@ -70271,7 +70282,7 @@
 <e lm="gullbarre"><i>gullbarr</i><par n="r/e__n"/></e>
 <e lm="gullbrand"><i>gullbrand</i><par n="ep__n"/></e>
 <e lm="gullbrudepar"><i>gullbrudepar</i><par n="ty__n"/></e>
-<e lm="gullbrudgom"><i>gullbrudgom</i><par n="dom__n"/></e>
+<e lm="gullbrudgom"><i>gullbrudgom</i><par n="dødsdom__n"/></e>
 <e lm="gullegg"><i>gullegg</i><par n="ty_\s__n"/></e>
 <e lm="gullfeber"><i>gullfeb</i><par n="ot/er__n"/></e>
 <e lm="gullfisk"><i>gullfisk</i><par n="ep__n"/></e>
@@ -71746,7 +71757,7 @@
 <e lm="høgspenn"><i>høgspenn</i><par n="ty__n"/></e>
 <e lm="høgstatus"><i>høgstatus</i><par n="pels__n"/></e>
 <e lm="høgsterettsadvokat"><i>høgsterettsadvokat</i><par n="ep__n"/></e>
-<e lm="høgsterettsdom"><i>høgsterettsdom</i><par n="dom__n"/></e>
+<e lm="høgsterettsdom"><i>høgsterettsdom</i><par n="dødsdom__n"/></e>
 <e lm="høgsterettsjustitiarius"><i>høgsterettsjustitiari</i><par n="dekan/us__n"/></e>
 <e lm="høgtidsdag"><i>høgtidsdag</i><par n="ep_\s__n"/></e>
 <e lm="høgtrykksområde"><i>høgtrykksområd</i><par n="l/e__n"/></e>
@@ -72431,7 +72442,7 @@
 <e lm="islegg"><i>islegg</i><par n="mon__n"/></e>
 <e lm="islending"><i>islending</i><par n="ep__n"/></e>
 <e lm="islett"><i>islett</i><par n="ty__n"/></e>
-<e lm="islom"><i>islom</i><par n="dom__n"/></e>
+<e lm="islom"><i>islom</i><par n="dødsdom__n"/></e>
 <e lm="ismaskin"><i>ismaskin</i><par n="så__n"/></e>
 <e lm="isme"><i>ism</i><par n="r/e__n"/></e>
 <e lm="ismåke"><i>ismåk</i><par n="od/e__n"/></e>
@@ -81169,6 +81180,7 @@
 <e lm="psykolingvistikk"><i>psykolingvistikk</i><par n="ep__n"/></e>
 <e lm="psykolog"><i>psykolog</i><par n="ep__n"/></e>
 <e lm="psykopat"><i>psykopat</i><par n="ep__n"/></e>
+<e lm="sosiopat"><i>sosiopat</i><par n="ep__n"/></e>
 <e lm="psykopati"><i>psykopati</i><par n="ep__n"/></e>
 <e lm="enteropati"><i>enteropati</i><par n="ep__n"/></e>
 <e lm="psykose"><i>psykos</i><par n="r/e__n"/></e>
@@ -83258,7 +83270,7 @@
 <e lm="sikring"><i>sikring</i><par n="yting_\s__n"/></e>
 <e lm="sikringsanstalt"><i>sikringsanstalt</i><par n="ep__n"/></e>
 <e lm="sikringsboks"><i>sikringsboks</i><par n="pels__n"/></e>
-<e lm="sikringsdom"><i>sikringsdom</i><par n="dom__n"/></e>
+<e lm="sikringsdom"><i>sikringsdom</i><par n="dødsdom__n"/></e>
 <e lm="sikringsfange"><i>sikringsfang</i><par n="r/e__n"/></e>
 <e lm="sikringskost"><i>sikringskost</i><par n="ep__n"/></e>
 <e lm="sikringsskap"><i>sikringssk</i><par n="a_å"/><i>p</i><par n="ty_\s__n"/></e>
@@ -85465,7 +85477,7 @@
 <e lm="standplass"><i>standplass</i><par n="pels__n"/></e>
 <e lm="standpunktkarakter"><i>standpunktkarakter</i><par n="ep__n"/></e>
 <e lm="standrett"><i>standrett</i><par n="ep_\s__n"/></e>
-<e lm="standsfordom"><i>standsfordom</i><par n="dom_\s__n"/></e>
+<e lm="standsfordom"><i>standsfordom</i><par n="dødsdom_\s__n"/></e>
 <e lm="standsperson"><i>standsperson</i><par n="ep__n"/></e>
 <e lm="stank"><i>stank</i><par n="ep__n"/></e>
 <e lm="stans"><i>stans</i><par n="pels__n"/></e>
@@ -85801,7 +85813,7 @@
 <e lm="storkobbe"><i>storkobb</i><par n="r/e__n"/></e>
 <e lm="storkommune"><i>storkommun</i><par n="r/e__n"/></e>
 <e lm="storkonvall"><i>storkonvall</i><par n="ep__n"/></e>
-<e lm="storlom"><i>storlom</i><par n="dom__n"/></e>
+<e lm="storlom"><i>storlom</i><par n="dødsdom__n"/></e>
 <e lm="stormaktskonflikt"><i>stormaktskonflikt</i><par n="ep__n"/></e>
 <e lm="stormaktsmøte"><i>stormaktsmøt</i><par n="l/e__n"/></e>
 <e lm="stormangrep"><i>stormangrep</i><par n="ty_\s__n"/></e>
@@ -86966,7 +86978,7 @@
 <e lm="telefaks"><i>telefaks</i><par n="pels__n"/></e>
 <e lm="telefax"><i>telefax</i><par n="pels__n"/></e>
 <e lm="telefon"><i>telefon</i><par n="ep__n"/></e>
-<e lm="telekom"><i>telekom</i><par n="dom__n"/></e>
+<e lm="telekom"><i>telekom</i><par n="dødsdom__n"/></e>
 <e lm="telefonabonnent"><i>telefonabonnent</i><par n="ep__n"/></e>
 <e lm="telefonanlegg"><i>telefonanlegg</i><par n="ty_\s__n"/></e>
 <e lm="telefonannonse"><i>telefonannons</i><par n="r/e__n"/></e>
@@ -89645,7 +89657,7 @@
 <e lm="verdauke"><i>verdauk</i><par n="r/e__n"/></e>
 <e lm="verdibrev"><i>verdibrev</i><par n="ty__n"/></e>
 <e lm="verdidom"><i>verdidom</i><par n="bom__n"/></e>
-<e lm="dopingdom"><i>dopingdom</i><par n="dom__n"/></e>
+<e lm="dopingdom"><i>dopingdom</i><par n="dødsdom__n"/></e>
 <e lm="verdifall"><i>verdifall</i><par n="ty_\s__n"/></e>
 <e lm="verdigjenstand"><i>verdigjenstand</i><par n="ep_\s__n"/></e>
 <e lm="verdigrunnlag"><i>verdigrunnlag</i><par n="ty_\s__n"/></e>
@@ -89874,7 +89886,7 @@
 <e lm="viljesspørsmål"><i>viljesspørsmål</i><par n="ty_\s__n"/></e>
 <e lm="viljestyrke"><i>viljestyrk</i><par n="r/e__n"/></e>
 <e lm="viljesverb"><i>viljesverb</i><par n="ty__n"/></e>
-<e lm="vilkårsdom"><i>vilkårsdom</i><par n="dom__n"/></e>
+<e lm="vilkårsdom"><i>vilkårsdom</i><par n="dødsdom__n"/></e>
 <e lm="vilkårskonjunksjon"><i>vilkårskonjunksjon</i><par n="ep_\s__n"/></e>
 <e lm="vilkårsrefleks"><i>vilkårsrefleks</i><par n="pels__n"/></e>
 <e lm="villahage"><i>villahag</i><par n="r/e__n"/></e>
@@ -102795,7 +102807,7 @@
 <e lm="betongmasse"><i>betongmass</i><par n="r/e__n"/></e>
 <e lm="fritaking"><i>fritaking</i><par n="yting_\s__n"/></e>
 <e lm="allfader"><i>allf</i><par n="f/ader__n"/></e>
-<e lm="fråveringsdom"><i>fråveringsdom</i><par n="dom__n"/></e>
+<e lm="fråveringsdom"><i>fråveringsdom</i><par n="dødsdom__n"/></e>
 <e lm="eldfluge"><i>eldflug</i><par n="lø/e__n"/></e>
 <e lm="amalgamasjonspolitikk"><i>amalgamasjonspolitikk</i><par n="ep__n"/></e>
 <e lm="ikjøtting"><i>ikjø</i><par n="tt_t_sub"/><i>ing</i><par n="yting_\s__n"/></e>
@@ -103365,7 +103377,7 @@
 <e lm="fredingstid"><i>fredingstid</i><par n="å_\s__n"/></e>
 <e lm="dødsbod"><i>dødsbod</i><par n="ty__n"/></e>
 <e lm="foreign"><i>foreign</i><par n="å__n"/></e>
-<e lm="djevelsdom"><i>djevelsdom</i><par n="dom__n"/></e>
+<e lm="djevelsdom"><i>djevelsdom</i><par n="dødsdom__n"/></e>
 <e lm="hønsehovud"><i>hønsehovud</i><par n="ty__n"/></e>
 <e lm="geite"><i>geit</i><par n="lø/e__n"/></e>
 <e lm="hårklippar"><i>hårklippar</i><par n="ep__n"/></e>
@@ -103723,7 +103735,7 @@
 <e lm="etterslengar"><i>etterslen</i><par n="gj_g_sub"/><i>ar</i><par n="ep__n"/></e>
 <e lm="åflog"><i>åflog</i><par n="ty__n"/></e>
 <e lm="flike"><i>flik</i><par n="lø/e__n"/></e>
-<e lm="førehandsdom"><i>førehandsdom</i><par n="dom__n"/></e>
+<e lm="førehandsdom"><i>førehandsdom</i><par n="dødsdom__n"/></e>
 <e lm="flikk"><i>flikk</i><par n="ep__n"/></e>
 <e lm="hælflikk"><i>hælflikk</i><par n="ep__n"/></e>
 <e lm="falsettrøyst"><i>falsettrøyst</i><par n="å__n"/></e>
@@ -105999,7 +106011,7 @@
 <e lm="europaparlament"><i>europaparlament</i><par n="ty__n"/></e>
 <e lm="insurgent"><i>insurgent</i><par n="ep__n"/></e>
 <e lm="barnetru"><i>barnetru</i><par n="å__n"/></e>
-<e lm="årelom"><i>årelom</i><par n="dom__n"/></e>
+<e lm="årelom"><i>årelom</i><par n="dødsdom__n"/></e>
 <e lm="børetre"><i>børetr</i><par n="børetr/e__n"/></e>
 <e lm="bevaring"><i>bevaring</i><par n="yting_\s__n"/></e>
 <e lm="fornting"><i>fornting</i><par n="odds__n"/></e>
@@ -107030,7 +107042,7 @@
 <e lm="brudesvein"><i>br</i><par n="ud_ur"/><i>esvein</i><par n="ep__n"/></e>
 <e lm="dølamål"><i>dølamål</i><par n="ty_\s__n"/></e>
 <e lm="folkelynde"><i>folkelynd</i><par n="l/e__n"/></e>
-<e lm="filledom"><i>filledom</i><par n="dom__n"/></e>
+<e lm="filledom"><i>filledom</i><par n="dødsdom__n"/></e>
 <e lm="frøreinskar"><i>frøreinskar</i><par n="ep__n"/></e>
 <e lm="gjennomgåing"><i>gjennomgåing</i><par n="yting_\s__n"/></e>
 <e lm="omgåing"><i>omgåing</i><par n="yting_\s__n"/></e>
@@ -107515,7 +107527,7 @@
 <e lm="fynte"><i>fynt</i><par n="lø/e__n"/></e>
 <e lm="drivfjør"><i>drivfjør</i><par n="å__n"/></e>
 <e lm="ålvelte"><i>ålvelt</i><par n="lø/e__n"/></e>
-<e lm="frifinningsdom"><i>frifinningsdom</i><par n="dom__n"/></e>
+<e lm="frifinningsdom"><i>frifinningsdom</i><par n="dødsdom__n"/></e>
 <e lm="byteverdi"><i>byteverdi</i><par n="ep__n"/></e>
 <e lm="byteverde"><i>byteverd</i><par n="r/e__n"/></e>
 <e lm="hostepastill"><i>hostepastill</i><par n="ep__n"/></e>
@@ -108777,7 +108789,7 @@
 <e lm="barnekrubbe"><i>barnekrubb</i><par n="lø/e__n"/></e>
 <e lm="dobbeltansikt"><i>dobbeltansikt</i><par n="ty__n"/></e>
 <e lm="avlsgalte"><i>avlsgalt</i><par n="r/e__n"/></e>
-<e lm="dødslysingsdom"><i>dødslysingsdom</i><par n="dom__n"/></e>
+<e lm="dødslysingsdom"><i>dødslysingsdom</i><par n="dødsdom__n"/></e>
 <e lm="innretning"><i>innretning</i><par n="yting_\s__n"/></e>
 <e lm="drønning"><i>drønning</i><par n="å__n"/></e>
 <e lm="fargelegging"><i>fargelegging</i><par n="yting_\s__n"/></e>
@@ -108954,7 +108966,7 @@
 <e lm="demoralisering"><i>demoralisering</i><par n="yting_\s__n"/></e>
 <e lm="allehande"><i>allehand</i><par n="r/e__n"/></e>
 <e lm="høgstnatt"><i>høgstn</i><par n="n/att__n"/></e>
-<e lm="folkedom"><i>folkedom</i><par n="dom__n"/></e>
+<e lm="folkedom"><i>folkedom</i><par n="dødsdom__n"/></e>
 <e lm="fagverk"><i>fagverk</i><par n="ty__n"/></e>
 <e lm="diamantbryllaup"><i>diamantbryllaup</i><par n="ty__n"/></e>
 <e lm="battlebukse"><i>battlebuks</i><par n="lø/e__n"/></e>
@@ -111799,7 +111811,6 @@
 <e lm="aurgrunn"><i>aurgrunn</i><par n="ep__n"/></e>
 <e lm="drambedros"><i>drambedros</i><par n="å__n"/></e>
 <e lm="fisel"><i>fis</i><par n="ad/el__n"/></e>
-<e lm="berg-og-dalbane"><i>berg-og-dalban</i><par n="od/e__n"/></e>
 <e lm="gonge"><i>gong</i><par n="lø/e__n"/></e>
 <e lm="fredingsføresegn"><i>fredingsføresegn</i><par n="å__n"/></e>
 <e lm="bundingshue"><i>bundingshu</i><par n="lø/e__n"/></e>
@@ -113166,7 +113177,7 @@
 <e lm="eittpartistat"><i>eittpartistat</i><par n="ep__n"/></e>
 <e lm="einvaldsstat"><i>einvaldsstat</i><par n="ep__n"/></e>
 <e lm="aftanmesse"><par n="aft"/><i>anmess</i><par n="lø/e__n"/></e>
-<e lm="fengslingsdom"><i>fengslingsdom</i><par n="dom__n"/></e>
+<e lm="fengslingsdom"><i>fengslingsdom</i><par n="dødsdom__n"/></e>
 <e lm="idépåverknad"><i>idépåverknad</i><par n="mon_\s__n"/></e>
 <e lm="argentinar"><i>argentinar</i><par n="ep__n"/></e>
 <e lm="avvenning"><i>avvenning</i><par n="yting_\s__n"/></e>
@@ -117803,7 +117814,7 @@
 <e lm="løping"><i>l</i><par n="ø_au"/><i>ping</i><par n="yting_\s__n"/></e>
 <e lm="skåpmus"><i>skåpm</i><par n="l/us__n"/></e>
 <e lm="pion"><i>pion</i><par n="ul__n"/></e>
-<e lm="skilsdom"><i>skilsdom</i><par n="dom_\s__n"/></e>
+<e lm="skilsdom"><i>skilsdom</i><par n="dødsdom_\s__n"/></e>
 <e lm="skilsdomstol"><i>skilsdomstol</i><par n="ep__n"/></e>
 <e lm="ramnemor"><i>ramnem</i><par n="morm/or__n"/></e>
 <e lm="progresjonssteg"><i>progresjonssteg</i><par n="ty__n"/></e>
@@ -120770,7 +120781,7 @@
 <e lm="utbrentheit"><i>utbrentheit</i><par n="å_\s__n"/></e>
 
 <e lm="skolerom"><i>skolerom</i><par n="dim__n"/></e>
-<e lm="skilsmålsdom"><i>skilsmålsdom</i><par n="dom__n"/></e>
+<e lm="skilsmålsdom"><i>skilsmålsdom</i><par n="dødsdom__n"/></e>
 <e lm="salmediktar"><i>salmediktar</i><par n="ep__n"/></e>
 <e lm="plikttruskap"><i>plikttruskap</i><par n="ep__n"/></e>
 <e lm="purv"><i>purv</i><par n="ep__n"/></e>
@@ -131908,7 +131919,7 @@
 <e lm="kondenskjerne"><i>kondenskjern</i><par n="r/e__n"/></e>
 <e lm="kransekake"><i>kransekak</i><par n="lø/e__n"/></e>
 <e lm="komitémedlem"><i>komitémedlem</i><par n="medlem__n"/></e>
-<e lm="krim"><i>krim</i><par n="dom__n"/></e>
+<e lm="krim"><i>krim</i><par n="dødsdom__n"/></e>
 <e lm="kopparrøyr"><i>kopparrøyr</i><par n="bu__n"/></e>
 <e lm="kontraktbrot"><i>kontrakt</i><par n="brot"/><par n="ty__n"/></e>
 <e lm="maratonar"><i>maratonar</i><par n="ep__n"/></e>
@@ -132454,7 +132465,7 @@
 <e lm="pyro"><i>pyro</i><par n="ep__n"/></e>
 <e lm="setteriksadvokat"><i>setteriksadvokat</i><par n="ep__n"/></e>
 <e lm="skyteepisode">         <i>skyteepisod</i><par n="r/e__n"/></e>
-<e lm="spiondom"><i>spiondom</i><par n="dom__n"/></e>
+<e lm="spiondom"><i>spiondom</i><par n="dødsdom__n"/></e>
 <e lm="tungbil"><i>tungbil</i><par n="ep__n"/></e>
 <e lm="bortesiger"><i>bortesig</i><par n="ot/er_\s__n"/></e>
 <e lm="heimesiger"><i>heimesig</i><par n="ot/er_\s__n"/></e>
@@ -134565,7 +134576,6 @@
 <e lm="hjarterytme">	<i>hjarterytm</i><par n="r/e__n"/></e>
 <e lm="løpebane">	<i>l</i><par n="ø_au"/><i>peban</i><par n="r/e__n"/></e>
 <e lm="bobsleighbane">	<i>bobsleighban</i><par n="r/e__n"/></e>
-<e lm="berg-og-dal-bane">	<i>berg-og-dal-ban</i><par n="r/e__n"/></e>
 <e lm="partikkelbane">	<i>partikkelban</i><par n="r/e__n"/></e>
 <e lm="tunellbane">	<i>tunellban</i><par n="r/e__n"/></e>
 <e lm="krumbane">	<i>krumban</i><par n="r/e__n"/></e>
@@ -137969,6 +137979,7 @@
 <e lm="samankomst">	<i>samankomst</i><par n="ep__n"/></e>
 <e lm="herkomst">	<i>herkomst</i><par n="ep__n"/></e>
 <e lm="overeinskomst">	<i>overeinskomst</i><par n="ep__n"/></e>
+<e lm="uovereinskomst">	<i>uovereinskomst</i><par n="ep__n"/></e>
 <e lm="storvinst">	<i>storvinst</i><par n="ep__n"/></e>
 <e lm="bondekunst">	<i>bondekunst</i><par n="så__n"/></e>
 <e lm="legekunst">	<i>legekunst</i><par n="så__n"/></e>
@@ -149198,12 +149209,12 @@
 <e lm="stoffskiftesjukdom">         <i>stoffskiftesjukdom</i><par n="fridom_\s__n"/></e>
 <e lm="luftvegsjukdom">             <i>luftvegsjukdom</i><par n="fridom_\s__n"/></e>
 <e lm="kreftsjukdom">               <i>kreftsjukdom</i><par n="fridom_\s__n"/></e>
-<e lm="deldom">                     <i>deldom</i><par n="dom_\s__n"/></e>
+<e lm="deldom">                     <i>deldom</i><par n="dødsdom_\s__n"/></e>
 <e lm="forretningsløyndom">         <i>forretningsløyndom</i><par n="fridom_\s__n"/></e>
 <e lm="driftsløyndom">              <i>driftsløyndom</i><par n="fridom_\s__n"/></e>
-<e lm="livstidsdom">                <i>livstidsdom</i><par n="dom_\s__n"/></e>
-<e lm="forvaringsdom">              <i>forvaringsdom</i><par n="dom_\s__n"/></e>
-<e lm="fråværsdom">                 <i>fråværsdom</i><par n="dom_\s__n"/></e>
+<e lm="livstidsdom">                <i>livstidsdom</i><par n="dødsdom_\s__n"/></e>
+<e lm="forvaringsdom">              <i>forvaringsdom</i><par n="dødsdom_\s__n"/></e>
+<e lm="fråværsdom">                 <i>fråværsdom</i><par n="dødsdom_\s__n"/></e>
 <e lm="heimepublikum">              <i>heimepublikum</i><par n="brum_\s__n"/></e>
 <e lm="hellebarn">                  <i>helleb</i><par n="b/arn_\s__n"/></e>
 <e lm="fredsbarn">                  <i>fredsb</i><par n="b/arn_\s__n"/></e>
