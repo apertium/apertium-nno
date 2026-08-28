@@ -21789,6 +21789,7 @@
 <e lm="utom">            <i>utom</i><par n="i__pr"/></e>
 <e lm="utomhus">         <i>utomhus</i><par n="i__pr"/></e>
 <e lm="utor">            <i>utor</i><par n="i__pr"/></e>
+<e lm="ut frå">          <i>ut<b/>frå</i><par n="i__pr"/></e>
 <e lm="utover">          <i>utover</i><par n="i__pr"/></e>
 <e lm="utpå">            <i>utpå</i><par n="i__pr"/></e>
 <e lm="uttil">           <i>uttil</i><par n="i__pr"/></e>
@@ -66832,6 +66833,7 @@
 <e lm="elgitar"><i>elgitar</i><par n="ep__n"/></e>
 <e lm="elgjeger"><i>elgjeger</i><par n="ep__n"/></e>
 <e lm="elgkalv"><i>elgkalv</i><par n="ep__n"/></e>
+<e lm="elgskilt"><i>elgskilt</i><par n="ty__n"/></e>
 <e lm="elgokse"><i>elgoks</i><par n="r/e__n"/></e>
 <e lm="eliksir"><i>eliksir</i><par n="ep__n"/></e>
 <e lm="eliminasjon"><i>eliminasjon</i><par n="ep_\s__n"/></e>
