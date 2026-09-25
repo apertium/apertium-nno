@@ -57010,6 +57010,7 @@
 <e lm="nødvendigheit"><i>nødvendigheit</i><par n="å_\s__n"/></e>
 <e lm="unødvendigheit"><i>unødvendigheit</i><par n="å_\s__n"/></e>
 <e lm="hastigheit"><i>hastigheit</i><par n="å_\s__n"/></e>
+<e lm="vindhastigheit"><i>vindhastigheit</i><par n="å_\s__n"/></e>
 <e lm="trassigheit"><i>trassigheit</i><par n="å_\s__n"/></e>
 <e lm="saftigheit"><i>saftigheit</i><par n="å_\s__n"/></e>
 <e lm="giftigheit"><i>giftigheit</i><par n="å_\s__n"/></e>
@@ -75494,6 +75495,7 @@
 <e lm="kutikula"><i>kutikula</i><par n="mon__n"/></e>
 <e lm="kutt"><i>kutt</i><par n="ty__n"/></e>
 <e lm="utsleppskutt"><i>utsleppskutt</i><par n="ty__n"/></e>
+<e lm="avgiftskutt"><i>avgiftskutt</i><par n="ty__n"/></e>
 <e lm="kutter"><i>kutter</i><par n="ep__n"/></e>
 <e lm="kutyme"><i>kutym</i><par n="r/e__n"/></e>
 <e lm="kuv"><i>kuv</i><par n="ep_no-cp__n"/></e>
