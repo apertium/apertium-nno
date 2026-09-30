@@ -151543,8 +151543,6 @@
 <e lm="ADHD-diagnose">	<i>ADHD-diagnos</i>	<par n="r/e__n"/> </e>
 <e lm="ADHD">	<i>ADHD</i>	<par n="etos__n"/> </e>
 <e lm="A-dur">	<i>A-du</i>	<par n="dora/r__n"/> </e>
-<e lm="A">	<i>A</i>	<par n="PC__n"/> </e>
-<e lm="a">	<i>a</i>	<par n="PC__n"/> </e>
 <e lm="Aiss">	<i>Ais</i>	<par n="taksi/s__n"/> </e>
 <e lm="aksidenstrykkjeri">	<i>aksidenstrykkjeri</i>	<par n="ty__n"/> </e>
 <e lm="akslekopling">	<i>akslekopling</i>	<par n="yting_\s__n"/> </e>
@@ -151664,7 +151662,6 @@
 <e lm="augevitne">	<i>augevitn</i>	<par n="l/e__n"/> </e>
 <e lm="augneblinksbilete">	<i>augneblinksbilet</i>	<par n="l/e__n"/> </e>
 <e lm="augnehøgd">	<i>augnehøgd</i>	<par n="å__n"/> </e>
-<e lm="au">	<i>au</i>	<par n="ty__n"/> </e>
 <e lm="austandrag">	<i>austandrag</i>	<par n="ty__n"/> </e>
 <e lm="austangule">	<i>austangul</i>	<par n="lø/e__n"/> </e>
 <e lm="austangul">	<i>austangul</i>	<par n="å__n"/> </e>
@@ -151718,7 +151715,6 @@
 <e lm="bevisførsle">	<i>bevisførsl</i>	<par n="lø/e__n"/> </e>
 <e lm="bibellæger">	<i>bibellæg</i>	<par n="vat/er__n"/> </e>
 <e lm="bibelomsetting">	<i>bibelomsetting</i>	<par n="yting_\s__n"/> </e>
-<e lm="B">	<i>B</i>	<par n="PC__n"/> </e>
 <e lm="bibliotekbok">	<i>bibliotekb</i>	<par n="br/ok__n"/> </e>
 <e lm="biblioteklov">	<i>biblioteklov</i>	<par n="å__n"/> </e>
 <e lm="biblioteksjef">	<i>biblioteksjef</i>	<par n="ep__n"/> </e>
@@ -151900,15 +151896,12 @@
 <e lm="champagnekork">	<i>champagnekork</i>	<par n="ep__n"/> </e>
 <e lm="cherokee">	<i>cherokee</i>	<par n="yankee__n"/> </e>
 <e lm="chiffoniere">	<i>chiffonier</i>	<par n="r/e__n"/> </e>
-<e lm="C">	<i>C</i>	<par n="PC__n"/> </e>
-<e lm="c">	<i>c</i>	<par n="PC__n"/> </e>
 <e lm="-cid">	<i>-cid</i>	<par n="ty__n"/> </e>
 <e lm="Ciss-dur">	<i>Ciss-du</i>	<par n="dora/r__n"/> </e>
 <e lm="Ciss">	<i>Cis</i>	<par n="taksi/s__n"/> </e>
 <e lm="cisterne">	<i>cistern</i>	<par n="lø/e__n"/> </e>
 <e lm="confit">	<i>confit</i>	<par n="ep__n"/> </e>
 <e lm="coulis">	<i>couli</i>	<par n="taksi/s__n"/> </e>
-<e lm="CT">	<i>CT</i>	<par n="PC__n"/> </e>
 <e lm="dagboknotat">	<i>dagboknotat</i>	<par n="ty__n"/> </e>
 <e lm="dagsvermar">	<i>dagsverma</i>	<par n="dora/r__n"/> </e>
 <e lm="-daling">	<i>-daling</i>	<par n="ep__n"/> </e>
@@ -151935,11 +151928,8 @@
 <e lm="dessertskål">	<i>dessertskål</i>	<par n="å__n"/> </e>
 <e lm="Dess">	<i>Dess</i>	<par n="etos__n"/> </e>
 <e lm="detaljplan">	<i>detaljplan</i>	<par n="ep__n"/> </e>
-<e lm="D">	<i>D</i>	<par n="PC__n"/> </e>
-<e lm="d">	<i>d</i>	<par n="PC__n"/> </e>
 <e lm="dime">	<i>dim</i>	<par n="lø/e__n"/> </e>
 <e lm="dingseboms">	<i>dingsebom</i>	<par n="taksi/s__n"/> </e>
-<e lm="DJ">	<i>DJ</i>	<par n="PC__n"/> </e>
 <e lm="djupn">	<i>djupn</i>	<par n="å__n"/> </e>
 <e lm="djupvassdukkar">	<i>djupvassdukka</i>	<par n="dora/r__n"/> </e>
 <e lm="djupvassreke">	<i>djupvassrek</i>	<par n="lø/e__n"/> </e>
@@ -151987,7 +151977,6 @@
 <e lm="eftanròde">	<i>eftanròd</i>	<par n="r/e__n"/> </e>
 <e lm="eg-medvett">	<i>eg-medvett</i>	<par n="ty__n"/> </e>
 <e lm="eg-person">	<i>eg-pers</i>	<par n="morg/on__n"/> </e>
-<e lm="E">	<i>E</i>	<par n="PC__n"/> </e>
 <e lm="eigarmerke">	<i>eigarmerk</i>	<par n="l/e__n"/> </e>
 <e lm="eigarside">	<i>eigarsid</i>	<par n="lø/e__n"/> </e>
 <e lm="eikje">	<i>eikj</i>	<par n="lø/e__n"/> </e>
@@ -152077,8 +152066,6 @@
 <e lm="festlokale">	<i>festlokal</i>	<par n="l/e__n"/> </e>
 <e lm="fiendebilete">	<i>fiendebilet</i>	<par n="l/e__n"/> </e>
 <e lm="fiendsbilete">	<i>fiendsbilet</i>	<par n="l/e__n"/> </e>
-<e lm="F">	<i>F</i>	<par n="PC__n"/> </e>
-<e lm="f">	<i>f</i>	<par n="PC__n"/> </e>
 <e lm="fikserbilete">	<i>fikserbilet</i>	<par n="l/e__n"/> </e>
 <e lm="-fil">	<i>-fil</i>	<par n="ep__n"/> </e>
 <e lm="-fili">	<i>-fili</i>	<par n="ep__n"/> </e>
@@ -152241,7 +152228,6 @@
 <e lm="fåvett">	<i>fåvett</i>	<par n="ty__n"/> </e>
 <e lm="gaffa">	<i>gaff</i>	<par n="sur/a__n"/> </e>
 <e lm="gaffatape">	<i>gaffatap</i>	<par n="r/e__n"/> </e>
-<e lm="ga">	<i>ga</i>	<par n="irsk__n"/> </e>
 <e lm="gakkgakk">	<i>gakkgakk</i>	<par n="ep__n"/> </e>
 <e lm="gallataffel">	<i>gallataf</i>	<par n="taf/fel__n"/> </e>
 <e lm="galleeple">	<i>galleepl</i>	<par n="l/e__n"/> </e>
@@ -152279,8 +152265,6 @@
 <e lm="geværskjefte">	<i>geværskjeft</i>	<par n="l/e__n"/> </e>
 <e lm="GHB">	<i>GHB</i>	<par n="PC__n"/> </e>
 <e lm="ghostwriter">	<i>ghostwri</i>	<par n="skrumut/ter__n"/> </e>
-<e lm="G">	<i>G</i>	<par n="PC__n"/> </e>
-<e lm="g">	<i>g</i>	<par n="PC__n"/> </e>
 <e lm="Giss-dur">	<i>Giss-du</i>	<par n="dora/r__n"/> </e>
 <e lm="Giss">	<i>Gis</i>	<par n="taksi/s__n"/> </e>
 <e lm="-gjelding">	<i>-gjelding</i>	<par n="ep__n"/> </e>
@@ -152376,8 +152360,6 @@
 <e lm="-hering">	<i>-hering</i>	<par n="ep__n"/> </e>
 <e lm="hestelengd">	<i>hestelengd</i>	<par n="å__n"/> </e>
 <e lm="hestmakrell">	<i>hestmakrell</i>	<par n="ep__n"/> </e>
-<e lm="H">	<i>H</i>	<par n="PC__n"/> </e>
-<e lm="h">	<i>h</i>	<par n="PC__n"/> </e>
 <e lm="hinmannen">	<i>hinmannen</i>	<par n="etos__n"/> </e>
 <e lm="hjarte-kar-sjukdom">	<i>hjarte-kar-sjukdom</i>	<par n="ep__n"/> </e>
 <e lm="hjarte-lunge-redning">	<i>hjarte-lunge-redning</i>	<par n="yting_\s__n"/> </e>
@@ -152410,7 +152392,6 @@
 <e lm="HPV">	<i>HPV</i>	<par n="bo__n"/> </e>
 <e lm="HR-avdeling">	<i>HR-avdeling</i>	<par n="yting_\s__n"/> </e>
 <e lm="HR-direktør">	<i>HR-direktø</i>	<par n="dora/r__n"/> </e>
-<e lm="HR">	<i>HR</i>	<par n="PC__n"/> </e>
 <e lm="HR-sjef">	<i>HR-sjef</i>	<par n="ep__n"/> </e>
 <e lm="hudflengje">	<i>hudflengj</i>	<par n="lø/e__n"/> </e>
 <e lm="-huding">	<i>-huding</i>	<par n="ep__n"/> </e>
@@ -152461,9 +152442,6 @@
 <e lm="idømming">	<i>idømming</i>	<par n="yting_\s__n"/> </e>
 <e lm="iftar">	<i>ifta</i>	<par n="dora/r__n"/> </e>
 <e lm="igangsetting">	<i>igangsetting</i>	<par n="yting_\s__n"/> </e>
-<e lm="-i">	<i>-i</i>	<par n="ep__n"/> </e>
-<e lm="I">	<i>I</i>	<par n="PC__n"/> </e>
-<e lm="i">	<i>i</i>	<par n="PC__n"/> </e>
 <e lm="-ik">	<i>-ik</i>	<par n="ep__n"/> </e>
 <e lm="-ikk">	<i>-ikk</i>	<par n="ep__n"/> </e>
 <e lm="ikkje-røykjar">	<i>ikkje-røykja</i>	<par n="dora/r__n"/> </e>
@@ -152607,8 +152585,6 @@
 <e lm="jernskoning">	<i>jernskoning</i>	<par n="yting_\s__n"/> </e>
 <e lm="jesusbilde">	<i>jesusbil</i>	<par n="bil/de__n"/> </e>
 <e lm="jesusbilete">	<i>jesusbilet</i>	<par n="l/e__n"/> </e>
-<e lm="J">	<i>J</i>	<par n="PC__n"/> </e>
-<e lm="j">	<i>j</i>	<par n="PC__n"/> </e>
 <e lm="jogurtbeger">	<i>jogurtbeg</i>	<par n="vat/er__n"/> </e>
 <e lm="jojoba">	<i>jojob</i>	<par n="sur/a__n"/> </e>
 <e lm="jojobaolje">	<i>jojobaolj</i>	<par n="lø/e__n"/> </e>
@@ -152652,10 +152628,7 @@
 <e lm="khoi-khoi">	<i>khoi-khoi</i>	<par n="ep__n"/> </e>
 <e lm="kickoffarrangement">	<i>kickoffarrangement</i>	<par n="ty__n"/> </e>
 <e lm="kickstartar">	<i>kickstarta</i>	<par n="dora/r__n"/> </e>
-<e lm="KI">	<i>KI</i>	<par n="PC__n"/> </e>
 <e lm="kikhòlskirurgi">	<i>kikhòlskirurgi</i>	<par n="ep__n"/> </e>
-<e lm="K">	<i>K</i>	<par n="PC__n"/> </e>
-<e lm="k">	<i>k</i>	<par n="PC__n"/> </e>
 <e lm="kikkhòlskirurgi">	<i>kikkhòlskirurgi</i>	<par n="ep__n"/> </e>
 <e lm="kinolerret">	<i>kinolerret</i>	<par n="ty__n"/> </e>
 <e lm="kinopremiere">	<i>kinopremier</i>	<par n="r/e__n"/> </e>
@@ -152685,7 +152658,6 @@
 <e lm="klimaskeptikar">	<i>klimaskeptika</i>	<par n="dora/r__n"/> </e>
 <e lm="klosterselle">	<i>klostersell</i>	<par n="r/e__n"/> </e>
 <e lm="-kløver">	<i>-kløv</i>	<par n="hung/er_\s__n"/> </e>
-<e lm="KM">	<i>KM</i>	<par n="VM_\-__n"/> </e>
 <e lm="knaggerekkje">	<i>knaggerekkj</i>	<par n="lø/e__n"/> </e>
 <e lm="knaggrekkje">	<i>knaggrekkj</i>	<par n="lø/e__n"/> </e>
 <e lm="knallver">	<i>knallv</i>	<par n="vat/er__n"/> </e>
@@ -152905,8 +152877,6 @@
 <e lm="likskjending">	<i>likskjending</i>	<par n="yting_\s__n"/> </e>
 <e lm="likskjorte">	<i>likskjort</i>	<par n="lø/e__n"/> </e>
 <e lm="likviditetsproblem">	<i>likviditetsproblem</i>	<par n="ty__n"/> </e>
-<e lm="L">	<i>L</i>	<par n="PC__n"/> </e>
-<e lm="l">	<i>l</i>	<par n="PC__n"/> </e>
 <e lm="lilla">	<i>lilla</i>	<par n="irsk__n"/> </e>
 <e lm="linefangst">	<i>linefangst</i>	<par n="ep__n"/> </e>
 <e lm="linekapasitet">	<i>linekapasitet</i>	<par n="ep__n"/> </e>
@@ -153346,7 +153316,6 @@
 <e lm="millionløn">	<i>millionløn</i>	<par n="å__n"/> </e>
 <e lm="millionlønn">	<i>millionlønn</i>	<par n="å__n"/> </e>
 <e lm="millionvilla">	<i>millionvill</i>	<par n="sur/a__n"/> </e>
-<e lm="M">	<i>M</i>	<par n="PC__n"/> </e>
 <e lm="mimrekveld">	<i>mimrekveld</i>	<par n="ep__n"/> </e>
 <e lm="mindreverdsfølelse">	<i>mindreverdsfølels</i>	<par n="r/e__n"/> </e>
 <e lm="minehund">	<i>minehund</i>	<par n="ep__n"/> </e>
@@ -153665,8 +153634,6 @@
 <e lm="nikotinplaster">	<i>nikotinplas</i>	<par n="sut/ter__n"/> </e>
 <e lm="nikotinsug">	<i>nikotinsug</i>	<par n="ty__n"/> </e>
 <e lm="-ning">	<i>-ning</i>	<par n="yting_\s__n"/> </e>
-<e lm="N">	<i>N</i>	<par n="PC__n"/> </e>
-<e lm="n">	<i>n</i>	<par n="PC__n"/> </e>
 <e lm="ninja">	<i>ninj</i>	<par n="sur/a__n"/> </e>
 <e lm="nisjeprodukt">	<i>nisjeprodukt</i>	<par n="ty__n"/> </e>
 <e lm="nivådeling">	<i>nivådeling</i>	<par n="yting_\s__n"/> </e>
@@ -153799,8 +153766,6 @@
 <e lm="offroadar">	<i>offroada</i>	<par n="dora/r__n"/> </e>
 <e lm="offsettrykkjar">	<i>offsettrykkja</i>	<par n="dora/r__n"/> </e>
 <e lm="-oid">	<i>-oid</i>	<par n="ty__n"/> </e>
-<e lm="O">	<i>O</i>	<par n="PC__n"/> </e>
-<e lm="o">	<i>o</i>	<par n="PC__n"/> </e>
 <e lm="ojibwe">	<i>ojibw</i>	<par n="høgr/e__n"/> </e>
 <e lm="-ok">	<i>-</i>	<par n="b/ok__n"/> </e>
 <e lm="oksehalesuppe">	<i>oksehalesupp</i>	<par n="lø/e__n"/> </e>
@@ -154150,7 +154115,6 @@
 <e lm="pdf-fil">	<i>pdf-fil</i>	<par n="å__n"/> </e>
 <e lm="PDF-format">	<i>PDF-format</i>	<par n="ty__n"/> </e>
 <e lm="PDF">	<i>PDF</i>	<par n="PC__n"/> </e>
-<e lm="PD">	<i>PD</i>	<par n="PC__n"/> </e>
 <e lm="pecorino">	<i>pecorin</i>	<par n="kont/o__n"/> </e>
 <e lm="peeling">	<i>peeling</i>	<par n="yting_\s__n"/> </e>
 <e lm="peikeskjerm">	<i>peikeskjerm</i>	<par n="ep__n"/> </e>
@@ -154241,8 +154205,6 @@
 <e lm="pipelyd">	<i>pipelyd</i>	<par n="ep__n"/> </e>
 <e lm="pipereinsar">	<i>pipereinsa</i>	<par n="dora/r__n"/> </e>
 <e lm="pipereinskar">	<i>pipereinska</i>	<par n="dora/r__n"/> </e>
-<e lm="P">	<i>P</i>	<par n="PC__n"/> </e>
-<e lm="p">	<i>p</i>	<par n="PC__n"/> </e>
 <e lm="pippip">	<i>pippip</i>	<par n="ep__n"/> </e>
 <e lm="piratkopiering">	<i>piratkopiering</i>	<par n="yting_\s__n"/> </e>
 <e lm="pirattaxi">	<i>pirattaxi</i>	<par n="ep__n"/> </e>
@@ -154300,7 +154262,6 @@
 <e lm="plussmål">	<i>plussmål</i>	<par n="ty__n"/> </e>
 <e lm="plyndringstokt">	<i>plyndringstokt</i>	<par n="å__n"/> </e>
 <e lm="plysjmøbel">	<i>plysjmøb</i>	<par n="es/el__n"/> </e>
-<e lm="PM">	<i>PM</i>	<par n="VM_\-__n"/> </e>
 <e lm="PMS-symptom">	<i>PMS-symptom</i>	<par n="ty__n"/> </e>
 <e lm="pneumoni">	<i>pneumoni</i>	<par n="ep__n"/> </e>
 <e lm="poddkastserie">	<i>poddkastseri</i>	<par n="r/e__n"/> </e>
@@ -154492,11 +154453,8 @@
 <e lm="prøyssarånd">	<i>prøyssarånd</i>	<par n="å__n"/> </e>
 <e lm="pseudovitskap">	<i>pseudovitskap</i>	<par n="ep__n"/> </e>
 <e lm="psevdovitskap">	<i>psevdovitskap</i>	<par n="ep__n"/> </e>
-<e lm="PS">	<i>PS</i>	<par n="VM_\-__n"/> </e>
-<e lm="ps">	<i>ps</i>	<par n="VM_\-__n"/> </e>
 <e lm="psyko">	<i>psyk</i>	<par n="kont/o__n"/> </e>
 <e lm="psykoseliding">	<i>psykoseliding</i>	<par n="yting_\s__n"/> </e>
-<e lm="PT">	<i>PT</i>	<par n="PC__n"/> </e>
 <e lm="publikumsappell">	<i>publikumsappell</i>	<par n="ep__n"/> </e>
 <e lm="publikumsfavoritt">	<i>publikumsfavoritt</i>	<par n="ep__n"/> </e>
 <e lm="publikumskontakt">	<i>publikumskontakt</i>	<par n="ep__n"/> </e>
@@ -154549,9 +154507,6 @@
 <e lm="påskenøtt">	<i>påskenøtt</i>	<par n="å__n"/> </e>
 <e lm="påvente">	<i>påvent</i>	<par n="od/e__n"/> </e>
 <e lm="qigong">	<i>qigong</i>	<par n="ep__n"/> </e>
-<e lm="qi">	<i>qi</i>	<par n="ep__n"/> </e>
-<e lm="Q">	<i>Q</i>	<par n="PC__n"/> </e>
-<e lm="q">	<i>q</i>	<par n="PC__n"/> </e>
 <e lm="q-tip">	<i>q-tip</i>	<par n="ep__n"/> </e>
 <e lm="quadriceps">	<i>quadricep</i>	<par n="taksi/s__n"/> </e>
 <e lm="quart">	<i>quart</i>	<par n="ep__n"/> </e>
@@ -154778,8 +154733,6 @@
 <e lm="ringjetone">	<i>ringjeton</i>	<par n="r/e__n"/> </e>
 <e lm="ringjevikar">	<i>ringjevika</i>	<par n="dora/r__n"/> </e>
 <e lm="ripsfamilie">	<i>ripsfamili</i>	<par n="r/e__n"/> </e>
-<e lm="R">	<i>R</i>	<par n="PC__n"/> </e>
-<e lm="r">	<i>r</i>	<par n="PC__n"/> </e>
 <e lm="risgrynsgraut">	<i>risgrynsgraut</i>	<par n="ep__n"/> </e>
 <e lm="risikofaktor">	<i>risikofakt</i>	<par n="m/or_\s__n"/> </e>
 <e lm="risikokapital">	<i>risikokapital</i>	<par n="ep__n"/> </e>
@@ -155211,8 +155164,6 @@
 <e lm="sinnbilete">	<i>sinnbilet</i>	<par n="l/e__n"/> </e>
 <e lm="-sinne">	<i>-sinn</i>	<par n="l/e__n"/> </e>
 <e lm="sinnslikevekt">	<i>sinnslikevekt</i>	<par n="å__n"/> </e>
-<e lm="S">	<i>S</i>	<par n="PC__n"/> </e>
-<e lm="s">	<i>s</i>	<par n="PC__n"/> </e>
 <e lm="sisselrotfamilie">	<i>sisselrotfamili</i>	<par n="r/e__n"/> </e>
 <e lm="sitjegruppe">	<i>sitjegrupp</i>	<par n="lø/e__n"/> </e>
 <e lm="sitjeunderlag">	<i>sitjeunderlag</i>	<par n="ty__n"/> </e>
@@ -156811,8 +156762,6 @@
 <e lm="tipptippoldefar">	<i>tipptippoldef</i>	<par n="morf/ar_\s__n"/> </e>
 <e lm="tipptippoldemor">	<i>tipptippoldem</i>	<par n="morm/or__n"/> </e>
 <e lm="tisling">	<i>tisling</i>	<par n="yting_\s__n"/> </e>
-<e lm="T">	<i>T</i>	<par n="PC__n"/> </e>
-<e lm="t">	<i>t</i>	<par n="PC__n"/> </e>
 <e lm="tittelkutt">	<i>tittelkutt</i>	<par n="ty__n"/> </e>
 <e lm="T-jarn">	<i>T-j</i>	<par n="b/arn_\s__n"/> </e>
 <e lm="tjodveg">	<i>tjodveg</i>	<par n="ep__n"/> </e>
@@ -156853,7 +156802,6 @@
 <e lm="togselskap">	<i>togselskap</i>	<par n="ty__n"/> </e>
 <e lm="togvert">	<i>togvert</i>	<par n="ep__n"/> </e>
 <e lm="tohjulssykkel">	<i>tohjulssyk</i>	<par n="puk/kel__n"/> </e>
-<e lm="to">	<i>t</i>	<par n="t/o_no-cp__n"/> </e>
 <e lm="tollvesen">	<i>tollves</i>	<par n="våp/en__n"/> </e>
 <e lm="tolmodsarbeid">	<i>tolmodsarbeid</i>	<par n="ty__n"/> </e>
 <e lm="tolmodsprøve">	<i>tolmodsprøv</i>	<par n="lø/e__n"/> </e>
@@ -157160,7 +157108,6 @@
 <e lm="tv-antenne">	<i>tv-antenn</i>	<par n="lø/e__n"/> </e>
 <e lm="tv-apparat">	<i>tv-apparat</i>	<par n="ty__n"/> </e>
 <e lm="tvillingfødsel">	<i>tvillingføds</i>	<par n="ad/el__n"/> </e>
-<e lm="TV">	<i>TV</i>	<par n="PC__n"/> </e>
 <e lm="TV-kamera">	<i>TV-kamera</i>	<par n="ty__n"/> </e>
 <e lm="tv-kamera">	<i>tv-kamera</i>	<par n="ty__n"/> </e>
 <e lm="tv-kanal">	<i>tv-kanal</i>	<par n="ep__n"/> </e>
@@ -157257,7 +157204,6 @@
 <e lm="ugudelegdom">	<i>ugudelegdom</i>	<par n="ep__n"/> </e>
 <e lm="ugudlegdom">	<i>ugudlegdom</i>	<par n="ep__n"/> </e>
 <e lm="uhøflegheit">	<i>uhøflegheit</i>	<par n="å__n"/> </e>
-<e lm="U">	<i>U</i>	<par n="PC__n"/> </e>
 <e lm="U-jarn">	<i>U-j</i>	<par n="b/arn_\s__n"/> </e>
 <e lm="ulenkje">	<i>ulenkj</i>	<par n="lø/e__n"/> </e>
 <e lm="ultralaup">	<i>ultralaup</i>	<par n="ty__n"/> </e>
@@ -157734,8 +157680,6 @@
 <e lm="vitrineskåp">	<i>vitrineskåp</i>	<par n="ty__n"/> </e>
 <e lm="vitseblad">	<i>vitseblad</i>	<par n="ty__n"/> </e>
 <e lm="vittigheitsblad">	<i>vittigheitsblad</i>	<par n="ty__n"/> </e>
-<e lm="V">	<i>V</i>	<par n="PC__n"/> </e>
-<e lm="v">	<i>v</i>	<par n="PC__n"/> </e>
 <e lm="VM-gull">	<i>VM-gull</i>	<par n="ty__n"/> </e>
 <e lm="VM-kvalifisering">	<i>VM-kvalifisering</i>	<par n="yting_\s__n"/> </e>
 <e lm="VM-tittel">	<i>VM-tit</i>	<par n="tit/tel__n"/> </e>
@@ -157769,15 +157713,10 @@
 <e lm="væsketilførsle">	<i>væsketilførsl</i>	<par n="lø/e__n"/> </e>
 <e lm="vørterbrød">	<i>vørterbrød</i>	<par n="ty__n"/> </e>
 <e lm="vårlauk">	<i>vårlauk</i>	<par n="ep__n"/> </e>
-<e lm="w">	<i>w</i>	<par n="PC__n"/> </e>
 <e lm="wushu">	<i>wushu</i>	<par n="bo__n"/> </e>
-<e lm="X">	<i>X</i>	<par n="PC__n"/> </e>
-<e lm="x">	<i>x</i>	<par n="PC__n"/> </e>
 <e lm="yang">	<i>yang</i>	<par n="bo__n"/> </e>
 <e lm="yeti">	<i>yeti</i>	<par n="ep__n"/> </e>
 <e lm="yin">	<i>yin</i>	<par n="bo__n"/> </e>
-<e lm="Y">	<i>Y</i>	<par n="PC__n"/> </e>
-<e lm="y">	<i>y</i>	<par n="PC__n"/> </e>
 <e lm="-yl">	<i>-yl</i>	<par n="ty__n"/> </e>
 <e lm="yndest">	<i>yndest</i>	<par n="ep__n"/> </e>
 <e lm="yndlingsbok">	<i>yndlingsb</i>	<par n="br/ok__n"/> </e>
@@ -157809,17 +157748,11 @@
 <e lm="yrkesveg">	<i>yrkesveg</i>	<par n="ep__n"/> </e>
 <e lm="yrkesveke">	<i>yrkesvek</i>	<par n="lø/e__n"/> </e>
 <e lm="yrkesår">	<i>yrkesår</i>	<par n="å__n"/> </e>
-<e lm="Z">	<i>Z</i>	<par n="PC__n"/> </e>
-<e lm="z">	<i>z</i>	<par n="PC__n"/> </e>
-<e lm="Æ">	<i>Æ</i>	<par n="PC__n"/> </e>
-<e lm="æ">	<i>æ</i>	<par n="PC__n"/> </e>
 <e lm="ærekrenkjar">	<i>ærekrenkja</i>	<par n="dora/r__n"/> </e>
 <e lm="-æring">	<i>-æring</i>	<par n="ep__n"/> </e>
 <e lm="ærkall">	<i>ærkall</i>	<par n="ep__n"/> </e>
 <e lm="ættmor">	<i>ættm</i>	<par n="morm/or__n"/> </e>
 <e lm="ævelengd">	<i>ævelengd</i>	<par n="å__n"/> </e>
-<e lm="Ø">	<i>Ø</i>	<par n="PC__n"/> </e>
-<e lm="ø">	<i>ø</i>	<par n="PC__n"/> </e>
 <e lm="økobalanse">	<i>økobalans</i>	<par n="r/e__n"/> </e>
 <e lm="økobonde">	<i>økob</i>	<par n="b/onde__n"/> </e>
 <e lm="økohus">	<i>økoh</i>	<par n="temp/us__n"/> </e>
@@ -157884,7 +157817,6 @@
 <e lm="øysamfunn">	<i>øysamfunn</i>	<par n="ty__n"/> </e>
 <e lm="øystat">	<i>øystat</i>	<par n="ep__n"/> </e>
 <e lm="åbreidd">	<i>åbreidd</i>	<par n="å__n"/> </e>
-<e lm="Å">	<i>Å</i>	<par n="PC__n"/> </e>
 <e lm="åkerbrukar">	<i>åkerbruka</i>	<par n="dora/r__n"/> </e>
 <e lm="åkerbønne">	<i>åkerbønn</i>	<par n="lø/e__n"/> </e>
 <e lm="ålejarn">	<i>ålej</i>	<par n="b/arn_\s__n"/> </e>
