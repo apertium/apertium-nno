@@ -2639,6 +2639,9 @@
 <pardef n="bo_\-__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sp"/></r></p><par n="s_case\-_cp-both"/></e>
 </pardef>
+<pardef n="gutta på skauen__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/><s n="def"/></r></p><par n="s_case\Ø_no-cp"/></e>
+</pardef>
 <pardef n="etos__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p><par n="\Ø_no-cp"/></e>
 </pardef>
@@ -59018,6 +59021,7 @@
 <e lm="gul">             <i>gul</i><par n="å_no-cp__n"/></e>
 <e lm="gut">             <i>gut</i><par n="ep_\e__n"/></e>
 <e lm="chatbot">             <i>chatbot</i><par n="ep_\e__n"/></e>
+<e lm="gutta på skauen"> <i>gutta<b/>på<b/>skauen</i><par n="gutta på skauen__n"/></e>
 <e lm="kesam">             <i>kesam</i><par n="ep_\e__n"/></e>
 <e lm="gjenstand">       <i>gjenstand</i><par n="ep_\s__n"/></e>
 <e lm="frukt">           <i>frukt</i><par n="å__n"/></e>
