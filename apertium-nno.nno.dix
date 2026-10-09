@@ -58568,6 +58568,7 @@
 <e lm="girval">             <i>girval</i><par n="ty_\s__n"/></e>
 <e lm="trekt">           <i>trekt</i><par n="å__n"/></e>
 <e lm="trekk">           <i>trekk</i><par n="ul__n"/></e>
+<e lm="landskapstrekk">  <i>landskapstrekk</i><par n="ul__n"/></e>
 <e lm="vers">            <i>vers</i><par n="glas__n"/></e>
 <e lm="vert">            <i>vert</i><par n="ep_\s__n"/></e>
 <e lm="verv">            <i>verv</i><par n="ul__n"/></e>
