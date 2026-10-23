@@ -56471,7 +56471,6 @@
 <e lm="digi">         <i>digi</i><par n="kommunal__n_cmp"/></e>
 <e lm="by">         <i>by</i><par n="kommunal__n_cmp"/></e>
 <e lm="2D">         <i>2D</i><par n="kommunal__n_cmp"/></e>
-<e lm="3D">         <i>3D</i><par n="kommunal__n_cmp"/></e>
 <e lm="4D">         <i>4D</i><par n="kommunal__n_cmp"/></e>
 <e lm="ADK">         <i>ADK</i><par n="kommunal__n_cmp"/></e>
 <e lm="ÅDT">         <i>ÅDT</i><par n="kommunal__n_cmp"/></e>
@@ -151324,6 +151323,7 @@
   <e lm="EP">          <i>EP</i><par n="PC__n"/></e>
   <e lm="ATV">         <i>ATV</i><par n="PC__n"/></e>
   <e lm="NGO">         <i>NGO</i><par n="PC__n"/></e>
+  <e lm="3D">          <i>3D</i><par n="PC__n"/></e>
 
 <e lm="2-i-1">	<i>2-i-1</i><par n="ep_\-__n"/></e>
 <e lm="kashida">            <i>kashida</i><par n="mon__n"/></e>
