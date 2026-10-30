@@ -58611,7 +58611,7 @@
 <e lm="slottsvindauge">        <i>slottsvindaug</i><par n="vindaug/e__n"/></e>
 <e lm="terminologi">     <i>terminologi</i><par n="ep__n"/></e>
 <e lm="unge">            <i>ung</i><par n="r/e__n"/></e>
-<e lm="steg">            <i>steg</i><par n="ty__n"/></e>
+<e lm="steg">            <i>steg</i><par n="ty_\s__n"/></e>
 <e lm="vente">           <i>vent</i><par n="lø/e__n"/></e>
 <e lm="tundra">          <i>tundra</i><par n="mon__n"/></e>
 <e lm="tunge">           <i>tung</i><par n="od/e__n"/></e>
@@ -79322,7 +79322,7 @@
 <e lm="operette"><i>operett</i><par n="r/e__n"/></e>
 <e lm="operettemelodi"><i>operettemelodi</i><par n="ep__n"/></e>
 <e lm="opiat"><i>opiat</i><par n="ty__n"/></e>
-<e lm="opinion"><i>opinion</i><par n="ep__n"/></e>
+<e lm="opinion"><i>opinion</i><par n="ep_\s__n"/></e>
 <e lm="opinionspress"><i>opinionspress</i><par n="glas__n"/></e>
 <e lm="opiumhandel"><i>opiumhand</i><par n="ad/el_\s__n"/></e>
 <e lm="opiumshandel"><i>opiumshand</i><par n="ad/el_\s__n"/></e>
