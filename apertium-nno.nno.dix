@@ -53616,6 +53616,7 @@
 <e lm="målbar">	<i>målbar</i><par n="auditiv__adj"/></e>
 <e lm="farbar">	<i>farbar</i><par n="auditiv__adj"/></e>
 <e lm="køyrbar">	<i>køyrbar</i><par n="auditiv__adj"/></e>
+<e lm="ukøyrbar">	<i>ukøyrbar</i><par n="auditiv__adj"/></e>
 <e lm="regulerbar">	<i>regulerbar</i><par n="auditiv__adj"/></e>
 <e lm="uregulerbar">	<i>uregulerbar</i><par n="auditiv__adj"/></e>
 <e lm="programmerbar">	<i>programmerbar</i><par n="auditiv__adj"/></e>
@@ -119069,6 +119070,7 @@
 <e lm="programlovnad"><i>programlovnad</i><par n="mon__n"/></e>
 <e lm="slukt"><i>slukt</i><par n="å__n"/></e>
 <e lm="nukleon"><i>nukleon</i><par n="ul__n"/></e>
+<e lm="hostingplattform"><i>hostingplattform</i><par n="å__n"/></e>
 <e lm="oljeplattform"><i>oljeplattform</i><par n="å__n"/></e>
 <e lm="popmusikar"><i>popmusikar</i><par n="ep__n"/></e>
 <e lm="prøvehoppar"><i>prøvehoppar</i><par n="ep__n"/></e>
