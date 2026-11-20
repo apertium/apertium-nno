@@ -41360,6 +41360,7 @@
 <e lm="sydvestleg">        <i>sydvest</i><par n="sak/leg__adj"/></e>
 <e lm="sørvestleg">        <i>sørvest</i><par n="sak/leg__adj"/></e>
 <e lm="geistleg">        <i>geist</i><par n="usak/leg__adj"/></e>
+<e lm="tenestleg">        <i>tenest</i><par n="usak/leg__adj"/></e>
 <e lm="tjenstleg">        <i>tjenst</i><par n="usak/leg__adj"/></e>
 <e lm="appetittleg">        <i>appetitt</i><par n="usak/leg__adj"/></e>
 <e lm="uappetittleg">        <i>uappetitt</i><par n="usak/leg__adj"/></e>
@@ -54202,6 +54203,7 @@
 <e lm="stundeslaus">	<i>stundeslaus</i><par n="auditiv__adj"/></e>
 <e lm="yrkeslaus">	<i>yrkeslaus</i><par n="auditiv__adj"/></e>
 <e lm="kleslaus">	<i>kleslaus</i><par n="auditiv__adj"/></e>
+<e lm="betydningslaus">	<i>betydningslaus</i><par n="auditiv__adj"/></e>
 <e lm="trøysteslaus">	<i>trøysteslaus</i><par n="auditiv__adj"/></e>
 <e lm="hemningslaus">	<i>hemningslaus</i><par n="auditiv__adj"/></e>
 <e lm="smurningslaus">	<i>smurningslaus</i><par n="auditiv__adj"/></e>
@@ -129701,7 +129703,7 @@
 <e lm="landsforvisning"><i>landsfor</i><par n="visning"/><par n="yting_\s__n"/></e>
 <e lm="likskapsteikn"><i>likskapsteikn</i><par n="ty__n"/></e>
 <e lm="kaveringsmann"><i>kaveringsm</i><par n="m/ann__n"/></e>
-<e lm="klarvêr"><i>kl</i><par n="a_å"/><i>rvêr</i><par n="ty__n"/></e>
+<e lm="klarvêr"><i>kl</i><par n="a_å"/><i>rvêr</i><par n="ty_\s__n"/></e>
 <e lm="kalkulasjonsmetode"><i>kalkulasjonsmetod</i><par n="r/e__n"/></e>
 <e lm="målgranskar"><i>målgranskar</i><par n="ep__n"/></e>
 <e lm="markmus"><i>markm</i><par n="l/us__n"/></e>
