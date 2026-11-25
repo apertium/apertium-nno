@@ -149904,7 +149904,7 @@
 <e lm="gateoppløp">                 <i>gateoppl</i><par n="ø_au"/><i>p</i><par n="ty__n"/></e>
 <e lm="handlingsforløp">            <i>handlingsforl</i><par n="ø_au"/><i>p</i><par n="ty__n"/></e>
 <e lm="geværløp">                   <i>geværl</i><par n="ø_au"/><i>p</i><par n="ty__n"/></e>
-<e lm="karbonkretsløp">             <i>karbonkretsl</i><par n="ø_au"/><i>p</i><par n="ty__n"/></e>
+<e lm="karbonkretsløp">             <i>karbon</i><par n="krets"/><i>l</i><par n="ø_au"/><i>p</i><par n="ty__n"/></e>
 <e lm="gullhåp">                    <i>gullhåp</i><par n="ty__n"/></e>
 <e lm="underskåp">                  <i>underskåp</i><par n="ty__n"/></e>
 <e lm="overskåp">                   <i>overskåp</i><par n="ty__n"/></e>
